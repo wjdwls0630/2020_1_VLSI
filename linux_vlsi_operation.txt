@@ -1,0 +1,54 @@
+linux operation order
+
+https://unix.stackexchange.com/questions/12755/how-to-forward-x-over-ssh-to-run-graphics-applications-remotely
+
+Letting Ubuntu bash on Windows 10 run ssh -X to get a GUI environment on a remote server
+First
+Install all the following. On Window, install Xming. On Ubuntu in the terminal, use sudo apt install to install ssh xauth xorg.
+
+sudo apt install ssh xauth xorg
+Second
+Go to the folder contains ssh_config file, mine is /etc/ssh.
+
+Third
+Edit ssh_config as administrator(USE sudo). Inside ssh_config, remove the hash # in the lines ForwardAgent, ForwardX11, ForwardX11Trusted, and set the corresponding arguments to yes.
+
+# /etc/ssh/ssh_config
+
+Host *
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+Forth
+In ssh_config file, remove the front hash # before Port 22 and Protocol 2, and also append a new line at the end of the file to state the xauth file location, XauthLocation /usr/bin/xauth, remember write your own path of xauth file.
+
+# /etc/ssh/ssh_config
+
+#   IdentifyFile ...
+    Port 32722 # vlsi server port 
+    Protocol 2
+#   Cipher 3des
+#   ...
+#   ...
+    ...
+    ...
+    GSSAPIDelegateCredentials no
+    XauthLocation /usr/bin/xauth
+Fifth
+Now since we are done editing ssh_config file, save it when we leave the editor. Now go to folder ~ or $HOME, append export DISPLAY=localhost:0 to your .bashrc file and save it.
+
+# ~/.bashrc
+...
+...
+export DISPLAY=localhost:0
+Last
+We are almost done. Restart your bash shell, open your Xming program and use ssh -X yourusername@yourhost. Then enjoy the GUI environment.
+
+ssh -X yourusername@yourhost
+The problem is also in Ubuntu subsystem on Windows, and the link is at
+
+https://gist.github.com/DestinyOne/f236f71b9cdecd349507dfe90ebae776
+
+
+ssh -X studentID@163.180.118.55
+passwd khu_sensor
