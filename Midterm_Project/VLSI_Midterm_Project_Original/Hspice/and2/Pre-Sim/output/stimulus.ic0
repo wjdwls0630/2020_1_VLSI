@@ -1,0 +1,19 @@
+* "simulator" "HSPICE" 
+* "version" "I-2013.12-SP1 64-BIT"
+* "format" "HSP"
+* "rundate" "09:04:01 05/21/2020 "
+* "netlist" "stimulus.sp "
+* "runtitle" "ttss"
+* time =  0.000e+00       
+* temperature =  2.500e+01       
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.000e-12       
+.nodeset
++ a = 0.000e+00       
++ b = 0.000e+00       
++ vdd = 1.100e+00       
++ y = 2.868e-05       
++ x1^net10 = 1.100e+00       
++ x1^xi0^n1 = 6.131e-02       
+***   END: Saved Operating Point ***                     

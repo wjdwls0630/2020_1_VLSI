@@ -1,0 +1,8 @@
+$DATA1 SOURCE='HSPICE' VERSION='I-2013.12-SP1 64-BIT'
+.TITLE 'tttt'
+ tpdf             tpdr             tpd              tr                
+ tf               avgpower         peakpower        temper            
+ alter#            
+  7.012e-12        5.173e-12        6.093e-12        8.633e-12        
+  7.452e-12        7.613e-08        7.219e-05        2.500e+01        
+ 2                 

@@ -1,0 +1,6 @@
+$DATA1 SOURCE='HSPICE' VERSION='I-2013.12-SP1 64-BIT'
+.TITLE 'tftf'
+ id_nmos          id_pmos          ion_nmos         ion_pmos          
+ temper           alter#            
+  1.389e-04       -2.004e-04        1.543e+03        1.113e+03        
+  2.500e+01       51                

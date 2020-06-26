@@ -1,0 +1,28 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.6 - CAT33 11/05/2015 10:35 (sjfql586) $
+\o Sub version:		sub-version  s019 
+\o Arguments:		-display localhost:12.0 -mpssession virtuoso6293 -mpshost vlsi-dist.khu.ac.kr -namespace CDBA -cdslib /home/graduation_project3/2015104069/vlsi/cds.lib 
+\o Working Directory:	vlsi-dist.khu.ac.kr:/home/graduation_project3/2015104069/vlsi
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		4.7.2
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "analogLib"
+\a nrResizeWindow(cdsLibEditor list(138 161 500 400))
+\a nrListItemAction(cdsLibEditor->mainTable 6 1)
+\o Active cell: 6 1 "/home/VLSI_undergraduated_2020/2015104027/vlsi/Library_Jin"
+\o QUESTION (CLE-200): The directory "/home/VLSI_undergraduated_2020/2015104069/vlsi/Library_Jin" \ndoesn't exist. If other tools use this file, \nan error will occur unless you either create \nthe directory you have specified or change the \npath to an existing directory. \n\nDo you want to create a new library? 
+\a nrSetWindowVisibility(needCreateDialog "show")
+\a nrSetCurrentWindow(needCreateDialog)
+\a nrResizeWindow(needCreateDialog list(128 251 516 203))
+\a nrListItemAction(cdsLibEditor->mainTable 7 0)
+\o Active cell: 7 0 ""
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 6 1)
+\o Active cell: 6 1 "/home/VLSI_undergraduated_2020/2015104069/vlsi/Library_Jin"
+\a nrListItemAction(cdsLibEditor->mainTable 7 0)
+\o Active cell: 7 0 ""
+\a cdsLibEditor->fileSaveButton->value = t
+\a cdsLibEditor->fileExitButton->value = t
+\a nrSetWindowVisibility(cdsLibEditor "hide")
+\a exit(0)

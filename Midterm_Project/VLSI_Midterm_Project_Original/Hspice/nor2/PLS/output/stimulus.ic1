@@ -1,0 +1,63 @@
+* "simulator" "HSPICE" 
+* "version" "I-2013.12-SP1 64-BIT"
+* "format" "HSP"
+* "rundate" "08:44:17 05/21/2020 "
+* "netlist" "stimulus.sp "
+* "runtitle" "tttt"
+* time =  0.000e+00       
+* temperature =  2.500e+01       
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.000e-12       
+.nodeset
++ a = 0.000e+00       
++ b = 0.000e+00       
++ vdd = 1.100e+00       
++ y = 1.100e+00       
++ x1^n_a_c_8_p = 4.716e-07       
++ x1^n_a_mm0_g = 4.734e-07       
++ x1^n_a_mm3_g = 9.980e-07       
++ x1^n_b_c_19_n = 6.249e-07       
++ x1^n_b_c_21_n = 4.747e-07       
++ x1^n_b_c_31_p = 5.847e-07       
++ x1^n_b_mm1_g = 4.789e-07       
++ x1^n_b_mm2_g = 9.219e-07       
++ x1^n_gnd_c_54_n = 2.097e-08       
++ x1^n_gnd_mm0_b = 1.214e-08       
++ x1^n_gnd_mm0_s = 2.110e-08       
++ x1^n_gnd_mm1_s = 3.168e-08       
++ x1^n_vdd_mm3_b = 1.100e+00       
++ x1^n_vdd_mm3_s = 1.100e+00       
++ x1^n_y_c_35_n = 1.100e+00       
++ x1^n_y_c_39_n = 1.100e+00       
++ x1^n_y_c_45_n = 1.100e+00       
++ x1^n_y_mm0_d = 1.100e+00       
++ x1^n_y_mm2_d = 1.100e+00       
++ x1^net18 = 1.100e+00       
++ x1^x_pm_nor2%a^1 = 4.719e-07       
++ x1^x_pm_nor2%a^5 = 4.946e-07       
++ x1^x_pm_nor2%a^9 = 4.710e-07       
++ x1^x_pm_nor2%a^13 = 4.450e-07       
++ x1^x_pm_nor2%vdd^5 = 1.100e+00       
++ x1^x_pm_nor2%vdd^10 = 1.100e+00       
++ x1^x_pm_nor2%vdd^11 = 1.100e+00       
++ x1^x_pm_nor2%vdd^14 = 1.100e+00       
++ x1^x_pm_nor2%b^1 = 6.463e-07       
++ x1^x_pm_nor2%b^7 = 4.756e-07       
++ x1^x_pm_nor2%b^11 = 4.982e-07       
++ x1^x_pm_nor2%b^12 = 5.633e-07       
++ x1^x_pm_nor2%b^14 = 4.753e-07       
++ x1^x_pm_nor2%b^19 = 4.449e-07       
++ x1^x_pm_nor2%y^3 = 1.100e+00       
++ x1^x_pm_nor2%y^9 = 1.100e+00       
++ x1^x_pm_nor2%y^13 = 1.100e+00       
++ x1^x_pm_nor2%y^14 = 1.100e+00       
++ x1^x_pm_nor2%y^17 = 1.100e+00       
++ x1^x_pm_nor2%gnd^6 = 1.214e-08       
++ x1^x_pm_nor2%gnd^11 = 1.214e-08       
++ x1^x_pm_nor2%gnd^12 = 1.214e-08       
++ x1^x_pm_nor2%gnd^13 = 1.256e-08       
++ x1^x_pm_nor2%gnd^18 = 1.049e-08       
++ x1^x_pm_nor2%gnd^21 = 2.314e-08       
++ x1^x_pm_nor2%gnd^25 = 1.213e-08       
+***   END: Saved Operating Point ***                     

@@ -1,0 +1,1312 @@
+header
+"PSFversion" "1.00" 
+"simulator" "HSPICE"
+"version" "I-2013.12-SP1 64-BIT" 
+"rundate" "21:49:02 05/19/2020 " 
+"runtitle" "ssss                                                              " 
+"runtype" "logFile"
+TYPE
+"analysisInst" STRUCT(
+"analysisType" STRING *
+"dataFile" STRING *
+"format" STRING *
+"parent" STRING *
+"sweepVariable" ARRAY ( * ) STRING *
+"description" STRING * )
+VALUE
+"timeSweep" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr0"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"summary" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su0"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep1" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr1"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su1" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su1"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep2" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr2"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su2" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su2"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep3" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr3"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su3" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su3"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep4" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr4"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su4" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su4"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep5" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr5"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su5" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su5"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep6" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr6"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su6" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su6"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep7" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr7"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su7" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su7"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep8" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr8"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su8" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su8"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep9" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr9"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su9" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su9"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep10" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr10"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"summary" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su10"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep11" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr11"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su11" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su11"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep12" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr12"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su12" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su12"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep13" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr13"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su13" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su13"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep14" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr14"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su14" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su14"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep15" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr15"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su15" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su15"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep16" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr16"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su16" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su16"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep17" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr17"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su17" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su17"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep18" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr18"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su18" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su18"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep19" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr19"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su19" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su19"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep20" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr20"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"summary" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su20"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep21" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr21"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su21" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su21"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep22" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr22"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su22" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su22"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep23" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr23"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su23" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su23"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep24" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr24"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su24" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su24"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep25" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr25"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su25" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su25"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep26" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr26"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su26" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su26"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep27" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr27"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su27" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su27"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep28" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr28"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su28" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su28"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep29" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr29"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su29" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su29"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep30" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr30"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"summary" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su30"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep31" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr31"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su31" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su31"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep32" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr32"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su32" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su32"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep33" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr33"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su33" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su33"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep34" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr34"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su34" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su34"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep35" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr35"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su35" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su35"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep36" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr36"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su36" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su36"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep37" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr37"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su37" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su37"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep38" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr38"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su38" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su38"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep39" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr39"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su39" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su39"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep40" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr40"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"summary" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su40"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep41" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr41"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su41" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su41"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep42" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr42"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su42" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su42"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep43" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr43"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su43" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su43"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep44" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr44"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su44" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su44"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep45" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr45"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su45" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su45"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep46" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr46"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su46" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su46"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep47" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr47"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su47" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su47"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep48" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr48"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su48" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su48"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep49" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr49"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su49" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su49"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep50" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr50"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"summary" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su50"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep51" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr51"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su51" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su51"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep52" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr52"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su52" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su52"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep53" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr53"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su53" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su53"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep54" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr54"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su54" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su54"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep55" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr55"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su55" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su55"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep56" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr56"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su56" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su56"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep57" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr57"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su57" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su57"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep58" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr58"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su58" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su58"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep59" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr59"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su59" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su59"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep60" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr60"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"summary" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su60"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep61" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr61"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su61" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su61"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep62" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr62"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su62" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su62"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep63" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr63"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su63" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su63"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep64" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr64"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su64" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su64"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep65" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr65"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su65" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su65"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep66" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr66"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su66" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su66"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep67" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr67"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su67" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su67"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep68" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr68"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su68" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su68"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep69" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr69"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su69" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su69"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep70" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr70"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"summary" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su70"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep71" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr71"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su71" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su71"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep72" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr72"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su72" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su72"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep73" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr73"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su73" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su73"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep74" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr74"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su74" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su74"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep75" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr75"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su75" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su75"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep76" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr76"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su76" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su76"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep77" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr77"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su77" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su77"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep78" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr78"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su78" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su78"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep79" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr79"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"mos_vth.su79" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su79"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep80" "analysisInst" ( 
+"Transient Analysis"
+"mos_vth.tr80"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"summary" "analysisInst" ( 
+"Summary Information"
+"mos_vth.su80"
+"PSF"
+""
+()
+"Summary Information"
+)

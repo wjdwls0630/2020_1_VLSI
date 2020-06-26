@@ -1,0 +1,8 @@
+//OK 
+//NUMBER_OF_HEADER_LINES: 6
+//VERSION: 1
+//TOKEN_DELIMITER: "
+//TOKEN_SEPARATOR: " "
+//FORMAT: "time" "calibre version" "command line"
+"Fri Apr 17 02:50:29 2020 " "v2015.4_16.11" "-xrc -pdb -rcc -turbo 1 /home/VLSI_undergraduated_2020/2015104027/Hspice/nor2/PLS/_calibrexRC.rul_"
+"Fri Apr 17 02:50:30 2020 " "v2015.4_16.11" "-xrc -fmt -all /home/VLSI_undergraduated_2020/2015104027/Hspice/nor2/PLS/_calibrexRC.rul_"

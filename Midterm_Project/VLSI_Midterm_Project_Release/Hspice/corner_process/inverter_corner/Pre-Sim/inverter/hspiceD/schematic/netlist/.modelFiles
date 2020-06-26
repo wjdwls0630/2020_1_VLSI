@@ -1,0 +1,2 @@
+.INCLUDE "/Tools/Library/FreePDK45/ncsu_basekit/models/hspice/tran_models/models_nom/PMOS_VTL.inc"
+.INCLUDE "/Tools/Library/FreePDK45/ncsu_basekit/models/hspice/tran_models/models_nom/NMOS_VTL.inc"

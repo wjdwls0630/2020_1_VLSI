@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/VLSI_undergraduated_2020/2015104027/LVS_Run/nand2
+lvs_LvsfVersion 2
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_LvsOutFile LVS_REPORT nand2.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /home/VLSI_undergraduated_2020/2015104027/LVS_Run/nand2/nand2.src.net
+lvs_LvsOutFile RULES_FILE /home/VLSI_undergraduated_2020/2015104027/LVS_Run/nand2/_calibreLVS.rul_
+lvs_LvsRunTimes 1587036213 1587036213

@@ -1,0 +1,57 @@
+\o Program:		@(#)$CDS: libManager version 6.1.6 - CAT33 11/05/2015 10:33 (sjfql586) $
+\o Sub version:		sub-version  s019 
+\o Arguments:		-mpssession virtuoso6293 -mpshost vlsi-dist.khu.ac.kr 
+\o Working Directory:	vlsi-dist.khu.ac.kr:/home/graduation_project3/2015104069/vlsi
+\o 64-bit offsets
+\o Qt version: 		4.7.2
+\o Log file is "/home/graduation_project3/2015104069/vlsi/libManager.log".
+\o Opening libManager window.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(224 223 600 420))
+\o changeWorkingDir("/home/graduation_project3/2015104069/vlsi") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o MPS service: map window
+\w Warning: The directory: '/home/VLSI_undergraduated_2020/2015104027/vlsi/Library_Jin' does not exist
+\w 	but was defined in libFile '/home/graduation_project3/2015104069/vlsi/cds.lib' for Lib 'Library_Jin'.
+\o Library Manager customization server connected.
+\a nrResizeWindow(cdsLibManager list(1 31 958 1018))
+\a cdsLibManager->editLibraryPathButton->value = t
+\o Starting the cdsLibEditor...
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->editLibraryPathButton->value = t
+\o Mapped the cdsLibEditor.
+\a cdsLibManager->editLibraryPathButton->value = t
+\o Mapped the cdsLibEditor.
+\o MPS request: update library list
+\a cdsLibManager->libListBox->value = "Library_Jin"
+\a cdsLibManager->libLineEdit->value = "Library_Jin"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrListItemAction(cdsLibManager->libListBox "Library_Jin" 0)
+\a cdsLibManager->cellListBox->value = "inverter"
+\a cdsLibManager->cellLineEdit->value = "inverter"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Library_Jin"
+\a cdsLibManager->libLineEdit->value = "Library_Jin"
+\a cdsLibManager->cellListBox->value = "inverter"
+\a cdsLibManager->cellLineEdit->value = "inverter"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrResizeWindow(cdsLibManager list(0 0 958 1018))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(1 31 958 1018))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(0 0 958 1018))

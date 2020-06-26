@@ -1,0 +1,11 @@
+# File Created by  at Thu May 21 07:50:04 2020
+# assisted by CdsLibEditor
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+DEFINE cdsDefTechLib $CDSHOME/tools/dfII/etc/cdsDefTechLib
+DEFINE NCSU_TechLib_FreePDK45 $PDK_DIR/ncsu_basekit/lib/NCSU_TechLib_FreePDK45
+DEFINE NCSU_Devices_FreePDK45 $PDK_DIR/ncsu_basekit/lib/NCSU_Devices_FreePDK45
+#Removed by ddDeleteObj: DEFINE jin_inverter /home/VLSI_undergraduated_2020/2015104027/jin_inverter
+#Removed by ddDeleteObj: DEFINE Library_Jin /home/VLSI_undergraduated_2020/2015104027/Library_Jin
+DEFINE Library_Jin /home/graduation_project3/2015104069/vlsi/Library_Jin

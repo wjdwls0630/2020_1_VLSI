@@ -1,0 +1,31 @@
+* File: and2.pex.netlist
+* Created: Sat Apr 18 17:47:36 2020
+* Program "Calibre xRC"
+* Version "v2015.4_16.11"
+* 
+.include "and2.pex.netlist.pex"
+.subckt and2  Y A B VDD GND
+* 
+* Y	Y
+* VDD	VDD
+* GND	GND
+* A	A
+* B	B
+mXI0/MM3 XI0/N1 N_B_XI0/MM3_g N_GND_XI0/MM3_s N_GND_XI0/MM3_b NMOS_VTL L=5e-08
++ W=1.8e-07 AD=2.52e-14 AS=2.88e-14 PD=6.4e-07 PS=6.8e-07
+mXI0/MM2 N_NET10_XI0/MM2_d N_A_XI0/MM2_g XI0/N1 N_GND_XI0/MM3_b NMOS_VTL L=5e-08
++ W=1.8e-07 AD=2.88e-14 AS=2.52e-14 PD=6.8e-07 PS=6.4e-07
+mXI1/MM0 N_Y_XI1/MM0_d N_NET10_XI1/MM0_g N_GND_XI1/MM0_s N_GND_XI1/MM0_b
++ NMOS_VTL L=5e-08 W=9e-08 AD=1.1475e-14 AS=1.125e-14 PD=4.35e-07 PS=4.3e-07
+mXI0/MM1 N_NET10_XI0/MM1_d N_B_XI0/MM1_g N_VDD_XI0/MM1_s N_VDD_XI0/MM1_b
++ PMOS_VTL L=5e-08 W=1.8e-07 AD=4.41e-14 AS=2.88e-14 PD=8.5e-07 PS=6.8e-07
+mXI0/MM0 N_NET10_XI0/MM1_d N_A_XI0/MM0_g N_VDD_XI0/MM0_s N_VDD_XI0/MM1_b
++ PMOS_VTL L=5e-08 W=1.8e-07 AD=4.41e-14 AS=2.88e-14 PD=8.5e-07 PS=6.8e-07
+mXI1/MM1 N_Y_XI1/MM1_d N_NET10_XI1/MM1_g N_VDD_XI1/MM1_s N_VDD_XI1/MM1_b
++ PMOS_VTL L=5e-08 W=1.8e-07 AD=2.295e-14 AS=2.25e-14 PD=6.15e-07 PS=6.1e-07
+*
+.include "and2.pex.netlist.AND2.pxi"
+*
+.ends
+*
+*

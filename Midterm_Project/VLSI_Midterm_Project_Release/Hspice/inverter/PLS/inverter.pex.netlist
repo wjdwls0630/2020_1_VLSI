@@ -1,0 +1,23 @@
+* File: inverter.pex.netlist
+* Created: Mon Apr 13 22:21:10 2020
+* Program "Calibre xRC"
+* Version "v2015.4_16.11"
+*
+
+.include "inverter.pex.netlist.pex"
+.subckt inverter  OUTPUT INPUT VDD GND 
+* 
+* OUTPUT	OUTPUT
+* VDD	VDD
+* GND	GND
+* INPUT	INPUT
+MM0 N_OUTPUT_MM0_d N_INPUT_MM0_g N_GND_MM0_s N_GND_MM0_b NMOS_VTL L=5e-08
++ W=9e-08 AD=1.1475e-14 AS=1.125e-14 PD=4.35e-07 PS=4.3e-07
+MM1 N_OUTPUT_MM1_d N_INPUT_MM1_g N_VDD_MM1_s N_VDD_MM1_b PMOS_VTL L=5e-08
++ W=1.8e-07 AD=2.295e-14 AS=2.25e-14 PD=6.15e-07 PS=6.1e-07
+*
+.include "inverter.pex.netlist.INVERTER.pxi"
+*
+.ends 
+*
+*

@@ -1,0 +1,62 @@
+* "simulator" "HSPICE" 
+* "version" "I-2013.12-SP1 64-BIT"
+* "format" "HSP"
+* "rundate" "08:36:14 05/21/2020 "
+* "netlist" "stimulus.sp "
+* "runtitle" "tttt"
+* time =  0.000e+00       
+* temperature =  2.500e+01       
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.000e-12       
+.nodeset
++ a = 0.000e+00       
++ b = 0.000e+00       
++ vdd = 1.100e+00       
++ y = 1.100e+00       
++ x1^n1 = 6.610e-02       
++ x1^n_a_c_2_p = 2.479e-07       
++ x1^n_a_c_6_p = 2.486e-07       
++ x1^n_a_mm0_g = 4.294e-07       
++ x1^n_a_mm2_g = 2.486e-07       
++ x1^n_b_c_23_n = 2.692e-07       
++ x1^n_b_c_25_n = 2.638e-07       
++ x1^n_b_c_33_p = 2.679e-07       
++ x1^n_b_mm1_g = 3.876e-07       
++ x1^n_b_mm3_g = 2.750e-07       
++ x1^n_gnd_c_19_n = 6.399e-10       
++ x1^n_gnd_mm2_b = 2.315e-12       
++ x1^n_gnd_mm2_s = 2.779e-09       
++ x1^n_vdd_c_58_n = 1.100e+00       
++ x1^n_vdd_mm0_b = 1.100e+00       
++ x1^n_vdd_mm0_s = 1.100e+00       
++ x1^n_vdd_mm1_s = 1.100e+00       
++ x1^n_y_c_39_n = 1.100e+00       
++ x1^n_y_c_44_n = 1.100e+00       
++ x1^n_y_c_50_n = 1.100e+00       
++ x1^n_y_mm0_d = 1.100e+00       
++ x1^n_y_mm3_d = 1.100e+00       
++ x1^x_pm_nand2%a^1 = 2.486e-07       
++ x1^x_pm_nand2%a^5 = 2.583e-07       
++ x1^x_pm_nand2%a^15 = 2.130e-07       
++ x1^x_pm_nand2%gnd^5 = 9.442e-13       
++ x1^x_pm_nand2%gnd^11 = 6.556e-13       
++ x1^x_pm_nand2%gnd^14 = 1.065e-09       
++ x1^x_pm_nand2%b^1 = 2.699e-07       
++ x1^x_pm_nand2%b^7 = 2.672e-07       
++ x1^x_pm_nand2%b^8 = 2.651e-07       
++ x1^x_pm_nand2%b^9 = 2.742e-07       
++ x1^x_pm_nand2%b^14 = 2.645e-07       
++ x1^x_pm_nand2%b^19 = 2.267e-07       
++ x1^x_pm_nand2%y^3 = 1.100e+00       
++ x1^x_pm_nand2%y^9 = 1.100e+00       
++ x1^x_pm_nand2%y^13 = 1.100e+00       
++ x1^x_pm_nand2%y^14 = 1.100e+00       
++ x1^x_pm_nand2%vdd^6 = 1.100e+00       
++ x1^x_pm_nand2%vdd^11 = 1.100e+00       
++ x1^x_pm_nand2%vdd^12 = 1.100e+00       
++ x1^x_pm_nand2%vdd^13 = 1.100e+00       
++ x1^x_pm_nand2%vdd^18 = 1.100e+00       
++ x1^x_pm_nand2%vdd^21 = 1.100e+00       
++ x1^x_pm_nand2%vdd^25 = 1.100e+00       
+***   END: Saved Operating Point ***                     

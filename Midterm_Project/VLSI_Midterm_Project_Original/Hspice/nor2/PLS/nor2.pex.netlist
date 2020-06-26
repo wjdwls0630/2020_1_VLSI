@@ -1,0 +1,27 @@
+* File: nor2.pex.netlist
+* Created: Fri Apr 17 02:50:30 2020
+* Program "Calibre xRC"
+* Version "v2015.4_16.11"
+* 
+.include "nor2.pex.netlist.pex"
+.subckt nor2 Y A B VDD GND
+* 
+* GND	GND
+* Y	Y
+* B	B
+* VDD	VDD
+* A	A
+MM0 N_Y_MM0_d N_A_MM0_g N_GND_MM0_s N_GND_MM0_b NMOS_VTL L=5e-08 W=9e-08
++ AD=2.475e-14 AS=1.44e-14 PD=7.3e-07 PS=5e-07
+MM1 N_Y_MM0_d N_B_MM1_g N_GND_MM1_s N_GND_MM0_b NMOS_VTL L=5e-08 W=9e-08
++ AD=2.475e-14 AS=1.44e-14 PD=7.3e-07 PS=5e-07
+MM3 NET18 N_A_MM3_g N_VDD_MM3_s N_VDD_MM3_b PMOS_VTL L=5e-08 W=3.6e-07
++ AD=5.13e-14 AS=5.76e-14 PD=1.005e-06 PS=1.04e-06
+MM2 N_Y_MM2_d N_B_MM2_g NET18 N_VDD_MM3_b PMOS_VTL L=5e-08 W=3.6e-07 AD=5.76e-14
++ AS=5.13e-14 PD=1.04e-06 PS=1.005e-06
+*
+.include "nor2.pex.netlist.NOR2.pxi"
+*
+.ends
+*
+*

@@ -1,0 +1,42 @@
+* "simulator" "HSPICE" 
+* "version" "I-2013.12-SP1 64-BIT"
+* "format" "HSP"
+* "rundate" "08:38:07 05/21/2020 "
+* "netlist" "stimulus.sp "
+* "runtitle" "ttff"
+* time =  0.000e+00       
+* temperature =  2.500e+01       
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.000e-12       
+.nodeset
++ input = 0.000e+00       
++ output = 1.100e+00       
++ vdd = 1.100e+00       
++ x1^n_gnd_c_18_n = 2.114e-08       
++ x1^n_gnd_c_22_p = 2.114e-08       
++ x1^n_gnd_mm0_b = 2.114e-08       
++ x1^n_gnd_mm0_s = 4.641e-08       
++ x1^n_input_c_2_p = 4.033e-07       
++ x1^n_input_c_3_p = 2.532e-09       
++ x1^n_input_mm0_g = 4.144e-07       
++ x1^n_input_mm1_g = 6.237e-07       
++ x1^n_output_mm0_d = 1.100e+00       
++ x1^n_output_mm1_d = 1.100e+00       
++ x1^n_vdd_c_29_n = 1.100e+00       
++ x1^n_vdd_c_33_n = 1.100e+00       
++ x1^n_vdd_mm1_b = 1.100e+00       
++ x1^n_vdd_mm1_s = 1.100e+00       
++ x1^x_pm_inverter%input^1 = 4.063e-07       
++ x1^x_pm_inverter%input^5 = 4.296e-07       
++ x1^x_pm_inverter%input^10 = 4.056e-07       
++ x1^x_pm_inverter%input^16 = 3.766e-07       
++ x1^x_pm_inverter%gnd^5 = 2.114e-08       
++ x1^x_pm_inverter%gnd^12 = 2.152e-08       
++ x1^x_pm_inverter%gnd^16 = 1.652e-08       
++ x1^x_pm_inverter%gnd^20 = 2.114e-08       
++ x1^x_pm_inverter%vdd^5 = 1.100e+00       
++ x1^x_pm_inverter%vdd^12 = 1.100e+00       
++ x1^x_pm_inverter%vdd^16 = 1.100e+00       
++ x1^x_pm_inverter%vdd^20 = 1.100e+00       
+***   END: Saved Operating Point ***                     

@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1587199578 1587199578
+lvs_ExtOutFile RUNDIR /home/VLSI_undergraduated_2020/2015104027/LVS_Run/and2
+lvs_ExtOutFile RULES_FILE /home/VLSI_undergraduated_2020/2015104027/LVS_Run/and2/_calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/VLSI_undergraduated_2020/2015104027/LVS_Run/and2/and2.sp
+lvs_ExtOutFile EXTRACTION_REPORT and2.lvs.report.ext

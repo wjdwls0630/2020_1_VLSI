@@ -1,0 +1,10 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1587199648 1587199648
+lvs_ExtOutFile RUNDIR /home/VLSI_undergraduated_2020/2015104027/Hspice/and2/PLS
+lvs_ExtOutFile RULES_FILE /home/VLSI_undergraduated_2020/2015104027/Hspice/and2/PLS/_calibrexRC.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/VLSI_undergraduated_2020/2015104027/Hspice/and2/PLS/svdb/and2.sp
+lvs_ExtOutFile EXTRACTION_REPORT and2.lvs.report.ext
+lvs_ExtOutFile LAYOUT_PDSP {  svdb/and2.pdsp }
