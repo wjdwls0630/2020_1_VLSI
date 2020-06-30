@@ -1,0 +1,1054 @@
+W_Mul 2000
+Well.1
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Nwell and Pwell must not overlap
+Well.2
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Min spacing of pwell to nwell = 0.225
+Well.4
+8 8 2 Jun 25 21:51:36 2020                     
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Min width of well = 0.2
+e 1 2
+CN W_Mul c 1 0 0 1 0 0 0
+28049 16825 28260 16825
+28330 17110 28541 17110
+e 2 2
+28260 16716 28260 16825
+28330 17110 28330 17219
+e 3 2
+28330 17700 28541 17700
+28049 17985 28260 17985
+e 4 2
+28260 17985 28260 18094
+28330 17591 28330 17700
+e 5 2
+28049 21605 28260 21605
+28330 21890 28541 21890
+e 6 2
+28260 21496 28260 21605
+28330 21890 28330 21999
+e 7 2
+28330 22480 28541 22480
+28049 22765 28260 22765
+e 8 2
+28260 22765 28260 22874
+28330 22371 28330 22480
+Poly.1
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Min width of poly = 0.05
+Poly.2
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Min spacing of gate poly = 0.14
+Poly.3
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Min extension of poly past active = 0.05
+Poly.4
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum active enclosure of gate = 0.07
+Poly.5
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of poly to active = 0.05
+Poly.6
+15 15 2 Jun 25 21:51:36 2020                   
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of field poly = 0.075
+e 1 2
+CN W_Mul c 1 0 0 1 0 0 0
+19760 7550 19860 7550
+19760 7655 19860 7655
+e 2 2
+19760 8000 19860 8000
+19760 8140 19860 8140
+e 3 2
+19760 10170 19860 10170
+19760 10300 19860 10300
+e 4 2
+19760 14950 19860 14950
+19760 15080 19860 15080
+e 5 2
+19760 19730 19860 19730
+19760 19860 19860 19860
+e 6 2
+20350 14950 20450 14950
+20350 15080 20450 15080
+e 7 2
+20350 19730 20450 19730
+20350 19860 20450 19860
+e 8 2
+21575 10175 21680 10175
+21575 10295 21680 10295
+e 9 2
+21575 14955 21680 14955
+21575 15075 21680 15075
+e 10 2
+21575 19735 21680 19735
+21575 19855 21680 19855
+e 11 2
+22760 10170 22860 10170
+22760 10300 22860 10300
+e 12 2
+23350 10170 23450 10170
+23350 10300 23450 10300
+e 13 2
+24575 10175 24680 10175
+24575 10295 24680 10295
+e 14 2
+28760 19730 28860 19730
+28760 19860 28860 19860
+e 15 2
+30575 19735 30680 19735
+30575 19855 30680 19855
+Active.1
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum width of active = 0.09
+Active.2
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of active areas =  0.08
+Active.3
+1 1 2 Jun 25 21:51:36 2020                     
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum well enclosure of active = 0.055
+e 1 2
+CN and2 c 1 0 0 -1 16420 13985 16
+4930 8365 5515 8365
+4897 8470 5548 8470
+Active.4
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Active must be inside well
+Implant.1
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of implant to gate = 0.07
+Implant.2
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of implant to contact = 0.025
+Implant.3
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of implant = 0.045
+Implant.4
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum width of implant = 0.045
+Implant.6
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Nimplant and pimplant must not overlap
+Contact.1
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum width of contact = 0.065
+Contact.2
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of contact = 0.075
+Contact.3
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Contact must be inside metal1 and active or poly
+Contact.4
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum active enclosure of contact = 0.005
+Contact.5
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum poly enclosure of contact = 0.005
+Contact.6
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of contact to poly = 0.035
+Metal1.1
+2 2 2 Jun 25 21:51:36 2020                     
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum width of metal1 = 0.065
+e 1 2
+CN W_Mul c 1 0 0 1 0 0 0
+19690 16550 19690 16690
+19720 16550 19720 16690
+e 2 2
+19690 18120 19690 18260
+19720 18120 19720 18260
+Metal1.2
+40 40 2 Jun 25 21:51:36 2020                   
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal1 = 0.065
+e 1 2
+CN W_Mul c 1 0 0 1 0 0 0
+19590 16640 19590 16773
+19690 16557 19690 16690
+e 2 2
+19590 18037 19590 18170
+19690 18120 19690 18253
+e 3 2
+20035 10010 20185 10010
+19999 10135 20221 10135
+e 4 2
+19999 10335 20221 10335
+20035 10460 20185 10460
+e 5 2
+20035 14790 20185 14790
+19999 14915 20221 14915
+e 6 2
+19999 15115 20221 15115
+20035 15240 20185 15240
+e 7 2
+20035 19570 20185 19570
+19999 19695 20221 19695
+e 8 2
+19999 19895 20221 19895
+20035 20020 20185 20020
+e 9 2
+21755 10075 21920 10075
+21640 10135 22035 10135
+e 10 2
+21640 10335 22035 10335
+21755 10395 21920 10395
+e 11 2
+21640 15115 22035 15115
+21755 15175 21920 15175
+e 12 2
+21755 19635 21920 19635
+21640 19695 22035 19695
+e 13 2
+21640 19895 22035 19895
+21755 19955 21920 19955
+e 14 2
+21755 14855 22065 14855
+21640 14915 22045 14915
+e 15 2
+22045 14915 22045 15115
+22065 14855 22065 15243
+e 16 2
+21755 12265 22139 12265
+21686 12375 22070 12375
+e 17 2
+22205 14870 22205 15230
+22265 14985 22265 15115
+e 18 2
+22335 20670 22335 20840
+22380 20548 22380 20925
+e 19 2
+23035 10010 23185 10010
+22999 10135 23221 10135
+e 20 2
+22999 10335 23221 10335
+23035 10460 23185 10460
+e 21 2
+23357 15115 23663 15115
+23440 15215 23580 15215
+e 22 2
+24043 15115 24337 15115
+24120 15220 24260 15220
+e 23 2
+24755 10075 24920 10075
+24640 10135 25035 10135
+e 24 2
+24640 10335 25035 10335
+24755 10395 24920 10395
+e 25 2
+24739 15115 25001 15115
+24800 15230 24940 15230
+e 26 2
+25248 6500 25335 6500
+25350 6580 25437 6580
+e 27 2
+25335 6451 25335 6500
+25350 6580 25350 6629
+e 28 2
+28220 19573 28220 20017
+28265 19695 28265 19895
+e 29 2
+28330 14850 28470 14850
+28265 14915 28583 14915
+e 30 2
+29030 14845 29170 14845
+28920 14915 29280 14915
+e 31 2
+29035 19570 29185 19570
+28999 19695 29221 19695
+e 32 2
+28999 19895 29221 19895
+29035 20020 29185 20020
+e 33 2
+29665 14850 29805 14850
+29552 14915 29918 14915
+e 34 2
+30370 14850 30510 14850
+30257 14915 30623 14915
+e 35 2
+30755 19635 30920 19635
+30640 19695 31035 19695
+e 36 2
+30640 19895 31035 19895
+30755 19955 30920 19955
+e 37 2
+31045 19695 31045 19895
+31085 19571 31085 19970
+e 38 2
+31328 16060 31335 16060
+31430 16140 31437 16140
+e 39 2
+31335 16051 31335 16060
+31430 16140 31430 16149
+e 40 2
+31143 20840 31335 20840
+31245 20920 31390 20920
+Metal1.3
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Metal1 must extend past contact by 0.035 on two opposite sides
+Metal1.4
+1 1 2 Jun 25 21:51:36 2020                     
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Metal1 must extend past via1 by 0.035 on two opposite sides
+p 1 4
+CN W_Mul c 1 0 0 1 0 0 0
+21770 16815
+21910 16815
+21910 16955
+21770 16955
+Via1.1
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum width of via1 = 0.065
+Via1.2
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of via1 = 0.075
+Via1.3
+29 29 2 Jun 25 21:51:36 2020                   
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Via1 must be inside metal1
+p 1 6
+CN W_Mul c 1 0 0 1 0 0 0
+19480 6990
+19620 6990
+19620 7130
+19590 7130
+19590 7080
+19480 7080
+p 2 6
+19480 11770
+19620 11770
+19620 11910
+19590 11910
+19590 11860
+19480 11860
+p 3 6
+19480 13390
+19590 13390
+19590 13340
+19620 13340
+19620 13480
+19480 13480
+p 4 6
+19510 16550
+19650 16550
+19650 16690
+19590 16690
+19590 16640
+19510 16640
+p 5 6
+19510 18170
+19590 18170
+19590 18120
+19650 18120
+19650 18260
+19510 18260
+p 6 6
+19480 21330
+19620 21330
+19620 21470
+19590 21470
+19590 21420
+19480 21420
+p 7 6
+19480 22950
+19590 22950
+19590 22900
+19620 22900
+19620 23040
+19480 23040
+p 8 4
+20040 6550
+20180 6550
+20180 6570
+20040 6570
+p 9 4
+20040 18680
+20180 18680
+20180 18700
+20040 18700
+p 10 4
+20045 11330
+20185 11330
+20185 11350
+20045 11350
+p 11 4
+20045 13900
+20185 13900
+20185 13920
+20045 13920
+p 12 4
+20045 16110
+20185 16110
+20185 16130
+20045 16130
+p 13 4
+20045 20890
+20185 20890
+20185 20910
+20045 20910
+p 14 4
+20045 23460
+20185 23460
+20185 23480
+20045 23480
+p 15 6
+22480 6990
+22620 6990
+22620 7130
+22590 7130
+22590 7080
+22480 7080
+p 16 6
+22480 8610
+22590 8610
+22590 8560
+22620 8560
+22620 8700
+22480 8700
+p 17 6
+22480 11770
+22620 11770
+22620 11910
+22590 11910
+22590 11860
+22480 11860
+p 18 6
+22480 13390
+22590 13390
+22590 13340
+22620 13340
+22620 13480
+22480 13480
+p 19 4
+23045 6550
+23185 6550
+23185 6570
+23045 6570
+p 20 4
+23045 9120
+23185 9120
+23185 9140
+23045 9140
+p 21 4
+23045 11330
+23185 11330
+23185 11350
+23045 11350
+p 22 4
+23045 13900
+23185 13900
+23185 13920
+23045 13920
+p 23 6
+28480 16550
+28620 16550
+28620 16690
+28590 16690
+28590 16640
+28480 16640
+p 24 6
+28480 18170
+28590 18170
+28590 18120
+28620 18120
+28620 18260
+28480 18260
+p 25 6
+28480 21330
+28620 21330
+28620 21470
+28590 21470
+28590 21420
+28480 21420
+p 26 6
+28480 22950
+28590 22950
+28590 22900
+28620 22900
+28620 23040
+28480 23040
+p 27 4
+29040 16110
+29180 16110
+29180 16130
+29040 16130
+p 28 4
+29040 18680
+29180 18680
+29180 18700
+29040 18700
+p 29 4
+29070 23460
+29210 23460
+29210 23480
+29070 23480
+Via1.4
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Via1 must be inside metal2
+Metal2.1
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum width of metal2 = 0.07
+Metal2.2
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal2 = 0.07
+Metal2.3
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Metal2 must extend past via1 by 0.035 on two opposite sides
+Metal2.4
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Metal2 must extend past via2 by 0.035 on two opposite sides
+Via2.1
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum width of via2 = 0.07
+Via2.2
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of via2 = 0.085
+Via2.3
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Via2 must be inside metal2
+Via2.4
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Via2 must be inside metal3
+Metal3.1
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum width of metal3 = 0.07
+Metal3.2
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal3 = 0.07
+Metal3.3
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Metal3 must extend past via2 by 0.035 on two opposite sides
+Metal3.4
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Metal3 must extend past via3 by 0.035 on two opposite sides
+Via3.1
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum width of via3 = 0.07
+Via3.2
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of via3 = 0.085
+Via3.3
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Via3 must be inside metal3
+Via3.4
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Via3 must be inside metal4
+Metal4.1
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum width of metal4 = 0.14
+Metal4.2
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal4 = 0.14
+Metal4.3
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum enclosure of metal4 around via3
+Via4.1
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum width of via4 = 0.14
+Via4.2
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of via4 = 0.16
+Via4.3
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Via4 must be inside metal4
+Via4.4
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Via4 must be inside metal5
+Metal5.1
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum width of metal5 = 0.14
+Metal5.2
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal5 = 0.14
+Metal5.3
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum enclosure of metal5 around via4
+Via5.1
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum width of via5 = 0.14
+Via5.2
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of via5 = 0.16
+Via5.3
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Via5 must be inside metal5
+Via5.4
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Via5 must be inside metal6
+Metal6.1
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum width of metal6 = 0.14
+Metal6.2
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal6 = 0.14
+Metal6.3
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum enclosure of metal6 around via5
+Via6.1
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum width of via6 = 0.14
+Via6.2
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of via6 = 0.16
+Via6.3
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Via6 must be inside metal6
+Via6.4
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Via6 must be inside metal7
+Metal7.1
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum width of metal7 = 0.4
+Metal7.2
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal7 = 0.4
+Metal7.3
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum enclosure of metal7 around via6
+Via7.1
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum width of via7 = 0.4
+Via7.2
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of via7 = 0.44
+Via7.3
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Via7 must be inside metal7
+Via7.4
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Via7 must be inside metal8
+Metal8.1
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum width of metal8 = 0.4
+Metal8.2
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal8 = 0.4
+Metal8.3
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum enclosure of metal8 around via7
+Via8.1
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum width of via8 = 0.4
+Via8.2
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of via8 = 0.44
+Via8.3
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Via8 must be inside metal8
+Via8.4
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Via8 must be inside metal9
+Metal9.1
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum width of metal9 = 0.8
+Metal9.2
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal9 = 0.8
+Metal9.3
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum enclosure of metal9 around via8
+Via9.1
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum width of via9 = 0.8
+Via9.2
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of via9 = 0.88
+Via9.3
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Via9 must be inside metal9
+Via9.4
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Via9 must be inside metal10
+Metal10.1
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum width of metal10 = 0.8
+Metal10.2
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal10 = 0.8
+Metal10.3
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum enclosure of metal10 around via9
+Metal1.5
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal1 wider than 0.09 & longer than 0.3 = 0.09
+Metal1.6
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal1 wider than 0.27 & longer than 0.9 = 0.27
+Metal1.7
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal1 wider than 0.5 & longer than 1.8 = 0.5
+Metal1.8
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal1 wider than 0.9 & longer than 2.7 = 0.9
+Metal1.9
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal1 wider than 1.5 & longer than 4.0 = 1.5
+Metal2.5
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal2 wider than 0.09 & longer than 0.3 = 0.09
+Metal2.6
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal2 wider than 0.27 & longer than 0.9 = 0.27
+Metal2.7
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal2 wider than 0.5 & longer than 1.8 = 0.5
+Metal2.8
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal2 wider than 0.9 & longer than 2.7 = 0.9
+Metal2.9
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal2 wider than 1.5 & longer than 4.0 = 1.5
+Metal3.5
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal3 wider than 0.09 & longer than 0.3 = 0.09
+Metal3.6
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal3 wider than 0.27 & longer than 0.9 = 0.27
+Metal3.7
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal3 wider than 0.5 & longer than 1.8 = 0.5
+Metal3.8
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal3 wider than 0.9 & longer than 2.7 = 0.9
+Metal3.9
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal3 wider than 1.5 & longer than 4.0 = 1.5
+Metal4.5
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal4 wider than 0.27 & longer than 0.9 = 0.27
+Metal4.6
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal4 wider than 0.5 & longer than 1.8 = 0.5
+Metal4.7
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal4 wider than 0.9 & longer than 2.7 = 0.9
+Metal4.8
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal4 wider than 1.5 & longer than 4.0 = 1.5
+Metal5.5
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal5 wider than 0.27 & longer than 0.9 = 0.27
+Metal5.6
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal5 wider than 0.5 & longer than 1.8 = 0.5
+Metal5.7
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal5 wider than 0.9 & longer than 2.7 = 0.9
+Metal5.8
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal5 wider than 1.5 & longer than 4.0 = 1.5
+Metal6.5
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal6 wider than 0.27 & longer than 0.9 = 0.27
+Metal6.6
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal6 wider than 0.5 & longer than 1.8 = 0.5
+Metal6.7
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal6 wider than 0.9 & longer than 2.7 = 0.9
+Metal6.8
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal6 wider than 1.5 & longer than 4.0 = 1.5
+Metal7.5
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal7 wider than 0.5 & longer than 1.8 = 0.5
+Metal7.6
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal7 wider than 0.9 & longer than 2.7 = 0.9
+Metal7.7
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal7 wider than 1.5 & longer than 4.0 = 1.5
+Metal8.5
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal8 wider than 0.5 & longer than 1.8 = 0.5
+Metal8.6
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal8 wider than 0.9 & longer than 2.7 = 0.9
+Metal8.7
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal8 wider than 1.5 & longer than 4.0 = 1.5
+Metal9.5
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal9 wider than 0.9 & longer than 2.7 = 0.9
+Metal9.6
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal9 wider than 1.5 & longer than 4.0 = 1.5
+Metal10.5
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal10 wider than 0.9 & longer than 2.7 = 0.9
+Metal10.6
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Minimum spacing of metal10 wider than 1.5 & longer than 4.0 = 1.5
+Grid.1
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.2
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.3
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.4
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.5
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.6
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.7
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.8
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.9
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.10
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.11
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.12
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.13
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.14
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.15
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.16
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.17
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.18
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.19
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.20
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.21
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.22
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.23
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.24
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.25
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.26
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Antenna.poly
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Maximum allowed field poly area to antenna area is 100:1. Connect diode to relax constraint.
+Antenna.metal1
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+Maximum allowed (poly + metal 1) antenna area to gate area is 300:1. Connect diode to relax constraint.
+Antenna.metal2
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+[Area(poly)+Area(Metal 1)]:Area(Gate) should be < 300:1 to prevent plasma induced damage.
+Antenna.metal3
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+[Area(poly)+Area(Metal 1)+Area(Metal 2)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage.
+Antenna.metal4
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+[Area(poly)+Area(Metal 1)+Area(Metal 2)+Area(Metal 3)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal5
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+[Area(poly+M1+M2+M3+M4):Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal6
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+[Area(poly+M1+M2+M3+M4+M5)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal7
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+[Area(poly+M1+M2+M3+M4+M5+M6)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal8
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+[Area(poly+M1+M2+M3+M4+M5+M6+M7)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal9
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+[Area(poly+M1+M2+M3+M4+M5+M6+M7+M8)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal10
+0 0 2 Jun 25 21:51:36 2020
+Rule File Pathname: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul/_calibreDRC.rul_
+[Area(poly+M1+M2+M3+M4+M5+M6+M7+M8+M9)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage

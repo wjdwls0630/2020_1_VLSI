@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"Av" "(FUNCTION (plus (root \"I2/A\")))v"
+
+"I2n" "nand2"
+"Av" "(FUNCTION (plus (root \"I2/A\")))v"
+"Yv" "(FUNCTION (plus (root \"I3/B\")))v"
+"GNDv" "(FUNCTION (plus (root \"I2/GND\") (root \"I3/GND\")))v"
+"VDDv" "(FUNCTION (plus (root \"I2/VDD\") (root \"I3/VDD\")))v"
+"Bv" "(FUNCTION (plus (root \"I2/B\")))v"

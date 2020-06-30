@@ -1,0 +1,26 @@
+* "simulator" "HSPICE" 
+* "version" "I-2013.12-SP1 64-BIT"
+* "format" "HSP"
+* "rundate" "12:55:43 06/27/2020 "
+* "netlist" "stimulus.sp "
+* "runtitle" "case51"
+* time =  0.000e+00       
+* temperature =  3.000e+01       
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.000e-12       
+.nodeset
++ a = 1.000e+00       
++ b = 0.000e+00       
++ cin = 1.000e+00       
++ cout = 1.000e-00       
++ sum = 5.589e-05       
++ vdd = 1.000e+00       
++ x1^net56 = 8.701e-01       
++ x1^net60 = 1.000e-00       
++ x1^net62 = 1.371e-03       
++ x1^net64 = 1.000e-00       
++ x1^net65 = 7.820e-01       
++ x1^net66 = 8.822e-03       
++ x1^net67 = 2.043e-03       
+***   END: Saved Operating Point ***                     

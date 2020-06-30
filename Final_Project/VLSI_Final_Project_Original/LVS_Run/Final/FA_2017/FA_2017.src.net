@@ -1,0 +1,59 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  MULTIPLIER
+* Top Cell Name: FA_2017
+* View Name:     schematic
+* Netlisted on:  Jun 19 18:14:13 2020
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: MULTIPLIER
+* Cell Name:    inverter
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inverter A B GND VDD
+*.PININFO A:I GND:I VDD:I B:O
+MM0 B A GND GND NMOS_VTL W=90n L=50n m=1
+MM1 B A VDD VDD PMOS_VTL W=180.0n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: MULTIPLIER
+* Cell Name:    pass_mux
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT pass_mux A B C Gnd Out Vdd
+*.PININFO A:I B:I C:I Gnd:I Vdd:I Out:O
+MM0 Out C B Gnd NMOS_VTL W=180.0n L=50n m=1
+MM1 Out C A Vdd PMOS_VTL W=180.0n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: MULTIPLIER
+* Cell Name:    FA_2017
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT FA_2017 A B Cin Cout GND Sum VDD
+*.PININFO A:I B:I Cin:I GND:I VDD:I Cout:O Sum:O
+XI6 net64 Sum GND VDD / inverter
+XI5 net67 net64 GND VDD / inverter
+XI4 net66 Cout GND VDD / inverter
+XI3 net65 net66 GND VDD / inverter
+XI8 A net62 GND VDD / inverter
+XI7 B net60 GND VDD / inverter
+XI2 A net62 net56 GND net67 VDD / pass_mux
+XI1 B net60 Cin GND net56 VDD / pass_mux
+XI0 B A net56 GND net65 VDD / pass_mux
+.ENDS
+

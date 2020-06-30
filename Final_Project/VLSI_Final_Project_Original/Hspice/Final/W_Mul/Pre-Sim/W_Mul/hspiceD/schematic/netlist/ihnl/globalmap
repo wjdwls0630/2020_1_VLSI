@@ -1,0 +1,15 @@
+CADENCE IHNL01070
+$model
+MULTIPLIER/transmission/schematic transmission
+MULTIPLIER/inverter/schematic inverter
+MULTIPLIER/W_Mul/schematic W_Mul
+MULTIPLIER/FA/schematic FA
+MULTIPLIER/and2/schematic and2
+MULTIPLIER/nand2/schematic nand2
+MULTIPLIER/mux2X1/schematic mux2X1
+MULTIPLIER/TGFA_2010/schematic TGFA_2010
+$endmodel
+$net
+$endnet
+$param
+$endparam

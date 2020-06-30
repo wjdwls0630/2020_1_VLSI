@@ -1,0 +1,24 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "nor2"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/home/VLSI_undergraduated_2020/2015104027/LVS_Run/nor2"
+ )
+( instViewTable
+ )
+( net
+ )
+( inst
+ )
+( model
+( "Library_Jin/nor2/schematic" "nor2" )
+ )
+( term
+ )
+( param
+ )
+( "nor2" "ihnl/cds0/map" )
+ )

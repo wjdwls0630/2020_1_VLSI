@@ -1,0 +1,19 @@
+header
+"PSFversion" "1.00" 
+"simulator" "HSPICE"
+"version" "I-2013.12-SP1 64-BIT" 
+"rundate" "22:41:19 06/25/2020 " 
+"runtitle" "case_in_worst2                                                    " 
+"runtype" "Summary Information"
+"op point time" "      0.13"  
+"op point iterations" "       
+"transient time" "      1.20"      
+"transient time" "      1.20"      
+"total cpu time" "        1.91"    
+"node value" "invalid"
+"operating point" "invalid"
+"ac analysis" "invalid"
+"dc sweep" "invalid"
+"transient analysis" "complete"
+trailer
+end

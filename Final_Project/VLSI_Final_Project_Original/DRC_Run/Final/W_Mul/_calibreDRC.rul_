@@ -1,0 +1,26 @@
+//
+//  Rule file generated on Sat Jun 27 02:26:50 KST 2020
+//     by Calibre Interactive - DRC (v2015.4_16.11)
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH  "4_wallace_multiplier.calibre.db"
+LAYOUT PRIMARY "4_wallace_multiplier"
+LAYOUT SYSTEM GDSII
+
+DRC RESULTS DATABASE "4_wallace_multiplier.drc.results" ASCII 
+DRC MAXIMUM RESULTS 1000
+DRC MAXIMUM VERTEX 4096
+
+DRC CELL NAME YES CELL SPACE XFORM
+
+VIRTUAL CONNECT COLON NO
+VIRTUAL CONNECT REPORT NO
+
+DRC ICSTATION YES
+
+
+INCLUDE "/Tools/Library/FreePDK45/ncsu_basekit/techfile/calibre/calibreDRC.rul"
+

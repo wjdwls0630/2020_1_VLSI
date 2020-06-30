@@ -1,0 +1,5 @@
+
+** Library name: MULTIPLIER
+** Cell name: pass_mux
+** View name: schematic
+.subckt pass_mux a b c gnd out vdd

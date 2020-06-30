@@ -1,0 +1,5 @@
+
+** Library name: MULTIPLIER
+** Cell name: mux2X1
+** View name: schematic
+.subckt mux2X1 a b gnd q sel vdd

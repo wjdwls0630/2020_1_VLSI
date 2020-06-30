@@ -1,0 +1,54 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  MULTIPLIER
+* Top Cell Name: and2
+* View Name:     schematic
+* Netlisted on:  Jun 27 00:02:46 2020
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: MULTIPLIER
+* Cell Name:    inverter
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inverter A B GND VDD
+*.PININFO A:I GND:I VDD:I B:O
+MM0 B A GND GND NMOS_VTL W=90n L=50n m=1
+MM1 B A VDD VDD PMOS_VTL W=180.0n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: MULTIPLIER
+* Cell Name:    nand2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT nand2 A B GND VDD Y
+*.PININFO A:I B:I GND:I VDD:I Y:O
+MM1 Y B VDD VDD PMOS_VTL W=180.0n L=50n m=1
+MM0 Y A VDD VDD PMOS_VTL W=180.0n L=50n m=1
+MM2 Y A n1 GND NMOS_VTL W=180.0n L=50n m=1
+MM3 n1 B GND GND NMOS_VTL W=180.0n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: MULTIPLIER
+* Cell Name:    and2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT and2 A B GND VDD Y
+*.PININFO A:I B:I GND:I VDD:I Y:O
+XI4 net8 Y GND VDD / inverter
+XI2 A B GND VDD net8 / nand2
+.ENDS
+

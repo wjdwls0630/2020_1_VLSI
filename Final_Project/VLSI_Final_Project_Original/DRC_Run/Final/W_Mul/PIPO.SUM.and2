@@ -1,0 +1,82 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.6-64b 12/07/2015 20:15 (sjfnl008) $
+          : sub-version  IC6.1.6-64b.500.14 
+Started at: 27-Jun-2020  00:05:08
+User Name : 2015104069
+Host Name : vlsi-dist.khu.ac.kr
+Directory : /home/graduation_project3/2015104069
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+
+                       Individual Cell Statistics - Basic Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
+---------------------------------------------------------------------------------------------------------------------------------------
+NCSU_TechLib_FreePDK45/NTAP/layout                              0        0       0        5      0      0         0      0             0      0     0     0       0       
+NCSU_TechLib_FreePDK45/PTAP/layout                              0        0       0        5      0      0         0      0             0      0     0     0       0       
+MULTIPLIER/and2/layout          0        0       3        71     0      0         6      0             0      0     0     0       0       
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Individual Cell Statistics - Advanced Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               PRBdy    OtherBdy   AreaBlkg   LayerBlkg  AreaHalo   Row   Marker   CustVia   StdVia    CdsGenVia
+---------------------------------------------------------------------------------------------------------------------------------------
+NCSU_TechLib_FreePDK45/NTAP/layout                              0        0          0          0          0          0     0        0         0         0        
+NCSU_TechLib_FreePDK45/PTAP/layout                              0        0          0          0          0          0     0        0         0         0        
+MULTIPLIER/and2/layout          0        0          0          0          0          0     0        0         2         0        
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Statistics of Layers 
+---------------------------------------------------------------------------------------------------------------------------------------
+Cadence         Cadence         Stream  Stream   
+Layer           Purpose         Layer   Datatype  Polygon  Rect     Path     Text     TextDisplay   Line Dot Arc Donut Ellipse Pathseg
+---------------------------------------------------------------------------------------------------------------------------------------
+metal3          net             15      253       0        0        0        1        0             0    0   0   0     0      0      
+nimplant        drawing         4       0         0        3        0        0        0             0    0   0   0     0      0      
+nwell           drawing         3       0         0        2        0        0        0             0    0   0   0     0      0      
+metal2          drawing         13      0         0        7        0        0        0             0    0   0   0     0      0      
+via2            drawing         14      0         0        7        0        0        0             0    0   0   0     0      0      
+metal1          drawing         11      0         2        9        0        3        0             0    0   0   0     0      0      
+via1            drawing         12      0         0        7        0        0        0             0    0   0   0     0      0      
+poly            drawing         9       0         1        5        0        0        0             0    0   0   0     0      0      
+contact         drawing         10      0         0        14       0        0        0             0    0   0   0     0      0      
+metal4          drawing         17      0         0        2        0        0        0             0    0   0   0     0      0      
+via3            drawing         16      0         0        7        0        0        0             0    0   0   0     0      0      
+pimplant        drawing         5       0         0        3        0        0        0             0    0   0   0     0      0      
+metal3          drawing         15      0         0        7        0        0        0             0    0   0   0     0      0      
+metal4          net             17      253       0        0        0        2        0             0    0   0   0     0      0      
+pwell           drawing         2       0         0        2        0        0        0             0    0   0   0     0      0      
+active          drawing         1       0         0        6        0        0        0             0    0   0   0     0      0      
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Summary of Objects Translated:
+	Scalar Instances:		0
+	Array Instances:		0
+	Polygons:			3
+	Paths:				0
+	Rectangles:			81
+	Lines:				0
+	Arcs:				0
+	Donuts:				0
+	Dots:				0
+	Ellipses:			0
+	Boundaries:			0
+	Area Blockages:			0
+	Layer Blockages:		0
+	Area Halos:			0
+	Markers:			0
+	Rows:				0
+	Standard Vias:			2
+	Custom Vias:			0
+	CdsGen Vias:			0
+	Pathsegs:			0
+	Text:				6
+	TextDisplay:		0
+	Cells:				3
+Design Libraries: 
+
+DEFINE NCSU_TechLib_FreePDK45	/Tools/Library/FreePDK45/ncsu_basekit/lib/NCSU_TechLib_FreePDK45
+DEFINE MULTIPLIER	/home/graduation_project3/2015104069/MULTIPLIER

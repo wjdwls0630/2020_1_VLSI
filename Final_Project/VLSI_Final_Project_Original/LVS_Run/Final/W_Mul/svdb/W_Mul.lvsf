@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/graduation_project3/2015104069/VLSI/LVS_Run/Final/W_Mul
+lvs_LvsfVersion 2
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {5 0 4 0}
+lvs_LvsOutFile LVS_REPORT W_Mul.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /home/graduation_project3/2015104069/VLSI/LVS_Run/Final/W_Mul/W_Mul.src.net
+lvs_LvsOutFile RULES_FILE /home/graduation_project3/2015104069/VLSI/LVS_Run/Final/W_Mul/_calibreLVS.rul_
+lvs_LvsRunTimes 1593088971 1593088971

@@ -1,0 +1,24 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "nor2"
+  repList "hspiceD spice cmos_sch cmos.sch schematic"
+  stopList "hspiceD spice"
+  hierDelim "^"
+  netlistDir "/home/VLSI_undergraduated_2020/2015104027/Hspice/nor2/Pre-Sim/nor2/hspiceD/schematic/netlist"
+ )
+( instViewTable
+ )
+( net
+ )
+( inst
+ )
+( model
+( "Library_Jin/nor2/schematic" "nor2" )
+ )
+( term
+ )
+( param
+ )
+( "nor2" "ihnl/cds0/map" )
+ )

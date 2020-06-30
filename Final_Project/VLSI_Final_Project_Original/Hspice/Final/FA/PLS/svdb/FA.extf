@@ -1,0 +1,10 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1592557364 1592557365
+lvs_ExtOutFile RUNDIR /home/graduation_project3/2015104069/VLSI/Hspice/Final/FA/PLS
+lvs_ExtOutFile RULES_FILE /home/graduation_project3/2015104069/VLSI/Hspice/Final/FA/PLS/_calibrexRC.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/graduation_project3/2015104069/VLSI/Hspice/Final/FA/PLS/svdb/FA.sp
+lvs_ExtOutFile EXTRACTION_REPORT FA.lvs.report.ext
+lvs_ExtOutFile LAYOUT_PDSP {  svdb/FA.pdsp }

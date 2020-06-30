@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/4_wallace_multiplier.dv
+dv_start matched                                  
+dv_cell {4_wallace_multiplier} {4_wallace_multiplier} matched
+dv_obj_count -transformed_nets {90 90} -transformed_inst {143 143} -transformed_port {18 18}
+dv_end

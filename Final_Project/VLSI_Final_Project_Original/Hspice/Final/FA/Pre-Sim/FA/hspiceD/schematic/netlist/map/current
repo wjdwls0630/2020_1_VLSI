@@ -1,0 +1,30 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "FA"
+  repList "hspiceD spice cmos_sch cmos.sch schematic"
+  stopList "hspiceD spice"
+  hierDelim "^"
+  netlistDir "/home/graduation_project3/2015104069/VLSI/Hspice/Final/FA/Pre-Sim/FA/hspiceD/schematic/netlist"
+ )
+( instViewTable
+ )
+( net
+ )
+( inst
+ )
+( model
+( "MULTIPLIER/inverter/schematic" "inverter" )
+( "MULTIPLIER/transmission/schematic" "transmission" )
+( "MULTIPLIER/FA/schematic" "FA" )
+( "MULTIPLIER/mux2X1/schematic" "mux2X1" )
+ )
+( term
+ )
+( param
+ )
+( "FA" "ihnl/cds3/map" )
+( "inverter" "ihnl/cds0/map" )
+( "transmission" "ihnl/cds1/map" )
+( "mux2X1" "ihnl/cds2/map" )
+ )

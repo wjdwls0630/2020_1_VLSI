@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1593089355 1593089356
+lvs_ExtOutFile RUNDIR /home/graduation_project3/2015104069/VLSI/LVS_Run/Final/W_Mul
+lvs_ExtOutFile RULES_FILE /home/graduation_project3/2015104069/VLSI/LVS_Run/Final/W_Mul/_calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/graduation_project3/2015104069/VLSI/LVS_Run/Final/W_Mul/4_wallace_multiplier.sp
+lvs_ExtOutFile EXTRACTION_REPORT 4_wallace_multiplier.lvs.report.ext

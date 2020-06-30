@@ -1,0 +1,4019 @@
+ ****** HSPICE -- I-2013.12-SP1 64-BIT (Feb 25 2014) RHEL64 ******              
+  Copyright (C) 2014 Synopsys, Inc. All Rights Reserved.                        
+  Unpublished-rights reserved under US copyright laws.
+  This program is protected by law and is subject to the
+  terms and conditions of the license agreement from Synopsys.
+  Use of this program is your acceptance to be bound by the
+  license agreement. HSPICE is the trademark of Synopsys, Inc.
+  Input File: stimulus.sp                                                       
+  Command line options: -i stimulus.sp -o output/ -d
+ lic:  
+ lic: FLEXlm: v10.9.8 
+ lic: USER:   2015104069           HOSTNAME: vlsi-dist.khu.ac.kr 
+ lic: HOSTID: 382c4ac7d475         PID:      39119 
+ lic: Using FLEXlm license file: 
+ lic: 27020@163.180.118.27 
+ lic: Checkout 1 hspice 
+ lic: License/Maintenance for hspice will expire on 30-jun-2020/2018.09 
+ lic: 1(in_use)/7(total) FLOATING license(s) on SERVER 27020@163.180.118.27 
+ lic:   
+ Init: read install configuration file: /Tools/Synopsys/Hspice/hspice/meta.cfg
+  **warning** (W_Mul.pex.netlist:7) Global net name, "gnd", in subckt pin list. The pin will be connected to the local net. Recommend to not use global net names in subckt pin lists.
+1****** HSPICE -- I-2013.12-SP1 64-BIT (Feb 25 2014) RHEL64 ******              
+ ******  
+ case_in_1111_1111
+
+  ******  circuit name directory
+ circuit number to circuit name directory
+   number circuitname                     definition         multiplier
+        0 main circuit
+        1 x1.                             w_mul              1.00 
+        2 x1.x_pm_4_wallace_multiplier_xi29.net11.
+                                            pm_4_wallace_multiplier_xi29.net11
+                                                                 1.00 
+        3 x1.x_pm_4_wallace_multiplier_xi29.net21.
+                                            pm_4_wallace_multiplier_xi29.net21
+                                                                 1.00 
+        4 x1.x_pm_4_wallace_multiplier_xi28.net11.
+                                            pm_4_wallace_multiplier_xi28.net11
+                                                                 1.00 
+        5 x1.x_pm_4_wallace_multiplier_xi28.net21.
+                                            pm_4_wallace_multiplier_xi28.net21
+                                                                 1.00 
+        6 x1.x_pm_4_wallace_multiplier_xi37.net11.
+                                            pm_4_wallace_multiplier_xi37.net11
+                                                                 1.00 
+        7 x1.x_pm_4_wallace_multiplier_xi37.net21.
+                                            pm_4_wallace_multiplier_xi37.net21
+                                                                 1.00 
+        8 x1.x_pm_4_wallace_multiplier_xi38.net11.
+                                            pm_4_wallace_multiplier_xi38.net11
+                                                                 1.00 
+        9 x1.x_pm_4_wallace_multiplier_xi38.net21.
+                                            pm_4_wallace_multiplier_xi38.net21
+                                                                 1.00 
+       10 x1.x_pm_4_wallace_multiplier_xi31.net11.
+                                            pm_4_wallace_multiplier_xi31.net11
+                                                                 1.00 
+       11 x1.x_pm_4_wallace_multiplier_xi31.net21.
+                                            pm_4_wallace_multiplier_xi31.net21
+                                                                 1.00 
+       12 x1.x_pm_4_wallace_multiplier_xi35.net11.
+                                            pm_4_wallace_multiplier_xi35.net11
+                                                                 1.00 
+       13 x1.x_pm_4_wallace_multiplier_xi35.net21.
+                                            pm_4_wallace_multiplier_xi35.net21
+                                                                 1.00 
+       14 x1.x_pm_4_wallace_multiplier_xi30.net11.
+                                            pm_4_wallace_multiplier_xi30.net11
+                                                                 1.00 
+       15 x1.x_pm_4_wallace_multiplier_xi30.net21.
+                                            pm_4_wallace_multiplier_xi30.net21
+                                                                 1.00 
+       16 x1.x_pm_4_wallace_multiplier_xi34.net11.
+                                            pm_4_wallace_multiplier_xi34.net11
+                                                                 1.00 
+       17 x1.x_pm_4_wallace_multiplier_xi34.net21.
+                                            pm_4_wallace_multiplier_xi34.net21
+                                                                 1.00 
+       18 x1.x_pm_4_wallace_multiplier_xi33.net11.
+                                            pm_4_wallace_multiplier_xi33.net11
+                                                                 1.00 
+       19 x1.x_pm_4_wallace_multiplier_xi33.net21.
+                                            pm_4_wallace_multiplier_xi33.net21
+                                                                 1.00 
+       20 x1.x_pm_4_wallace_multiplier_xi39.net11.
+                                            pm_4_wallace_multiplier_xi39.net11
+                                                                 1.00 
+       21 x1.x_pm_4_wallace_multiplier_xi39.net21.
+                                            pm_4_wallace_multiplier_xi39.net21
+                                                                 1.00 
+       22 x1.x_pm_4_wallace_multiplier_xi32.net11.
+                                            pm_4_wallace_multiplier_xi32.net11
+                                                                 1.00 
+       23 x1.x_pm_4_wallace_multiplier_xi32.net21.
+                                            pm_4_wallace_multiplier_xi32.net21
+                                                                 1.00 
+       24 x1.x_pm_4_wallace_multiplier_xi40.net11.
+                                            pm_4_wallace_multiplier_xi40.net11
+                                                                 1.00 
+       25 x1.x_pm_4_wallace_multiplier_xi40.net21.
+                                            pm_4_wallace_multiplier_xi40.net21
+                                                                 1.00 
+       26 x1.x_pm_4_wallace_multiplier_xi15.net8.
+                                            pm_4_wallace_multiplier_xi15.net8
+                                                                 1.00 
+       27 x1.x_pm_4_wallace_multiplier_xi13.net8.
+                                            pm_4_wallace_multiplier_xi13.net8
+                                                                 1.00 
+       28 x1.x_pm_4_wallace_multiplier_xi10.net8.
+                                            pm_4_wallace_multiplier_xi10.net8
+                                                                 1.00 
+       29 x1.x_pm_4_wallace_multiplier_xi14.net8.
+                                            pm_4_wallace_multiplier_xi14.net8
+                                                                 1.00 
+       30 x1.x_pm_4_wallace_multiplier_xi7.net8.
+                                            pm_4_wallace_multiplier_xi7.net8
+                                                                 1.00 
+       31 x1.x_pm_4_wallace_multiplier_xi11.net8.
+                                            pm_4_wallace_multiplier_xi11.net8
+                                                                 1.00 
+       32 x1.x_pm_4_wallace_multiplier_xi8.net8.
+                                            pm_4_wallace_multiplier_xi8.net8
+                                                                 1.00 
+       33 x1.x_pm_4_wallace_multiplier_xi12.net8.
+                                            pm_4_wallace_multiplier_xi12.net8
+                                                                 1.00 
+       34 x1.x_pm_4_wallace_multiplier_xi3.net8.
+                                            pm_4_wallace_multiplier_xi3.net8
+                                                                 1.00 
+       35 x1.x_pm_4_wallace_multiplier_xi9.net8.
+                                            pm_4_wallace_multiplier_xi9.net8
+                                                                 1.00 
+       36 x1.x_pm_4_wallace_multiplier_xi5.net8.
+                                            pm_4_wallace_multiplier_xi5.net8
+                                                                 1.00 
+       37 x1.x_pm_4_wallace_multiplier_xi4.net8.
+                                            pm_4_wallace_multiplier_xi4.net8
+                                                                 1.00 
+       38 x1.x_pm_4_wallace_multiplier_xi0.net8.
+                                            pm_4_wallace_multiplier_xi0.net8
+                                                                 1.00 
+       39 x1.x_pm_4_wallace_multiplier_xi6.net8.
+                                            pm_4_wallace_multiplier_xi6.net8
+                                                                 1.00 
+       40 x1.x_pm_4_wallace_multiplier_xi2.net8.
+                                            pm_4_wallace_multiplier_xi2.net8
+                                                                 1.00 
+       41 x1.x_pm_4_wallace_multiplier_xi1.net8.
+                                            pm_4_wallace_multiplier_xi1.net8
+                                                                 1.00 
+       42 x1.x_pm_4_wallace_multiplier_x0.
+                                            pm_4_wallace_multiplier_x0
+                                                                 1.00 
+       43 x1.x_pm_4_wallace_multiplier_x1.
+                                            pm_4_wallace_multiplier_x1
+                                                                 1.00 
+       44 x1.x_pm_4_wallace_multiplier_x2.
+                                            pm_4_wallace_multiplier_x2
+                                                                 1.00 
+       45 x1.x_pm_4_wallace_multiplier_x3.
+                                            pm_4_wallace_multiplier_x3
+                                                                 1.00 
+       46 x1.x_pm_4_wallace_multiplier_y0.
+                                            pm_4_wallace_multiplier_y0
+                                                                 1.00 
+       47 x1.x_pm_4_wallace_multiplier_y3.
+                                            pm_4_wallace_multiplier_y3
+                                                                 1.00 
+       48 x1.x_pm_4_wallace_multiplier_y2.
+                                            pm_4_wallace_multiplier_y2
+                                                                 1.00 
+       49 x1.x_pm_4_wallace_multiplier_y1.
+                                            pm_4_wallace_multiplier_y1
+                                                                 1.00 
+       50 x1.x_pm_4_wallace_multiplier_net89.
+                                            pm_4_wallace_multiplier_net89
+                                                                 1.00 
+       51 x1.x_pm_4_wallace_multiplier_net57.
+                                            pm_4_wallace_multiplier_net57
+                                                                 1.00 
+       52 x1.x_pm_4_wallace_multiplier_net60.
+                                            pm_4_wallace_multiplier_net60
+                                                                 1.00 
+       53 x1.x_pm_4_wallace_multiplier_net61.
+                                            pm_4_wallace_multiplier_net61
+                                                                 1.00 
+       54 x1.x_pm_4_wallace_multiplier_net58.
+                                            pm_4_wallace_multiplier_net58
+                                                                 1.00 
+       55 x1.x_pm_4_wallace_multiplier_net62.
+                                            pm_4_wallace_multiplier_net62
+                                                                 1.00 
+       56 x1.x_pm_4_wallace_multiplier_net90.
+                                            pm_4_wallace_multiplier_net90
+                                                                 1.00 
+       57 x1.x_pm_4_wallace_multiplier_net53.
+                                            pm_4_wallace_multiplier_net53
+                                                                 1.00 
+       58 x1.x_pm_4_wallace_multiplier_net91.
+                                            pm_4_wallace_multiplier_net91
+                                                                 1.00 
+       59 x1.x_pm_4_wallace_multiplier_net59.
+                                            pm_4_wallace_multiplier_net59
+                                                                 1.00 
+       60 x1.x_pm_4_wallace_multiplier_net52.
+                                            pm_4_wallace_multiplier_net52
+                                                                 1.00 
+       61 x1.x_pm_4_wallace_multiplier_gnd.
+                                            pm_4_wallace_multiplier_gnd
+                                                                 1.00 
+       62 x1.x_pm_4_wallace_multiplier_net69.
+                                            pm_4_wallace_multiplier_net69
+                                                                 1.00 
+       63 x1.x_pm_4_wallace_multiplier_net72.
+                                            pm_4_wallace_multiplier_net72
+                                                                 1.00 
+       64 x1.x_pm_4_wallace_multiplier_net67.
+                                            pm_4_wallace_multiplier_net67
+                                                                 1.00 
+       65 x1.x_pm_4_wallace_multiplier_net73.
+                                            pm_4_wallace_multiplier_net73
+                                                                 1.00 
+       66 x1.x_pm_4_wallace_multiplier_net75.
+                                            pm_4_wallace_multiplier_net75
+                                                                 1.00 
+       67 x1.x_pm_4_wallace_multiplier_net63.
+                                            pm_4_wallace_multiplier_net63
+                                                                 1.00 
+       68 x1.x_pm_4_wallace_multiplier_net64.
+                                            pm_4_wallace_multiplier_net64
+                                                                 1.00 
+       69 x1.x_pm_4_wallace_multiplier_net66.
+                                            pm_4_wallace_multiplier_net66
+                                                                 1.00 
+       70 x1.x_pm_4_wallace_multiplier_net71.
+                                            pm_4_wallace_multiplier_net71
+                                                                 1.00 
+       71 x1.x_pm_4_wallace_multiplier_net70.
+                                            pm_4_wallace_multiplier_net70
+                                                                 1.00 
+       72 x1.x_pm_4_wallace_multiplier_net79.
+                                            pm_4_wallace_multiplier_net79
+                                                                 1.00 
+       73 x1.x_pm_4_wallace_multiplier_net81.
+                                            pm_4_wallace_multiplier_net81
+                                                                 1.00 
+       74 x1.x_pm_4_wallace_multiplier_net78.
+                                            pm_4_wallace_multiplier_net78
+                                                                 1.00 
+       75 x1.x_pm_4_wallace_multiplier_net82.
+                                            pm_4_wallace_multiplier_net82
+                                                                 1.00 
+       76 x1.x_pm_4_wallace_multiplier_net76.
+                                            pm_4_wallace_multiplier_net76
+                                                                 1.00 
+       77 x1.x_pm_4_wallace_multiplier_net83.
+                                            pm_4_wallace_multiplier_net83
+                                                                 1.00 
+       78 x1.x_pm_4_wallace_multiplier_net77.
+                                            pm_4_wallace_multiplier_net77
+                                                                 1.00 
+       79 x1.x_pm_4_wallace_multiplier_p7.
+                                            pm_4_wallace_multiplier_p7
+                                                                 1.00 
+       80 x1.x_pm_4_wallace_multiplier_p0.
+                                            pm_4_wallace_multiplier_p0
+                                                                 1.00 
+       81 x1.x_pm_4_wallace_multiplier_p1.
+                                            pm_4_wallace_multiplier_p1
+                                                                 1.00 
+       82 x1.x_pm_4_wallace_multiplier_p2.
+                                            pm_4_wallace_multiplier_p2
+                                                                 1.00 
+       83 x1.x_pm_4_wallace_multiplier_p4.
+                                            pm_4_wallace_multiplier_p4
+                                                                 1.00 
+       84 x1.x_pm_4_wallace_multiplier_p5.
+                                            pm_4_wallace_multiplier_p5
+                                                                 1.00 
+       85 x1.x_pm_4_wallace_multiplier_p6.
+                                            pm_4_wallace_multiplier_p6
+                                                                 1.00 
+       86 x1.x_pm_4_wallace_multiplier_p3.
+                                            pm_4_wallace_multiplier_p3
+                                                                 1.00 
+       87 x1.x_pm_4_wallace_multiplier_net68.
+                                            pm_4_wallace_multiplier_net68
+                                                                 1.00 
+       88 x1.x_pm_4_wallace_multiplier_net87.
+                                            pm_4_wallace_multiplier_net87
+                                                                 1.00 
+       89 x1.x_pm_4_wallace_multiplier_net86.
+                                            pm_4_wallace_multiplier_net86
+                                                                 1.00 
+       90 x1.x_pm_4_wallace_multiplier_net84.
+                                            pm_4_wallace_multiplier_net84
+                                                                 1.00 
+       91 x1.x_pm_4_wallace_multiplier_vdd.
+                                            pm_4_wallace_multiplier_vdd
+                                                                 1.00 
+1****** HSPICE -- I-2013.12-SP1 64-BIT (Feb 25 2014) RHEL64 ******              
+ ******  
+ case_in_1111_1111
+
+  ******  mos   model parameters tnom=  25.000 temp=  25.000 *****
+ Model Name: nmos_vtl  
+ BSIM4 Model (Level 54)
+    MOBMOD = 0
+    BINUNIT = 1
+    PARAMCHK = 1
+    CAPMOD = 2
+    DIOMOD = 1
+    RDSMOD = 0
+    TRNQSMOD = 0
+    ACNQSMOD = 0
+    RBODYMOD = 1
+    RGATEMOD = 1
+    PERMOD = 1
+    GEOMOD = 1
+    RGEOMOD = 0
+    FNOIMOD = 1
+    TNOIMOD = 0
+    IGCMOD = 1
+    IGBMOD = 1
+    STIMOD = 0
+    VERSION =      4 
+    TOXREF = 1.14e-09 
+    TOXE = 1.14e-09 
+    TOXP =  1e-09 
+    TOXM = 1.14e-09 
+    DTOX = 1.4e-10 
+    EPSROX =    3.9 
+    CDSC =      0 
+    CDSCB =      0 
+    CDSCD =      0 
+    CIT =      0 
+    NFACTOR =    2.1 
+    XJ = 1.98e-08 
+    VSAT = 1.48e+05 
+    A0 =      1 
+    AGS =      0 
+    A1 =      0 
+    A2 =      1 
+    AT = 3.3e+04 
+    KETA =   0.04 
+    NSUB =  6e+16 
+    NDEP = 3.4e+18 
+    NSD =  2e+20 
+    NGATE =  3e+20 
+    GAMMA1 =      0 
+    GAMMA2 =      0 
+    VBX =      0 
+    VBM =     -3 
+    XT = 1.55e-07 
+    K1 =    0.4 
+    KT1 =  -0.11 
+    KT1L =      0 
+    KT2 =  0.022 
+    K2 =      0 
+    K3 =      0 
+    K3B =      0 
+    LPE0 =      0 
+    LPEB =      0 
+    DVTP0 =  1e-10 
+    DVTP1 =    0.1 
+    W0 = 2.5e-06 
+    DVT0 =      1 
+    DVT1 =      2 
+    DVT2 =      0 
+    DVT0W =      0 
+    DVT1W =      0 
+    DVT2W =      0 
+    DROUT =    0.5 
+    DSUB =    0.1 
+    VTH0 =  0.322 
+    EU =   1.67 
+    UA =  6e-10 
+    UA1 = 4.31e-09 
+    UB = 1.2e-18 
+    UB1 = 7.61e-18 
+    UC =      0 
+    UC1 = -5.6e-11 
+    U0 =  0.045 
+    UTE =   -1.5 
+    VOFF =  -0.13 
+    VOFFL =      0 
+    MINV =   0.05 
+    FPROUT =    0.2 
+    PDITS =   0.08 
+    PDITSD =   0.23 
+    PDITSL = 2.3e+06 
+    DELTA =   0.01 
+    RDSW =    155 
+    RDSWMIN =      0 
+    RDWMIN =      0 
+    RSWMIN =      0 
+    RDW =     80 
+    RSW =     80 
+    PRWG =      0 
+    PRWB =      0 
+    PRT =      0 
+    ETA0 =  0.006 
+    ETAB =      0 
+    PCLM =   0.02 
+    PDIBLC1 =  0.001 
+    PDIBLC2 =  0.001 
+    PDIBLCB = -0.005 
+    PSCBE1 = 8.14e+08 
+    PSCBE2 =  1e-07 
+    PVAG =  1e-20 
+    WR =      1 
+    DWG =      0 
+    DWB =      0 
+    XW =      0 
+    XWREF =      0 
+    XL = -2e-08 
+    XLREF = -2e-08 
+    B0 =      0 
+    B1 =      0 
+    ALPHA0 =  0.074 
+    ALPHA1 =  0.005 
+    AGIDL = 0.0002 
+    BGIDL = 2.1e+09 
+    CGIDL = 0.0002 
+    PHIN =      0 
+    EGIDL =    0.8 
+    AIGC =   0.02 
+    BIGC = 0.0027 
+    CIGC =  0.002 
+    AIGSD =   0.02 
+    BIGSD = 0.0027 
+    CIGSD =  0.002 
+    AIGBACC =  0.012 
+    BIGBACC = 0.0028 
+    CIGBACC =  0.002 
+    AIGBINV =  0.014 
+    BIGBINV =  0.004 
+    CIGBINV =  0.004 
+    NIGC =      1 
+    NIGBINV =      3 
+    NIGBACC =      1 
+    NTOX =      1 
+    EIGBINV =    1.1 
+    PIGCD =      1 
+    POXEDGE =      1 
+    XRCRG1 =     12 
+    TNOIA =    1.5 
+    TNOIB =    3.5 
+    NTNOI =      1 
+    XRCRG2 =      5 
+    BETA0 =     30 
+    IJTHDFWD =   0.01 
+    IJTHSFWD =   0.01 
+    IJTHDREV =  0.001 
+    IJTHSREV =  0.001 
+    XJBVD =      1 
+    XJBVS =      1 
+    BVD =     10 
+    BVS =     10 
+    VFB =  -0.55 
+    GBMIN =  1e-10 
+    RBDB =     15 
+    RBPB =      5 
+    RBSB =     15 
+    RBPS =     15 
+    RBPD =     15 
+    CGSL = 2.653e-10 
+    CGDL = 2.653e-10 
+    CKAPPAS =   0.03 
+    CKAPPAD =   0.03 
+    CF = 1.289e-10 
+    CLC =  1e-07 
+    CLE =    0.6 
+    DWC =  5e-09 
+    DLC = 3.75e-09 
+    DLCIG = 3.75e-09 
+    DWJ =      0 
+    VFBCV =     -1 
+    ACDE =      1 
+    MOIN =     15 
+    NOFF =    0.9 
+    VOFFCV =   0.02 
+    DMCG =      0 
+    DMCI =      0 
+    DMDG =      0 
+    DMCGT =      0 
+    XGW =      0 
+    XGL =      0 
+    RSHG =    0.4 
+    NGCON =      1 
+    TCJ =  0.001 
+    TPB =  0.005 
+    TCJSW =  0.001 
+    TPBSW =  0.005 
+    TCJSWG =  0.001 
+    TPBSWG =  0.005 
+    SK0 =      0 
+    SK1 =      0 
+    SK2 =      0 
+    SL =  2e-06 
+    SW =  2e-06 
+    K =      0 
+    TNOM =  300.1 
+    CGSO = 1.1e-10 
+    CGDO = 1.1e-10 
+    CGBO = 2.56e-11 
+    XPART =      0 
+    RSH =      5 
+    JSS = 0.0001 
+    JSWS =  1e-11 
+    JSWGS =  1e-10 
+    PBS =      1 
+    MJS =    0.5 
+    PBSWS =      1 
+    MJSWS =   0.33 
+    CJS = 0.0005 
+    CJSWS =  5e-10 
+    NJS =      1 
+    PBSWGS =      1 
+    MJSWGS =   0.33 
+    CJSWGS =  3e-10 
+    XTIS =      3 
+    JSD = 0.0001 
+    JSWD =  1e-11 
+    JSWGD =  1e-10 
+    PBD =      1 
+    MJD =    0.5 
+    PBSWD =      1 
+    MJSWD =   0.33 
+    CJD = 0.0005 
+    CJSWD =  5e-10 
+    NJD =      1 
+    PBSWGD =      1 
+    MJSWGD =   0.33 
+    CJSWGD =  5e-10 
+    XTID =      3 
+    LMLT =      1 
+    WMLT =      1 
+    LINT = 3.75e-09 
+    LL =      0 
+    LLC =      0 
+    LLN =      1 
+    LW =      0 
+    LWC =      0 
+    LWN =      1 
+    LWL =      0 
+    LWLC =      0 
+    LMIN =      0 
+    LMAX =      1 
+    WINT =  5e-09 
+    WL =      0 
+    WLC =      0 
+    WLN =      1 
+    WW =      0 
+    WWC =      0 
+    WWN =      1 
+    WWL =      0 
+    WWLC =      0 
+    WMIN =      0 
+    WMAX =      1 
+    NOIA = 6.25e+41 
+    NOIB = 3.125e+26 
+    NOIC = 8.75e+09 
+    EM = 4.1e+07 
+    EF =      1 
+    AF =      1 
+    KF =      0 
+    TRS =      0 
+    TRD =      0 
+ Model Name: pmos_vtl  
+ BSIM4 Model (Level 54)
+    MOBMOD = 0
+    BINUNIT = 1
+    PARAMCHK = 1
+    CAPMOD = 2
+    DIOMOD = 1
+    RDSMOD = 0
+    TRNQSMOD = 0
+    ACNQSMOD = 0
+    RBODYMOD = 1
+    RGATEMOD = 1
+    PERMOD = 1
+    GEOMOD = 1
+    RGEOMOD = 0
+    FNOIMOD = 1
+    TNOIMOD = 0
+    IGCMOD = 1
+    IGBMOD = 1
+    STIMOD = 0
+    VERSION =      4 
+    TOXREF = 1.3e-09 
+    TOXE = 1.26e-09 
+    TOXP =  1e-09 
+    TOXM = 1.26e-09 
+    DTOX = 2.6e-10 
+    EPSROX =    3.9 
+    CDSC =      0 
+    CDSCB =      0 
+    CDSCD =      0 
+    CIT =      0 
+    NFACTOR =   2.22 
+    XJ = 1.98e-08 
+    VSAT = 6.9e+04 
+    A0 =      1 
+    AGS =  1e-20 
+    A1 =      0 
+    A2 =      1 
+    AT = 3.3e+04 
+    KETA = -0.047 
+    NSUB =  6e+16 
+    NDEP = 2.44e+18 
+    NSD =  2e+20 
+    NGATE =  2e+20 
+    GAMMA1 =      0 
+    GAMMA2 =      0 
+    VBX =      0 
+    VBM =     -3 
+    XT = 1.55e-07 
+    K1 =    0.4 
+    KT1 =  -0.11 
+    KT1L =      0 
+    KT2 =  0.022 
+    K2 =  -0.01 
+    K3 =      0 
+    K3B =      0 
+    LPE0 =      0 
+    LPEB =      0 
+    DVTP0 =  1e-11 
+    DVTP1 =   0.05 
+    W0 = 2.5e-06 
+    DVT0 =      1 
+    DVT1 =      2 
+    DVT2 = -0.032 
+    DVT0W =      0 
+    DVT1W =      0 
+    DVT2W =      0 
+    DROUT =   0.56 
+    DSUB =    0.1 
+    VTH0 = -0.3021 
+    EU =      1 
+    UA =  2e-09 
+    UA1 = 4.31e-09 
+    UB =  5e-19 
+    UB1 = 7.61e-18 
+    UC =      0 
+    UC1 = -5.6e-11 
+    U0 =   0.02 
+    UTE =   -1.5 
+    VOFF = -0.126 
+    VOFFL =      0 
+    MINV =   0.05 
+    FPROUT =    0.2 
+    PDITS =   0.08 
+    PDITSD =   0.23 
+    PDITSL = 2.3e+06 
+    DELTA =   0.01 
+    RDSW =    155 
+    RDSWMIN =      0 
+    RDWMIN =      0 
+    RSWMIN =      0 
+    RDW =     75 
+    RSW =     75 
+    PRWG =      0 
+    PRWB =      0 
+    PRT =      0 
+    ETA0 = 0.0055 
+    ETAB =      0 
+    PCLM =   0.12 
+    PDIBLC1 =  0.001 
+    PDIBLC2 =  0.001 
+    PDIBLCB = 3.4e-08 
+    PSCBE1 = 8.14e+08 
+    PSCBE2 = 9.58e-07 
+    PVAG =  1e-20 
+    WR =      1 
+    DWG =      0 
+    DWB =      0 
+    XW =      0 
+    XWREF =      0 
+    XL = -2e-08 
+    XLREF = -2e-08 
+    B0 =      0 
+    B1 =      0 
+    ALPHA0 =  0.074 
+    ALPHA1 =  0.005 
+    AGIDL = 0.0002 
+    BGIDL = 2.1e+09 
+    CGIDL = 0.0002 
+    PHIN =      0 
+    EGIDL =    0.8 
+    AIGC = 0.01069 
+    BIGC = 0.001261 
+    CIGC = 0.0008 
+    AIGSD = 0.01069 
+    BIGSD = 0.001261 
+    CIGSD = 0.0008 
+    AIGBACC =  0.012 
+    BIGBACC = 0.0028 
+    CIGBACC =  0.002 
+    AIGBINV =  0.014 
+    BIGBINV =  0.004 
+    CIGBINV =  0.004 
+    NIGC =      1 
+    NIGBINV =      3 
+    NIGBACC =      1 
+    NTOX =      1 
+    EIGBINV =    1.1 
+    PIGCD =      1 
+    POXEDGE =      1 
+    XRCRG1 =     12 
+    TNOIA =    1.5 
+    TNOIB =    3.5 
+    NTNOI =      1 
+    XRCRG2 =      5 
+    BETA0 =     30 
+    IJTHDFWD =   0.01 
+    IJTHSFWD =   0.01 
+    IJTHDREV =  0.001 
+    IJTHSREV =  0.001 
+    XJBVD =      1 
+    XJBVS =      1 
+    BVD =     10 
+    BVS =     10 
+    VFB =   0.55 
+    GBMIN =  1e-10 
+    RBDB =     15 
+    RBPB =      5 
+    RBSB =     15 
+    RBPS =     15 
+    RBPD =     15 
+    CGSL = 2.653e-10 
+    CGDL = 2.653e-10 
+    CKAPPAS =   0.03 
+    CKAPPAD =   0.03 
+    CF = 1.267e-10 
+    CLC =  1e-07 
+    CLE =    0.6 
+    DWC =  5e-09 
+    DLC = 3.75e-09 
+    DLCIG = 3.75e-09 
+    DWJ =      0 
+    VFBCV =     -1 
+    ACDE =      1 
+    MOIN =     15 
+    NOFF =    0.9 
+    VOFFCV =   0.02 
+    DMCG =      0 
+    DMCI =      0 
+    DMDG =      0 
+    DMCGT =      0 
+    XGW =      0 
+    XGL =      0 
+    RSHG =    0.4 
+    NGCON =      1 
+    TCJ =  0.001 
+    TPB =  0.005 
+    TCJSW =  0.001 
+    TPBSW =  0.005 
+    TCJSWG =  0.001 
+    TPBSWG =  0.005 
+    SK0 =      0 
+    SK1 =      0 
+    SK2 =      0 
+    SL =  2e-06 
+    SW =  2e-06 
+    K =      0 
+    TNOM =  300.1 
+    CGSO = 1.1e-10 
+    CGDO = 1.1e-10 
+    CGBO = 2.56e-11 
+    XPART =      0 
+    RSH =      5 
+    JSS = 0.0001 
+    JSWS =  1e-11 
+    JSWGS =  1e-10 
+    PBS =      1 
+    MJS =    0.5 
+    PBSWS =      1 
+    MJSWS =   0.33 
+    CJS = 0.0005 
+    CJSWS =  5e-10 
+    NJS =      1 
+    PBSWGS =      1 
+    MJSWGS =   0.33 
+    CJSWGS =  3e-10 
+    XTIS =      3 
+    JSD = 0.0001 
+    JSWD =  1e-11 
+    JSWGD =  1e-10 
+    PBD =      1 
+    MJD =    0.5 
+    PBSWD =      1 
+    MJSWD =   0.33 
+    CJD = 0.0005 
+    CJSWD =  5e-10 
+    NJD =      1 
+    PBSWGD =      1 
+    MJSWGD =   0.33 
+    CJSWGD =  5e-10 
+    XTID =      3 
+    LMLT =      1 
+    WMLT =      1 
+    LINT = 3.75e-09 
+    LL =      0 
+    LLC =      0 
+    LLN =      1 
+    LW =      0 
+    LWC =      0 
+    LWN =      1 
+    LWL =      0 
+    LWLC =      0 
+    LMIN =      0 
+    LMAX =      1 
+    WINT =  5e-09 
+    WL =      0 
+    WLC =      0 
+    WLN =      1 
+    WW =      0 
+    WWC =      0 
+    WWN =      1 
+    WWL =      0 
+    WWLC =      0 
+    WMIN =      0 
+    WMAX =      1 
+    NOIA = 6.188e+40 
+    NOIB = 1.5e+25 
+    NOIC = 8.75e+09 
+    EM = 4.1e+07 
+    EF =      1 
+    AF =      1 
+    KF =      0 
+    TRS =      0 
+    TRD =      0 
+  **info** (stimulus.sp:26) DC voltage reset to initial transient source value              in source        0:vin_x0              new dc=  0.0000D+00
+ **warning**(nmos_vtl:mxi29.mm0)Warning:  Acde = 0.276941 may be too small in BSIM4 model with w=9e-08 l=5e-08.
+  
+  
+             
+ Warning:'1 connection nodes' occurs 6 times
+ Summary of 1 connection from the following nodes:
+ -----------------------
+ |Node      |Subckt    |
+ |----------+----------|
+ |p0        |0         |
+ |p1        |0         |
+ |p2        |0         |
+ |p3        |0         |
+ |p4        |0         |
+ |p6        |0         |
+ -----------------------
+              
+      
+ **info** set option symb=1 internally to help for convergence.
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2         
+  
+  Opening plot unit= 15
+ file=output/stimulus.pa0
+
+ **info** dc convergence successful at Newton-Raphson method 
+1****** HSPICE -- I-2013.12-SP1 64-BIT (Feb 25 2014) RHEL64 ******              
+ ******  
+ case_in_1111_1111
+
+  ******  transient analysis tnom=  25.000 temp=  30.000 *****
+ tr_x0_p4= 2.1893e-10  targ= 1.0219e-08   trig= 1.0001e-08
+  **warning** (stimulus.sp:41) .MEASURE  tf_x0_p4 never reached the trigger value, Measurement failed!
+   tf_x0_p4= failed                          trig= not found
+ tpdf_x0_p4= 3.5220e-10  targ= 1.0353e-08   trig= 1.0001e-08
+   tpdr_x0_p4= failed                          trig= not found
+ tr_x0_p5= 3.8744e-10  targ= 1.0388e-08   trig= 1.0001e-08
+  **warning** (stimulus.sp:50) .MEASURE  tf_x0_p5 never reached the target value, Measurement failed!
+   tf_x0_p5= failed                          trig= not found
+ tpdf_x0_p5= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x0_p5= failed                          trig= not found
+ tr_x0_p6= 2.2048e-10  targ= 1.0221e-08   trig= 1.0001e-08
+   tf_x0_p6= failed                          trig= not found
+ tpdf_x0_p6= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x0_p6= failed                          trig= not found
+ tr_x0_p7= 5.2503e-11  targ= 1.0053e-08   trig= 1.0001e-08
+   tf_x0_p7= failed                          trig= not found
+ tpdf_x0_p7= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x0_p7= failed                          trig= not found
+ tr_x1_p4= 2.1893e-10  targ= 1.0219e-08   trig= 1.0001e-08
+   tf_x1_p4= failed                          trig= not found
+ tpdf_x1_p4= 3.5220e-10  targ= 1.0353e-08   trig= 1.0001e-08
+   tpdr_x1_p4= failed                          trig= not found
+ tr_x1_p5= 3.8744e-10  targ= 1.0388e-08   trig= 1.0001e-08
+   tf_x1_p5= failed                          trig= not found
+ tpdf_x1_p5= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x1_p5= failed                          trig= not found
+ tr_x1_p6= 2.2048e-10  targ= 1.0221e-08   trig= 1.0001e-08
+   tf_x1_p6= failed                          trig= not found
+ tpdf_x1_p6= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x1_p6= failed                          trig= not found
+ tr_x1_p7= 5.2503e-11  targ= 1.0053e-08   trig= 1.0001e-08
+   tf_x1_p7= failed                          trig= not found
+ tpdf_x1_p7= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x1_p7= failed                          trig= not found
+ tr_x2_p4= 2.1893e-10  targ= 1.0219e-08   trig= 1.0001e-08
+   tf_x2_p4= failed                          trig= not found
+ tpdf_x2_p4= 3.5220e-10  targ= 1.0353e-08   trig= 1.0001e-08
+   tpdr_x2_p4= failed                          trig= not found
+ tr_x2_p5= 3.8744e-10  targ= 1.0388e-08   trig= 1.0001e-08
+   tf_x2_p5= failed                          trig= not found
+ tpdf_x2_p5= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x2_p5= failed                          trig= not found
+ tr_x2_p6= 2.2048e-10  targ= 1.0221e-08   trig= 1.0001e-08
+   tf_x2_p6= failed                          trig= not found
+ tpdf_x2_p6= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x2_p6= failed                          trig= not found
+ tr_x2_p7= 5.2503e-11  targ= 1.0053e-08   trig= 1.0001e-08
+   tf_x2_p7= failed                          trig= not found
+ tpdf_x2_p7= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x2_p7= failed                          trig= not found
+ tr_y0_p4= 2.1893e-10  targ= 1.0219e-08   trig= 1.0001e-08
+   tf_y0_p4= failed                          trig= not found
+ tpdf_y0_p4= 3.5220e-10  targ= 1.0353e-08   trig= 1.0001e-08
+   tpdr_y0_p4= failed                          trig= not found
+ tr_y0_p5= 3.8744e-10  targ= 1.0388e-08   trig= 1.0001e-08
+   tf_y0_p5= failed                          trig= not found
+ tpdf_y0_p5= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y0_p5= failed                          trig= not found
+ tr_y0_p6= 2.2048e-10  targ= 1.0221e-08   trig= 1.0001e-08
+   tf_y0_p6= failed                          trig= not found
+ tpdf_y0_p6= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y0_p6= failed                          trig= not found
+ tr_y0_p7= 5.2503e-11  targ= 1.0053e-08   trig= 1.0001e-08
+   tf_y0_p7= failed                          trig= not found
+ tpdf_y0_p7= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y0_p7= failed                          trig= not found
+ tr_y1_p4= 2.1893e-10  targ= 1.0219e-08   trig= 1.0001e-08
+   tf_y1_p4= failed                          trig= not found
+ tpdf_y1_p4= 3.5220e-10  targ= 1.0353e-08   trig= 1.0001e-08
+   tpdr_y1_p4= failed                          trig= not found
+ tr_y1_p5= 3.8744e-10  targ= 1.0388e-08   trig= 1.0001e-08
+   tf_y1_p5= failed                          trig= not found
+ tpdf_y1_p5= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y1_p5= failed                          trig= not found
+ tr_y1_p6= 2.2048e-10  targ= 1.0221e-08   trig= 1.0001e-08
+   tf_y1_p6= failed                          trig= not found
+ tpdf_y1_p6= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y1_p6= failed                          trig= not found
+ tr_y1_p7= 5.2503e-11  targ= 1.0053e-08   trig= 1.0001e-08
+   tf_y1_p7= failed                          trig= not found
+ tpdf_y1_p7= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y1_p7= failed                          trig= not found
+ tr_y2_p4= 2.1893e-10  targ= 1.0219e-08   trig= 1.0001e-08
+   tf_y2_p4= failed                          trig= not found
+ tpdf_y2_p4= 3.5220e-10  targ= 1.0353e-08   trig= 1.0001e-08
+   tpdr_y2_p4= failed                          trig= not found
+ tr_y2_p5= 3.8744e-10  targ= 1.0388e-08   trig= 1.0001e-08
+   tf_y2_p5= failed                          trig= not found
+ tpdf_y2_p5= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y2_p5= failed                          trig= not found
+ tr_y2_p6= 2.2048e-10  targ= 1.0221e-08   trig= 1.0001e-08
+   tf_y2_p6= failed                          trig= not found
+ tpdf_y2_p6= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y2_p6= failed                          trig= not found
+ tr_y2_p7= 5.2503e-11  targ= 1.0053e-08   trig= 1.0001e-08
+   tf_y2_p7= failed                          trig= not found
+ tpdf_y2_p7= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y2_p7= failed                          trig= not found
+
+          ***** job concluded
+1****** HSPICE -- I-2013.12-SP1 64-BIT (Feb 25 2014) RHEL64 ******              
+ ******  
+ case_in_1111_1111
+
+  ******  job statistics summary tnom=  25.000 temp=  30.000 *****
+  
+  
+ ******  Machine Information  ******
+ CPU:
+ model name	: Intel(R) Xeon(R) CPU E5-2690 v2 @ 3.00GHz
+ cpu MHz	: 3011.081
+  
+ OS:
+ Linux version 2.6.32-696.1.1.el6.x86_64 (mockbuild@c1bm.rdu2.centos.org) (gcc version 4.4.7 20120313 (Red Hat 4.4.7-18) (GCC) ) #1 SMP Tue Apr 11 17:13:24 UTC 2017
+
+
+  ******  HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :    40
+  Actual Threads Count       :     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =    4153 # elements   =   12603
+  # resistors   =    3026 # capacitors =    9304 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       9
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =     264 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.10           1           8
+  transient          0.72         201         184          73 rev=         1
+  readin             0.23
+  errchk             0.12
+  setup              0.29
+  output             0.00
+
+
+           peak memory used        209.62 megabytes
+           total cpu time            1.45 seconds
+           total elapsed time        2.42 seconds
+           job started at     12:57:07 06/27/2020
+           job ended   at     12:57:10 06/27/2020
+
+
+  **warning** (W_Mul.pex.netlist:7) Global net name, "gnd", in subckt pin list. The pin will be connected to the local net. Recommend to not use global net names in subckt pin lists.
+1****** HSPICE -- I-2013.12-SP1 64-BIT (Feb 25 2014) RHEL64 ******              
+ ******  
+ case_in_1010_0111
+
+  ******  circuit name directory
+ circuit number to circuit name directory
+   number circuitname                     definition         multiplier
+        0 main circuit
+        1 x1.                             w_mul              1.00 
+        2 x1.x_pm_4_wallace_multiplier_xi29.net11.
+                                            pm_4_wallace_multiplier_xi29.net11
+                                                                 1.00 
+        3 x1.x_pm_4_wallace_multiplier_xi29.net21.
+                                            pm_4_wallace_multiplier_xi29.net21
+                                                                 1.00 
+        4 x1.x_pm_4_wallace_multiplier_xi28.net11.
+                                            pm_4_wallace_multiplier_xi28.net11
+                                                                 1.00 
+        5 x1.x_pm_4_wallace_multiplier_xi28.net21.
+                                            pm_4_wallace_multiplier_xi28.net21
+                                                                 1.00 
+        6 x1.x_pm_4_wallace_multiplier_xi37.net11.
+                                            pm_4_wallace_multiplier_xi37.net11
+                                                                 1.00 
+        7 x1.x_pm_4_wallace_multiplier_xi37.net21.
+                                            pm_4_wallace_multiplier_xi37.net21
+                                                                 1.00 
+        8 x1.x_pm_4_wallace_multiplier_xi38.net11.
+                                            pm_4_wallace_multiplier_xi38.net11
+                                                                 1.00 
+        9 x1.x_pm_4_wallace_multiplier_xi38.net21.
+                                            pm_4_wallace_multiplier_xi38.net21
+                                                                 1.00 
+       10 x1.x_pm_4_wallace_multiplier_xi31.net11.
+                                            pm_4_wallace_multiplier_xi31.net11
+                                                                 1.00 
+       11 x1.x_pm_4_wallace_multiplier_xi31.net21.
+                                            pm_4_wallace_multiplier_xi31.net21
+                                                                 1.00 
+       12 x1.x_pm_4_wallace_multiplier_xi35.net11.
+                                            pm_4_wallace_multiplier_xi35.net11
+                                                                 1.00 
+       13 x1.x_pm_4_wallace_multiplier_xi35.net21.
+                                            pm_4_wallace_multiplier_xi35.net21
+                                                                 1.00 
+       14 x1.x_pm_4_wallace_multiplier_xi30.net11.
+                                            pm_4_wallace_multiplier_xi30.net11
+                                                                 1.00 
+       15 x1.x_pm_4_wallace_multiplier_xi30.net21.
+                                            pm_4_wallace_multiplier_xi30.net21
+                                                                 1.00 
+       16 x1.x_pm_4_wallace_multiplier_xi34.net11.
+                                            pm_4_wallace_multiplier_xi34.net11
+                                                                 1.00 
+       17 x1.x_pm_4_wallace_multiplier_xi34.net21.
+                                            pm_4_wallace_multiplier_xi34.net21
+                                                                 1.00 
+       18 x1.x_pm_4_wallace_multiplier_xi33.net11.
+                                            pm_4_wallace_multiplier_xi33.net11
+                                                                 1.00 
+       19 x1.x_pm_4_wallace_multiplier_xi33.net21.
+                                            pm_4_wallace_multiplier_xi33.net21
+                                                                 1.00 
+       20 x1.x_pm_4_wallace_multiplier_xi39.net11.
+                                            pm_4_wallace_multiplier_xi39.net11
+                                                                 1.00 
+       21 x1.x_pm_4_wallace_multiplier_xi39.net21.
+                                            pm_4_wallace_multiplier_xi39.net21
+                                                                 1.00 
+       22 x1.x_pm_4_wallace_multiplier_xi32.net11.
+                                            pm_4_wallace_multiplier_xi32.net11
+                                                                 1.00 
+       23 x1.x_pm_4_wallace_multiplier_xi32.net21.
+                                            pm_4_wallace_multiplier_xi32.net21
+                                                                 1.00 
+       24 x1.x_pm_4_wallace_multiplier_xi40.net11.
+                                            pm_4_wallace_multiplier_xi40.net11
+                                                                 1.00 
+       25 x1.x_pm_4_wallace_multiplier_xi40.net21.
+                                            pm_4_wallace_multiplier_xi40.net21
+                                                                 1.00 
+       26 x1.x_pm_4_wallace_multiplier_xi15.net8.
+                                            pm_4_wallace_multiplier_xi15.net8
+                                                                 1.00 
+       27 x1.x_pm_4_wallace_multiplier_xi13.net8.
+                                            pm_4_wallace_multiplier_xi13.net8
+                                                                 1.00 
+       28 x1.x_pm_4_wallace_multiplier_xi10.net8.
+                                            pm_4_wallace_multiplier_xi10.net8
+                                                                 1.00 
+       29 x1.x_pm_4_wallace_multiplier_xi14.net8.
+                                            pm_4_wallace_multiplier_xi14.net8
+                                                                 1.00 
+       30 x1.x_pm_4_wallace_multiplier_xi7.net8.
+                                            pm_4_wallace_multiplier_xi7.net8
+                                                                 1.00 
+       31 x1.x_pm_4_wallace_multiplier_xi11.net8.
+                                            pm_4_wallace_multiplier_xi11.net8
+                                                                 1.00 
+       32 x1.x_pm_4_wallace_multiplier_xi8.net8.
+                                            pm_4_wallace_multiplier_xi8.net8
+                                                                 1.00 
+       33 x1.x_pm_4_wallace_multiplier_xi12.net8.
+                                            pm_4_wallace_multiplier_xi12.net8
+                                                                 1.00 
+       34 x1.x_pm_4_wallace_multiplier_xi3.net8.
+                                            pm_4_wallace_multiplier_xi3.net8
+                                                                 1.00 
+       35 x1.x_pm_4_wallace_multiplier_xi9.net8.
+                                            pm_4_wallace_multiplier_xi9.net8
+                                                                 1.00 
+       36 x1.x_pm_4_wallace_multiplier_xi5.net8.
+                                            pm_4_wallace_multiplier_xi5.net8
+                                                                 1.00 
+       37 x1.x_pm_4_wallace_multiplier_xi4.net8.
+                                            pm_4_wallace_multiplier_xi4.net8
+                                                                 1.00 
+       38 x1.x_pm_4_wallace_multiplier_xi0.net8.
+                                            pm_4_wallace_multiplier_xi0.net8
+                                                                 1.00 
+       39 x1.x_pm_4_wallace_multiplier_xi6.net8.
+                                            pm_4_wallace_multiplier_xi6.net8
+                                                                 1.00 
+       40 x1.x_pm_4_wallace_multiplier_xi2.net8.
+                                            pm_4_wallace_multiplier_xi2.net8
+                                                                 1.00 
+       41 x1.x_pm_4_wallace_multiplier_xi1.net8.
+                                            pm_4_wallace_multiplier_xi1.net8
+                                                                 1.00 
+       42 x1.x_pm_4_wallace_multiplier_x0.
+                                            pm_4_wallace_multiplier_x0
+                                                                 1.00 
+       43 x1.x_pm_4_wallace_multiplier_x1.
+                                            pm_4_wallace_multiplier_x1
+                                                                 1.00 
+       44 x1.x_pm_4_wallace_multiplier_x2.
+                                            pm_4_wallace_multiplier_x2
+                                                                 1.00 
+       45 x1.x_pm_4_wallace_multiplier_x3.
+                                            pm_4_wallace_multiplier_x3
+                                                                 1.00 
+       46 x1.x_pm_4_wallace_multiplier_y0.
+                                            pm_4_wallace_multiplier_y0
+                                                                 1.00 
+       47 x1.x_pm_4_wallace_multiplier_y3.
+                                            pm_4_wallace_multiplier_y3
+                                                                 1.00 
+       48 x1.x_pm_4_wallace_multiplier_y2.
+                                            pm_4_wallace_multiplier_y2
+                                                                 1.00 
+       49 x1.x_pm_4_wallace_multiplier_y1.
+                                            pm_4_wallace_multiplier_y1
+                                                                 1.00 
+       50 x1.x_pm_4_wallace_multiplier_net89.
+                                            pm_4_wallace_multiplier_net89
+                                                                 1.00 
+       51 x1.x_pm_4_wallace_multiplier_net57.
+                                            pm_4_wallace_multiplier_net57
+                                                                 1.00 
+       52 x1.x_pm_4_wallace_multiplier_net60.
+                                            pm_4_wallace_multiplier_net60
+                                                                 1.00 
+       53 x1.x_pm_4_wallace_multiplier_net61.
+                                            pm_4_wallace_multiplier_net61
+                                                                 1.00 
+       54 x1.x_pm_4_wallace_multiplier_net58.
+                                            pm_4_wallace_multiplier_net58
+                                                                 1.00 
+       55 x1.x_pm_4_wallace_multiplier_net62.
+                                            pm_4_wallace_multiplier_net62
+                                                                 1.00 
+       56 x1.x_pm_4_wallace_multiplier_net90.
+                                            pm_4_wallace_multiplier_net90
+                                                                 1.00 
+       57 x1.x_pm_4_wallace_multiplier_net53.
+                                            pm_4_wallace_multiplier_net53
+                                                                 1.00 
+       58 x1.x_pm_4_wallace_multiplier_net91.
+                                            pm_4_wallace_multiplier_net91
+                                                                 1.00 
+       59 x1.x_pm_4_wallace_multiplier_net59.
+                                            pm_4_wallace_multiplier_net59
+                                                                 1.00 
+       60 x1.x_pm_4_wallace_multiplier_net52.
+                                            pm_4_wallace_multiplier_net52
+                                                                 1.00 
+       61 x1.x_pm_4_wallace_multiplier_gnd.
+                                            pm_4_wallace_multiplier_gnd
+                                                                 1.00 
+       62 x1.x_pm_4_wallace_multiplier_net69.
+                                            pm_4_wallace_multiplier_net69
+                                                                 1.00 
+       63 x1.x_pm_4_wallace_multiplier_net72.
+                                            pm_4_wallace_multiplier_net72
+                                                                 1.00 
+       64 x1.x_pm_4_wallace_multiplier_net67.
+                                            pm_4_wallace_multiplier_net67
+                                                                 1.00 
+       65 x1.x_pm_4_wallace_multiplier_net73.
+                                            pm_4_wallace_multiplier_net73
+                                                                 1.00 
+       66 x1.x_pm_4_wallace_multiplier_net75.
+                                            pm_4_wallace_multiplier_net75
+                                                                 1.00 
+       67 x1.x_pm_4_wallace_multiplier_net63.
+                                            pm_4_wallace_multiplier_net63
+                                                                 1.00 
+       68 x1.x_pm_4_wallace_multiplier_net64.
+                                            pm_4_wallace_multiplier_net64
+                                                                 1.00 
+       69 x1.x_pm_4_wallace_multiplier_net66.
+                                            pm_4_wallace_multiplier_net66
+                                                                 1.00 
+       70 x1.x_pm_4_wallace_multiplier_net71.
+                                            pm_4_wallace_multiplier_net71
+                                                                 1.00 
+       71 x1.x_pm_4_wallace_multiplier_net70.
+                                            pm_4_wallace_multiplier_net70
+                                                                 1.00 
+       72 x1.x_pm_4_wallace_multiplier_net79.
+                                            pm_4_wallace_multiplier_net79
+                                                                 1.00 
+       73 x1.x_pm_4_wallace_multiplier_net81.
+                                            pm_4_wallace_multiplier_net81
+                                                                 1.00 
+       74 x1.x_pm_4_wallace_multiplier_net78.
+                                            pm_4_wallace_multiplier_net78
+                                                                 1.00 
+       75 x1.x_pm_4_wallace_multiplier_net82.
+                                            pm_4_wallace_multiplier_net82
+                                                                 1.00 
+       76 x1.x_pm_4_wallace_multiplier_net76.
+                                            pm_4_wallace_multiplier_net76
+                                                                 1.00 
+       77 x1.x_pm_4_wallace_multiplier_net83.
+                                            pm_4_wallace_multiplier_net83
+                                                                 1.00 
+       78 x1.x_pm_4_wallace_multiplier_net77.
+                                            pm_4_wallace_multiplier_net77
+                                                                 1.00 
+       79 x1.x_pm_4_wallace_multiplier_p7.
+                                            pm_4_wallace_multiplier_p7
+                                                                 1.00 
+       80 x1.x_pm_4_wallace_multiplier_p0.
+                                            pm_4_wallace_multiplier_p0
+                                                                 1.00 
+       81 x1.x_pm_4_wallace_multiplier_p1.
+                                            pm_4_wallace_multiplier_p1
+                                                                 1.00 
+       82 x1.x_pm_4_wallace_multiplier_p2.
+                                            pm_4_wallace_multiplier_p2
+                                                                 1.00 
+       83 x1.x_pm_4_wallace_multiplier_p4.
+                                            pm_4_wallace_multiplier_p4
+                                                                 1.00 
+       84 x1.x_pm_4_wallace_multiplier_p5.
+                                            pm_4_wallace_multiplier_p5
+                                                                 1.00 
+       85 x1.x_pm_4_wallace_multiplier_p6.
+                                            pm_4_wallace_multiplier_p6
+                                                                 1.00 
+       86 x1.x_pm_4_wallace_multiplier_p3.
+                                            pm_4_wallace_multiplier_p3
+                                                                 1.00 
+       87 x1.x_pm_4_wallace_multiplier_net68.
+                                            pm_4_wallace_multiplier_net68
+                                                                 1.00 
+       88 x1.x_pm_4_wallace_multiplier_net87.
+                                            pm_4_wallace_multiplier_net87
+                                                                 1.00 
+       89 x1.x_pm_4_wallace_multiplier_net86.
+                                            pm_4_wallace_multiplier_net86
+                                                                 1.00 
+       90 x1.x_pm_4_wallace_multiplier_net84.
+                                            pm_4_wallace_multiplier_net84
+                                                                 1.00 
+       91 x1.x_pm_4_wallace_multiplier_vdd.
+                                            pm_4_wallace_multiplier_vdd
+                                                                 1.00 
+1****** HSPICE -- I-2013.12-SP1 64-BIT (Feb 25 2014) RHEL64 ******              
+ ******  
+ case_in_1010_0111
+
+  ******  mos   model parameters tnom=  25.000 temp=  25.000 *****
+ Model Name: nmos_vtl  
+ BSIM4 Model (Level 54)
+    MOBMOD = 0
+    BINUNIT = 1
+    PARAMCHK = 1
+    CAPMOD = 2
+    DIOMOD = 1
+    RDSMOD = 0
+    TRNQSMOD = 0
+    ACNQSMOD = 0
+    RBODYMOD = 1
+    RGATEMOD = 1
+    PERMOD = 1
+    GEOMOD = 1
+    RGEOMOD = 0
+    FNOIMOD = 1
+    TNOIMOD = 0
+    IGCMOD = 1
+    IGBMOD = 1
+    STIMOD = 0
+    VERSION =      4 
+    TOXREF = 1.14e-09 
+    TOXE = 1.14e-09 
+    TOXP =  1e-09 
+    TOXM = 1.14e-09 
+    DTOX = 1.4e-10 
+    EPSROX =    3.9 
+    CDSC =      0 
+    CDSCB =      0 
+    CDSCD =      0 
+    CIT =      0 
+    NFACTOR =    2.1 
+    XJ = 1.98e-08 
+    VSAT = 1.48e+05 
+    A0 =      1 
+    AGS =      0 
+    A1 =      0 
+    A2 =      1 
+    AT = 3.3e+04 
+    KETA =   0.04 
+    NSUB =  6e+16 
+    NDEP = 3.4e+18 
+    NSD =  2e+20 
+    NGATE =  3e+20 
+    GAMMA1 =      0 
+    GAMMA2 =      0 
+    VBX =      0 
+    VBM =     -3 
+    XT = 1.55e-07 
+    K1 =    0.4 
+    KT1 =  -0.11 
+    KT1L =      0 
+    KT2 =  0.022 
+    K2 =      0 
+    K3 =      0 
+    K3B =      0 
+    LPE0 =      0 
+    LPEB =      0 
+    DVTP0 =  1e-10 
+    DVTP1 =    0.1 
+    W0 = 2.5e-06 
+    DVT0 =      1 
+    DVT1 =      2 
+    DVT2 =      0 
+    DVT0W =      0 
+    DVT1W =      0 
+    DVT2W =      0 
+    DROUT =    0.5 
+    DSUB =    0.1 
+    VTH0 =  0.322 
+    EU =   1.67 
+    UA =  6e-10 
+    UA1 = 4.31e-09 
+    UB = 1.2e-18 
+    UB1 = 7.61e-18 
+    UC =      0 
+    UC1 = -5.6e-11 
+    U0 =  0.045 
+    UTE =   -1.5 
+    VOFF =  -0.13 
+    VOFFL =      0 
+    MINV =   0.05 
+    FPROUT =    0.2 
+    PDITS =   0.08 
+    PDITSD =   0.23 
+    PDITSL = 2.3e+06 
+    DELTA =   0.01 
+    RDSW =    155 
+    RDSWMIN =      0 
+    RDWMIN =      0 
+    RSWMIN =      0 
+    RDW =     80 
+    RSW =     80 
+    PRWG =      0 
+    PRWB =      0 
+    PRT =      0 
+    ETA0 =  0.006 
+    ETAB =      0 
+    PCLM =   0.02 
+    PDIBLC1 =  0.001 
+    PDIBLC2 =  0.001 
+    PDIBLCB = -0.005 
+    PSCBE1 = 8.14e+08 
+    PSCBE2 =  1e-07 
+    PVAG =  1e-20 
+    WR =      1 
+    DWG =      0 
+    DWB =      0 
+    XW =      0 
+    XWREF =      0 
+    XL = -2e-08 
+    XLREF = -2e-08 
+    B0 =      0 
+    B1 =      0 
+    ALPHA0 =  0.074 
+    ALPHA1 =  0.005 
+    AGIDL = 0.0002 
+    BGIDL = 2.1e+09 
+    CGIDL = 0.0002 
+    PHIN =      0 
+    EGIDL =    0.8 
+    AIGC =   0.02 
+    BIGC = 0.0027 
+    CIGC =  0.002 
+    AIGSD =   0.02 
+    BIGSD = 0.0027 
+    CIGSD =  0.002 
+    AIGBACC =  0.012 
+    BIGBACC = 0.0028 
+    CIGBACC =  0.002 
+    AIGBINV =  0.014 
+    BIGBINV =  0.004 
+    CIGBINV =  0.004 
+    NIGC =      1 
+    NIGBINV =      3 
+    NIGBACC =      1 
+    NTOX =      1 
+    EIGBINV =    1.1 
+    PIGCD =      1 
+    POXEDGE =      1 
+    XRCRG1 =     12 
+    TNOIA =    1.5 
+    TNOIB =    3.5 
+    NTNOI =      1 
+    XRCRG2 =      5 
+    BETA0 =     30 
+    IJTHDFWD =   0.01 
+    IJTHSFWD =   0.01 
+    IJTHDREV =  0.001 
+    IJTHSREV =  0.001 
+    XJBVD =      1 
+    XJBVS =      1 
+    BVD =     10 
+    BVS =     10 
+    VFB =  -0.55 
+    GBMIN =  1e-10 
+    RBDB =     15 
+    RBPB =      5 
+    RBSB =     15 
+    RBPS =     15 
+    RBPD =     15 
+    CGSL = 2.653e-10 
+    CGDL = 2.653e-10 
+    CKAPPAS =   0.03 
+    CKAPPAD =   0.03 
+    CF = 1.289e-10 
+    CLC =  1e-07 
+    CLE =    0.6 
+    DWC =  5e-09 
+    DLC = 3.75e-09 
+    DLCIG = 3.75e-09 
+    DWJ =      0 
+    VFBCV =     -1 
+    ACDE =      1 
+    MOIN =     15 
+    NOFF =    0.9 
+    VOFFCV =   0.02 
+    DMCG =      0 
+    DMCI =      0 
+    DMDG =      0 
+    DMCGT =      0 
+    XGW =      0 
+    XGL =      0 
+    RSHG =    0.4 
+    NGCON =      1 
+    TCJ =  0.001 
+    TPB =  0.005 
+    TCJSW =  0.001 
+    TPBSW =  0.005 
+    TCJSWG =  0.001 
+    TPBSWG =  0.005 
+    SK0 =      0 
+    SK1 =      0 
+    SK2 =      0 
+    SL =  2e-06 
+    SW =  2e-06 
+    K =      0 
+    TNOM =  300.1 
+    CGSO = 1.1e-10 
+    CGDO = 1.1e-10 
+    CGBO = 2.56e-11 
+    XPART =      0 
+    RSH =      5 
+    JSS = 0.0001 
+    JSWS =  1e-11 
+    JSWGS =  1e-10 
+    PBS =      1 
+    MJS =    0.5 
+    PBSWS =      1 
+    MJSWS =   0.33 
+    CJS = 0.0005 
+    CJSWS =  5e-10 
+    NJS =      1 
+    PBSWGS =      1 
+    MJSWGS =   0.33 
+    CJSWGS =  3e-10 
+    XTIS =      3 
+    JSD = 0.0001 
+    JSWD =  1e-11 
+    JSWGD =  1e-10 
+    PBD =      1 
+    MJD =    0.5 
+    PBSWD =      1 
+    MJSWD =   0.33 
+    CJD = 0.0005 
+    CJSWD =  5e-10 
+    NJD =      1 
+    PBSWGD =      1 
+    MJSWGD =   0.33 
+    CJSWGD =  5e-10 
+    XTID =      3 
+    LMLT =      1 
+    WMLT =      1 
+    LINT = 3.75e-09 
+    LL =      0 
+    LLC =      0 
+    LLN =      1 
+    LW =      0 
+    LWC =      0 
+    LWN =      1 
+    LWL =      0 
+    LWLC =      0 
+    LMIN =      0 
+    LMAX =      1 
+    WINT =  5e-09 
+    WL =      0 
+    WLC =      0 
+    WLN =      1 
+    WW =      0 
+    WWC =      0 
+    WWN =      1 
+    WWL =      0 
+    WWLC =      0 
+    WMIN =      0 
+    WMAX =      1 
+    NOIA = 6.25e+41 
+    NOIB = 3.125e+26 
+    NOIC = 8.75e+09 
+    EM = 4.1e+07 
+    EF =      1 
+    AF =      1 
+    KF =      0 
+    TRS =      0 
+    TRD =      0 
+ Model Name: pmos_vtl  
+ BSIM4 Model (Level 54)
+    MOBMOD = 0
+    BINUNIT = 1
+    PARAMCHK = 1
+    CAPMOD = 2
+    DIOMOD = 1
+    RDSMOD = 0
+    TRNQSMOD = 0
+    ACNQSMOD = 0
+    RBODYMOD = 1
+    RGATEMOD = 1
+    PERMOD = 1
+    GEOMOD = 1
+    RGEOMOD = 0
+    FNOIMOD = 1
+    TNOIMOD = 0
+    IGCMOD = 1
+    IGBMOD = 1
+    STIMOD = 0
+    VERSION =      4 
+    TOXREF = 1.3e-09 
+    TOXE = 1.26e-09 
+    TOXP =  1e-09 
+    TOXM = 1.26e-09 
+    DTOX = 2.6e-10 
+    EPSROX =    3.9 
+    CDSC =      0 
+    CDSCB =      0 
+    CDSCD =      0 
+    CIT =      0 
+    NFACTOR =   2.22 
+    XJ = 1.98e-08 
+    VSAT = 6.9e+04 
+    A0 =      1 
+    AGS =  1e-20 
+    A1 =      0 
+    A2 =      1 
+    AT = 3.3e+04 
+    KETA = -0.047 
+    NSUB =  6e+16 
+    NDEP = 2.44e+18 
+    NSD =  2e+20 
+    NGATE =  2e+20 
+    GAMMA1 =      0 
+    GAMMA2 =      0 
+    VBX =      0 
+    VBM =     -3 
+    XT = 1.55e-07 
+    K1 =    0.4 
+    KT1 =  -0.11 
+    KT1L =      0 
+    KT2 =  0.022 
+    K2 =  -0.01 
+    K3 =      0 
+    K3B =      0 
+    LPE0 =      0 
+    LPEB =      0 
+    DVTP0 =  1e-11 
+    DVTP1 =   0.05 
+    W0 = 2.5e-06 
+    DVT0 =      1 
+    DVT1 =      2 
+    DVT2 = -0.032 
+    DVT0W =      0 
+    DVT1W =      0 
+    DVT2W =      0 
+    DROUT =   0.56 
+    DSUB =    0.1 
+    VTH0 = -0.3021 
+    EU =      1 
+    UA =  2e-09 
+    UA1 = 4.31e-09 
+    UB =  5e-19 
+    UB1 = 7.61e-18 
+    UC =      0 
+    UC1 = -5.6e-11 
+    U0 =   0.02 
+    UTE =   -1.5 
+    VOFF = -0.126 
+    VOFFL =      0 
+    MINV =   0.05 
+    FPROUT =    0.2 
+    PDITS =   0.08 
+    PDITSD =   0.23 
+    PDITSL = 2.3e+06 
+    DELTA =   0.01 
+    RDSW =    155 
+    RDSWMIN =      0 
+    RDWMIN =      0 
+    RSWMIN =      0 
+    RDW =     75 
+    RSW =     75 
+    PRWG =      0 
+    PRWB =      0 
+    PRT =      0 
+    ETA0 = 0.0055 
+    ETAB =      0 
+    PCLM =   0.12 
+    PDIBLC1 =  0.001 
+    PDIBLC2 =  0.001 
+    PDIBLCB = 3.4e-08 
+    PSCBE1 = 8.14e+08 
+    PSCBE2 = 9.58e-07 
+    PVAG =  1e-20 
+    WR =      1 
+    DWG =      0 
+    DWB =      0 
+    XW =      0 
+    XWREF =      0 
+    XL = -2e-08 
+    XLREF = -2e-08 
+    B0 =      0 
+    B1 =      0 
+    ALPHA0 =  0.074 
+    ALPHA1 =  0.005 
+    AGIDL = 0.0002 
+    BGIDL = 2.1e+09 
+    CGIDL = 0.0002 
+    PHIN =      0 
+    EGIDL =    0.8 
+    AIGC = 0.01069 
+    BIGC = 0.001261 
+    CIGC = 0.0008 
+    AIGSD = 0.01069 
+    BIGSD = 0.001261 
+    CIGSD = 0.0008 
+    AIGBACC =  0.012 
+    BIGBACC = 0.0028 
+    CIGBACC =  0.002 
+    AIGBINV =  0.014 
+    BIGBINV =  0.004 
+    CIGBINV =  0.004 
+    NIGC =      1 
+    NIGBINV =      3 
+    NIGBACC =      1 
+    NTOX =      1 
+    EIGBINV =    1.1 
+    PIGCD =      1 
+    POXEDGE =      1 
+    XRCRG1 =     12 
+    TNOIA =    1.5 
+    TNOIB =    3.5 
+    NTNOI =      1 
+    XRCRG2 =      5 
+    BETA0 =     30 
+    IJTHDFWD =   0.01 
+    IJTHSFWD =   0.01 
+    IJTHDREV =  0.001 
+    IJTHSREV =  0.001 
+    XJBVD =      1 
+    XJBVS =      1 
+    BVD =     10 
+    BVS =     10 
+    VFB =   0.55 
+    GBMIN =  1e-10 
+    RBDB =     15 
+    RBPB =      5 
+    RBSB =     15 
+    RBPS =     15 
+    RBPD =     15 
+    CGSL = 2.653e-10 
+    CGDL = 2.653e-10 
+    CKAPPAS =   0.03 
+    CKAPPAD =   0.03 
+    CF = 1.267e-10 
+    CLC =  1e-07 
+    CLE =    0.6 
+    DWC =  5e-09 
+    DLC = 3.75e-09 
+    DLCIG = 3.75e-09 
+    DWJ =      0 
+    VFBCV =     -1 
+    ACDE =      1 
+    MOIN =     15 
+    NOFF =    0.9 
+    VOFFCV =   0.02 
+    DMCG =      0 
+    DMCI =      0 
+    DMDG =      0 
+    DMCGT =      0 
+    XGW =      0 
+    XGL =      0 
+    RSHG =    0.4 
+    NGCON =      1 
+    TCJ =  0.001 
+    TPB =  0.005 
+    TCJSW =  0.001 
+    TPBSW =  0.005 
+    TCJSWG =  0.001 
+    TPBSWG =  0.005 
+    SK0 =      0 
+    SK1 =      0 
+    SK2 =      0 
+    SL =  2e-06 
+    SW =  2e-06 
+    K =      0 
+    TNOM =  300.1 
+    CGSO = 1.1e-10 
+    CGDO = 1.1e-10 
+    CGBO = 2.56e-11 
+    XPART =      0 
+    RSH =      5 
+    JSS = 0.0001 
+    JSWS =  1e-11 
+    JSWGS =  1e-10 
+    PBS =      1 
+    MJS =    0.5 
+    PBSWS =      1 
+    MJSWS =   0.33 
+    CJS = 0.0005 
+    CJSWS =  5e-10 
+    NJS =      1 
+    PBSWGS =      1 
+    MJSWGS =   0.33 
+    CJSWGS =  3e-10 
+    XTIS =      3 
+    JSD = 0.0001 
+    JSWD =  1e-11 
+    JSWGD =  1e-10 
+    PBD =      1 
+    MJD =    0.5 
+    PBSWD =      1 
+    MJSWD =   0.33 
+    CJD = 0.0005 
+    CJSWD =  5e-10 
+    NJD =      1 
+    PBSWGD =      1 
+    MJSWGD =   0.33 
+    CJSWGD =  5e-10 
+    XTID =      3 
+    LMLT =      1 
+    WMLT =      1 
+    LINT = 3.75e-09 
+    LL =      0 
+    LLC =      0 
+    LLN =      1 
+    LW =      0 
+    LWC =      0 
+    LWN =      1 
+    LWL =      0 
+    LWLC =      0 
+    LMIN =      0 
+    LMAX =      1 
+    WINT =  5e-09 
+    WL =      0 
+    WLC =      0 
+    WLN =      1 
+    WW =      0 
+    WWC =      0 
+    WWN =      1 
+    WWL =      0 
+    WWLC =      0 
+    WMIN =      0 
+    WMAX =      1 
+    NOIA = 6.188e+40 
+    NOIB = 1.5e+25 
+    NOIC = 8.75e+09 
+    EM = 4.1e+07 
+    EF =      1 
+    AF =      1 
+    KF =      0 
+    TRS =      0 
+    TRD =      0 
+  **info** (stimulus.sp:257) DC voltage reset to initial transient source value              in source        0:vin_x0              new dc=  0.0000D+00
+  
+  
+             
+ Warning:'1 connection nodes' occurs 6 times
+ Summary of 1 connection from the following nodes:
+ -----------------------
+ |Node      |Subckt    |
+ |----------+----------|
+ |p0        |0         |
+ |p1        |0         |
+ |p2        |0         |
+ |p3        |0         |
+ |p4        |0         |
+ |p6        |0         |
+ -----------------------
+              
+      
+ **info** set option symb=1 internally to help for convergence.
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2         
+  
+  Opening plot unit= 15
+ file=output/stimulus.pa1
+
+ **info** dc convergence successful at Newton-Raphson method 
+1****** HSPICE -- I-2013.12-SP1 64-BIT (Feb 25 2014) RHEL64 ******              
+ ******  
+ case_in_1010_0111
+
+  ******  transient analysis tnom=  25.000 temp=  30.000 *****
+  **warning** (stimulus.sp:39) .MEASURE  tr_x0_p4 never reached the trigger value, Measurement failed!
+  **warning** (stimulus.sp:39) .MEASURE  tr_x0_p4 never reached the target value, Measurement failed!
+   tr_x0_p4= failed                          trig= not found
+   tf_x0_p4= failed                          trig= not found
+   tpdf_x0_p4= failed                          trig= not found
+   tpdr_x0_p4= failed                          trig= not found
+   tr_x0_p5= failed                          trig= not found
+   tf_x0_p5= failed                          trig= not found
+   tpdf_x0_p5= failed                          trig= not found
+   tpdr_x0_p5= failed                          trig= not found
+   tr_x0_p6= failed                          trig= not found
+   tf_x0_p6= failed                          trig= not found
+   tpdf_x0_p6= failed                          trig= not found
+   tpdr_x0_p6= failed                          trig= not found
+   tr_x0_p7= failed                          trig= not found
+   tf_x0_p7= failed                          trig= not found
+   tpdf_x0_p7= failed                          trig= not found
+   tpdr_x0_p7= failed                          trig= not found
+ tr_x1_p4= failed       targ= not found    trig= 1.0001e-08
+   tf_x1_p4= failed                          trig= not found
+ tpdf_x1_p4= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x1_p4= failed                          trig= not found
+ tr_x1_p5= failed       targ= not found    trig= 1.0001e-08
+   tf_x1_p5= failed                          trig= not found
+ tpdf_x1_p5= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x1_p5= failed                          trig= not found
+ tr_x1_p6= 2.9661e-10  targ= 1.0297e-08   trig= 1.0001e-08
+   tf_x1_p6= failed                          trig= not found
+ tpdf_x1_p6= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x1_p6= failed                          trig= not found
+ tr_x1_p7= failed       targ= not found    trig= 1.0001e-08
+   tf_x1_p7= failed                          trig= not found
+ tpdf_x1_p7= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x1_p7= failed                          trig= not found
+   tr_x2_p4= failed                          trig= not found
+   tf_x2_p4= failed                          trig= not found
+   tpdf_x2_p4= failed                          trig= not found
+   tpdr_x2_p4= failed                          trig= not found
+   tr_x2_p5= failed                          trig= not found
+   tf_x2_p5= failed                          trig= not found
+   tpdf_x2_p5= failed                          trig= not found
+   tpdr_x2_p5= failed                          trig= not found
+   tr_x2_p6= failed                          trig= not found
+   tf_x2_p6= failed                          trig= not found
+   tpdf_x2_p6= failed                          trig= not found
+   tpdr_x2_p6= failed                          trig= not found
+   tr_x2_p7= failed                          trig= not found
+   tf_x2_p7= failed                          trig= not found
+   tpdf_x2_p7= failed                          trig= not found
+   tpdr_x2_p7= failed                          trig= not found
+ tr_y0_p4= failed       targ= not found    trig= 1.0001e-08
+   tf_y0_p4= failed                          trig= not found
+ tpdf_y0_p4= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y0_p4= failed                          trig= not found
+ tr_y0_p5= failed       targ= not found    trig= 1.0001e-08
+   tf_y0_p5= failed                          trig= not found
+ tpdf_y0_p5= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y0_p5= failed                          trig= not found
+ tr_y0_p6= 2.9661e-10  targ= 1.0297e-08   trig= 1.0001e-08
+   tf_y0_p6= failed                          trig= not found
+ tpdf_y0_p6= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y0_p6= failed                          trig= not found
+ tr_y0_p7= failed       targ= not found    trig= 1.0001e-08
+   tf_y0_p7= failed                          trig= not found
+ tpdf_y0_p7= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y0_p7= failed                          trig= not found
+ tr_y1_p4= failed       targ= not found    trig= 1.0001e-08
+   tf_y1_p4= failed                          trig= not found
+ tpdf_y1_p4= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y1_p4= failed                          trig= not found
+ tr_y1_p5= failed       targ= not found    trig= 1.0001e-08
+   tf_y1_p5= failed                          trig= not found
+ tpdf_y1_p5= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y1_p5= failed                          trig= not found
+ tr_y1_p6= 2.9661e-10  targ= 1.0297e-08   trig= 1.0001e-08
+   tf_y1_p6= failed                          trig= not found
+ tpdf_y1_p6= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y1_p6= failed                          trig= not found
+ tr_y1_p7= failed       targ= not found    trig= 1.0001e-08
+   tf_y1_p7= failed                          trig= not found
+ tpdf_y1_p7= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y1_p7= failed                          trig= not found
+ tr_y2_p4= failed       targ= not found    trig= 1.0001e-08
+   tf_y2_p4= failed                          trig= not found
+ tpdf_y2_p4= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y2_p4= failed                          trig= not found
+ tr_y2_p5= failed       targ= not found    trig= 1.0001e-08
+   tf_y2_p5= failed                          trig= not found
+ tpdf_y2_p5= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y2_p5= failed                          trig= not found
+ tr_y2_p6= 2.9661e-10  targ= 1.0297e-08   trig= 1.0001e-08
+   tf_y2_p6= failed                          trig= not found
+ tpdf_y2_p6= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y2_p6= failed                          trig= not found
+ tr_y2_p7= failed       targ= not found    trig= 1.0001e-08
+   tf_y2_p7= failed                          trig= not found
+ tpdf_y2_p7= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y2_p7= failed                          trig= not found
+
+          ***** job concluded
+1****** HSPICE -- I-2013.12-SP1 64-BIT (Feb 25 2014) RHEL64 ******              
+ ******  
+ case_in_1010_0111
+
+  ******  job statistics summary tnom=  25.000 temp=  30.000 *****
+  
+  
+ ******  Machine Information  ******
+ CPU:
+ model name	: Intel(R) Xeon(R) CPU E5-2690 v2 @ 3.00GHz
+ cpu MHz	: 3011.081
+  
+ OS:
+ Linux version 2.6.32-696.1.1.el6.x86_64 (mockbuild@c1bm.rdu2.centos.org) (gcc version 4.4.7 20120313 (Red Hat 4.4.7-18) (GCC) ) #1 SMP Tue Apr 11 17:13:24 UTC 2017
+
+
+  ******  HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :    40
+  Actual Threads Count       :     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =    4153 # elements   =   12603
+  # resistors   =    3026 # capacitors =    9304 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       9
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =     264 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.10           1           8
+  transient          0.76         201         194          75 rev=         1
+  readin             0.20
+  errchk             0.11
+  setup              0.28
+  output             0.00
+
+
+           peak memory used        213.14 megabytes
+           total cpu time            1.44 seconds
+           total elapsed time        1.45 seconds
+           job started at     12:57:07 06/27/2020
+           job ended   at     12:57:11 06/27/2020
+
+
+  **warning** (W_Mul.pex.netlist:7) Global net name, "gnd", in subckt pin list. The pin will be connected to the local net. Recommend to not use global net names in subckt pin lists.
+1****** HSPICE -- I-2013.12-SP1 64-BIT (Feb 25 2014) RHEL64 ******              
+ ******  
+ case_in_worst1
+
+  ******  circuit name directory
+ circuit number to circuit name directory
+   number circuitname                     definition         multiplier
+        0 main circuit
+        1 x1.                             w_mul              1.00 
+        2 x1.x_pm_4_wallace_multiplier_xi29.net11.
+                                            pm_4_wallace_multiplier_xi29.net11
+                                                                 1.00 
+        3 x1.x_pm_4_wallace_multiplier_xi29.net21.
+                                            pm_4_wallace_multiplier_xi29.net21
+                                                                 1.00 
+        4 x1.x_pm_4_wallace_multiplier_xi28.net11.
+                                            pm_4_wallace_multiplier_xi28.net11
+                                                                 1.00 
+        5 x1.x_pm_4_wallace_multiplier_xi28.net21.
+                                            pm_4_wallace_multiplier_xi28.net21
+                                                                 1.00 
+        6 x1.x_pm_4_wallace_multiplier_xi37.net11.
+                                            pm_4_wallace_multiplier_xi37.net11
+                                                                 1.00 
+        7 x1.x_pm_4_wallace_multiplier_xi37.net21.
+                                            pm_4_wallace_multiplier_xi37.net21
+                                                                 1.00 
+        8 x1.x_pm_4_wallace_multiplier_xi38.net11.
+                                            pm_4_wallace_multiplier_xi38.net11
+                                                                 1.00 
+        9 x1.x_pm_4_wallace_multiplier_xi38.net21.
+                                            pm_4_wallace_multiplier_xi38.net21
+                                                                 1.00 
+       10 x1.x_pm_4_wallace_multiplier_xi31.net11.
+                                            pm_4_wallace_multiplier_xi31.net11
+                                                                 1.00 
+       11 x1.x_pm_4_wallace_multiplier_xi31.net21.
+                                            pm_4_wallace_multiplier_xi31.net21
+                                                                 1.00 
+       12 x1.x_pm_4_wallace_multiplier_xi35.net11.
+                                            pm_4_wallace_multiplier_xi35.net11
+                                                                 1.00 
+       13 x1.x_pm_4_wallace_multiplier_xi35.net21.
+                                            pm_4_wallace_multiplier_xi35.net21
+                                                                 1.00 
+       14 x1.x_pm_4_wallace_multiplier_xi30.net11.
+                                            pm_4_wallace_multiplier_xi30.net11
+                                                                 1.00 
+       15 x1.x_pm_4_wallace_multiplier_xi30.net21.
+                                            pm_4_wallace_multiplier_xi30.net21
+                                                                 1.00 
+       16 x1.x_pm_4_wallace_multiplier_xi34.net11.
+                                            pm_4_wallace_multiplier_xi34.net11
+                                                                 1.00 
+       17 x1.x_pm_4_wallace_multiplier_xi34.net21.
+                                            pm_4_wallace_multiplier_xi34.net21
+                                                                 1.00 
+       18 x1.x_pm_4_wallace_multiplier_xi33.net11.
+                                            pm_4_wallace_multiplier_xi33.net11
+                                                                 1.00 
+       19 x1.x_pm_4_wallace_multiplier_xi33.net21.
+                                            pm_4_wallace_multiplier_xi33.net21
+                                                                 1.00 
+       20 x1.x_pm_4_wallace_multiplier_xi39.net11.
+                                            pm_4_wallace_multiplier_xi39.net11
+                                                                 1.00 
+       21 x1.x_pm_4_wallace_multiplier_xi39.net21.
+                                            pm_4_wallace_multiplier_xi39.net21
+                                                                 1.00 
+       22 x1.x_pm_4_wallace_multiplier_xi32.net11.
+                                            pm_4_wallace_multiplier_xi32.net11
+                                                                 1.00 
+       23 x1.x_pm_4_wallace_multiplier_xi32.net21.
+                                            pm_4_wallace_multiplier_xi32.net21
+                                                                 1.00 
+       24 x1.x_pm_4_wallace_multiplier_xi40.net11.
+                                            pm_4_wallace_multiplier_xi40.net11
+                                                                 1.00 
+       25 x1.x_pm_4_wallace_multiplier_xi40.net21.
+                                            pm_4_wallace_multiplier_xi40.net21
+                                                                 1.00 
+       26 x1.x_pm_4_wallace_multiplier_xi15.net8.
+                                            pm_4_wallace_multiplier_xi15.net8
+                                                                 1.00 
+       27 x1.x_pm_4_wallace_multiplier_xi13.net8.
+                                            pm_4_wallace_multiplier_xi13.net8
+                                                                 1.00 
+       28 x1.x_pm_4_wallace_multiplier_xi10.net8.
+                                            pm_4_wallace_multiplier_xi10.net8
+                                                                 1.00 
+       29 x1.x_pm_4_wallace_multiplier_xi14.net8.
+                                            pm_4_wallace_multiplier_xi14.net8
+                                                                 1.00 
+       30 x1.x_pm_4_wallace_multiplier_xi7.net8.
+                                            pm_4_wallace_multiplier_xi7.net8
+                                                                 1.00 
+       31 x1.x_pm_4_wallace_multiplier_xi11.net8.
+                                            pm_4_wallace_multiplier_xi11.net8
+                                                                 1.00 
+       32 x1.x_pm_4_wallace_multiplier_xi8.net8.
+                                            pm_4_wallace_multiplier_xi8.net8
+                                                                 1.00 
+       33 x1.x_pm_4_wallace_multiplier_xi12.net8.
+                                            pm_4_wallace_multiplier_xi12.net8
+                                                                 1.00 
+       34 x1.x_pm_4_wallace_multiplier_xi3.net8.
+                                            pm_4_wallace_multiplier_xi3.net8
+                                                                 1.00 
+       35 x1.x_pm_4_wallace_multiplier_xi9.net8.
+                                            pm_4_wallace_multiplier_xi9.net8
+                                                                 1.00 
+       36 x1.x_pm_4_wallace_multiplier_xi5.net8.
+                                            pm_4_wallace_multiplier_xi5.net8
+                                                                 1.00 
+       37 x1.x_pm_4_wallace_multiplier_xi4.net8.
+                                            pm_4_wallace_multiplier_xi4.net8
+                                                                 1.00 
+       38 x1.x_pm_4_wallace_multiplier_xi0.net8.
+                                            pm_4_wallace_multiplier_xi0.net8
+                                                                 1.00 
+       39 x1.x_pm_4_wallace_multiplier_xi6.net8.
+                                            pm_4_wallace_multiplier_xi6.net8
+                                                                 1.00 
+       40 x1.x_pm_4_wallace_multiplier_xi2.net8.
+                                            pm_4_wallace_multiplier_xi2.net8
+                                                                 1.00 
+       41 x1.x_pm_4_wallace_multiplier_xi1.net8.
+                                            pm_4_wallace_multiplier_xi1.net8
+                                                                 1.00 
+       42 x1.x_pm_4_wallace_multiplier_x0.
+                                            pm_4_wallace_multiplier_x0
+                                                                 1.00 
+       43 x1.x_pm_4_wallace_multiplier_x1.
+                                            pm_4_wallace_multiplier_x1
+                                                                 1.00 
+       44 x1.x_pm_4_wallace_multiplier_x2.
+                                            pm_4_wallace_multiplier_x2
+                                                                 1.00 
+       45 x1.x_pm_4_wallace_multiplier_x3.
+                                            pm_4_wallace_multiplier_x3
+                                                                 1.00 
+       46 x1.x_pm_4_wallace_multiplier_y0.
+                                            pm_4_wallace_multiplier_y0
+                                                                 1.00 
+       47 x1.x_pm_4_wallace_multiplier_y3.
+                                            pm_4_wallace_multiplier_y3
+                                                                 1.00 
+       48 x1.x_pm_4_wallace_multiplier_y2.
+                                            pm_4_wallace_multiplier_y2
+                                                                 1.00 
+       49 x1.x_pm_4_wallace_multiplier_y1.
+                                            pm_4_wallace_multiplier_y1
+                                                                 1.00 
+       50 x1.x_pm_4_wallace_multiplier_net89.
+                                            pm_4_wallace_multiplier_net89
+                                                                 1.00 
+       51 x1.x_pm_4_wallace_multiplier_net57.
+                                            pm_4_wallace_multiplier_net57
+                                                                 1.00 
+       52 x1.x_pm_4_wallace_multiplier_net60.
+                                            pm_4_wallace_multiplier_net60
+                                                                 1.00 
+       53 x1.x_pm_4_wallace_multiplier_net61.
+                                            pm_4_wallace_multiplier_net61
+                                                                 1.00 
+       54 x1.x_pm_4_wallace_multiplier_net58.
+                                            pm_4_wallace_multiplier_net58
+                                                                 1.00 
+       55 x1.x_pm_4_wallace_multiplier_net62.
+                                            pm_4_wallace_multiplier_net62
+                                                                 1.00 
+       56 x1.x_pm_4_wallace_multiplier_net90.
+                                            pm_4_wallace_multiplier_net90
+                                                                 1.00 
+       57 x1.x_pm_4_wallace_multiplier_net53.
+                                            pm_4_wallace_multiplier_net53
+                                                                 1.00 
+       58 x1.x_pm_4_wallace_multiplier_net91.
+                                            pm_4_wallace_multiplier_net91
+                                                                 1.00 
+       59 x1.x_pm_4_wallace_multiplier_net59.
+                                            pm_4_wallace_multiplier_net59
+                                                                 1.00 
+       60 x1.x_pm_4_wallace_multiplier_net52.
+                                            pm_4_wallace_multiplier_net52
+                                                                 1.00 
+       61 x1.x_pm_4_wallace_multiplier_gnd.
+                                            pm_4_wallace_multiplier_gnd
+                                                                 1.00 
+       62 x1.x_pm_4_wallace_multiplier_net69.
+                                            pm_4_wallace_multiplier_net69
+                                                                 1.00 
+       63 x1.x_pm_4_wallace_multiplier_net72.
+                                            pm_4_wallace_multiplier_net72
+                                                                 1.00 
+       64 x1.x_pm_4_wallace_multiplier_net67.
+                                            pm_4_wallace_multiplier_net67
+                                                                 1.00 
+       65 x1.x_pm_4_wallace_multiplier_net73.
+                                            pm_4_wallace_multiplier_net73
+                                                                 1.00 
+       66 x1.x_pm_4_wallace_multiplier_net75.
+                                            pm_4_wallace_multiplier_net75
+                                                                 1.00 
+       67 x1.x_pm_4_wallace_multiplier_net63.
+                                            pm_4_wallace_multiplier_net63
+                                                                 1.00 
+       68 x1.x_pm_4_wallace_multiplier_net64.
+                                            pm_4_wallace_multiplier_net64
+                                                                 1.00 
+       69 x1.x_pm_4_wallace_multiplier_net66.
+                                            pm_4_wallace_multiplier_net66
+                                                                 1.00 
+       70 x1.x_pm_4_wallace_multiplier_net71.
+                                            pm_4_wallace_multiplier_net71
+                                                                 1.00 
+       71 x1.x_pm_4_wallace_multiplier_net70.
+                                            pm_4_wallace_multiplier_net70
+                                                                 1.00 
+       72 x1.x_pm_4_wallace_multiplier_net79.
+                                            pm_4_wallace_multiplier_net79
+                                                                 1.00 
+       73 x1.x_pm_4_wallace_multiplier_net81.
+                                            pm_4_wallace_multiplier_net81
+                                                                 1.00 
+       74 x1.x_pm_4_wallace_multiplier_net78.
+                                            pm_4_wallace_multiplier_net78
+                                                                 1.00 
+       75 x1.x_pm_4_wallace_multiplier_net82.
+                                            pm_4_wallace_multiplier_net82
+                                                                 1.00 
+       76 x1.x_pm_4_wallace_multiplier_net76.
+                                            pm_4_wallace_multiplier_net76
+                                                                 1.00 
+       77 x1.x_pm_4_wallace_multiplier_net83.
+                                            pm_4_wallace_multiplier_net83
+                                                                 1.00 
+       78 x1.x_pm_4_wallace_multiplier_net77.
+                                            pm_4_wallace_multiplier_net77
+                                                                 1.00 
+       79 x1.x_pm_4_wallace_multiplier_p7.
+                                            pm_4_wallace_multiplier_p7
+                                                                 1.00 
+       80 x1.x_pm_4_wallace_multiplier_p0.
+                                            pm_4_wallace_multiplier_p0
+                                                                 1.00 
+       81 x1.x_pm_4_wallace_multiplier_p1.
+                                            pm_4_wallace_multiplier_p1
+                                                                 1.00 
+       82 x1.x_pm_4_wallace_multiplier_p2.
+                                            pm_4_wallace_multiplier_p2
+                                                                 1.00 
+       83 x1.x_pm_4_wallace_multiplier_p4.
+                                            pm_4_wallace_multiplier_p4
+                                                                 1.00 
+       84 x1.x_pm_4_wallace_multiplier_p5.
+                                            pm_4_wallace_multiplier_p5
+                                                                 1.00 
+       85 x1.x_pm_4_wallace_multiplier_p6.
+                                            pm_4_wallace_multiplier_p6
+                                                                 1.00 
+       86 x1.x_pm_4_wallace_multiplier_p3.
+                                            pm_4_wallace_multiplier_p3
+                                                                 1.00 
+       87 x1.x_pm_4_wallace_multiplier_net68.
+                                            pm_4_wallace_multiplier_net68
+                                                                 1.00 
+       88 x1.x_pm_4_wallace_multiplier_net87.
+                                            pm_4_wallace_multiplier_net87
+                                                                 1.00 
+       89 x1.x_pm_4_wallace_multiplier_net86.
+                                            pm_4_wallace_multiplier_net86
+                                                                 1.00 
+       90 x1.x_pm_4_wallace_multiplier_net84.
+                                            pm_4_wallace_multiplier_net84
+                                                                 1.00 
+       91 x1.x_pm_4_wallace_multiplier_vdd.
+                                            pm_4_wallace_multiplier_vdd
+                                                                 1.00 
+1****** HSPICE -- I-2013.12-SP1 64-BIT (Feb 25 2014) RHEL64 ******              
+ ******  
+ case_in_worst1
+
+  ******  mos   model parameters tnom=  25.000 temp=  25.000 *****
+ Model Name: nmos_vtl  
+ BSIM4 Model (Level 54)
+    MOBMOD = 0
+    BINUNIT = 1
+    PARAMCHK = 1
+    CAPMOD = 2
+    DIOMOD = 1
+    RDSMOD = 0
+    TRNQSMOD = 0
+    ACNQSMOD = 0
+    RBODYMOD = 1
+    RGATEMOD = 1
+    PERMOD = 1
+    GEOMOD = 1
+    RGEOMOD = 0
+    FNOIMOD = 1
+    TNOIMOD = 0
+    IGCMOD = 1
+    IGBMOD = 1
+    STIMOD = 0
+    VERSION =      4 
+    TOXREF = 1.14e-09 
+    TOXE = 1.14e-09 
+    TOXP =  1e-09 
+    TOXM = 1.14e-09 
+    DTOX = 1.4e-10 
+    EPSROX =    3.9 
+    CDSC =      0 
+    CDSCB =      0 
+    CDSCD =      0 
+    CIT =      0 
+    NFACTOR =    2.1 
+    XJ = 1.98e-08 
+    VSAT = 1.48e+05 
+    A0 =      1 
+    AGS =      0 
+    A1 =      0 
+    A2 =      1 
+    AT = 3.3e+04 
+    KETA =   0.04 
+    NSUB =  6e+16 
+    NDEP = 3.4e+18 
+    NSD =  2e+20 
+    NGATE =  3e+20 
+    GAMMA1 =      0 
+    GAMMA2 =      0 
+    VBX =      0 
+    VBM =     -3 
+    XT = 1.55e-07 
+    K1 =    0.4 
+    KT1 =  -0.11 
+    KT1L =      0 
+    KT2 =  0.022 
+    K2 =      0 
+    K3 =      0 
+    K3B =      0 
+    LPE0 =      0 
+    LPEB =      0 
+    DVTP0 =  1e-10 
+    DVTP1 =    0.1 
+    W0 = 2.5e-06 
+    DVT0 =      1 
+    DVT1 =      2 
+    DVT2 =      0 
+    DVT0W =      0 
+    DVT1W =      0 
+    DVT2W =      0 
+    DROUT =    0.5 
+    DSUB =    0.1 
+    VTH0 =  0.322 
+    EU =   1.67 
+    UA =  6e-10 
+    UA1 = 4.31e-09 
+    UB = 1.2e-18 
+    UB1 = 7.61e-18 
+    UC =      0 
+    UC1 = -5.6e-11 
+    U0 =  0.045 
+    UTE =   -1.5 
+    VOFF =  -0.13 
+    VOFFL =      0 
+    MINV =   0.05 
+    FPROUT =    0.2 
+    PDITS =   0.08 
+    PDITSD =   0.23 
+    PDITSL = 2.3e+06 
+    DELTA =   0.01 
+    RDSW =    155 
+    RDSWMIN =      0 
+    RDWMIN =      0 
+    RSWMIN =      0 
+    RDW =     80 
+    RSW =     80 
+    PRWG =      0 
+    PRWB =      0 
+    PRT =      0 
+    ETA0 =  0.006 
+    ETAB =      0 
+    PCLM =   0.02 
+    PDIBLC1 =  0.001 
+    PDIBLC2 =  0.001 
+    PDIBLCB = -0.005 
+    PSCBE1 = 8.14e+08 
+    PSCBE2 =  1e-07 
+    PVAG =  1e-20 
+    WR =      1 
+    DWG =      0 
+    DWB =      0 
+    XW =      0 
+    XWREF =      0 
+    XL = -2e-08 
+    XLREF = -2e-08 
+    B0 =      0 
+    B1 =      0 
+    ALPHA0 =  0.074 
+    ALPHA1 =  0.005 
+    AGIDL = 0.0002 
+    BGIDL = 2.1e+09 
+    CGIDL = 0.0002 
+    PHIN =      0 
+    EGIDL =    0.8 
+    AIGC =   0.02 
+    BIGC = 0.0027 
+    CIGC =  0.002 
+    AIGSD =   0.02 
+    BIGSD = 0.0027 
+    CIGSD =  0.002 
+    AIGBACC =  0.012 
+    BIGBACC = 0.0028 
+    CIGBACC =  0.002 
+    AIGBINV =  0.014 
+    BIGBINV =  0.004 
+    CIGBINV =  0.004 
+    NIGC =      1 
+    NIGBINV =      3 
+    NIGBACC =      1 
+    NTOX =      1 
+    EIGBINV =    1.1 
+    PIGCD =      1 
+    POXEDGE =      1 
+    XRCRG1 =     12 
+    TNOIA =    1.5 
+    TNOIB =    3.5 
+    NTNOI =      1 
+    XRCRG2 =      5 
+    BETA0 =     30 
+    IJTHDFWD =   0.01 
+    IJTHSFWD =   0.01 
+    IJTHDREV =  0.001 
+    IJTHSREV =  0.001 
+    XJBVD =      1 
+    XJBVS =      1 
+    BVD =     10 
+    BVS =     10 
+    VFB =  -0.55 
+    GBMIN =  1e-10 
+    RBDB =     15 
+    RBPB =      5 
+    RBSB =     15 
+    RBPS =     15 
+    RBPD =     15 
+    CGSL = 2.653e-10 
+    CGDL = 2.653e-10 
+    CKAPPAS =   0.03 
+    CKAPPAD =   0.03 
+    CF = 1.289e-10 
+    CLC =  1e-07 
+    CLE =    0.6 
+    DWC =  5e-09 
+    DLC = 3.75e-09 
+    DLCIG = 3.75e-09 
+    DWJ =      0 
+    VFBCV =     -1 
+    ACDE =      1 
+    MOIN =     15 
+    NOFF =    0.9 
+    VOFFCV =   0.02 
+    DMCG =      0 
+    DMCI =      0 
+    DMDG =      0 
+    DMCGT =      0 
+    XGW =      0 
+    XGL =      0 
+    RSHG =    0.4 
+    NGCON =      1 
+    TCJ =  0.001 
+    TPB =  0.005 
+    TCJSW =  0.001 
+    TPBSW =  0.005 
+    TCJSWG =  0.001 
+    TPBSWG =  0.005 
+    SK0 =      0 
+    SK1 =      0 
+    SK2 =      0 
+    SL =  2e-06 
+    SW =  2e-06 
+    K =      0 
+    TNOM =  300.1 
+    CGSO = 1.1e-10 
+    CGDO = 1.1e-10 
+    CGBO = 2.56e-11 
+    XPART =      0 
+    RSH =      5 
+    JSS = 0.0001 
+    JSWS =  1e-11 
+    JSWGS =  1e-10 
+    PBS =      1 
+    MJS =    0.5 
+    PBSWS =      1 
+    MJSWS =   0.33 
+    CJS = 0.0005 
+    CJSWS =  5e-10 
+    NJS =      1 
+    PBSWGS =      1 
+    MJSWGS =   0.33 
+    CJSWGS =  3e-10 
+    XTIS =      3 
+    JSD = 0.0001 
+    JSWD =  1e-11 
+    JSWGD =  1e-10 
+    PBD =      1 
+    MJD =    0.5 
+    PBSWD =      1 
+    MJSWD =   0.33 
+    CJD = 0.0005 
+    CJSWD =  5e-10 
+    NJD =      1 
+    PBSWGD =      1 
+    MJSWGD =   0.33 
+    CJSWGD =  5e-10 
+    XTID =      3 
+    LMLT =      1 
+    WMLT =      1 
+    LINT = 3.75e-09 
+    LL =      0 
+    LLC =      0 
+    LLN =      1 
+    LW =      0 
+    LWC =      0 
+    LWN =      1 
+    LWL =      0 
+    LWLC =      0 
+    LMIN =      0 
+    LMAX =      1 
+    WINT =  5e-09 
+    WL =      0 
+    WLC =      0 
+    WLN =      1 
+    WW =      0 
+    WWC =      0 
+    WWN =      1 
+    WWL =      0 
+    WWLC =      0 
+    WMIN =      0 
+    WMAX =      1 
+    NOIA = 6.25e+41 
+    NOIB = 3.125e+26 
+    NOIC = 8.75e+09 
+    EM = 4.1e+07 
+    EF =      1 
+    AF =      1 
+    KF =      0 
+    TRS =      0 
+    TRD =      0 
+ Model Name: pmos_vtl  
+ BSIM4 Model (Level 54)
+    MOBMOD = 0
+    BINUNIT = 1
+    PARAMCHK = 1
+    CAPMOD = 2
+    DIOMOD = 1
+    RDSMOD = 0
+    TRNQSMOD = 0
+    ACNQSMOD = 0
+    RBODYMOD = 1
+    RGATEMOD = 1
+    PERMOD = 1
+    GEOMOD = 1
+    RGEOMOD = 0
+    FNOIMOD = 1
+    TNOIMOD = 0
+    IGCMOD = 1
+    IGBMOD = 1
+    STIMOD = 0
+    VERSION =      4 
+    TOXREF = 1.3e-09 
+    TOXE = 1.26e-09 
+    TOXP =  1e-09 
+    TOXM = 1.26e-09 
+    DTOX = 2.6e-10 
+    EPSROX =    3.9 
+    CDSC =      0 
+    CDSCB =      0 
+    CDSCD =      0 
+    CIT =      0 
+    NFACTOR =   2.22 
+    XJ = 1.98e-08 
+    VSAT = 6.9e+04 
+    A0 =      1 
+    AGS =  1e-20 
+    A1 =      0 
+    A2 =      1 
+    AT = 3.3e+04 
+    KETA = -0.047 
+    NSUB =  6e+16 
+    NDEP = 2.44e+18 
+    NSD =  2e+20 
+    NGATE =  2e+20 
+    GAMMA1 =      0 
+    GAMMA2 =      0 
+    VBX =      0 
+    VBM =     -3 
+    XT = 1.55e-07 
+    K1 =    0.4 
+    KT1 =  -0.11 
+    KT1L =      0 
+    KT2 =  0.022 
+    K2 =  -0.01 
+    K3 =      0 
+    K3B =      0 
+    LPE0 =      0 
+    LPEB =      0 
+    DVTP0 =  1e-11 
+    DVTP1 =   0.05 
+    W0 = 2.5e-06 
+    DVT0 =      1 
+    DVT1 =      2 
+    DVT2 = -0.032 
+    DVT0W =      0 
+    DVT1W =      0 
+    DVT2W =      0 
+    DROUT =   0.56 
+    DSUB =    0.1 
+    VTH0 = -0.3021 
+    EU =      1 
+    UA =  2e-09 
+    UA1 = 4.31e-09 
+    UB =  5e-19 
+    UB1 = 7.61e-18 
+    UC =      0 
+    UC1 = -5.6e-11 
+    U0 =   0.02 
+    UTE =   -1.5 
+    VOFF = -0.126 
+    VOFFL =      0 
+    MINV =   0.05 
+    FPROUT =    0.2 
+    PDITS =   0.08 
+    PDITSD =   0.23 
+    PDITSL = 2.3e+06 
+    DELTA =   0.01 
+    RDSW =    155 
+    RDSWMIN =      0 
+    RDWMIN =      0 
+    RSWMIN =      0 
+    RDW =     75 
+    RSW =     75 
+    PRWG =      0 
+    PRWB =      0 
+    PRT =      0 
+    ETA0 = 0.0055 
+    ETAB =      0 
+    PCLM =   0.12 
+    PDIBLC1 =  0.001 
+    PDIBLC2 =  0.001 
+    PDIBLCB = 3.4e-08 
+    PSCBE1 = 8.14e+08 
+    PSCBE2 = 9.58e-07 
+    PVAG =  1e-20 
+    WR =      1 
+    DWG =      0 
+    DWB =      0 
+    XW =      0 
+    XWREF =      0 
+    XL = -2e-08 
+    XLREF = -2e-08 
+    B0 =      0 
+    B1 =      0 
+    ALPHA0 =  0.074 
+    ALPHA1 =  0.005 
+    AGIDL = 0.0002 
+    BGIDL = 2.1e+09 
+    CGIDL = 0.0002 
+    PHIN =      0 
+    EGIDL =    0.8 
+    AIGC = 0.01069 
+    BIGC = 0.001261 
+    CIGC = 0.0008 
+    AIGSD = 0.01069 
+    BIGSD = 0.001261 
+    CIGSD = 0.0008 
+    AIGBACC =  0.012 
+    BIGBACC = 0.0028 
+    CIGBACC =  0.002 
+    AIGBINV =  0.014 
+    BIGBINV =  0.004 
+    CIGBINV =  0.004 
+    NIGC =      1 
+    NIGBINV =      3 
+    NIGBACC =      1 
+    NTOX =      1 
+    EIGBINV =    1.1 
+    PIGCD =      1 
+    POXEDGE =      1 
+    XRCRG1 =     12 
+    TNOIA =    1.5 
+    TNOIB =    3.5 
+    NTNOI =      1 
+    XRCRG2 =      5 
+    BETA0 =     30 
+    IJTHDFWD =   0.01 
+    IJTHSFWD =   0.01 
+    IJTHDREV =  0.001 
+    IJTHSREV =  0.001 
+    XJBVD =      1 
+    XJBVS =      1 
+    BVD =     10 
+    BVS =     10 
+    VFB =   0.55 
+    GBMIN =  1e-10 
+    RBDB =     15 
+    RBPB =      5 
+    RBSB =     15 
+    RBPS =     15 
+    RBPD =     15 
+    CGSL = 2.653e-10 
+    CGDL = 2.653e-10 
+    CKAPPAS =   0.03 
+    CKAPPAD =   0.03 
+    CF = 1.267e-10 
+    CLC =  1e-07 
+    CLE =    0.6 
+    DWC =  5e-09 
+    DLC = 3.75e-09 
+    DLCIG = 3.75e-09 
+    DWJ =      0 
+    VFBCV =     -1 
+    ACDE =      1 
+    MOIN =     15 
+    NOFF =    0.9 
+    VOFFCV =   0.02 
+    DMCG =      0 
+    DMCI =      0 
+    DMDG =      0 
+    DMCGT =      0 
+    XGW =      0 
+    XGL =      0 
+    RSHG =    0.4 
+    NGCON =      1 
+    TCJ =  0.001 
+    TPB =  0.005 
+    TCJSW =  0.001 
+    TPBSW =  0.005 
+    TCJSWG =  0.001 
+    TPBSWG =  0.005 
+    SK0 =      0 
+    SK1 =      0 
+    SK2 =      0 
+    SL =  2e-06 
+    SW =  2e-06 
+    K =      0 
+    TNOM =  300.1 
+    CGSO = 1.1e-10 
+    CGDO = 1.1e-10 
+    CGBO = 2.56e-11 
+    XPART =      0 
+    RSH =      5 
+    JSS = 0.0001 
+    JSWS =  1e-11 
+    JSWGS =  1e-10 
+    PBS =      1 
+    MJS =    0.5 
+    PBSWS =      1 
+    MJSWS =   0.33 
+    CJS = 0.0005 
+    CJSWS =  5e-10 
+    NJS =      1 
+    PBSWGS =      1 
+    MJSWGS =   0.33 
+    CJSWGS =  3e-10 
+    XTIS =      3 
+    JSD = 0.0001 
+    JSWD =  1e-11 
+    JSWGD =  1e-10 
+    PBD =      1 
+    MJD =    0.5 
+    PBSWD =      1 
+    MJSWD =   0.33 
+    CJD = 0.0005 
+    CJSWD =  5e-10 
+    NJD =      1 
+    PBSWGD =      1 
+    MJSWGD =   0.33 
+    CJSWGD =  5e-10 
+    XTID =      3 
+    LMLT =      1 
+    WMLT =      1 
+    LINT = 3.75e-09 
+    LL =      0 
+    LLC =      0 
+    LLN =      1 
+    LW =      0 
+    LWC =      0 
+    LWN =      1 
+    LWL =      0 
+    LWLC =      0 
+    LMIN =      0 
+    LMAX =      1 
+    WINT =  5e-09 
+    WL =      0 
+    WLC =      0 
+    WLN =      1 
+    WW =      0 
+    WWC =      0 
+    WWN =      1 
+    WWL =      0 
+    WWLC =      0 
+    WMIN =      0 
+    WMAX =      1 
+    NOIA = 6.188e+40 
+    NOIB = 1.5e+25 
+    NOIC = 8.75e+09 
+    EM = 4.1e+07 
+    EF =      1 
+    AF =      1 
+    KF =      0 
+    TRS =      0 
+    TRD =      0 
+  **info** (stimulus.sp:267) DC voltage reset to initial transient source value              in source        0:vin_x0              new dc=  0.0000D+00
+  
+  
+             
+ Warning:'1 connection nodes' occurs 6 times
+ Summary of 1 connection from the following nodes:
+ -----------------------
+ |Node      |Subckt    |
+ |----------+----------|
+ |p0        |0         |
+ |p1        |0         |
+ |p2        |0         |
+ |p3        |0         |
+ |p4        |0         |
+ |p6        |0         |
+ -----------------------
+              
+      
+ **info** set option symb=1 internally to help for convergence.
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2         
+  
+  Opening plot unit= 15
+ file=output/stimulus.pa2
+
+ **info** dc convergence successful at Newton-Raphson method 
+1****** HSPICE -- I-2013.12-SP1 64-BIT (Feb 25 2014) RHEL64 ******              
+ ******  
+ case_in_worst1
+
+  ******  transient analysis tnom=  25.000 temp=  30.000 *****
+ tr_x0_p4= 9.4765e-10  targ= 1.0948e-08   trig= 1.0001e-08
+  **warning** (stimulus.sp:41) .MEASURE  tf_x0_p4 never reached the trigger value, Measurement failed!
+  **warning** (stimulus.sp:41) .MEASURE  tf_x0_p4 never reached the target value, Measurement failed!
+   tf_x0_p4= failed                          trig= not found
+ tpdf_x0_p4= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x0_p4= failed                          trig= not found
+ tr_x0_p5= 4.6658e-10  targ= 1.0467e-08   trig= 1.0001e-08
+   tf_x0_p5= failed                          trig= not found
+ tpdf_x0_p5= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x0_p5= failed                          trig= not found
+ tr_x0_p6= 5.8683e-10  targ= 1.0587e-08   trig= 1.0001e-08
+   tf_x0_p6= failed                          trig= not found
+ tpdf_x0_p6= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x0_p6= failed                          trig= not found
+ tr_x0_p7= failed       targ= not found    trig= 1.0001e-08
+   tf_x0_p7= failed                          trig= not found
+ tpdf_x0_p7= 4.9039e-10  targ= 1.0491e-08   trig= 1.0001e-08
+   tpdr_x0_p7= failed                          trig= not found
+ tr_x1_p4= 9.4765e-10  targ= 1.0948e-08   trig= 1.0001e-08
+   tf_x1_p4= failed                          trig= not found
+ tpdf_x1_p4= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x1_p4= failed                          trig= not found
+ tr_x1_p5= 4.6658e-10  targ= 1.0467e-08   trig= 1.0001e-08
+   tf_x1_p5= failed                          trig= not found
+ tpdf_x1_p5= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x1_p5= failed                          trig= not found
+ tr_x1_p6= 5.8683e-10  targ= 1.0587e-08   trig= 1.0001e-08
+   tf_x1_p6= failed                          trig= not found
+ tpdf_x1_p6= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x1_p6= failed                          trig= not found
+ tr_x1_p7= failed       targ= not found    trig= 1.0001e-08
+   tf_x1_p7= failed                          trig= not found
+ tpdf_x1_p7= 4.9039e-10  targ= 1.0491e-08   trig= 1.0001e-08
+   tpdr_x1_p7= failed                          trig= not found
+   tr_x2_p4= failed                          trig= not found
+   tf_x2_p4= failed                          trig= not found
+   tpdf_x2_p4= failed                          trig= not found
+   tpdr_x2_p4= failed                          trig= not found
+   tr_x2_p5= failed                          trig= not found
+   tf_x2_p5= failed                          trig= not found
+   tpdf_x2_p5= failed                          trig= not found
+   tpdr_x2_p5= failed                          trig= not found
+   tr_x2_p6= failed                          trig= not found
+   tf_x2_p6= failed                          trig= not found
+   tpdf_x2_p6= failed                          trig= not found
+   tpdr_x2_p6= failed                          trig= not found
+   tr_x2_p7= failed                          trig= not found
+   tf_x2_p7= failed                          trig= not found
+   tpdf_x2_p7= failed                          trig= not found
+   tpdr_x2_p7= failed                          trig= not found
+   tr_y0_p4= failed                          trig= not found
+ tf_y0_p4= failed       targ= not found    trig= 1.0001e-08
+   tpdf_y0_p4= failed                          trig= not found
+ tpdr_y0_p4= 9.4765e-10  targ= 1.0948e-08   trig= 1.0001e-08
+   tr_y0_p5= failed                          trig= not found
+ tf_y0_p5= failed       targ= not found    trig= 1.0001e-08
+   tpdf_y0_p5= failed                          trig= not found
+ tpdr_y0_p5= 4.6658e-10  targ= 1.0467e-08   trig= 1.0001e-08
+   tr_y0_p6= failed                          trig= not found
+ tf_y0_p6= failed       targ= not found    trig= 1.0001e-08
+   tpdf_y0_p6= failed                          trig= not found
+ tpdr_y0_p6= 5.8683e-10  targ= 1.0587e-08   trig= 1.0001e-08
+   tr_y0_p7= failed                          trig= not found
+ tf_y0_p7= 4.9039e-10  targ= 1.0491e-08   trig= 1.0001e-08
+   tpdf_y0_p7= failed                          trig= not found
+ tpdr_y0_p7= failed       targ= not found    trig= 1.0001e-08
+   tr_y1_p4= failed                          trig= not found
+ tf_y1_p4= failed       targ= not found    trig= 1.0001e-08
+   tpdf_y1_p4= failed                          trig= not found
+ tpdr_y1_p4= 9.4765e-10  targ= 1.0948e-08   trig= 1.0001e-08
+   tr_y1_p5= failed                          trig= not found
+ tf_y1_p5= failed       targ= not found    trig= 1.0001e-08
+   tpdf_y1_p5= failed                          trig= not found
+ tpdr_y1_p5= 4.6658e-10  targ= 1.0467e-08   trig= 1.0001e-08
+   tr_y1_p6= failed                          trig= not found
+ tf_y1_p6= failed       targ= not found    trig= 1.0001e-08
+   tpdf_y1_p6= failed                          trig= not found
+ tpdr_y1_p6= 5.8683e-10  targ= 1.0587e-08   trig= 1.0001e-08
+   tr_y1_p7= failed                          trig= not found
+ tf_y1_p7= 4.9039e-10  targ= 1.0491e-08   trig= 1.0001e-08
+   tpdf_y1_p7= failed                          trig= not found
+ tpdr_y1_p7= failed       targ= not found    trig= 1.0001e-08
+   tr_y2_p4= failed                          trig= not found
+   tf_y2_p4= failed                          trig= not found
+   tpdf_y2_p4= failed                          trig= not found
+   tpdr_y2_p4= failed                          trig= not found
+   tr_y2_p5= failed                          trig= not found
+   tf_y2_p5= failed                          trig= not found
+   tpdf_y2_p5= failed                          trig= not found
+   tpdr_y2_p5= failed                          trig= not found
+   tr_y2_p6= failed                          trig= not found
+   tf_y2_p6= failed                          trig= not found
+   tpdf_y2_p6= failed                          trig= not found
+   tpdr_y2_p6= failed                          trig= not found
+   tr_y2_p7= failed                          trig= not found
+   tf_y2_p7= failed                          trig= not found
+   tpdf_y2_p7= failed                          trig= not found
+   tpdr_y2_p7= failed                          trig= not found
+
+          ***** job concluded
+1****** HSPICE -- I-2013.12-SP1 64-BIT (Feb 25 2014) RHEL64 ******              
+ ******  
+ case_in_worst1
+
+  ******  job statistics summary tnom=  25.000 temp=  30.000 *****
+  
+  
+ ******  Machine Information  ******
+ CPU:
+ model name	: Intel(R) Xeon(R) CPU E5-2690 v2 @ 3.00GHz
+ cpu MHz	: 3011.081
+  
+ OS:
+ Linux version 2.6.32-696.1.1.el6.x86_64 (mockbuild@c1bm.rdu2.centos.org) (gcc version 4.4.7 20120313 (Red Hat 4.4.7-18) (GCC) ) #1 SMP Tue Apr 11 17:13:24 UTC 2017
+
+
+  ******  HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :    40
+  Actual Threads Count       :     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =    4153 # elements   =   12603
+  # resistors   =    3026 # capacitors =    9304 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       9
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =     264 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.12           1          15
+  transient          0.93         201         235          87 rev=         1
+  readin             0.20
+  errchk             0.11
+  setup              0.28
+  output             0.00
+
+
+           peak memory used        213.14 megabytes
+           total cpu time            1.64 seconds
+           total elapsed time        1.65 seconds
+           job started at     12:57:07 06/27/2020
+           job ended   at     12:57:13 06/27/2020
+
+
+  **warning** (W_Mul.pex.netlist:7) Global net name, "gnd", in subckt pin list. The pin will be connected to the local net. Recommend to not use global net names in subckt pin lists.
+1****** HSPICE -- I-2013.12-SP1 64-BIT (Feb 25 2014) RHEL64 ******              
+ ******  
+ case_in_worst2
+
+  ******  circuit name directory
+ circuit number to circuit name directory
+   number circuitname                     definition         multiplier
+        0 main circuit
+        1 x1.                             w_mul              1.00 
+        2 x1.x_pm_4_wallace_multiplier_xi29.net11.
+                                            pm_4_wallace_multiplier_xi29.net11
+                                                                 1.00 
+        3 x1.x_pm_4_wallace_multiplier_xi29.net21.
+                                            pm_4_wallace_multiplier_xi29.net21
+                                                                 1.00 
+        4 x1.x_pm_4_wallace_multiplier_xi28.net11.
+                                            pm_4_wallace_multiplier_xi28.net11
+                                                                 1.00 
+        5 x1.x_pm_4_wallace_multiplier_xi28.net21.
+                                            pm_4_wallace_multiplier_xi28.net21
+                                                                 1.00 
+        6 x1.x_pm_4_wallace_multiplier_xi37.net11.
+                                            pm_4_wallace_multiplier_xi37.net11
+                                                                 1.00 
+        7 x1.x_pm_4_wallace_multiplier_xi37.net21.
+                                            pm_4_wallace_multiplier_xi37.net21
+                                                                 1.00 
+        8 x1.x_pm_4_wallace_multiplier_xi38.net11.
+                                            pm_4_wallace_multiplier_xi38.net11
+                                                                 1.00 
+        9 x1.x_pm_4_wallace_multiplier_xi38.net21.
+                                            pm_4_wallace_multiplier_xi38.net21
+                                                                 1.00 
+       10 x1.x_pm_4_wallace_multiplier_xi31.net11.
+                                            pm_4_wallace_multiplier_xi31.net11
+                                                                 1.00 
+       11 x1.x_pm_4_wallace_multiplier_xi31.net21.
+                                            pm_4_wallace_multiplier_xi31.net21
+                                                                 1.00 
+       12 x1.x_pm_4_wallace_multiplier_xi35.net11.
+                                            pm_4_wallace_multiplier_xi35.net11
+                                                                 1.00 
+       13 x1.x_pm_4_wallace_multiplier_xi35.net21.
+                                            pm_4_wallace_multiplier_xi35.net21
+                                                                 1.00 
+       14 x1.x_pm_4_wallace_multiplier_xi30.net11.
+                                            pm_4_wallace_multiplier_xi30.net11
+                                                                 1.00 
+       15 x1.x_pm_4_wallace_multiplier_xi30.net21.
+                                            pm_4_wallace_multiplier_xi30.net21
+                                                                 1.00 
+       16 x1.x_pm_4_wallace_multiplier_xi34.net11.
+                                            pm_4_wallace_multiplier_xi34.net11
+                                                                 1.00 
+       17 x1.x_pm_4_wallace_multiplier_xi34.net21.
+                                            pm_4_wallace_multiplier_xi34.net21
+                                                                 1.00 
+       18 x1.x_pm_4_wallace_multiplier_xi33.net11.
+                                            pm_4_wallace_multiplier_xi33.net11
+                                                                 1.00 
+       19 x1.x_pm_4_wallace_multiplier_xi33.net21.
+                                            pm_4_wallace_multiplier_xi33.net21
+                                                                 1.00 
+       20 x1.x_pm_4_wallace_multiplier_xi39.net11.
+                                            pm_4_wallace_multiplier_xi39.net11
+                                                                 1.00 
+       21 x1.x_pm_4_wallace_multiplier_xi39.net21.
+                                            pm_4_wallace_multiplier_xi39.net21
+                                                                 1.00 
+       22 x1.x_pm_4_wallace_multiplier_xi32.net11.
+                                            pm_4_wallace_multiplier_xi32.net11
+                                                                 1.00 
+       23 x1.x_pm_4_wallace_multiplier_xi32.net21.
+                                            pm_4_wallace_multiplier_xi32.net21
+                                                                 1.00 
+       24 x1.x_pm_4_wallace_multiplier_xi40.net11.
+                                            pm_4_wallace_multiplier_xi40.net11
+                                                                 1.00 
+       25 x1.x_pm_4_wallace_multiplier_xi40.net21.
+                                            pm_4_wallace_multiplier_xi40.net21
+                                                                 1.00 
+       26 x1.x_pm_4_wallace_multiplier_xi15.net8.
+                                            pm_4_wallace_multiplier_xi15.net8
+                                                                 1.00 
+       27 x1.x_pm_4_wallace_multiplier_xi13.net8.
+                                            pm_4_wallace_multiplier_xi13.net8
+                                                                 1.00 
+       28 x1.x_pm_4_wallace_multiplier_xi10.net8.
+                                            pm_4_wallace_multiplier_xi10.net8
+                                                                 1.00 
+       29 x1.x_pm_4_wallace_multiplier_xi14.net8.
+                                            pm_4_wallace_multiplier_xi14.net8
+                                                                 1.00 
+       30 x1.x_pm_4_wallace_multiplier_xi7.net8.
+                                            pm_4_wallace_multiplier_xi7.net8
+                                                                 1.00 
+       31 x1.x_pm_4_wallace_multiplier_xi11.net8.
+                                            pm_4_wallace_multiplier_xi11.net8
+                                                                 1.00 
+       32 x1.x_pm_4_wallace_multiplier_xi8.net8.
+                                            pm_4_wallace_multiplier_xi8.net8
+                                                                 1.00 
+       33 x1.x_pm_4_wallace_multiplier_xi12.net8.
+                                            pm_4_wallace_multiplier_xi12.net8
+                                                                 1.00 
+       34 x1.x_pm_4_wallace_multiplier_xi3.net8.
+                                            pm_4_wallace_multiplier_xi3.net8
+                                                                 1.00 
+       35 x1.x_pm_4_wallace_multiplier_xi9.net8.
+                                            pm_4_wallace_multiplier_xi9.net8
+                                                                 1.00 
+       36 x1.x_pm_4_wallace_multiplier_xi5.net8.
+                                            pm_4_wallace_multiplier_xi5.net8
+                                                                 1.00 
+       37 x1.x_pm_4_wallace_multiplier_xi4.net8.
+                                            pm_4_wallace_multiplier_xi4.net8
+                                                                 1.00 
+       38 x1.x_pm_4_wallace_multiplier_xi0.net8.
+                                            pm_4_wallace_multiplier_xi0.net8
+                                                                 1.00 
+       39 x1.x_pm_4_wallace_multiplier_xi6.net8.
+                                            pm_4_wallace_multiplier_xi6.net8
+                                                                 1.00 
+       40 x1.x_pm_4_wallace_multiplier_xi2.net8.
+                                            pm_4_wallace_multiplier_xi2.net8
+                                                                 1.00 
+       41 x1.x_pm_4_wallace_multiplier_xi1.net8.
+                                            pm_4_wallace_multiplier_xi1.net8
+                                                                 1.00 
+       42 x1.x_pm_4_wallace_multiplier_x0.
+                                            pm_4_wallace_multiplier_x0
+                                                                 1.00 
+       43 x1.x_pm_4_wallace_multiplier_x1.
+                                            pm_4_wallace_multiplier_x1
+                                                                 1.00 
+       44 x1.x_pm_4_wallace_multiplier_x2.
+                                            pm_4_wallace_multiplier_x2
+                                                                 1.00 
+       45 x1.x_pm_4_wallace_multiplier_x3.
+                                            pm_4_wallace_multiplier_x3
+                                                                 1.00 
+       46 x1.x_pm_4_wallace_multiplier_y0.
+                                            pm_4_wallace_multiplier_y0
+                                                                 1.00 
+       47 x1.x_pm_4_wallace_multiplier_y3.
+                                            pm_4_wallace_multiplier_y3
+                                                                 1.00 
+       48 x1.x_pm_4_wallace_multiplier_y2.
+                                            pm_4_wallace_multiplier_y2
+                                                                 1.00 
+       49 x1.x_pm_4_wallace_multiplier_y1.
+                                            pm_4_wallace_multiplier_y1
+                                                                 1.00 
+       50 x1.x_pm_4_wallace_multiplier_net89.
+                                            pm_4_wallace_multiplier_net89
+                                                                 1.00 
+       51 x1.x_pm_4_wallace_multiplier_net57.
+                                            pm_4_wallace_multiplier_net57
+                                                                 1.00 
+       52 x1.x_pm_4_wallace_multiplier_net60.
+                                            pm_4_wallace_multiplier_net60
+                                                                 1.00 
+       53 x1.x_pm_4_wallace_multiplier_net61.
+                                            pm_4_wallace_multiplier_net61
+                                                                 1.00 
+       54 x1.x_pm_4_wallace_multiplier_net58.
+                                            pm_4_wallace_multiplier_net58
+                                                                 1.00 
+       55 x1.x_pm_4_wallace_multiplier_net62.
+                                            pm_4_wallace_multiplier_net62
+                                                                 1.00 
+       56 x1.x_pm_4_wallace_multiplier_net90.
+                                            pm_4_wallace_multiplier_net90
+                                                                 1.00 
+       57 x1.x_pm_4_wallace_multiplier_net53.
+                                            pm_4_wallace_multiplier_net53
+                                                                 1.00 
+       58 x1.x_pm_4_wallace_multiplier_net91.
+                                            pm_4_wallace_multiplier_net91
+                                                                 1.00 
+       59 x1.x_pm_4_wallace_multiplier_net59.
+                                            pm_4_wallace_multiplier_net59
+                                                                 1.00 
+       60 x1.x_pm_4_wallace_multiplier_net52.
+                                            pm_4_wallace_multiplier_net52
+                                                                 1.00 
+       61 x1.x_pm_4_wallace_multiplier_gnd.
+                                            pm_4_wallace_multiplier_gnd
+                                                                 1.00 
+       62 x1.x_pm_4_wallace_multiplier_net69.
+                                            pm_4_wallace_multiplier_net69
+                                                                 1.00 
+       63 x1.x_pm_4_wallace_multiplier_net72.
+                                            pm_4_wallace_multiplier_net72
+                                                                 1.00 
+       64 x1.x_pm_4_wallace_multiplier_net67.
+                                            pm_4_wallace_multiplier_net67
+                                                                 1.00 
+       65 x1.x_pm_4_wallace_multiplier_net73.
+                                            pm_4_wallace_multiplier_net73
+                                                                 1.00 
+       66 x1.x_pm_4_wallace_multiplier_net75.
+                                            pm_4_wallace_multiplier_net75
+                                                                 1.00 
+       67 x1.x_pm_4_wallace_multiplier_net63.
+                                            pm_4_wallace_multiplier_net63
+                                                                 1.00 
+       68 x1.x_pm_4_wallace_multiplier_net64.
+                                            pm_4_wallace_multiplier_net64
+                                                                 1.00 
+       69 x1.x_pm_4_wallace_multiplier_net66.
+                                            pm_4_wallace_multiplier_net66
+                                                                 1.00 
+       70 x1.x_pm_4_wallace_multiplier_net71.
+                                            pm_4_wallace_multiplier_net71
+                                                                 1.00 
+       71 x1.x_pm_4_wallace_multiplier_net70.
+                                            pm_4_wallace_multiplier_net70
+                                                                 1.00 
+       72 x1.x_pm_4_wallace_multiplier_net79.
+                                            pm_4_wallace_multiplier_net79
+                                                                 1.00 
+       73 x1.x_pm_4_wallace_multiplier_net81.
+                                            pm_4_wallace_multiplier_net81
+                                                                 1.00 
+       74 x1.x_pm_4_wallace_multiplier_net78.
+                                            pm_4_wallace_multiplier_net78
+                                                                 1.00 
+       75 x1.x_pm_4_wallace_multiplier_net82.
+                                            pm_4_wallace_multiplier_net82
+                                                                 1.00 
+       76 x1.x_pm_4_wallace_multiplier_net76.
+                                            pm_4_wallace_multiplier_net76
+                                                                 1.00 
+       77 x1.x_pm_4_wallace_multiplier_net83.
+                                            pm_4_wallace_multiplier_net83
+                                                                 1.00 
+       78 x1.x_pm_4_wallace_multiplier_net77.
+                                            pm_4_wallace_multiplier_net77
+                                                                 1.00 
+       79 x1.x_pm_4_wallace_multiplier_p7.
+                                            pm_4_wallace_multiplier_p7
+                                                                 1.00 
+       80 x1.x_pm_4_wallace_multiplier_p0.
+                                            pm_4_wallace_multiplier_p0
+                                                                 1.00 
+       81 x1.x_pm_4_wallace_multiplier_p1.
+                                            pm_4_wallace_multiplier_p1
+                                                                 1.00 
+       82 x1.x_pm_4_wallace_multiplier_p2.
+                                            pm_4_wallace_multiplier_p2
+                                                                 1.00 
+       83 x1.x_pm_4_wallace_multiplier_p4.
+                                            pm_4_wallace_multiplier_p4
+                                                                 1.00 
+       84 x1.x_pm_4_wallace_multiplier_p5.
+                                            pm_4_wallace_multiplier_p5
+                                                                 1.00 
+       85 x1.x_pm_4_wallace_multiplier_p6.
+                                            pm_4_wallace_multiplier_p6
+                                                                 1.00 
+       86 x1.x_pm_4_wallace_multiplier_p3.
+                                            pm_4_wallace_multiplier_p3
+                                                                 1.00 
+       87 x1.x_pm_4_wallace_multiplier_net68.
+                                            pm_4_wallace_multiplier_net68
+                                                                 1.00 
+       88 x1.x_pm_4_wallace_multiplier_net87.
+                                            pm_4_wallace_multiplier_net87
+                                                                 1.00 
+       89 x1.x_pm_4_wallace_multiplier_net86.
+                                            pm_4_wallace_multiplier_net86
+                                                                 1.00 
+       90 x1.x_pm_4_wallace_multiplier_net84.
+                                            pm_4_wallace_multiplier_net84
+                                                                 1.00 
+       91 x1.x_pm_4_wallace_multiplier_vdd.
+                                            pm_4_wallace_multiplier_vdd
+                                                                 1.00 
+1****** HSPICE -- I-2013.12-SP1 64-BIT (Feb 25 2014) RHEL64 ******              
+ ******  
+ case_in_worst2
+
+  ******  mos   model parameters tnom=  25.000 temp=  25.000 *****
+ Model Name: nmos_vtl  
+ BSIM4 Model (Level 54)
+    MOBMOD = 0
+    BINUNIT = 1
+    PARAMCHK = 1
+    CAPMOD = 2
+    DIOMOD = 1
+    RDSMOD = 0
+    TRNQSMOD = 0
+    ACNQSMOD = 0
+    RBODYMOD = 1
+    RGATEMOD = 1
+    PERMOD = 1
+    GEOMOD = 1
+    RGEOMOD = 0
+    FNOIMOD = 1
+    TNOIMOD = 0
+    IGCMOD = 1
+    IGBMOD = 1
+    STIMOD = 0
+    VERSION =      4 
+    TOXREF = 1.14e-09 
+    TOXE = 1.14e-09 
+    TOXP =  1e-09 
+    TOXM = 1.14e-09 
+    DTOX = 1.4e-10 
+    EPSROX =    3.9 
+    CDSC =      0 
+    CDSCB =      0 
+    CDSCD =      0 
+    CIT =      0 
+    NFACTOR =    2.1 
+    XJ = 1.98e-08 
+    VSAT = 1.48e+05 
+    A0 =      1 
+    AGS =      0 
+    A1 =      0 
+    A2 =      1 
+    AT = 3.3e+04 
+    KETA =   0.04 
+    NSUB =  6e+16 
+    NDEP = 3.4e+18 
+    NSD =  2e+20 
+    NGATE =  3e+20 
+    GAMMA1 =      0 
+    GAMMA2 =      0 
+    VBX =      0 
+    VBM =     -3 
+    XT = 1.55e-07 
+    K1 =    0.4 
+    KT1 =  -0.11 
+    KT1L =      0 
+    KT2 =  0.022 
+    K2 =      0 
+    K3 =      0 
+    K3B =      0 
+    LPE0 =      0 
+    LPEB =      0 
+    DVTP0 =  1e-10 
+    DVTP1 =    0.1 
+    W0 = 2.5e-06 
+    DVT0 =      1 
+    DVT1 =      2 
+    DVT2 =      0 
+    DVT0W =      0 
+    DVT1W =      0 
+    DVT2W =      0 
+    DROUT =    0.5 
+    DSUB =    0.1 
+    VTH0 =  0.322 
+    EU =   1.67 
+    UA =  6e-10 
+    UA1 = 4.31e-09 
+    UB = 1.2e-18 
+    UB1 = 7.61e-18 
+    UC =      0 
+    UC1 = -5.6e-11 
+    U0 =  0.045 
+    UTE =   -1.5 
+    VOFF =  -0.13 
+    VOFFL =      0 
+    MINV =   0.05 
+    FPROUT =    0.2 
+    PDITS =   0.08 
+    PDITSD =   0.23 
+    PDITSL = 2.3e+06 
+    DELTA =   0.01 
+    RDSW =    155 
+    RDSWMIN =      0 
+    RDWMIN =      0 
+    RSWMIN =      0 
+    RDW =     80 
+    RSW =     80 
+    PRWG =      0 
+    PRWB =      0 
+    PRT =      0 
+    ETA0 =  0.006 
+    ETAB =      0 
+    PCLM =   0.02 
+    PDIBLC1 =  0.001 
+    PDIBLC2 =  0.001 
+    PDIBLCB = -0.005 
+    PSCBE1 = 8.14e+08 
+    PSCBE2 =  1e-07 
+    PVAG =  1e-20 
+    WR =      1 
+    DWG =      0 
+    DWB =      0 
+    XW =      0 
+    XWREF =      0 
+    XL = -2e-08 
+    XLREF = -2e-08 
+    B0 =      0 
+    B1 =      0 
+    ALPHA0 =  0.074 
+    ALPHA1 =  0.005 
+    AGIDL = 0.0002 
+    BGIDL = 2.1e+09 
+    CGIDL = 0.0002 
+    PHIN =      0 
+    EGIDL =    0.8 
+    AIGC =   0.02 
+    BIGC = 0.0027 
+    CIGC =  0.002 
+    AIGSD =   0.02 
+    BIGSD = 0.0027 
+    CIGSD =  0.002 
+    AIGBACC =  0.012 
+    BIGBACC = 0.0028 
+    CIGBACC =  0.002 
+    AIGBINV =  0.014 
+    BIGBINV =  0.004 
+    CIGBINV =  0.004 
+    NIGC =      1 
+    NIGBINV =      3 
+    NIGBACC =      1 
+    NTOX =      1 
+    EIGBINV =    1.1 
+    PIGCD =      1 
+    POXEDGE =      1 
+    XRCRG1 =     12 
+    TNOIA =    1.5 
+    TNOIB =    3.5 
+    NTNOI =      1 
+    XRCRG2 =      5 
+    BETA0 =     30 
+    IJTHDFWD =   0.01 
+    IJTHSFWD =   0.01 
+    IJTHDREV =  0.001 
+    IJTHSREV =  0.001 
+    XJBVD =      1 
+    XJBVS =      1 
+    BVD =     10 
+    BVS =     10 
+    VFB =  -0.55 
+    GBMIN =  1e-10 
+    RBDB =     15 
+    RBPB =      5 
+    RBSB =     15 
+    RBPS =     15 
+    RBPD =     15 
+    CGSL = 2.653e-10 
+    CGDL = 2.653e-10 
+    CKAPPAS =   0.03 
+    CKAPPAD =   0.03 
+    CF = 1.289e-10 
+    CLC =  1e-07 
+    CLE =    0.6 
+    DWC =  5e-09 
+    DLC = 3.75e-09 
+    DLCIG = 3.75e-09 
+    DWJ =      0 
+    VFBCV =     -1 
+    ACDE =      1 
+    MOIN =     15 
+    NOFF =    0.9 
+    VOFFCV =   0.02 
+    DMCG =      0 
+    DMCI =      0 
+    DMDG =      0 
+    DMCGT =      0 
+    XGW =      0 
+    XGL =      0 
+    RSHG =    0.4 
+    NGCON =      1 
+    TCJ =  0.001 
+    TPB =  0.005 
+    TCJSW =  0.001 
+    TPBSW =  0.005 
+    TCJSWG =  0.001 
+    TPBSWG =  0.005 
+    SK0 =      0 
+    SK1 =      0 
+    SK2 =      0 
+    SL =  2e-06 
+    SW =  2e-06 
+    K =      0 
+    TNOM =  300.1 
+    CGSO = 1.1e-10 
+    CGDO = 1.1e-10 
+    CGBO = 2.56e-11 
+    XPART =      0 
+    RSH =      5 
+    JSS = 0.0001 
+    JSWS =  1e-11 
+    JSWGS =  1e-10 
+    PBS =      1 
+    MJS =    0.5 
+    PBSWS =      1 
+    MJSWS =   0.33 
+    CJS = 0.0005 
+    CJSWS =  5e-10 
+    NJS =      1 
+    PBSWGS =      1 
+    MJSWGS =   0.33 
+    CJSWGS =  3e-10 
+    XTIS =      3 
+    JSD = 0.0001 
+    JSWD =  1e-11 
+    JSWGD =  1e-10 
+    PBD =      1 
+    MJD =    0.5 
+    PBSWD =      1 
+    MJSWD =   0.33 
+    CJD = 0.0005 
+    CJSWD =  5e-10 
+    NJD =      1 
+    PBSWGD =      1 
+    MJSWGD =   0.33 
+    CJSWGD =  5e-10 
+    XTID =      3 
+    LMLT =      1 
+    WMLT =      1 
+    LINT = 3.75e-09 
+    LL =      0 
+    LLC =      0 
+    LLN =      1 
+    LW =      0 
+    LWC =      0 
+    LWN =      1 
+    LWL =      0 
+    LWLC =      0 
+    LMIN =      0 
+    LMAX =      1 
+    WINT =  5e-09 
+    WL =      0 
+    WLC =      0 
+    WLN =      1 
+    WW =      0 
+    WWC =      0 
+    WWN =      1 
+    WWL =      0 
+    WWLC =      0 
+    WMIN =      0 
+    WMAX =      1 
+    NOIA = 6.25e+41 
+    NOIB = 3.125e+26 
+    NOIC = 8.75e+09 
+    EM = 4.1e+07 
+    EF =      1 
+    AF =      1 
+    KF =      0 
+    TRS =      0 
+    TRD =      0 
+ Model Name: pmos_vtl  
+ BSIM4 Model (Level 54)
+    MOBMOD = 0
+    BINUNIT = 1
+    PARAMCHK = 1
+    CAPMOD = 2
+    DIOMOD = 1
+    RDSMOD = 0
+    TRNQSMOD = 0
+    ACNQSMOD = 0
+    RBODYMOD = 1
+    RGATEMOD = 1
+    PERMOD = 1
+    GEOMOD = 1
+    RGEOMOD = 0
+    FNOIMOD = 1
+    TNOIMOD = 0
+    IGCMOD = 1
+    IGBMOD = 1
+    STIMOD = 0
+    VERSION =      4 
+    TOXREF = 1.3e-09 
+    TOXE = 1.26e-09 
+    TOXP =  1e-09 
+    TOXM = 1.26e-09 
+    DTOX = 2.6e-10 
+    EPSROX =    3.9 
+    CDSC =      0 
+    CDSCB =      0 
+    CDSCD =      0 
+    CIT =      0 
+    NFACTOR =   2.22 
+    XJ = 1.98e-08 
+    VSAT = 6.9e+04 
+    A0 =      1 
+    AGS =  1e-20 
+    A1 =      0 
+    A2 =      1 
+    AT = 3.3e+04 
+    KETA = -0.047 
+    NSUB =  6e+16 
+    NDEP = 2.44e+18 
+    NSD =  2e+20 
+    NGATE =  2e+20 
+    GAMMA1 =      0 
+    GAMMA2 =      0 
+    VBX =      0 
+    VBM =     -3 
+    XT = 1.55e-07 
+    K1 =    0.4 
+    KT1 =  -0.11 
+    KT1L =      0 
+    KT2 =  0.022 
+    K2 =  -0.01 
+    K3 =      0 
+    K3B =      0 
+    LPE0 =      0 
+    LPEB =      0 
+    DVTP0 =  1e-11 
+    DVTP1 =   0.05 
+    W0 = 2.5e-06 
+    DVT0 =      1 
+    DVT1 =      2 
+    DVT2 = -0.032 
+    DVT0W =      0 
+    DVT1W =      0 
+    DVT2W =      0 
+    DROUT =   0.56 
+    DSUB =    0.1 
+    VTH0 = -0.3021 
+    EU =      1 
+    UA =  2e-09 
+    UA1 = 4.31e-09 
+    UB =  5e-19 
+    UB1 = 7.61e-18 
+    UC =      0 
+    UC1 = -5.6e-11 
+    U0 =   0.02 
+    UTE =   -1.5 
+    VOFF = -0.126 
+    VOFFL =      0 
+    MINV =   0.05 
+    FPROUT =    0.2 
+    PDITS =   0.08 
+    PDITSD =   0.23 
+    PDITSL = 2.3e+06 
+    DELTA =   0.01 
+    RDSW =    155 
+    RDSWMIN =      0 
+    RDWMIN =      0 
+    RSWMIN =      0 
+    RDW =     75 
+    RSW =     75 
+    PRWG =      0 
+    PRWB =      0 
+    PRT =      0 
+    ETA0 = 0.0055 
+    ETAB =      0 
+    PCLM =   0.12 
+    PDIBLC1 =  0.001 
+    PDIBLC2 =  0.001 
+    PDIBLCB = 3.4e-08 
+    PSCBE1 = 8.14e+08 
+    PSCBE2 = 9.58e-07 
+    PVAG =  1e-20 
+    WR =      1 
+    DWG =      0 
+    DWB =      0 
+    XW =      0 
+    XWREF =      0 
+    XL = -2e-08 
+    XLREF = -2e-08 
+    B0 =      0 
+    B1 =      0 
+    ALPHA0 =  0.074 
+    ALPHA1 =  0.005 
+    AGIDL = 0.0002 
+    BGIDL = 2.1e+09 
+    CGIDL = 0.0002 
+    PHIN =      0 
+    EGIDL =    0.8 
+    AIGC = 0.01069 
+    BIGC = 0.001261 
+    CIGC = 0.0008 
+    AIGSD = 0.01069 
+    BIGSD = 0.001261 
+    CIGSD = 0.0008 
+    AIGBACC =  0.012 
+    BIGBACC = 0.0028 
+    CIGBACC =  0.002 
+    AIGBINV =  0.014 
+    BIGBINV =  0.004 
+    CIGBINV =  0.004 
+    NIGC =      1 
+    NIGBINV =      3 
+    NIGBACC =      1 
+    NTOX =      1 
+    EIGBINV =    1.1 
+    PIGCD =      1 
+    POXEDGE =      1 
+    XRCRG1 =     12 
+    TNOIA =    1.5 
+    TNOIB =    3.5 
+    NTNOI =      1 
+    XRCRG2 =      5 
+    BETA0 =     30 
+    IJTHDFWD =   0.01 
+    IJTHSFWD =   0.01 
+    IJTHDREV =  0.001 
+    IJTHSREV =  0.001 
+    XJBVD =      1 
+    XJBVS =      1 
+    BVD =     10 
+    BVS =     10 
+    VFB =   0.55 
+    GBMIN =  1e-10 
+    RBDB =     15 
+    RBPB =      5 
+    RBSB =     15 
+    RBPS =     15 
+    RBPD =     15 
+    CGSL = 2.653e-10 
+    CGDL = 2.653e-10 
+    CKAPPAS =   0.03 
+    CKAPPAD =   0.03 
+    CF = 1.267e-10 
+    CLC =  1e-07 
+    CLE =    0.6 
+    DWC =  5e-09 
+    DLC = 3.75e-09 
+    DLCIG = 3.75e-09 
+    DWJ =      0 
+    VFBCV =     -1 
+    ACDE =      1 
+    MOIN =     15 
+    NOFF =    0.9 
+    VOFFCV =   0.02 
+    DMCG =      0 
+    DMCI =      0 
+    DMDG =      0 
+    DMCGT =      0 
+    XGW =      0 
+    XGL =      0 
+    RSHG =    0.4 
+    NGCON =      1 
+    TCJ =  0.001 
+    TPB =  0.005 
+    TCJSW =  0.001 
+    TPBSW =  0.005 
+    TCJSWG =  0.001 
+    TPBSWG =  0.005 
+    SK0 =      0 
+    SK1 =      0 
+    SK2 =      0 
+    SL =  2e-06 
+    SW =  2e-06 
+    K =      0 
+    TNOM =  300.1 
+    CGSO = 1.1e-10 
+    CGDO = 1.1e-10 
+    CGBO = 2.56e-11 
+    XPART =      0 
+    RSH =      5 
+    JSS = 0.0001 
+    JSWS =  1e-11 
+    JSWGS =  1e-10 
+    PBS =      1 
+    MJS =    0.5 
+    PBSWS =      1 
+    MJSWS =   0.33 
+    CJS = 0.0005 
+    CJSWS =  5e-10 
+    NJS =      1 
+    PBSWGS =      1 
+    MJSWGS =   0.33 
+    CJSWGS =  3e-10 
+    XTIS =      3 
+    JSD = 0.0001 
+    JSWD =  1e-11 
+    JSWGD =  1e-10 
+    PBD =      1 
+    MJD =    0.5 
+    PBSWD =      1 
+    MJSWD =   0.33 
+    CJD = 0.0005 
+    CJSWD =  5e-10 
+    NJD =      1 
+    PBSWGD =      1 
+    MJSWGD =   0.33 
+    CJSWGD =  5e-10 
+    XTID =      3 
+    LMLT =      1 
+    WMLT =      1 
+    LINT = 3.75e-09 
+    LL =      0 
+    LLC =      0 
+    LLN =      1 
+    LW =      0 
+    LWC =      0 
+    LWN =      1 
+    LWL =      0 
+    LWLC =      0 
+    LMIN =      0 
+    LMAX =      1 
+    WINT =  5e-09 
+    WL =      0 
+    WLC =      0 
+    WLN =      1 
+    WW =      0 
+    WWC =      0 
+    WWN =      1 
+    WWL =      0 
+    WWLC =      0 
+    WMIN =      0 
+    WMAX =      1 
+    NOIA = 6.188e+40 
+    NOIB = 1.5e+25 
+    NOIC = 8.75e+09 
+    EM = 4.1e+07 
+    EF =      1 
+    AF =      1 
+    KF =      0 
+    TRS =      0 
+    TRD =      0 
+  **info** (stimulus.sp:277) DC voltage reset to initial transient source value              in source        0:vin_x0              new dc=  0.0000D+00
+  
+  
+             
+ Warning:'1 connection nodes' occurs 6 times
+ Summary of 1 connection from the following nodes:
+ -----------------------
+ |Node      |Subckt    |
+ |----------+----------|
+ |p0        |0         |
+ |p1        |0         |
+ |p2        |0         |
+ |p3        |0         |
+ |p4        |0         |
+ |p6        |0         |
+ -----------------------
+              
+      
+ **info** set option symb=1 internally to help for convergence.
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2         
+  
+  Opening plot unit= 15
+ file=output/stimulus.pa3
+
+ **info** dc convergence successful at Newton-Raphson method 
+1****** HSPICE -- I-2013.12-SP1 64-BIT (Feb 25 2014) RHEL64 ******              
+ ******  
+ case_in_worst2
+
+  ******  transient analysis tnom=  25.000 temp=  30.000 *****
+ tr_x0_p4= 8.3883e-10  targ= 1.0839e-08   trig= 1.0001e-08
+  **warning** (stimulus.sp:41) .MEASURE  tf_x0_p4 never reached the trigger value, Measurement failed!
+  **warning** (stimulus.sp:41) .MEASURE  tf_x0_p4 never reached the target value, Measurement failed!
+   tf_x0_p4= failed                          trig= not found
+ tpdf_x0_p4= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x0_p4= failed                          trig= not found
+ tr_x0_p5= 4.3089e-10  targ= 1.0431e-08   trig= 1.0001e-08
+   tf_x0_p5= failed                          trig= not found
+ tpdf_x0_p5= 5.1593e-10  targ= 1.0516e-08   trig= 1.0001e-08
+   tpdr_x0_p5= failed                          trig= not found
+ tr_x0_p6= 1.2395e-10  targ= 1.0124e-08   trig= 1.0001e-08
+   tf_x0_p6= failed                          trig= not found
+ tpdf_x0_p6= 4.5089e-10  targ= 1.0451e-08   trig= 1.0001e-08
+   tpdr_x0_p6= failed                          trig= not found
+ tr_x0_p7= failed       targ= not found    trig= 1.0001e-08
+   tf_x0_p7= failed                          trig= not found
+ tpdf_x0_p7= 1.5902e-10  targ= 1.0160e-08   trig= 1.0001e-08
+   tpdr_x0_p7= failed                          trig= not found
+ tr_x1_p4= 8.3883e-10  targ= 1.0839e-08   trig= 1.0001e-08
+   tf_x1_p4= failed                          trig= not found
+ tpdf_x1_p4= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x1_p4= failed                          trig= not found
+ tr_x1_p5= 4.3089e-10  targ= 1.0431e-08   trig= 1.0001e-08
+   tf_x1_p5= failed                          trig= not found
+ tpdf_x1_p5= 5.1593e-10  targ= 1.0516e-08   trig= 1.0001e-08
+   tpdr_x1_p5= failed                          trig= not found
+ tr_x1_p6= 1.2395e-10  targ= 1.0124e-08   trig= 1.0001e-08
+   tf_x1_p6= failed                          trig= not found
+ tpdf_x1_p6= 4.5089e-10  targ= 1.0451e-08   trig= 1.0001e-08
+   tpdr_x1_p6= failed                          trig= not found
+ tr_x1_p7= failed       targ= not found    trig= 1.0001e-08
+   tf_x1_p7= failed                          trig= not found
+ tpdf_x1_p7= 1.5902e-10  targ= 1.0160e-08   trig= 1.0001e-08
+   tpdr_x1_p7= failed                          trig= not found
+   tr_x2_p4= failed                          trig= not found
+   tf_x2_p4= failed                          trig= not found
+   tpdf_x2_p4= failed                          trig= not found
+   tpdr_x2_p4= failed                          trig= not found
+   tr_x2_p5= failed                          trig= not found
+   tf_x2_p5= failed                          trig= not found
+   tpdf_x2_p5= failed                          trig= not found
+   tpdr_x2_p5= failed                          trig= not found
+   tr_x2_p6= failed                          trig= not found
+   tf_x2_p6= failed                          trig= not found
+   tpdf_x2_p6= failed                          trig= not found
+   tpdr_x2_p6= failed                          trig= not found
+   tr_x2_p7= failed                          trig= not found
+   tf_x2_p7= failed                          trig= not found
+   tpdf_x2_p7= failed                          trig= not found
+   tpdr_x2_p7= failed                          trig= not found
+   tr_y0_p4= failed                          trig= not found
+ tf_y0_p4= failed       targ= not found    trig= 1.0001e-08
+   tpdf_y0_p4= failed                          trig= not found
+ tpdr_y0_p4= 8.3883e-10  targ= 1.0839e-08   trig= 1.0001e-08
+   tr_y0_p5= failed                          trig= not found
+ tf_y0_p5= 5.1593e-10  targ= 1.0516e-08   trig= 1.0001e-08
+   tpdf_y0_p5= failed                          trig= not found
+ tpdr_y0_p5= 4.3089e-10  targ= 1.0431e-08   trig= 1.0001e-08
+   tr_y0_p6= failed                          trig= not found
+ tf_y0_p6= 4.5089e-10  targ= 1.0451e-08   trig= 1.0001e-08
+   tpdf_y0_p6= failed                          trig= not found
+ tpdr_y0_p6= 1.2395e-10  targ= 1.0124e-08   trig= 1.0001e-08
+   tr_y0_p7= failed                          trig= not found
+ tf_y0_p7= 1.5902e-10  targ= 1.0160e-08   trig= 1.0001e-08
+   tpdf_y0_p7= failed                          trig= not found
+ tpdr_y0_p7= failed       targ= not found    trig= 1.0001e-08
+   tr_y1_p4= failed                          trig= not found
+ tf_y1_p4= failed       targ= not found    trig= 1.0001e-08
+   tpdf_y1_p4= failed                          trig= not found
+ tpdr_y1_p4= 8.3883e-10  targ= 1.0839e-08   trig= 1.0001e-08
+   tr_y1_p5= failed                          trig= not found
+ tf_y1_p5= 5.1593e-10  targ= 1.0516e-08   trig= 1.0001e-08
+   tpdf_y1_p5= failed                          trig= not found
+ tpdr_y1_p5= 4.3089e-10  targ= 1.0431e-08   trig= 1.0001e-08
+   tr_y1_p6= failed                          trig= not found
+ tf_y1_p6= 4.5089e-10  targ= 1.0451e-08   trig= 1.0001e-08
+   tpdf_y1_p6= failed                          trig= not found
+ tpdr_y1_p6= 1.2395e-10  targ= 1.0124e-08   trig= 1.0001e-08
+   tr_y1_p7= failed                          trig= not found
+ tf_y1_p7= 1.5902e-10  targ= 1.0160e-08   trig= 1.0001e-08
+   tpdf_y1_p7= failed                          trig= not found
+ tpdr_y1_p7= failed       targ= not found    trig= 1.0001e-08
+ tr_y2_p4= 8.3883e-10  targ= 1.0839e-08   trig= 1.0001e-08
+   tf_y2_p4= failed                          trig= not found
+ tpdf_y2_p4= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y2_p4= failed                          trig= not found
+ tr_y2_p5= 4.3089e-10  targ= 1.0431e-08   trig= 1.0001e-08
+   tf_y2_p5= failed                          trig= not found
+ tpdf_y2_p5= 5.1593e-10  targ= 1.0516e-08   trig= 1.0001e-08
+   tpdr_y2_p5= failed                          trig= not found
+ tr_y2_p6= 1.2395e-10  targ= 1.0124e-08   trig= 1.0001e-08
+   tf_y2_p6= failed                          trig= not found
+ tpdf_y2_p6= 4.5089e-10  targ= 1.0451e-08   trig= 1.0001e-08
+   tpdr_y2_p6= failed                          trig= not found
+ tr_y2_p7= failed       targ= not found    trig= 1.0001e-08
+   tf_y2_p7= failed                          trig= not found
+ tpdf_y2_p7= 1.5902e-10  targ= 1.0160e-08   trig= 1.0001e-08
+   tpdr_y2_p7= failed                          trig= not found
+
+          ***** job concluded
+1****** HSPICE -- I-2013.12-SP1 64-BIT (Feb 25 2014) RHEL64 ******              
+ ******  
+ case_in_worst2
+
+  ******  job statistics summary tnom=  25.000 temp=  30.000 *****
+  
+  
+ ******  Machine Information  ******
+ CPU:
+ model name	: Intel(R) Xeon(R) CPU E5-2690 v2 @ 3.00GHz
+ cpu MHz	: 3011.081
+  
+ OS:
+ Linux version 2.6.32-696.1.1.el6.x86_64 (mockbuild@c1bm.rdu2.centos.org) (gcc version 4.4.7 20120313 (Red Hat 4.4.7-18) (GCC) ) #1 SMP Tue Apr 11 17:13:24 UTC 2017
+
+
+  ******  HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :    40
+  Actual Threads Count       :     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =    4153 # elements   =   12603
+  # resistors   =    3026 # capacitors =    9304 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       9
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =     264 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.12           1          15
+  transient          0.99         201         251          90 rev=         1
+  readin             0.19
+  errchk             0.11
+  setup              0.28
+  output             0.00
+
+
+           peak memory used        213.14 megabytes
+           total cpu time            1.70 seconds
+           total elapsed time        1.70 seconds
+           job started at     12:57:07 06/27/2020
+           job ended   at     12:57:15 06/27/2020
+
+
+ lic: Release hspice token(s) 
+ lic: total license checkout elapse time:        0.97(s)

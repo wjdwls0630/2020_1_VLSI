@@ -1,0 +1,5 @@
+# Automagically generated file: Please do not edit!
+pex_PexParam RUNDIR /home/graduation_project3/2015104069/VLSI/Hspice/Final/W_Mul_Load/PLS
+pex_PexParam PEXDIR svdb/pex.db
+pex_PexParam SVDBDIR svdb
+pex_PexParam LAYOUT_PRIMARY load_inverter

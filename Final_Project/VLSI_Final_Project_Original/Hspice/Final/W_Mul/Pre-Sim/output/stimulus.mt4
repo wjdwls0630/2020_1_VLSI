@@ -1,0 +1,28 @@
+$DATA1 SOURCE='HSPICE' VERSION='I-2013.12-SP1 64-BIT'
+.TITLE 'case_in_worst2'
+ tr_x0_p6         tf_x0_p6         tpdf_x0_p6       tpdr_x0_p6        
+ tr_x0_p7         tf_x0_p7         tpdf_x0_p7       tpdr_x0_p7        
+ tr_x1_p6         tf_x1_p6         tpdf_x1_p6       tpdr_x1_p6        
+ tr_x1_p7         tf_x1_p7         tpdf_x1_p7       tpdr_x1_p7        
+ tr_x2_p6         tf_x2_p6         tpdf_x2_p6       tpdr_x2_p6        
+ tr_x2_p7         tf_x2_p7         tpdf_x2_p7       tpdr_x2_p7        
+ tr_y0_p6         tf_y0_p6         tpdf_y0_p6       tpdr_y0_p6        
+ tr_y0_p7         tf_y0_p7         tpdf_y0_p7       tpdr_y0_p7        
+ tr_y1_p6         tf_y1_p6         tpdf_y1_p6       tpdr_y1_p6        
+ tr_y1_p7         tf_y1_p7         tpdf_y1_p7       tpdr_y1_p7        
+ tr_y2_p6         tf_y2_p6         tpdf_y2_p6       tpdr_y2_p6        
+ tr_y2_p7         tf_y2_p7         tpdf_y2_p7       tpdr_y2_p7        
+ temper           alter#            
+  4.676e-11          failed         1.940e-10          failed         
+    failed           failed         5.480e-11          failed         
+  4.676e-11          failed         1.940e-10          failed         
+    failed           failed         5.480e-11          failed         
+    failed           failed           failed           failed         
+    failed           failed           failed           failed         
+    failed         1.940e-10          failed         4.676e-11        
+    failed         5.480e-11          failed           failed         
+    failed         1.940e-10          failed         4.676e-11        
+    failed         5.480e-11          failed           failed         
+  4.676e-11          failed         1.940e-10          failed         
+    failed           failed         5.480e-11          failed         
+  2.500e+01       4                 

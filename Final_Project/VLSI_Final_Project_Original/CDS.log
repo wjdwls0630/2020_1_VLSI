@@ -1,0 +1,899 @@
+\# Program start time UTC 2020.04.23 13:48:54.551
+\# Local time Thursday 23 April 2020, 10:48 pm
+\o Program:		@(#)$CDS: virtuoso version 6.1.6-64b 12/07/2015 20:18 (sjfbm186) $
+\o Hierarchy:		/Tools/Cadence/IC616/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.6-64b.500.14  (64-bit addresses)
+\# Command line:	/Tools/Cadence/IC616/tools.lnx86/dfII/bin/64bit/virtuoso
+\# Host name (type):	vlsi-dist.khu.ac.kr (x86_64)
+\# Operating system:	Linux 2.6.32-696.1.1.el6.x86_64 #1 SMP Tue Apr 11 17:13:24 UTC 2017
+\# Linux /etc/issue:	CentOS release 6.9 (Final)
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	localhost:12.0 (1920x1080)
+\# Available geometry:			TL(67:27) BR(1919:1079)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12005000)
+\# X resource pool:	base 0x1c00000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        335 MB
+\# Available memory:	     78,563 MB
+\# System memory:	     84,372 MB
+\# Maximum memory size:	     84,107 MB
+\# Max mem available:	     78,633 MB
+\# Initial memory used:	         70 MB
+\#        process size:	        747 MB
+\# Qt version:		4.7.2
+\# Window Manager:	other
+\# User Name:		2015104027
+\o Working Directory:	vlsi-dist.khu.ac.kr:/home/VLSI_undergraduated_2020/2015104027
+\# Process Id:		27088
+\o 
+\o COPYRIGHT © 1992-2015  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           © 1992-2015  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading LVS.cxt 
+\o Loading layerProc.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.09s.
+\o //
+\o //  Calibre Skill Interface * (v2015.4_16.11) *
+\o //
+\o //                 Copyright Mentor Graphics Corporation 2005
+\o //                             All Rights Reserved.
+\o //         THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //            WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //              OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //
+\o loading vars from /Tools/Library/FreePDK45/ncsu_basekit/cdssetup/cdsenv for tool layout
+\o ---------------------------------------------------------------------------
+\o Welcome to the FreePDK 45nm Free, Open-Source Process Design Kit
+\o 
+\o This initiative is brought to you by the Semiconductor Research
+\o Corporation (SRC), the National Science Foundation (NSF), Silicon
+\o Integration Initiative (Si2), Mentor Graphics, and Synopsys.
+\o 
+\o This version of the kit was created by Rhett Davis, Paul Franzon,
+\o Michael Bucher, Sunil Basavarajaiah, and Harun Demircioglu
+\o of North Carolina State University, and James Stine and Ivan Castellanos
+\o of Oklahoma State University.
+\o 
+\o Contributions and modifications to this kit are welcomed and encouraged.
+\o 
+\o Copyright 2007 - W. Rhett Davis, Paul Franzon, Michael Bucher,
+\o                  and Sunil Basavarajaiah, North Carolina State University
+\o Copyright 2008 - W. Rhett Davis, Michael Bucher, and Sunil Basavarajaiah,
+\o                  North Carolina State University (ncsu_basekit subtree)
+\o                  James Stine, and Ivan Castellanos,
+\o                  and Oklahoma State University (osu_soc subtree)
+\o Copyright 2011 - W. Rhett Davis, and Harun Demircioglu,
+\o                  North Carolina State University
+\o 
+\o Licensed under the Apache License, Version 2.0 (the "License");
+\o you may not use this file except in compliance with the License.
+\o You may obtain a copy of the License at
+\o 
+\o     http://www.apache.org/licenses/LICENSE-2.0
+\o 
+\o Unless required by applicable law or agreed to in writing, software
+\o distributed under the License is distributed on an "AS IS" BASIS,
+\o WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+\o See the License for the specific language governing permissions and
+\o limitations under the License.
+\o ---------------------------------------------------------------------------
+\o 
+\o Done loading FreePDK customizations.
+\i ddsWhatsNew()
+\p > 
+\a hiCloseWindow(window(2))
+\r t
+\i ddsServOpen("Library_Jin" "ring_oscillator" "schematic" "edit" nil)
+\o Loading schematic.cxt 
+\o Loading vb.cxt 
+\o Loading nt.cxt 
+\o Loading oi.cxt 
+\o Loading see.cxt 
+\o Loading treeAssistant.cxt 
+\o Loading asst.cxt 
+\o Loading mtv.cxt 
+\o Loading le.cxt 
+\w *WARNING* (GE-2181): The font (name,size): (courier,12) does not exist. Please verify its validity with 'xlsfonts' or with 'xfontsel'.
+\w *WARNING* (GE-2181): The font (name,size): (courier,12) does not exist. Please verify its validity with 'xlsfonts' or with 'xfontsel'.
+\o Loading leToolbox.cxt 
+\o Loading hsm.cxt 
+\o Loading simui.cxt 
+\o Loading lx.cxt 
+\o Loading lce.cxt 
+\a when(dwindow('oiAssistant1) hiMapWindow(dwindow('oiAssistant1)))
+\r t
+\a when(dwindow('treeAssistant1) hiMapWindow(dwindow('treeAssistant1)))
+\r t
+\# Available memory:         78,440 MB at UTC 2020.04.23 13:49:05.334
+\# Memory report: Maximum memory size now 78,616 MB at UTC 2020.04.23 13:49:05.335
+\# Memory report: using         177 MB, process size 888 MB at UTC 2020.04.23 13:49:05.335
+\a schSingleSelectPt()
+\i 4.4375:2.375
+\r t
+\a schHiDelete()
+\r t
+\a schSingleSelectPt()
+\i 5.125:2.375
+\r nil
+\a schSingleSelectPt()
+\i 0.3125:0.0625
+\r t
+\a schSingleSelectPt()
+\i -0.0625:-1.9375
+\r nil
+\a schSingleSelectPt()
+\i 1:-5.0625
+\r nil
+\a hiCloseWindow(swindow(1))
+\p > 
+\a hiDBoxOK(geDBox)
+\r t
+\o Loading cph.cxt 
+\r t
+\a (sevStartSession)
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading viva.cxt 
+\o Loading oasis.cxt 
+\o Loading socket.cxt 
+\o Loading analog.cxt 
+\o Loading par.cxt 
+\o Loading asimenv.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading adexl.cxt 
+\o Loading te.cxt 
+\o Loading schHDL.cxt 
+\o Loading spectrei.cxt 
+\o Loading cdf.cxt 
+\r sevSession1
+\a sevOpenCalculator()
+\r t
+\a vvDisplayBrowser()
+\r dwindow:12
+\a hiSetCurrentWindow(window(6))
+\r t
+\a rdbShowDialog("sevSession1" "browser" "findResults" "show" '(("pathList" "/home/VLSI_undergraduated_2020/2015104027/Hspice/and2/Pre-Sim") ))
+\r t
+\# Memory report: using         372 MB, process size 1,187 MB at UTC 2020.04.23 13:51:55.356
+\a rdbLoadResults("sevSession1" "./Hspice/ring_oscillator/Pre-Sim")
+\r t
+\a _vivaSetDataContext("./Hspice/ring_oscillator/Pre-Sim")
+\r t
+\a rdbSetCurrentDirectory("sevSession1" "./Hspice/ring_oscillator/Pre-Sim")
+\r t
+\a rdbShowDialog("sevSession1" "browser" "findResults" "hide" )
+\r t
+\a vvDisplayBrowser()
+\r dwindow:12
+\a rdbSetCurrentDirectory("sevSession1" "./Hspice/ring_oscillator/Pre-Sim/timeSweep")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "deleteObjects")
+\r t
+\a hiCloseWindow(swindow(3))
+\r t
+\a _hiSetCurrentWinNum(5)
+\r t
+\i ddsServOpen("Library_Jin" "ring_oscillator" "schematic" "edit" nil)
+\a when(dwindow('oiAssistant2) hiMapWindow(dwindow('oiAssistant2)))
+\r t
+\a when(dwindow('treeAssistant2) hiMapWindow(dwindow('treeAssistant2)))
+\r t
+\a hiZoomOutAtMouse()
+\i 1.25:0.6875
+\r t
+\a hiZoomOutAtMouse()
+\i 2.25:0.5
+\r t
+\a hiZoomOutAtMouse()
+\i 3.375:0.25
+\r t
+\a hiZoomOutAtMouse()
+\i 4.125:0.3125
+\r t
+\a hiZoomInAtMouse()
+\i 49.8125:18.1875
+\r t
+\a hiZoomInAtMouse()
+\i 49.3125:17.125
+\r t
+\a hiZoomInAtMouse()
+\i 48.875:16.75
+\r t
+\a hiZoomInAtMouse()
+\i 48.75:16.4375
+\r t
+\a hiZoomInAtMouse()
+\i 48.0625:16.0625
+\r t
+\a hiZoomInAtMouse()
+\i 48:16.0625
+\r t
+\a hiZoomInAtMouse()
+\i 48:16.0625
+\r t
+\a hiZoomInAtMouse()
+\i 48:16.0625
+\r t
+\a schZoomFit(1.0 0.9)
+\r t
+\a schZoomFit(1.0 0.9)
+\r t
+\a schSingleSelectPt()
+\i 5.375:0.0625
+\r t
+\a schSingleSelectPt()
+\i 4.875:0.0625
+\r t
+\a schHiDelete()
+\r t
+\a schSingleSelectPt()
+\i 4.9375:0
+\r nil
+\a schSingleSelectPt()
+\i 4.5:0.0625
+\r t
+\a schSingleSelectPt()
+\i 5.0625:0.375
+\r nil
+\a schSingleSelectPt()
+\i 4.5625:0.5625
+\r t
+\a schSingleSelectPt()
+\i 4.5625:0.0625
+\r t
+\a schSingleSelectPt()
+\i 4.9375:0.0625
+\r nil
+\a schSingleSelectPt()
+\i 4.5625:0.0625
+\r t
+\a schSingleSelectPt()
+\i 4.5625:0.4375
+\r t
+\a schHiMousePopUp()
+\r t
+\a hiPopupDown(schWirePopUp)
+\r t
+\a schHiCreateWireLabel()
+\p > 
+\a hiiSetCurrentForm('schCreateWireLabelForm)
+\r t
+\a schCreateWireLabelForm->tabField->page1->label->value="Output"
+\r "Output"
+\a hiiToggleEnterForm(schCreateWireLabelForm)
+\r t
+\a mouseAddPt(t)
+\i 4.54375:0.475
+\r t
+\a _schHiSaveAs()
+\p > 
+\a hiiSetCurrentForm('_schHiSaveAsForm)
+\r t
+\a hiFormCancel(_schHiSaveAsForm) 
+\r t
+\r t
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "ring_oscillator schematic"
+\o Warning: Pin "Output" on instance "I2": shorted output.
+\o Warning: Pin "Output": shorted output.
+\o INFO (SCH-1172): There were 0 errors and 2 warnings found in "Library_Jin ring_oscillator schematic".
+\p > 
+\a hiDBoxOK(_schCheckDBox)
+\r t
+\o INFO (SCH-1181): "Library_Jin ring_oscillator schematic" saved.
+\r t
+\a hiSetCurrentWindow(window(4))
+\r t
+\a hiSetCurrentWindow(window(8))
+\r t
+\a mouseAddPt(t)
+\i 4.01875:2.25
+\r t
+\a mouseAddPt(t)
+\i 4.44375:2.2875
+\r t
+\a mouseAddPt(t)
+\i 4.25625:1.61875
+\r t
+\a mouseAddPt(t)
+\i 0.4375:2.0875
+\r t
+\a mouseAddPt(t)
+\i 0.225:2.0125
+\r t
+\a mouseAddPt(t)
+\i 0.01875:1.96875
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schSingleSelectPt()
+\i -0.0625:2.0625
+\r nil
+\a schSingleSelectPt()
+\i -0.0625:2
+\r t
+\a schSingleSelectPt()
+\i 4.5:2.3125
+\r t
+\a schHiDelete()
+\r t
+\a schSingleSelectPt()
+\i 2.5:3
+\r nil
+\a schSingleSelectPt()
+\i 4.5625:0.0625
+\r t
+\a schHiDelete()
+\p > 
+\a mouseAddPt(t)
+\i 5.21875:-0.3
+\r t
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "ring_oscillator schematic"
+\o Warning: Pin "Output" on instance "I2": shorted output.
+\o Warning: Pin "Output": shorted output.
+\o INFO (SCH-1172): There were 0 errors and 2 warnings found in "Library_Jin ring_oscillator schematic".
+\p > 
+\a hiDBoxOK(_schCheckDBox)
+\r t
+\o INFO (SCH-1181): "Library_Jin ring_oscillator schematic" saved.
+\r t
+\a mouseAddPt(t)
+\i 2.73125:2.3
+\r t
+\a mouseAddPt(t)
+\i 4.45625:2.31875
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schSingleSelectPt()
+\i 4.5625:0.0625
+\r t
+\a schHiDelete()
+\p > 
+\a mouseAddPt(t)
+\i 5.45:0.0625
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schSingleSelectPt()
+\i 4.5625:0.0625
+\r t
+\a schHiDelete()
+\p > 
+\a schHiDescendRead()
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiDelete()
+\p > 
+\a mouseAddPt(t)
+\i 4.575:0.06875
+\r t
+\a mouseAddPt(t)
+\i 4.575:0.05
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "ring_oscillator schematic"
+\o Warning: Pin "Output" on instance "I2": shorted output.
+\o Warning: Pin "Output": shorted output.
+\o INFO (SCH-1172): There were 0 errors and 2 warnings found in "Library_Jin ring_oscillator schematic".
+\p > 
+\a hiDBoxOK(_schCheckDBox)
+\r t
+\o INFO (SCH-1181): "Library_Jin ring_oscillator schematic" saved.
+\r t
+\a _deUpdateWindowMenu('schWindowMenu8 8)
+\r t
+\a _deUpdateMenu('schematicTools 8)
+\r t
+\a deInstallApp(getCurrentWindow() "analogArtist-Schematic")
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\r t
+\a sevChooseSimulator('sevSession2)
+\p > 
+\a hiiSetCurrentForm('sevSimulatorForm2)
+\r t
+\a sevSimulatorForm2->simulator->value="hspiceD"
+\r "hspiceD"
+\a (setq _hiFileSelectorResult (hiDisplayFileDialog ?dialogName '_hiFileSelector ?modal t ?workingDir "." ?filter "" ?mode 'directoryOnly ?defaultValue "" ?caption "Choose a Directory"))
+\p > 
+\a (hiFileDialogSetSelection _hiFileSelector '("./Hspice/ring_oscillator/Pre-Sim" "") 'done)
+\r t
+\a (hiFileDialogDone _hiFileSelector t)
+\r t
+\r ("./Hspice/ring_oscillator/Pre-Sim" "")
+\a sevSimulatorForm2->projectDir->value="./Hspice/ring_oscillator/Pre-Sim"
+\r "./Hspice/ring_oscillator/Pre-Sim"
+\a hiFormDone(sevSimulatorForm2)
+\o Loading hspiceD.cxt 
+\o INFO (ADE-1104): You are changing the simulator. All options that can be recognized
+\o      by the new simulator will be retained. All other options will be ignored.
+\o      You will not be warned about any ignored option. Be sure to check all your
+\o      forms (Analysis, Options, etc) to verify you have the setup you require 
+\r t
+\r t
+\a sevEditModels('sevSession2)
+\a sevModelSelectItems(editModelsForm->modelLibraryNative "'( (0 0))")
+\r t
+\r t
+\a hiiSetCurrentForm('editModelsForm)
+\r t
+\a sevModelSelectItems(editModelsForm->modelLibraryNative "nil")
+\r t
+\a sevModelSelectItems(editModelsForm->modelLibraryNative "'( (0 0))")
+\r t
+\a sevModelItemChanged(editModelsForm->modelLibraryNative "Global Model Files" 0 0 "false")
+\r t
+\a sevModelSelectItems(editModelsForm->modelLibraryNative "'( (0 0))")
+\r t
+\a sevModelItemChanged(editModelsForm->modelLibraryNative "Global Model Files" 0 0 "true")
+\r t
+\a sevModelItemChanged(editModelsForm->modelLibraryNative "Global Model Files" 0 1 "/Tools/Library/FreePDK45/ncsu_basekit/models/hspice/tran_models/models_nom/NMOS_VTL.inc")
+\r t
+\a sevModelInsertPath(editModelsForm->modelLibraryNative "Global Model Files" 1 1 "/Tools/Library/FreePDK45/ncsu_basekit/models/hspice/tran_models/models_nom/PMOS_VTL.inc")
+\r t
+\a hiFormDone(editModelsForm)
+\r t
+\a sevEditSelectedAnas('sevSession2)
+\p > 
+\a _asii_hspiceD1_analysis_form->tran_start->value="0"
+\r "0"
+\a _asii_hspiceD1_analysis_form->tran_stop->value="100n"
+\r "100n"
+\a _asii_hspiceD1_analysis_form->tran_step->value="0.1n"
+\r "0.1n"
+\a _asii_hspiceD1_analysis_form->tran_DELMAX->value="1n"
+\r "1n"
+\a hiFormDone(_asii_hspiceD1_analysis_form)
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\r t
+\r t
+\a sevNetlistFile('sevSession2 'create)
+\o generate netlist...
+\o Loading seCore.cxt 
+\o Begin Incremental Netlisting Apr 23 22:55:44 2020
+\o End netlisting Apr 23 22:55:44 2020
+\o Loading monte.cxt 
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:    3
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\r t
+\a hiSaveAsViewfile()
+\p > 
+\a (hiFileDialogSetSelection _hiiGetAnyFile '("./Hspice/ring_oscillator/Pre-Sim" "ring_oscillator.sp") 'done)
+\r t
+\a (hiFileDialogDone _hiiGetAnyFile t)
+\r t
+\r ("./Hspice/ring_oscillator/Pre-Sim" "ring_oscillator.sp")
+\a hiCloseWindow(window(10))
+\r t
+\a _hiSetCurrentWinNum(9)
+\r t
+\a hiCloseWindow(swindow(5))
+\p > 
+\a hiDBoxCancel(sevblockingDialogBox)
+\r t
+\r t
+\a _hiSetCurrentWinNum(8)
+\r t
+\a hiSetCurrentWindow(window(5))
+\r t
+\a vvDisplayBrowser()
+\a rdbLoadResults("sevSession1" "./Hspice/ring_oscillator/Pre-Sim")
+\r t
+\r dwindow:31
+\a hiSetCurrentWindow(window(11))
+\r t
+\a rdbShowDialog("sevSession1" "browser" "findResults" "show" '(("pathList" "/home/VLSI_undergraduated_2020/2015104027/Hspice/and2/Pre-Sim") ))
+\r t
+\a rdbSetCurrentDirectory("sevSession1" "./Hspice/ring_oscillator/Pre-Sim")
+\r t
+\a rdbShowDialog("sevSession1" "browser" "findResults" "hide" )
+\r t
+\a vvDisplayBrowser()
+\r dwindow:31
+\a rdbSetCurrentDirectory("sevSession1" "./Hspice/ring_oscillator/Pre-Sim/timeSweep")
+\r t
+\a hiCloseWindow(swindow(6))
+\r t
+\a _hiSetCurrentWinNum(8)
+\r t
+\a hiSetCurrentWindow(window(5))
+\r t
+\a _vvCalculatorPlot(_vivaGetSessionName())
+\r t
+\a vvDisplayBrowser()
+\a rdbLoadResults("sevSession1" "./Hspice/ring_oscillator/Pre-Sim")
+\r t
+\r dwindow:40
+\a hiSetCurrentWindow(window(13))
+\r t
+\a rdbSetCurrentDirectory("sevSession1" "./Hspice/ring_oscillator/Pre-Sim/timeSweep")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "deleteObjects")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "zoomIn")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "zoomIn")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "zoomIn")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "zoomIn")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "zoomIn")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "zoomIn")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "zoomIn")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "zoomIn")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "zoomIn")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "zoomIn")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "fitView")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "fitView")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "fitView")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "fitView")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "fitView")
+\r t
+\a rdbSetCurrentDirectory("sevSession1" "./Hspice/ring_oscillator/Pre-Sim")
+\r t
+\a rdbSetCurrentDirectory("sevSession1" "./Hspice/ring_oscillator/Pre-Sim/timeSweep")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "deleteObjects")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "deleteObjects")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "deleteObjects")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "deleteObjects")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "deleteObjects")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "deleteObjects")
+\r t
+\a hiCloseWindow(swindow(7))
+\r t
+\a _hiSetCurrentWinNum(8)
+\r t
+\a schSingleSelectPt()
+\i -0.375:0.5625
+\r nil
+\a schHiMousePopUp()
+\i 5.125:0
+\r t
+\a hiPopupDown(schNonePopUp)
+\r t
+\a schSingleSelectPt()
+\i 5.4375:1.3125
+\r nil
+\a schSingleSelectPt()
+\i 1.4375:2.875
+\r nil
+\a hiZoomOutAtMouse()
+\i 0.5:0.5625
+\r t
+\a schZoomFit(1.0 0.9)
+\r t
+\a schHiCreateInst()
+\p > 
+\a hiiSetCurrentForm('schCreateInstForm)
+\r t
+\a schiCreateInstBrowseButtonCB(schCreateInstForm)
+\r t
+\i ddsServSelect("NCSU_TechLib_FreePDK45" "" "")
+\i ddsServSelect("NCSU_TechLib_FreePDK45" "M2_M1_via" "")
+\i ddsServSelect("NCSU_TechLib_FreePDK45" "M2_M1_viaB" "")
+\i ddsServSelect("Library_Jin" "" "")
+\i ddsServSelect("NCSU_Devices_FreePDK45" "" "")
+\i ddsServSelect("cdsDefTechLib" "" "")
+\i ddsServSelect("basic" "" "")
+\i ddsServSelect("basic" "gnd" "")
+\i ddsServSelect("basic" "gnd" "symbol")
+\i ddsServSelect("basic" "vss" "symbol")
+\i ddsServSelect("basic" "vsin" "symbol")
+\i ddsServSelect("basic" "CGND" "symbol")
+\i ddsServSelect("basic" "EGND" "symbol")
+\i ddsServSelect("basic" "FCON" "symbol")
+\w *WARNING* cdfAppendParamFields: formInitProc must be a procedure: 'amlDig42FormInit'.
+\i ddsServSelect("basic" "GND" "symbol")
+\i ddsServSelect("basic" "FCON" "symbol")
+\w *WARNING* cdfAppendParamFields: formInitProc must be a procedure: 'amlDig42FormInit'.
+\i ddsServSelect("basic" "MCON" "symbol")
+\w *WARNING* cdfAppendParamFields: formInitProc must be a procedure: 'amlDig42FormInit'.
+\i ddsServSelect("basic" "" "")
+\i ddsServSelect("basic" "MCON" "symbol")
+\w *WARNING* cdfAppendParamFields: formInitProc must be a procedure: 'amlDig42FormInit'.
+\i ddsServSelect("basic" "PWR" "symbol")
+\i ddsServSelect("basic" "VCC" "symbol")
+\i ddsServSelect("basic" "actHiInOut" "symbol")
+\i ddsServSelect("basic" "VDD" "symbol")
+\i ddsServSelect("basic" "actHiInOut" "symbol")
+\i ddsServSelect("basic" "actHiInp" "symbol")
+\i ddsServSelect("basic" "actHiOut" "symbol")
+\i ddsServSelect("basic" "blockiopin" "symbol")
+\i ddsServSelect("basic" "blockipin" "symbol")
+\i ddsServSelect("basic" "cds_alias" "")
+\p > 
+\a hiDBoxOK(_schDBox)
+\r t
+\i ddsServSelect("basic" "dst" "symbol")
+\i ddsServSelect("basic" "dummy" "")
+\p > 
+\a hiDBoxOK(_schDBox)
+\r t
+\i ddsServSelect("cdsDefTechLib" "" "")
+\i ddsServSelect("basic" "" "")
+\a hiiToggleEnterForm(schCreateInstForm) 
+\r t
+\a hiSetCurrentWindow(window(5))
+\r t
+\a vvDisplayBrowser()
+\a rdbLoadResults("sevSession1" "./Hspice/ring_oscillator/Pre-Sim")
+\r t
+\r dwindow:49
+\a hiSetCurrentWindow(window(15))
+\r t
+\a rdbShowDialog("sevSession1" "browser" "findResults" "show" '(("pathList" "/home/VLSI_undergraduated_2020/2015104027/Hspice/and2/Pre-Sim") ))
+\r t
+\a rdbSetCurrentDirectory("sevSession1" "./Hspice/ring_oscillator/Pre-Sim")
+\r t
+\a rdbShowDialog("sevSession1" "browser" "findResults" "hide" )
+\r t
+\a vvDisplayBrowser()
+\r dwindow:49
+\a rdbSetCurrentDirectory("sevSession1" "./Hspice/ring_oscillator/Pre-Sim/timeSweep")
+\r t
+\a hiCloseWindow(swindow(8))
+\r t
+\a _hiSetCurrentWinNum(8)
+\r t
+\a hiSetCurrentWindow(window(5))
+\r t
+\a vvDisplayBrowser()
+\a rdbLoadResults("sevSession1" "./Hspice/ring_oscillator/Pre-Sim")
+\r t
+\r dwindow:58
+\a hiSetCurrentWindow(window(17))
+\r t
+\a rdbSetCurrentDirectory("sevSession1" "./Hspice/ring_oscillator/Pre-Sim/timeSweep")
+\r t
+\a hiCloseWindow(swindow(9))
+\r t
+\a _hiSetCurrentWinNum(8)
+\r t
+\a hiSetCurrentWindow(window(5))
+\r t
+\a vvDisplayBrowser()
+\a rdbLoadResults("sevSession1" "./Hspice/ring_oscillator/Pre-Sim")
+\r t
+\r dwindow:67
+\a hiSetCurrentWindow(window(19))
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "deleteObjects")
+\r t
+\a hiSetCurrentWindow(window(19))
+\r t
+\a rdbShowDialog("sevSession1" "browser" "findResults" "show" '(("pathList" "/home/VLSI_undergraduated_2020/2015104027/Hspice/and2/Pre-Sim") ))
+\r t
+\a rdbSetCurrentDirectory("sevSession1" "./Hspice/ring_oscillator/Pre-Sim")
+\r t
+\a rdbShowDialog("sevSession1" "browser" "findResults" "hide" )
+\r t
+\a vvDisplayBrowser()
+\r dwindow:67
+\a rdbSetCurrentDirectory("sevSession1" "./Hspice/ring_oscillator/Pre-Sim/timeSweep")
+\r t
+\# Memory report: using         533 MB, process size 1,348 MB at UTC 2020.04.23 14:11:49.488
+\# Memory report: using         686 MB, process size 1,501 MB at UTC 2020.04.23 14:12:13.512
+\a hiCloseWindow(swindow(10))
+\r t
+\a _hiSetCurrentWinNum(8)
+\r t
+\a mouseAddPt(t)
+\i -1.65:-0.925
+\r t
+\a _deUpdateMenu('schematicTools 8)
+\r t
+\a deInstallApp(getCurrentWindow() "analogArtist-Schematic")
+\r t
+\a sevEditSelectedAnas('sevSession3)
+\p > 
+\a hiFormCancel(_asii_spectre2_analysis_form) 
+\r t
+\r nil
+\a hiCloseWindow(swindow(11))
+\r t
+\r nil
+\a _hiSetCurrentWinNum(20)
+\r t
+\a hiSetCurrentWindow(window(5))
+\r t
+\a vvDisplayBrowser()
+\a rdbLoadResults("sevSession1" "./Hspice/ring_oscillator/Pre-Sim")
+\r t
+\r dwindow:80
+\a hiSetCurrentWindow(window(23))
+\r t
+\a rdbSetCurrentDirectory("sevSession1" "./Hspice/ring_oscillator/Pre-Sim/timeSweep")
+\r t
+\a hiCloseWindow(swindow(12))
+\r t
+\a _hiSetCurrentWinNum(20)
+\r t
+\a hiSetCurrentWindow(window(4))
+\r t
+\a sevChooseSimulator('sevSession1)
+\p > 
+\a hiiSetCurrentForm('sevSimulatorForm1)
+\r t
+\a sevSimulatorForm1->simulator->value="hspiceD"
+\r "hspiceD"
+\a (setq _hiFileSelectorResult (hiDisplayFileDialog ?dialogName '_hiFileSelector ?modal t ?workingDir "." ?filter "" ?mode 'directoryOnly ?defaultValue "" ?caption "Choose a Directory"))
+\p > 
+\a (hiFileDialogSetSelection _hiFileSelector '("./Hspice/ring_oscillator/Pre-Sim" "") 'done)
+\r t
+\a (hiFileDialogDone _hiFileSelector t)
+\r t
+\r ("./Hspice/ring_oscillator/Pre-Sim" "")
+\a sevSimulatorForm1->projectDir->value="./Hspice/ring_oscillator/Pre-Sim"
+\r "./Hspice/ring_oscillator/Pre-Sim"
+\a hiFormDone(sevSimulatorForm1)
+\r t
+\r t
+\a hiCloseWindow(swindow(2))
+\r t
+\a _hiSetCurrentWinNum(20)
+\r t
+\a hiSetCurrentWindow(window(8))
+\r t
+\a _deUpdateMenu('schematicTools 8)
+\r t
+\a deInstallApp(getCurrentWindow() "analogArtist-Schematic")
+\r t
+\a sevEditSelectedAnas('sevSession4)
+\p > 
+\a hiFormCancel(_asii_spectre3_analysis_form) 
+\r t
+\r nil
+\a sevChooseSimulator('sevSession4)
+\p > 
+\a hiiSetCurrentForm('sevSimulatorForm4)
+\r t
+\a (setq _hiFileSelectorResult (hiDisplayFileDialog ?dialogName '_hiFileSelector ?modal t ?workingDir "." ?filter "" ?mode 'directoryOnly ?defaultValue "" ?caption "Choose a Directory"))
+\p > 
+\a (hiFileDialogSetSelection _hiFileSelector '("./Hspice/ring_oscillator/Pre-Sim" "") 'done)
+\r t
+\a (hiFileDialogDone _hiFileSelector t)
+\r t
+\r ("./Hspice/ring_oscillator/Pre-Sim" "")
+\a sevSimulatorForm4->projectDir->value="./Hspice/ring_oscillator/Pre-Sim"
+\r "./Hspice/ring_oscillator/Pre-Sim"
+\a sevSimulatorForm4->simulator->value="hspiceD"
+\r "hspiceD"
+\a hiFormDone(sevSimulatorForm4)
+\o INFO (ADE-1104): You are changing the simulator. All options that can be recognized
+\o      by the new simulator will be retained. All other options will be ignored.
+\o      You will not be warned about any ignored option. Be sure to check all your
+\o      forms (Analysis, Options, etc) to verify you have the setup you require 
+\r t
+\r t
+\a sevEditSelectedAnas('sevSession4)
+\p > 
+\a hiFormCancel(_asii_hspiceD4_analysis_form) 
+\r t
+\r nil
+\a hiCloseWindow(swindow(13))
+\r t
+\a _hiSetCurrentWinNum(20)
+\r t
+\a (sevStartSession)
+\r sevSession5
+\a sevOpenCalculator()
+\r t
+\a vvDisplayBrowser()
+\r dwindow:97
+\a hiSetCurrentWindow(window(28))
+\r t
+\a rdbShowDialog("sevSession5" "browser" "findResults" "show" '(("pathList" "/home/VLSI_undergraduated_2020/2015104027/Hspice/and2/Pre-Sim") ))
+\r t
+\a rdbLoadResults("sevSession5" "./Hspice/ring_oscillator/Pre-Sim")
+\r t
+\a _vivaSetDataContext("./Hspice/ring_oscillator/Pre-Sim")
+\r t
+\a rdbSetCurrentDirectory("sevSession5" "./Hspice/ring_oscillator/Pre-Sim")
+\r t
+\a rdbShowDialog("sevSession5" "browser" "findResults" "hide" )
+\r t
+\a vvDisplayBrowser()
+\r dwindow:97
+\a rdbSetCurrentDirectory("sevSession5" "./Hspice/ring_oscillator/Pre-Sim/timeSweep")
+\r t
+\a hiCloseWindow(swindow(15))
+\r t
+\a _hiSetCurrentWinNum(27)
+\r t
+\a vvDisplayBrowser()
+\a rdbLoadResults("sevSession5" "./Hspice/ring_oscillator/Pre-Sim")
+\r t
+\r dwindow:106
+\a hiSetCurrentWindow(window(30))
+\r t
+\a rdbSetCurrentDirectory("sevSession5" "./Hspice/ring_oscillator/Pre-Sim/timeSweep")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "deleteObjects")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "deleteObjects")
+\r t
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "deleteObjects")
+\r t
+\a hiCloseWindow(swindow(16))
+\r t
+\a _hiSetCurrentWinNum(27)
+\r t
+\a hiCloseWindow(window(27))
+\r t
+\a _hiSetCurrentWinNum(26)
+\r t
+\a hiCloseWindow(swindow(14))
+\r t
+\a _hiSetCurrentWinNum(20)
+\r t
+\a hiQuit()
+\p > 
+\a hiDBoxOK(hiQuitDBox)
+\r t
+\o 
+\# Memory report: on exit            669 MB, process size 1,484 MB at UTC 2020.04.23 14:28:02.334
+\# Memory report: peak usage         686 MB, process size 1,501 MB

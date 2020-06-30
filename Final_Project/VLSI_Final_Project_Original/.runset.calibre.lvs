@@ -1,0 +1,23 @@
+*lvsRulesFile: $PDK_DIR/ncsu_basekit/techfile/calibre/calibreLVS.rul
+*lvsRunDir: /home/graduation_project3/2015104069/VLSI/LVS_Run/Final/load_inverter
+*lvsLayoutPaths: load_inverter.calibre.db
+*lvsLayoutPrimary: load_inverter
+*lvsLayoutLibrary: MULTIPLIER
+*lvsLayoutView: layout
+*lvsLayoutGetFromViewer: 1
+*lvsSourcePath: load_inverter.src.net
+*lvsSourcePrimary: load_inverter
+*lvsSourceLibrary: MULTIPLIER
+*lvsSourceView: schematic
+*lvsSourceGetFromViewer: 1
+*lvsSpiceFile: load_inverter.sp
+*lvsERCDatabase: load_inverter.erc.results
+*lvsERCSummaryFile: load_inverter.erc.summary
+*lvsReportFile: load_inverter.lvs.report
+*cmnPromptSaveRunset: 0
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnFDILayoutLibrary: MULTIPLIER
+*cmnFDILayoutView: layout
+*cmnFDIDEFLayoutPath: load_inverter.def

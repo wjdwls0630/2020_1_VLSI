@@ -1,0 +1,9 @@
+
+** Library name: MULTIPLIER
+** Cell name: FA
+** View name: schematic
+xi8 a net21 gnd vdd inverter
+xi7 b net19 gnd vdd inverter
+xi3 a net21 gnd sum net14 vdd mux2X1
+xi2 b a gnd cout net14 vdd mux2X1
+xi1 b net19 gnd net14 cin vdd mux2X1

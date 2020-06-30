@@ -1,0 +1,26 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "TGFA_2010"
+  repList "hspiceD spice cmos_sch cmos.sch schematic"
+  stopList "hspiceD spice"
+  hierDelim "^"
+  netlistDir "/home/graduation_project3/2015104069/VLSI/Hspice/Final/TGFA_2010/Pre-Sim/TGFA_2010/hspiceD/schematic/netlist"
+ )
+( instViewTable
+ )
+( net
+ )
+( inst
+ )
+( model
+( "MULTIPLIER/TGFA_2010/schematic" "TGFA_2010" )
+( "MULTIPLIER/transmission/schematic" "transmission" )
+ )
+( term
+ )
+( param
+ )
+( "TGFA_2010" "ihnl/cds1/map" )
+( "transmission" "ihnl/cds0/map" )
+ )

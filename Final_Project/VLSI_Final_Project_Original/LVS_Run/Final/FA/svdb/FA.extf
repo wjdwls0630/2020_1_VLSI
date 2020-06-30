@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1592557204 1592557204
+lvs_ExtOutFile RUNDIR /home/graduation_project3/2015104069/VLSI/LVS_Run/Final/FA
+lvs_ExtOutFile RULES_FILE /home/graduation_project3/2015104069/VLSI/LVS_Run/Final/FA/_calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/graduation_project3/2015104069/VLSI/LVS_Run/Final/FA/FA.sp
+lvs_ExtOutFile EXTRACTION_REPORT /home/graduation_project3/2015104069/VLSI/LVS_Run/Final/FA/FA.lvs.report.ext

@@ -1,0 +1,8 @@
+CADENCE IHNL01078
+
+MULTIPLIER inverter schematic cds0
+MULTIPLIER nand2 schematic cds1
+MULTIPLIER and2 schematic cds2
+MULTIPLIER transmission schematic cds3
+MULTIPLIER W_Mul schematic cds6
+MULTIPLIER TGFA_2010 schematic cds7

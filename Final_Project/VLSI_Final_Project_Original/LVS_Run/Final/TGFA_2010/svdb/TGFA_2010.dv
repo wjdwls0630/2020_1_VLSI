@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/TGFA_2010.dv
+dv_start matched                                  
+dv_cell {TGFA_2010} {TGFA_2010} matched
+dv_obj_count -transformed_nets {9 9} -transformed_inst {11 11} -transformed_port {7 7}
+dv_end

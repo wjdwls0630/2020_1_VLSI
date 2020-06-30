@@ -1,0 +1,28 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "and2"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/home/VLSI_undergraduated_2020/2015104027/LVS_Run/and2"
+ )
+( instViewTable
+ )
+( net
+ )
+( inst
+ )
+( model
+( "Library_Jin/inverter/schematic" "inverter" )
+( "Library_Jin/and2/schematic" "and2" )
+( "Library_Jin/nand2/schematic" "nand2" )
+ )
+( term
+ )
+( param
+ )
+( "and2" "ihnl/cds2/map" )
+( "inverter" "ihnl/cds1/map" )
+( "nand2" "ihnl/cds0/map" )
+ )

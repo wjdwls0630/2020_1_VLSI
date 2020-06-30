@@ -1,0 +1,5 @@
+
+** Library name: MULTIPLIER
+** Cell name: transmission
+** View name: schematic
+.subckt transmission gnd in in2 in3 out vdd

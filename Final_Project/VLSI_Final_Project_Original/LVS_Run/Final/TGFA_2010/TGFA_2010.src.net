@@ -1,0 +1,49 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  MULTIPLIER
+* Top Cell Name: TGFA_2010
+* View Name:     schematic
+* Netlisted on:  Jun 20 13:53:08 2020
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: MULTIPLIER
+* Cell Name:    transmission
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT transmission GND IN IN2 IN3 OUT VDD
+*.PININFO GND:I IN:I IN2:I IN3:I VDD:I OUT:O
+MM0 IN IN3 OUT GND NMOS_VTL W=90n L=50n m=1
+MM1 IN IN2 OUT VDD PMOS_VTL W=180.0n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: MULTIPLIER
+* Cell Name:    TGFA_2010
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT TGFA_2010 A B Cin Cout GND Sum VDD
+*.PININFO A:I B:I Cin:I GND:I VDD:I Cout:O Sum:O
+MM6 net21 Cin Sum GND NMOS_VTL W=90n L=50n m=1
+MM5 net21 net11 GND GND NMOS_VTL W=90n L=50n m=1
+MM1 net42 B GND GND NMOS_VTL W=90n L=50n m=1
+MM0 net11 A net42 GND NMOS_VTL W=90n L=50n m=1
+MM7 net11 Cin Sum VDD PMOS_VTL W=180.0n L=50n m=1
+MM4 net21 net11 VDD VDD PMOS_VTL W=180.0n L=50n m=1
+MM2 B A net11 VDD PMOS_VTL W=180.0n L=50n m=1
+MM3 net11 B A VDD PMOS_VTL W=180.0n L=50n m=1
+XI2 GND A net11 net21 Cout VDD / transmission
+XI1 GND Cin net21 net11 Cout VDD / transmission
+XI0 GND Cin net11 net21 Sum VDD / transmission
+.ENDS
+

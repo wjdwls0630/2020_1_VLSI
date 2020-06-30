@@ -1,0 +1,32 @@
+
+
+       #############################################################
+       ##                                                         ##
+       ##               C A L I B R E    S Y S T E M              ##
+       ##                                                         ##
+       ##    C I R C U I T   E X T R A C T I O N   R E P O R T    ##
+       ##                                                         ##
+       #############################################################
+
+
+REPORT FILE NAME:         W_Mul.lvs.report.ext
+LAYOUT NAME:              W_Mul.calibre.db ('W_Mul')
+CREATION TIME:            Thu Jun 25 21:42:50 2020
+CURRENT DIRECTORY:        /home/graduation_project3/2015104069/VLSI/LVS_Run/Final/W_Mul
+USER NAME:                2015104069
+CALIBRE VERSION:          v2015.4_16.11    Fri Nov 13 13:51:28 PST 2015
+
+
+
+Extraction Errors and Warnings for cell "W_Mul"
+-----------------------------------------------
+
+WARNING:  Short circuit - Different names on one net:
+          Net Id:  1
+          (1)  name  "GND"  at location  (21.1925,11.055)  on layer  17 "metal4"
+          (2)  name  "X0"  at location  (8.745,8.0225)  on layer  13 "metal2"
+          (3)  name  "X2"  at location  (9.0425,8.455)  on layer  13 "metal2"
+          (4)  name  "X3"  at location  (9.18,8.55)  on layer  13 "metal2"
+          The name "GND" was assigned to the net.
+
+

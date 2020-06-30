@@ -1,0 +1,126 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  MULTIPLIER
+* Top Cell Name: W_Mul
+* View Name:     schematic
+* Netlisted on:  Jun 25 21:42:50 2020
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: MULTIPLIER
+* Cell Name:    inverter
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inverter A B GND VDD
+*.PININFO A:I GND:I VDD:I B:O
+MM0 B A GND GND NMOS_VTL W=90n L=50n m=1
+MM1 B A VDD VDD PMOS_VTL W=180.0n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: MULTIPLIER
+* Cell Name:    nand2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT nand2 A B GND VDD Y
+*.PININFO A:I B:I GND:I VDD:I Y:O
+MM1 Y B VDD VDD PMOS_VTL W=180.0n L=50n m=1
+MM0 Y A VDD VDD PMOS_VTL W=180.0n L=50n m=1
+MM2 Y A n1 GND NMOS_VTL W=180.0n L=50n m=1
+MM3 n1 B GND GND NMOS_VTL W=180.0n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: MULTIPLIER
+* Cell Name:    and2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT and2 A B GND VDD Y
+*.PININFO A:I B:I GND:I VDD:I Y:O
+XI3 net8 Y GND VDD / inverter
+XI2 A B GND VDD net8 / nand2
+.ENDS
+
+************************************************************************
+* Library Name: MULTIPLIER
+* Cell Name:    transmission
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT transmission GND IN IN2 IN3 OUT VDD
+*.PININFO GND:I IN:I IN2:I IN3:I VDD:I OUT:O
+MM0 IN IN3 OUT GND NMOS_VTL W=90n L=50n m=1
+MM1 IN IN2 OUT VDD PMOS_VTL W=180.0n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: MULTIPLIER
+* Cell Name:    TGFA_2010
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT TGFA_2010 A B Cin Cout GND Sum VDD
+*.PININFO A:I B:I Cin:I GND:I VDD:I Cout:O Sum:O
+MM6 net21 Cin Sum GND NMOS_VTL W=90n L=50n m=1
+MM5 net21 net11 GND GND NMOS_VTL W=90n L=50n m=1
+MM1 net42 B GND GND NMOS_VTL W=90n L=50n m=1
+MM0 net11 A net42 GND NMOS_VTL W=90n L=50n m=1
+MM7 net11 Cin Sum VDD PMOS_VTL W=180.0n L=50n m=1
+MM4 net21 net11 VDD VDD PMOS_VTL W=180.0n L=50n m=1
+MM2 B A net11 VDD PMOS_VTL W=180.0n L=50n m=1
+MM3 net11 B A VDD PMOS_VTL W=180.0n L=50n m=1
+XI2 GND A net11 net21 Cout VDD / transmission
+XI1 GND Cin net21 net11 Cout VDD / transmission
+XI0 GND Cin net11 net21 Sum VDD / transmission
+.ENDS
+
+************************************************************************
+* Library Name: MULTIPLIER
+* Cell Name:    W_Mul
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT W_Mul GND P0 P1 P2 P3 P4 P5 P6 P7 VDD X0 X1 X2 X3 Y0 Y1 Y2 Y3
+*.PININFO GND:I VDD:I X0:I X1:I X2:I X3:I Y0:I Y1:I Y2:I Y3:I P0:O P1:O P2:O 
+*.PININFO P3:O P4:O P5:O P6:O P7:O
+XI15 X0 Y0 GND VDD P0 / and2
+XI14 X1 Y0 GND VDD net53 / and2
+XI13 X0 Y1 GND VDD net52 / and2
+XI12 X2 Y0 GND VDD net59 / and2
+XI11 X1 Y1 GND VDD net91 / and2
+XI10 X0 Y2 GND VDD net60 / and2
+XI9 X3 Y0 GND VDD net61 / and2
+XI8 X2 Y1 GND VDD net90 / and2
+XI7 X1 Y2 GND VDD net62 / and2
+XI6 X0 Y3 GND VDD net73 / and2
+XI5 X3 Y1 GND VDD net57 / and2
+XI4 X2 Y2 GND VDD net89 / and2
+XI3 X1 Y3 GND VDD net58 / and2
+XI2 X3 Y2 GND VDD net63 / and2
+XI1 X2 Y3 GND VDD net64 / and2
+XI0 X3 Y3 GND VDD net75 / and2
+XI40 net75 net83 net84 P7 GND P6 VDD / TGFA_2010
+XI39 net81 net82 net86 net84 GND P5 VDD / TGFA_2010
+XI38 net79 net78 net87 net86 GND P4 VDD / TGFA_2010
+XI37 net77 net76 GND net87 GND P3 VDD / TGFA_2010
+XI35 net70 net66 GND net76 GND P2 VDD / TGFA_2010
+XI34 net73 net69 net68 net78 GND net77 VDD / TGFA_2010
+XI33 net72 net71 GND net82 GND net79 VDD / TGFA_2010
+XI32 net64 net63 net67 net83 GND net81 VDD / TGFA_2010
+XI31 net52 net53 GND net66 GND P1 VDD / TGFA_2010
+XI30 net60 net91 net59 net68 GND net70 VDD / TGFA_2010
+XI29 net62 net90 net61 net71 GND net69 VDD / TGFA_2010
+XI28 net58 net89 net57 net67 GND net72 VDD / TGFA_2010
+.ENDS
+

@@ -1,0 +1,13 @@
+
+** Library name: MULTIPLIER
+** Cell name: FA_2017
+** View name: schematic
+xi6 net64 sum gnd vdd inverter
+xi5 net67 net64 gnd vdd inverter
+xi4 net66 cout gnd vdd inverter
+xi3 net65 net66 gnd vdd inverter
+xi8 a net62 gnd vdd inverter
+xi7 b net60 gnd vdd inverter
+xi2 a net62 net56 gnd net67 vdd pass_mux
+xi1 b net60 cin gnd net56 vdd pass_mux
+xi0 b a net56 gnd net65 vdd pass_mux

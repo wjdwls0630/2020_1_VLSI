@@ -1,0 +1,10 @@
+CADENCE IHNL01070
+$model
+MULTIPLIER/FA_2017/schematic FA_2017
+MULTIPLIER/inverter/schematic inverter
+MULTIPLIER/pass_mux/schematic pass_mux
+$endmodel
+$net
+$endnet
+$param
+$endparam

@@ -1,0 +1,19 @@
+*drcRulesFile: $PDK_DIR/ncsu_basekit/techfile/calibre/calibreDRC.rul
+*drcRunDir: /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/W_Mul
+*drcLayoutPaths: W_Mul.calibre.db
+*drcLayoutPrimary: W_Mul
+*drcLayoutLibrary: MULTIPLIER
+*drcLayoutView: layout
+*drcLayoutGetFromViewer: 1
+*drcResultsFile: W_Mul.drc.results
+*drcWriteSummary: 0
+*drcSummaryFile: W_Mul.drc.summary
+*drcIncrDRCSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*drcIncrDRCLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*drcIncrDRCGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnFDILayoutLibrary: MULTIPLIER
+*cmnFDILayoutView: layout
+*cmnFDIDEFLayoutPath: W_Mul.def

@@ -1,0 +1,185 @@
+***** HSPICE -- I-2013.12-SP1 64-BIT (Feb 25 2014) RHEL64 ******
+ Input File: stimulus.sp
+ lic:
+ lic: FLEXlm: v10.9.8
+ lic: USER:   2015104069           HOSTNAME: vlsi-dist.khu.ac.kr
+ lic: HOSTID: 382c4ac7d475         PID:      35661
+ lic: Using FLEXlm license file:
+ lic: 27020@163.180.118.27
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 30-jun-2020/2018.09
+ lic: 1(in_use)/7(total) FLOATING license(s) on SERVER 27020@163.180.118.27
+ lic:
+ init: begin read circuit files,  cpu clock=  9.73E-01
+       option search = /Tools/Synopsys/Hspice/hspice/parts/ad
+       option search = /Tools/Synopsys/Hspice/hspice/parts/ad
+       option search = /Tools/Synopsys/Hspice/hspice/parts/behave
+       option search = /Tools/Synopsys/Hspice/hspice/parts/bjt
+       option search = /Tools/Synopsys/Hspice/hspice/parts/burr_brn
+       option search = /Tools/Synopsys/Hspice/hspice/parts/comlinear
+       option search = /Tools/Synopsys/Hspice/hspice/parts/dio
+       option search = /Tools/Synopsys/Hspice/hspice/parts/fet
+       option search = /Tools/Synopsys/Hspice/hspice/parts/lin_tech
+       option search = /Tools/Synopsys/Hspice/hspice/parts/pci
+       option search = /Tools/Synopsys/Hspice/hspice/parts/signet
+       option search = /Tools/Synopsys/Hspice/hspice/parts/ti
+       option search = /Tools/Synopsys/Hspice/hspice/parts/tline
+       option search = /Tools/Synopsys/Hspice/hspice/parts/xilinx
+       option runlvl
+       option delmax =    1.000E-09
+       option artist =     2.00
+       option ingold =     2.00
+       option parhier = local
+       option psf =     2.00
+ init: end read circuit files,  cpu clock=  9.79E-01 peak memory=       172 mb
+ init: begin check errors,  cpu clock=  9.79E-01
+ init: end check errors,  cpu clock=  9.92E-01 peak memory=       175 mb
+ init: begin setup matrix, pivot=     0 cpu clock=  9.92E-01
+       establish matrix -- done,  cpu clock=  9.93E-01 peak memory=       175 mb
+       re-order matrix -- done,  cpu clock=  9.98E-01 peak memory=       175 mb
+ init: end setup matrix,  cpu clock=  1.00E+00 peak memory=       176 mb
+ dcop: begin dcop,  cpu clock=  1.00E+00
+ dcop: end dcop,  cpu clock=  1.01E+00 peak memory=       176 mb  tot_iter=       8
+ sweep: tran tran0    begin, stop_t=  2.00E-08 #sweeps= 201 cpu clock=  1.02E+00
+ tran: time= 2.2052E-09 tot_iter=      10 conv_iter=       5 cpu clock= 1.02E+00
+ tran: time= 4.2052E-09 tot_iter=      14 conv_iter=       7 cpu clock= 1.02E+00
+ tran: time= 6.2052E-09 tot_iter=      18 conv_iter=       9 cpu clock= 1.02E+00
+ tran: time= 8.2052E-09 tot_iter=      22 conv_iter=      11 cpu clock= 1.02E+00
+ tran: time= 1.0000E-08 tot_iter=      26 conv_iter=      13 cpu clock= 1.02E+00
+ tran: time= 1.2044E-08 tot_iter=     173 conv_iter=      66 cpu clock= 1.12E+00
+ tran: time= 1.4044E-08 tot_iter=     177 conv_iter=      68 cpu clock= 1.12E+00
+ tran: time= 1.6044E-08 tot_iter=     181 conv_iter=      70 cpu clock= 1.12E+00
+ tran: time= 1.8044E-08 tot_iter=     185 conv_iter=      72 cpu clock= 1.12E+00
+ tran: time= 2.0000E-08 tot_iter=     189 conv_iter=      74 cpu clock= 1.12E+00
+ sweep: tran tran0    end,  cpu clock=  1.12E+00 peak memory=       176 mb
+>info:         ***** hspice job concluded
+ init: begin read circuit files,  cpu clock=  1.13E+00
+       option search = /Tools/Synopsys/Hspice/hspice/parts/ad
+       option search = /Tools/Synopsys/Hspice/hspice/parts/ad
+       option search = /Tools/Synopsys/Hspice/hspice/parts/behave
+       option search = /Tools/Synopsys/Hspice/hspice/parts/bjt
+       option search = /Tools/Synopsys/Hspice/hspice/parts/burr_brn
+       option search = /Tools/Synopsys/Hspice/hspice/parts/comlinear
+       option search = /Tools/Synopsys/Hspice/hspice/parts/dio
+       option search = /Tools/Synopsys/Hspice/hspice/parts/fet
+       option search = /Tools/Synopsys/Hspice/hspice/parts/lin_tech
+       option search = /Tools/Synopsys/Hspice/hspice/parts/pci
+       option search = /Tools/Synopsys/Hspice/hspice/parts/signet
+       option search = /Tools/Synopsys/Hspice/hspice/parts/ti
+       option search = /Tools/Synopsys/Hspice/hspice/parts/tline
+       option search = /Tools/Synopsys/Hspice/hspice/parts/xilinx
+       option runlvl
+       option delmax =    1.000E-09
+       option artist =     2.00
+       option ingold =     2.00
+       option parhier = local
+       option psf =     2.00
+ init: end read circuit files,  cpu clock=  1.14E+00 peak memory=       176 mb
+ init: begin check errors,  cpu clock=  1.14E+00
+ init: end check errors,  cpu clock=  1.15E+00 peak memory=       176 mb
+ init: begin setup matrix, pivot=     0 cpu clock=  1.15E+00
+       establish matrix -- done,  cpu clock=  1.15E+00 peak memory=       176 mb
+       re-order matrix -- done,  cpu clock=  1.15E+00 peak memory=       176 mb
+ init: end setup matrix,  cpu clock=  1.15E+00 peak memory=       176 mb
+ dcop: begin dcop,  cpu clock=  1.16E+00
+ dcop: end dcop,  cpu clock=  1.17E+00 peak memory=       176 mb  tot_iter=       8
+ sweep: tran tran0    begin, stop_t=  2.00E-08 #sweeps= 201 cpu clock=  1.17E+00
+ tran: time= 2.2052E-09 tot_iter=      10 conv_iter=       5 cpu clock= 1.17E+00
+ tran: time= 4.2052E-09 tot_iter=      14 conv_iter=       7 cpu clock= 1.17E+00
+ tran: time= 6.2052E-09 tot_iter=      18 conv_iter=       9 cpu clock= 1.17E+00
+ tran: time= 8.2052E-09 tot_iter=      22 conv_iter=      11 cpu clock= 1.17E+00
+ tran: time= 1.0000E-08 tot_iter=      26 conv_iter=      13 cpu clock= 1.17E+00
+ tran: time= 1.2390E-08 tot_iter=     184 conv_iter=      66 cpu clock= 1.27E+00
+ tran: time= 1.4193E-08 tot_iter=     188 conv_iter=      68 cpu clock= 1.27E+00
+ tran: time= 1.6193E-08 tot_iter=     192 conv_iter=      70 cpu clock= 1.28E+00
+ tran: time= 1.8193E-08 tot_iter=     196 conv_iter=      72 cpu clock= 1.28E+00
+ tran: time= 2.0000E-08 tot_iter=     200 conv_iter=      74 cpu clock= 1.28E+00
+ sweep: tran tran0    end,  cpu clock=  1.28E+00 peak memory=       176 mb
+>info:         ***** hspice job concluded
+ init: begin read circuit files,  cpu clock=  1.29E+00
+       option search = /Tools/Synopsys/Hspice/hspice/parts/ad
+       option search = /Tools/Synopsys/Hspice/hspice/parts/ad
+       option search = /Tools/Synopsys/Hspice/hspice/parts/behave
+       option search = /Tools/Synopsys/Hspice/hspice/parts/bjt
+       option search = /Tools/Synopsys/Hspice/hspice/parts/burr_brn
+       option search = /Tools/Synopsys/Hspice/hspice/parts/comlinear
+       option search = /Tools/Synopsys/Hspice/hspice/parts/dio
+       option search = /Tools/Synopsys/Hspice/hspice/parts/fet
+       option search = /Tools/Synopsys/Hspice/hspice/parts/lin_tech
+       option search = /Tools/Synopsys/Hspice/hspice/parts/pci
+       option search = /Tools/Synopsys/Hspice/hspice/parts/signet
+       option search = /Tools/Synopsys/Hspice/hspice/parts/ti
+       option search = /Tools/Synopsys/Hspice/hspice/parts/tline
+       option search = /Tools/Synopsys/Hspice/hspice/parts/xilinx
+       option runlvl
+       option delmax =    1.000E-09
+       option artist =     2.00
+       option ingold =     2.00
+       option parhier = local
+       option psf =     2.00
+ init: end read circuit files,  cpu clock=  1.29E+00 peak memory=       176 mb
+ init: begin check errors,  cpu clock=  1.29E+00
+ init: end check errors,  cpu clock=  1.30E+00 peak memory=       176 mb
+ init: begin setup matrix, pivot=     0 cpu clock=  1.30E+00
+       establish matrix -- done,  cpu clock=  1.30E+00 peak memory=       176 mb
+       re-order matrix -- done,  cpu clock=  1.31E+00 peak memory=       176 mb
+ init: end setup matrix,  cpu clock=  1.31E+00 peak memory=       176 mb
+ dcop: begin dcop,  cpu clock=  1.31E+00
+ dcop: end dcop,  cpu clock=  1.33E+00 peak memory=       176 mb  tot_iter=      15
+ sweep: tran tran0    begin, stop_t=  2.00E-08 #sweeps= 201 cpu clock=  1.33E+00
+ tran: time= 2.2052E-09 tot_iter=      10 conv_iter=       5 cpu clock= 1.33E+00
+ tran: time= 4.2052E-09 tot_iter=      14 conv_iter=       7 cpu clock= 1.33E+00
+ tran: time= 6.2052E-09 tot_iter=      18 conv_iter=       9 cpu clock= 1.33E+00
+ tran: time= 8.2052E-09 tot_iter=      22 conv_iter=      11 cpu clock= 1.34E+00
+ tran: time= 1.0000E-08 tot_iter=      26 conv_iter=      13 cpu clock= 1.34E+00
+ tran: time= 1.2663E-08 tot_iter=     223 conv_iter=      80 cpu clock= 1.46E+00
+ tran: time= 1.4663E-08 tot_iter=     228 conv_iter=      82 cpu clock= 1.47E+00
+ tran: time= 1.6663E-08 tot_iter=     232 conv_iter=      84 cpu clock= 1.47E+00
+ tran: time= 1.8663E-08 tot_iter=     236 conv_iter=      86 cpu clock= 1.47E+00
+ tran: time= 2.0000E-08 tot_iter=     240 conv_iter=      88 cpu clock= 1.47E+00
+ sweep: tran tran0    end,  cpu clock=  1.47E+00 peak memory=       176 mb
+>info:         ***** hspice job concluded
+ init: begin read circuit files,  cpu clock=  1.48E+00
+       option search = /Tools/Synopsys/Hspice/hspice/parts/ad
+       option search = /Tools/Synopsys/Hspice/hspice/parts/ad
+       option search = /Tools/Synopsys/Hspice/hspice/parts/behave
+       option search = /Tools/Synopsys/Hspice/hspice/parts/bjt
+       option search = /Tools/Synopsys/Hspice/hspice/parts/burr_brn
+       option search = /Tools/Synopsys/Hspice/hspice/parts/comlinear
+       option search = /Tools/Synopsys/Hspice/hspice/parts/dio
+       option search = /Tools/Synopsys/Hspice/hspice/parts/fet
+       option search = /Tools/Synopsys/Hspice/hspice/parts/lin_tech
+       option search = /Tools/Synopsys/Hspice/hspice/parts/pci
+       option search = /Tools/Synopsys/Hspice/hspice/parts/signet
+       option search = /Tools/Synopsys/Hspice/hspice/parts/ti
+       option search = /Tools/Synopsys/Hspice/hspice/parts/tline
+       option search = /Tools/Synopsys/Hspice/hspice/parts/xilinx
+       option runlvl
+       option delmax =    1.000E-09
+       option artist =     2.00
+       option ingold =     2.00
+       option parhier = local
+       option psf =     2.00
+ init: end read circuit files,  cpu clock=  1.48E+00 peak memory=       176 mb
+ init: begin check errors,  cpu clock=  1.48E+00
+ init: end check errors,  cpu clock=  1.49E+00 peak memory=       176 mb
+ init: begin setup matrix, pivot=     0 cpu clock=  1.49E+00
+       establish matrix -- done,  cpu clock=  1.49E+00 peak memory=       176 mb
+       re-order matrix -- done,  cpu clock=  1.50E+00 peak memory=       176 mb
+ init: end setup matrix,  cpu clock=  1.50E+00 peak memory=       176 mb
+ dcop: begin dcop,  cpu clock=  1.50E+00
+ dcop: end dcop,  cpu clock=  1.52E+00 peak memory=       176 mb  tot_iter=      15
+ sweep: tran tran0    begin, stop_t=  2.00E-08 #sweeps= 201 cpu clock=  1.52E+00
+ tran: time= 2.2052E-09 tot_iter=      10 conv_iter=       5 cpu clock= 1.52E+00
+ tran: time= 4.2052E-09 tot_iter=      14 conv_iter=       7 cpu clock= 1.52E+00
+ tran: time= 6.2052E-09 tot_iter=      18 conv_iter=       9 cpu clock= 1.52E+00
+ tran: time= 8.2052E-09 tot_iter=      22 conv_iter=      11 cpu clock= 1.52E+00
+ tran: time= 1.0000E-08 tot_iter=      26 conv_iter=      13 cpu clock= 1.53E+00
+ tran: time= 1.2077E-08 tot_iter=     261 conv_iter=      88 cpu clock= 1.67E+00
+ tran: time= 1.4041E-08 tot_iter=     267 conv_iter=      90 cpu clock= 1.68E+00
+ tran: time= 1.6041E-08 tot_iter=     271 conv_iter=      92 cpu clock= 1.68E+00
+ tran: time= 1.8041E-08 tot_iter=     275 conv_iter=      94 cpu clock= 1.68E+00
+ tran: time= 2.0000E-08 tot_iter=     279 conv_iter=      96 cpu clock= 1.68E+00
+ sweep: tran tran0    end,  cpu clock=  1.68E+00 peak memory=       176 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

@@ -1,0 +1,9 @@
+CADENCE IHNL01070
+$model
+Library_Jin/ring_oscillator/schematic ring_oscillator
+Library_Jin/inverter/schematic inverter
+$endmodel
+$net
+$endnet
+$param
+$endparam

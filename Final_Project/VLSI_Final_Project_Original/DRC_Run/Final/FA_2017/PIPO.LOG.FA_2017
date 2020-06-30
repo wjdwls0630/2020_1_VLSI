@@ -1,0 +1,58 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.6-64b 12/07/2015 20:15 (sjfnl008) $
+          : sub-version  IC6.1.6-64b.500.14 
+Started at: 19-Jun-2020  18:07:19
+User Name : 2015104069
+Host Name : vlsi-dist.khu.ac.kr
+Directory : /home/graduation_project3/2015104069/VLSI
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+INFO (XSTRM-288): The automatic layer mapping is done by StreamOut and the xStrmOut_layerMap.txt file is generated. This is because either the layer mapping is not provided or the XST_AUTO_LM value is used with the -layerMap option.
+INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+
+Summary of Options :
+library                                 MULTIPLIER
+strmFile                                /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/FA_2017/FA_2017.calibre.db
+topCell                                 FA_2017
+view                                    layout
+runDir                                  /home/graduation_project3/2015104069/VLSI/DRC_Run/Final/FA_2017/
+logFile                                 PIPO.LOG.FA_2017
+summaryFile                             PIPO.SUM.FA_2017
+case                                    Preserve
+convertDot                              node
+
+INFO (XSTRM-223): 1. Translating cellView NCSU_TechLib_FreePDK45/PTAP/layout as STRUCTURE PTAP_CDNS_592557639820
+INFO (XSTRM-223): 2. Translating cellView NCSU_TechLib_FreePDK45/NTAP/layout as STRUCTURE NTAP_CDNS_592557639821
+INFO (XSTRM-223): 3. Translating cellView MULTIPLIER/pass_mux/layout as STRUCTURE pass_mux
+INFO (XSTRM-223): 4. Translating cellView MULTIPLIER/FA_2017/layout as STRUCTURE FA_2017
+
+Summary of Objects Translated:
+	Scalar Instances:                       3
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  0
+	Rectangles:                             214
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           10
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               0
+	Text:                                   13
+	TextDisplay:                            0
+	Cells:                                  4
+
+Elapsed Time: 10.2s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 1784KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '0' warning(s) found.

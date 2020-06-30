@@ -1,0 +1,34 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "W_Mul"
+  repList "hspiceD spice cmos_sch cmos.sch schematic"
+  stopList "hspiceD spice"
+  hierDelim "^"
+  netlistDir "/home/graduation_project3/2015104069/VLSI/Hspice/Final/W_Mul/Pre-Sim/W_Mul/hspiceD/schematic/netlist"
+ )
+( instViewTable
+ )
+( net
+ )
+( inst
+ )
+( model
+( "MULTIPLIER/nand2/schematic" "nand2" )
+( "MULTIPLIER/inverter/schematic" "inverter" )
+( "MULTIPLIER/and2/schematic" "and2" )
+( "MULTIPLIER/TGFA_2010/schematic" "TGFA_2010" )
+( "MULTIPLIER/transmission/schematic" "transmission" )
+( "MULTIPLIER/W_Mul/schematic" "W_Mul" )
+ )
+( term
+ )
+( param
+ )
+( "and2" "ihnl/cds2/map" )
+( "inverter" "ihnl/cds0/map" )
+( "TGFA_2010" "ihnl/cds7/map" )
+( "transmission" "ihnl/cds3/map" )
+( "W_Mul" "ihnl/cds6/map" )
+( "nand2" "ihnl/cds1/map" )
+ )

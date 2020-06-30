@@ -1,0 +1,5 @@
+
+** Library name: MULTIPLIER
+** Cell name: FA
+** View name: schematic
+.subckt FA a b cin cout gnd sum vdd

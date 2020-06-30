@@ -1,0 +1,5 @@
+xi4 sel net10 gnd vdd inverter
+xi2 gnd b net10 sel q vdd transmission
+xi1 gnd a sel net10 q vdd transmission
+.ends mux2X1
+** End of subcircuit definition.

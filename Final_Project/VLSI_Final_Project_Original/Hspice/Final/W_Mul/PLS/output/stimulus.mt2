@@ -1,0 +1,52 @@
+$DATA1 SOURCE='HSPICE' VERSION='I-2013.12-SP1 64-BIT'
+.TITLE 'case_in_worst1'
+ tr_x0_p4         tf_x0_p4         tpdf_x0_p4       tpdr_x0_p4        
+ tr_x0_p5         tf_x0_p5         tpdf_x0_p5       tpdr_x0_p5        
+ tr_x0_p6         tf_x0_p6         tpdf_x0_p6       tpdr_x0_p6        
+ tr_x0_p7         tf_x0_p7         tpdf_x0_p7       tpdr_x0_p7        
+ tr_x1_p4         tf_x1_p4         tpdf_x1_p4       tpdr_x1_p4        
+ tr_x1_p5         tf_x1_p5         tpdf_x1_p5       tpdr_x1_p5        
+ tr_x1_p6         tf_x1_p6         tpdf_x1_p6       tpdr_x1_p6        
+ tr_x1_p7         tf_x1_p7         tpdf_x1_p7       tpdr_x1_p7        
+ tr_x2_p4         tf_x2_p4         tpdf_x2_p4       tpdr_x2_p4        
+ tr_x2_p5         tf_x2_p5         tpdf_x2_p5       tpdr_x2_p5        
+ tr_x2_p6         tf_x2_p6         tpdf_x2_p6       tpdr_x2_p6        
+ tr_x2_p7         tf_x2_p7         tpdf_x2_p7       tpdr_x2_p7        
+ tr_y0_p4         tf_y0_p4         tpdf_y0_p4       tpdr_y0_p4        
+ tr_y0_p5         tf_y0_p5         tpdf_y0_p5       tpdr_y0_p5        
+ tr_y0_p6         tf_y0_p6         tpdf_y0_p6       tpdr_y0_p6        
+ tr_y0_p7         tf_y0_p7         tpdf_y0_p7       tpdr_y0_p7        
+ tr_y1_p4         tf_y1_p4         tpdf_y1_p4       tpdr_y1_p4        
+ tr_y1_p5         tf_y1_p5         tpdf_y1_p5       tpdr_y1_p5        
+ tr_y1_p6         tf_y1_p6         tpdf_y1_p6       tpdr_y1_p6        
+ tr_y1_p7         tf_y1_p7         tpdf_y1_p7       tpdr_y1_p7        
+ tr_y2_p4         tf_y2_p4         tpdf_y2_p4       tpdr_y2_p4        
+ tr_y2_p5         tf_y2_p5         tpdf_y2_p5       tpdr_y2_p5        
+ tr_y2_p6         tf_y2_p6         tpdf_y2_p6       tpdr_y2_p6        
+ tr_y2_p7         tf_y2_p7         tpdf_y2_p7       tpdr_y2_p7        
+ temper           alter#            
+  9.476e-10          failed           failed           failed         
+  4.666e-10          failed           failed           failed         
+  5.868e-10          failed           failed           failed         
+    failed           failed         4.904e-10          failed         
+  9.476e-10          failed           failed           failed         
+  4.666e-10          failed           failed           failed         
+  5.868e-10          failed           failed           failed         
+    failed           failed         4.904e-10          failed         
+    failed           failed           failed           failed         
+    failed           failed           failed           failed         
+    failed           failed           failed           failed         
+    failed           failed           failed           failed         
+    failed           failed           failed         9.476e-10        
+    failed           failed           failed         4.666e-10        
+    failed           failed           failed         5.868e-10        
+    failed         4.904e-10          failed           failed         
+    failed           failed           failed         9.476e-10        
+    failed           failed           failed         4.666e-10        
+    failed           failed           failed         5.868e-10        
+    failed         4.904e-10          failed           failed         
+    failed           failed           failed           failed         
+    failed           failed           failed           failed         
+    failed           failed           failed           failed         
+    failed           failed           failed           failed         
+  3.000e+01       3                 

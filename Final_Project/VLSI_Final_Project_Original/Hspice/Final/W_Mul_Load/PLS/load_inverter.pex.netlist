@@ -1,0 +1,22 @@
+* File: load_inverter.pex.netlist
+* Created: Thu Jun 25 22:24:23 2020
+* Program "Calibre xRC"
+* Version "v2015.4_16.11"
+* 
+.include "load_inverter.pex.netlist.pex"
+.subckt load_inverter  A GND VDD B
+* 
+* B	B
+* VDD	VDD
+* GND	GND
+* A	A
+MM0 N_B_MM0_d N_A_MM0_g N_GND_MM0_s N_GND_MM0_b NMOS_VTL L=5e-08 W=9e-08
++ AD=1.1475e-14 AS=1.125e-14 PD=4.35e-07 PS=4.3e-07
+MM1 N_B_MM1_d N_A_MM1_g N_VDD_MM1_s N_VDD_MM1_b PMOS_VTL L=5e-08 W=9e-08
++ AD=1.1475e-14 AS=1.125e-14 PD=4.35e-07 PS=4.3e-07
+*
+.include "load_inverter.pex.netlist.LOAD_INVERTER.pxi"
+*
+.ends load_inverter
+*
+*

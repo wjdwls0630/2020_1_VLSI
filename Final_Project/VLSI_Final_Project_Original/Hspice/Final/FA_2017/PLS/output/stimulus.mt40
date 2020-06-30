@@ -1,0 +1,16 @@
+$DATA1 SOURCE='HSPICE' VERSION='I-2013.12-SP1 64-BIT'
+.TITLE 'case41'
+ tr_a_s           tf_a_s           tpdf_a_s         tpdr_a_s          
+ tr_a_cout        tf_a_cout        tpdf_a_cout      tpdr_a_cout       
+ tr_b_s           tf_b_s           tpdf_b_s         tpdr_b_s          
+ tr_b_cout        tf_b_cout        tpdf_b_cout      tpdr_b_cout       
+ tr_cin_s         tf_cin_s         tpdf_cin_s       tpdr_cin_s        
+ tr_cin_cout      tf_cin_cout      tpdf_cin_cout    tpdr_cin_cout     
+ temper           alter#            
+    failed           failed           failed           failed         
+    failed           failed           failed           failed         
+    failed           failed           failed           failed         
+    failed         2.965e-11          failed           failed         
+    failed           failed           failed           failed         
+    failed         2.965e-11          failed           failed         
+  3.000e+01       41                

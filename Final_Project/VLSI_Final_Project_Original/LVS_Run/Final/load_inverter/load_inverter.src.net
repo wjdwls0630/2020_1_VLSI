@@ -1,0 +1,28 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  MULTIPLIER
+* Top Cell Name: load_inverter
+* View Name:     schematic
+* Netlisted on:  Jun 25 22:24:20 2020
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: MULTIPLIER
+* Cell Name:    load_inverter
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT load_inverter A B GND VDD
+*.PININFO A:I GND:I VDD:I B:O
+MM0 B A GND GND NMOS_VTL W=90n L=50n m=1
+MM1 B A VDD VDD PMOS_VTL W=90n L=50n m=1
+.ENDS
+

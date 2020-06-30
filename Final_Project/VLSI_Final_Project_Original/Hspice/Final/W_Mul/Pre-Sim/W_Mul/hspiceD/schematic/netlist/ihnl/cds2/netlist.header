@@ -1,0 +1,5 @@
+
+** Library name: MULTIPLIER
+** Cell name: and2
+** View name: schematic
+.subckt and2 a b gnd vdd y

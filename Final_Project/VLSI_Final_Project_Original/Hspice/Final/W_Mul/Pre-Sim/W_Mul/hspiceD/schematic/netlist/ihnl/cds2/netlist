@@ -1,0 +1,4 @@
+xi3 net8 y gnd vdd inverter
+xi2 a b gnd vdd net8 nand2
+.ends and2
+** End of subcircuit definition.

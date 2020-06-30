@@ -1,0 +1,18 @@
+* "simulator" "HSPICE" 
+* "version" "I-2013.12-SP1 64-BIT"
+* "format" "HSP"
+* "rundate" "21:49:02 05/19/2020 "
+* "netlist" "mos_vth.sp "
+* "runtitle" "fstt"
+* time =  0.000e+00       
+* temperature = -4.500e+01       
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.000e-12       
+.nodeset
++ vdd = 9.900e-01       
++ vds = 5.000e-02       
++ vgs = 9.900e-01       
++ vsd = 9.400e-01       
++ vsg = 0.000e+00       
+***   END: Saved Operating Point ***                     

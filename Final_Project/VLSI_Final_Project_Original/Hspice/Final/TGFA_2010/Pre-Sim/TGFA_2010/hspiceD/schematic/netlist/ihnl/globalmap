@@ -1,0 +1,9 @@
+CADENCE IHNL01070
+$model
+MULTIPLIER/transmission/schematic transmission
+MULTIPLIER/TGFA_2010/schematic TGFA_2010
+$endmodel
+$net
+$endnet
+$param
+$endparam

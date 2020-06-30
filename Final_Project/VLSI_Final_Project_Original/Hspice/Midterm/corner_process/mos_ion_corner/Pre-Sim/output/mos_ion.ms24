@@ -1,0 +1,14 @@
+$DATA1 SOURCE='HSPICE' VERSION='I-2013.12-SP1 64-BIT'
+.TITLE 'sffs'
+ id_nmos          id_pmos          ion_nmos         ion_pmos          
+ ig_nmos_temp     ig_pmos_temp     ig_nmos          ig_pmos           
+ id_nmos_off      id_pmos_off      ioff_nmos        ioff_pmos         
+ ivth_sat_nmos    ivth_sat_pmos_temp ivth_sat_pmos    ivth_lin_nmos     
+ ivth_lin_pmos_temp ivth_lin_pmos    leff_nmos        leff_pmos         
+ temper           alter#            
+  9.626e-05       -1.081e-04        1.069e+03        6.006e+02        
+  1.454e-08       -6.652e-09        1.615e+05       -3.695e+04        
+ -6.285e-10        6.175e-10       -6.983e+03       -3.430e+03        
+  3.593e-02       -1.065e-01        1.065e-01        1.622e-01        
+ -2.508e-01        2.508e-01        2.145e-08        2.355e-08        
+  1.250e+02       25                

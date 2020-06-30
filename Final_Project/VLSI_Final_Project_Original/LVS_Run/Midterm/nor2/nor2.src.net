@@ -1,0 +1,30 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  Library_Jin
+* Top Cell Name: nor2
+* View Name:     schematic
+* Netlisted on:  Apr 17 02:46:49 2020
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: Library_Jin
+* Cell Name:    nor2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT nor2 A B GND VDD Y
+*.PININFO A:I B:I GND:I VDD:I Y:O
+MM1 Y B GND GND NMOS_VTL W=90n L=50n m=1
+MM0 Y A GND GND NMOS_VTL W=90n L=50n m=1
+MM3 net18 A VDD VDD PMOS_VTL W=360.0n L=50n m=1
+MM2 Y B net18 VDD PMOS_VTL W=360.0n L=50n m=1
+.ENDS
+

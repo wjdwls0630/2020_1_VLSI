@@ -1,0 +1,13 @@
+HEADER
+"PSFversion" "1.00"
+"I4v" "xi4v"
+"I2v" "xi2v"
+"I4n" "inverter"
+"I1v" "xi1v"
+"I2n I1n" "transmission"
+"SELv" "(FUNCTION (plus (root \"I4/A\") (root \"I2/IN3\") (root \"I1/IN2\")))v"
+"VDDv" "(FUNCTION (plus (root \"I4/VDD\") (root \"I2/VDD\") (root \"I1/VDD\")))v"
+"GNDv" "(FUNCTION (plus (root \"I4/GND\") (root \"I2/GND\") (root \"I1/GND\")))v"
+"Av" "(FUNCTION (plus (root \"I1/IN\")))v"
+"Bv" "(FUNCTION (plus (root \"I2/IN\")))v"
+"Qv" "(FUNCTION (plus (root \"I2/OUT\") (root \"I1/OUT\")))v"

@@ -1,0 +1,6 @@
+.lib TTTT
+.TEMP 30
+.PARAM vdd=1
+.INCLUDE "/Tools/Library/FreePDK45/ncsu_basekit/models/hspice/tran_models/models_nom/NMOS_VTL.inc"
+.INCLUDE "/Tools/Library/FreePDK45/ncsu_basekit/models/hspice/tran_models/models_nom/PMOS_VTL.inc"
+.endl TTTT

@@ -1,0 +1,68 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  MULTIPLIER
+* Top Cell Name: FA
+* View Name:     schematic
+* Netlisted on:  Jun 19 18:00:04 2020
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: MULTIPLIER
+* Cell Name:    inverter
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inverter A B GND VDD
+*.PININFO A:I GND:I VDD:I B:O
+MM0 B A GND GND NMOS_VTL W=90n L=50n m=1
+MM1 B A VDD VDD PMOS_VTL W=180.0n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: MULTIPLIER
+* Cell Name:    transmission
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT transmission GND IN IN2 IN3 OUT VDD
+*.PININFO GND:I IN:I IN2:I IN3:I VDD:I OUT:O
+MM0 IN IN3 OUT GND NMOS_VTL W=90n L=50n m=1
+MM1 IN IN2 OUT VDD PMOS_VTL W=180.0n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: MULTIPLIER
+* Cell Name:    mux2X1
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT mux2X1 A B GND Q SEL VDD
+*.PININFO A:I B:I GND:I SEL:I VDD:I Q:O
+XI4 SEL net10 GND VDD / inverter
+XI2 GND B net10 SEL Q VDD / transmission
+XI1 GND A SEL net10 Q VDD / transmission
+.ENDS
+
+************************************************************************
+* Library Name: MULTIPLIER
+* Cell Name:    FA
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT FA A B Cin Cout GND Sum VDD
+*.PININFO A:I B:I Cin:I GND:I VDD:I Cout:O Sum:O
+XI8 A net21 GND VDD / inverter
+XI7 B net19 GND VDD / inverter
+XI3 A net21 GND Sum net14 VDD / mux2X1
+XI2 B A GND Cout net14 VDD / mux2X1
+XI1 B net19 GND net14 Cin VDD / mux2X1
+.ENDS
+

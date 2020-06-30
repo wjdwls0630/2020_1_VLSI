@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/graduation_project3/2015104069/VLSI/LVS_Run/Final/load_inverter
+lvs_LvsfVersion 2
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_LvsOutFile LVS_REPORT load_inverter.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /home/graduation_project3/2015104069/VLSI/LVS_Run/Final/load_inverter/load_inverter.src.net
+lvs_LvsOutFile RULES_FILE /home/graduation_project3/2015104069/VLSI/LVS_Run/Final/load_inverter/_calibreLVS.rul_
+lvs_LvsRunTimes 1593091344 1593091344

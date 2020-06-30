@@ -1,0 +1,8 @@
+CADENCE IHNL01070
+$model
+Library_Jin/nand2/schematic nand2
+$endmodel
+$net
+$endnet
+$param
+$endparam

@@ -1,0 +1,28 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  Library_Jin
+* Top Cell Name: inverter
+* View Name:     schematic
+* Netlisted on:  Apr 18 17:29:36 2020
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: Library_Jin
+* Cell Name:    inverter
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inverter GND Input Output VDD
+*.PININFO GND:I Input:I VDD:I Output:O
+MM0 Output Input GND GND NMOS_VTL W=90n L=50n m=1
+MM1 Output Input VDD VDD PMOS_VTL W=180.0n L=50n m=1
+.ENDS
+

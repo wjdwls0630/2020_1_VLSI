@@ -1,0 +1,6 @@
+Edit/Library Path.. 클릭
+
+Path 지정 
+
+MULTIPLIER 라이브러리 Path
+/home/VLSI_undergraduated_2020/2015104027/VLSI/MULTIPLIER

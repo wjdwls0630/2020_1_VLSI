@@ -1,0 +1,1040 @@
+header
+"PSFversion" "1.00" 
+"simulator" "HSPICE"
+"version" "I-2013.12-SP1 64-BIT" 
+"rundate" "12:55:55 06/27/2020 " 
+"runtitle" "case1                                                             " 
+"runtype" "logFile"
+TYPE
+"analysisInst" STRUCT(
+"analysisType" STRING *
+"dataFile" STRING *
+"format" STRING *
+"parent" STRING *
+"sweepVariable" ARRAY ( * ) STRING *
+"description" STRING * )
+VALUE
+"timeSweep" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr0"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"summary" "analysisInst" ( 
+"Summary Information"
+"stimulus.su0"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep1" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr1"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su1" "analysisInst" ( 
+"Summary Information"
+"stimulus.su1"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep2" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr2"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su2" "analysisInst" ( 
+"Summary Information"
+"stimulus.su2"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep3" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr3"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su3" "analysisInst" ( 
+"Summary Information"
+"stimulus.su3"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep4" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr4"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su4" "analysisInst" ( 
+"Summary Information"
+"stimulus.su4"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep5" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr5"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su5" "analysisInst" ( 
+"Summary Information"
+"stimulus.su5"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep6" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr6"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su6" "analysisInst" ( 
+"Summary Information"
+"stimulus.su6"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep7" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr7"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su7" "analysisInst" ( 
+"Summary Information"
+"stimulus.su7"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep8" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr8"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su8" "analysisInst" ( 
+"Summary Information"
+"stimulus.su8"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep9" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr9"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su9" "analysisInst" ( 
+"Summary Information"
+"stimulus.su9"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep10" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr10"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"summary" "analysisInst" ( 
+"Summary Information"
+"stimulus.su10"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep11" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr11"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su11" "analysisInst" ( 
+"Summary Information"
+"stimulus.su11"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep12" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr12"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su12" "analysisInst" ( 
+"Summary Information"
+"stimulus.su12"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep13" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr13"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su13" "analysisInst" ( 
+"Summary Information"
+"stimulus.su13"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep14" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr14"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su14" "analysisInst" ( 
+"Summary Information"
+"stimulus.su14"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep15" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr15"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su15" "analysisInst" ( 
+"Summary Information"
+"stimulus.su15"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep16" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr16"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su16" "analysisInst" ( 
+"Summary Information"
+"stimulus.su16"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep17" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr17"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su17" "analysisInst" ( 
+"Summary Information"
+"stimulus.su17"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep18" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr18"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su18" "analysisInst" ( 
+"Summary Information"
+"stimulus.su18"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep19" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr19"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su19" "analysisInst" ( 
+"Summary Information"
+"stimulus.su19"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep20" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr20"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"summary" "analysisInst" ( 
+"Summary Information"
+"stimulus.su20"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep21" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr21"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su21" "analysisInst" ( 
+"Summary Information"
+"stimulus.su21"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep22" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr22"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su22" "analysisInst" ( 
+"Summary Information"
+"stimulus.su22"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep23" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr23"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su23" "analysisInst" ( 
+"Summary Information"
+"stimulus.su23"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep24" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr24"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su24" "analysisInst" ( 
+"Summary Information"
+"stimulus.su24"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep25" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr25"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su25" "analysisInst" ( 
+"Summary Information"
+"stimulus.su25"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep26" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr26"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su26" "analysisInst" ( 
+"Summary Information"
+"stimulus.su26"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep27" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr27"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su27" "analysisInst" ( 
+"Summary Information"
+"stimulus.su27"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep28" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr28"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su28" "analysisInst" ( 
+"Summary Information"
+"stimulus.su28"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep29" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr29"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su29" "analysisInst" ( 
+"Summary Information"
+"stimulus.su29"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep30" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr30"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"summary" "analysisInst" ( 
+"Summary Information"
+"stimulus.su30"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep31" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr31"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su31" "analysisInst" ( 
+"Summary Information"
+"stimulus.su31"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep32" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr32"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su32" "analysisInst" ( 
+"Summary Information"
+"stimulus.su32"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep33" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr33"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su33" "analysisInst" ( 
+"Summary Information"
+"stimulus.su33"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep34" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr34"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su34" "analysisInst" ( 
+"Summary Information"
+"stimulus.su34"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep35" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr35"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su35" "analysisInst" ( 
+"Summary Information"
+"stimulus.su35"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep36" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr36"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su36" "analysisInst" ( 
+"Summary Information"
+"stimulus.su36"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep37" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr37"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su37" "analysisInst" ( 
+"Summary Information"
+"stimulus.su37"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep38" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr38"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su38" "analysisInst" ( 
+"Summary Information"
+"stimulus.su38"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep39" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr39"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su39" "analysisInst" ( 
+"Summary Information"
+"stimulus.su39"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep40" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr40"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"summary" "analysisInst" ( 
+"Summary Information"
+"stimulus.su40"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep41" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr41"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su41" "analysisInst" ( 
+"Summary Information"
+"stimulus.su41"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep42" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr42"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su42" "analysisInst" ( 
+"Summary Information"
+"stimulus.su42"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep43" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr43"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su43" "analysisInst" ( 
+"Summary Information"
+"stimulus.su43"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep44" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr44"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su44" "analysisInst" ( 
+"Summary Information"
+"stimulus.su44"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep45" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr45"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su45" "analysisInst" ( 
+"Summary Information"
+"stimulus.su45"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep46" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr46"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su46" "analysisInst" ( 
+"Summary Information"
+"stimulus.su46"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep47" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr47"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su47" "analysisInst" ( 
+"Summary Information"
+"stimulus.su47"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep48" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr48"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su48" "analysisInst" ( 
+"Summary Information"
+"stimulus.su48"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep49" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr49"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su49" "analysisInst" ( 
+"Summary Information"
+"stimulus.su49"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep50" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr50"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"summary" "analysisInst" ( 
+"Summary Information"
+"stimulus.su50"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep51" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr51"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su51" "analysisInst" ( 
+"Summary Information"
+"stimulus.su51"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep52" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr52"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su52" "analysisInst" ( 
+"Summary Information"
+"stimulus.su52"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep53" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr53"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su53" "analysisInst" ( 
+"Summary Information"
+"stimulus.su53"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep54" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr54"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su54" "analysisInst" ( 
+"Summary Information"
+"stimulus.su54"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep55" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr55"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su55" "analysisInst" ( 
+"Summary Information"
+"stimulus.su55"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep56" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr56"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su56" "analysisInst" ( 
+"Summary Information"
+"stimulus.su56"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep57" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr57"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su57" "analysisInst" ( 
+"Summary Information"
+"stimulus.su57"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep58" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr58"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su58" "analysisInst" ( 
+"Summary Information"
+"stimulus.su58"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep59" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr59"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su59" "analysisInst" ( 
+"Summary Information"
+"stimulus.su59"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep60" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr60"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"summary" "analysisInst" ( 
+"Summary Information"
+"stimulus.su60"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep61" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr61"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su61" "analysisInst" ( 
+"Summary Information"
+"stimulus.su61"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep62" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr62"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su62" "analysisInst" ( 
+"Summary Information"
+"stimulus.su62"
+"PSF"
+""
+()
+"Summary Information"
+)
+"timeSweep63" "analysisInst" ( 
+"Transient Analysis"
+"stimulus.tr63"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"stimulus.su63" "analysisInst" ( 
+"Summary Information"
+"stimulus.su63"
+"PSF"
+""
+()
+"Summary Information"
+)

@@ -1,0 +1,3299 @@
+ ****** HSPICE -- I-2013.12-SP1 64-BIT (Feb 25 2014) RHEL64 ******              
+  Copyright (C) 2014 Synopsys, Inc. All Rights Reserved.                        
+  Unpublished-rights reserved under US copyright laws.
+  This program is protected by law and is subject to the
+  terms and conditions of the license agreement from Synopsys.
+  Use of this program is your acceptance to be bound by the
+  license agreement. HSPICE is the trademark of Synopsys, Inc.
+  Input File: stimulus.sp                                                       
+  Command line options: -i stimulus.sp -o output/ -d
+ lic:  
+ lic: FLEXlm: v10.9.8 
+ lic: USER:   2015104069           HOSTNAME: vlsi-dist.khu.ac.kr 
+ lic: HOSTID: 382c4ac7d475         PID:      35661 
+ lic: Using FLEXlm license file: 
+ lic: 27020@163.180.118.27 
+ lic: Checkout 1 hspice 
+ lic: License/Maintenance for hspice will expire on 30-jun-2020/2018.09 
+ lic: 1(in_use)/7(total) FLOATING license(s) on SERVER 27020@163.180.118.27 
+ lic:   
+ Init: read install configuration file: /Tools/Synopsys/Hspice/hspice/meta.cfg
+  **warning** (W_Mul.sp:10) Global net name, "gnd", in subckt pin list. The pin will be connected to the local net. Recommend to not use global net names in subckt pin lists.
+1****** HSPICE -- I-2013.12-SP1 64-BIT (Feb 25 2014) RHEL64 ******              
+ ******  
+ case_in_1111_1111
+
+  ******  circuit name directory
+ circuit number to circuit name directory
+   number circuitname                     definition         multiplier
+        0 main circuit
+        1 x1.                             w_mul              1.00 
+        2 xl0.                            load_inverter      1.00 
+        3 xl1.                            load_inverter      1.00 
+        4 xl2.                            load_inverter      1.00 
+        5 xl3.                            load_inverter      1.00 
+        6 xl4.                            load_inverter      1.00 
+        7 xl5.                            load_inverter      1.00 
+        8 xl6.                            load_inverter      1.00 
+        9 xl7.                            load_inverter      1.00 
+       10 x1.xi15.                        and2               1.00 
+       11 x1.xi14.                        and2               1.00 
+       12 x1.xi13.                        and2               1.00 
+       13 x1.xi12.                        and2               1.00 
+       14 x1.xi11.                        and2               1.00 
+       15 x1.xi10.                        and2               1.00 
+       16 x1.xi9.                         and2               1.00 
+       17 x1.xi8.                         and2               1.00 
+       18 x1.xi7.                         and2               1.00 
+       19 x1.xi6.                         and2               1.00 
+       20 x1.xi5.                         and2               1.00 
+       21 x1.xi4.                         and2               1.00 
+       22 x1.xi3.                         and2               1.00 
+       23 x1.xi2.                         and2               1.00 
+       24 x1.xi1.                         and2               1.00 
+       25 x1.xi0.                         and2               1.00 
+       26 x1.xi40.                        tgfa_2010          1.00 
+       27 x1.xi39.                        tgfa_2010          1.00 
+       28 x1.xi38.                        tgfa_2010          1.00 
+       29 x1.xi37.                        tgfa_2010          1.00 
+       30 x1.xi35.                        tgfa_2010          1.00 
+       31 x1.xi34.                        tgfa_2010          1.00 
+       32 x1.xi33.                        tgfa_2010          1.00 
+       33 x1.xi32.                        tgfa_2010          1.00 
+       34 x1.xi31.                        tgfa_2010          1.00 
+       35 x1.xi30.                        tgfa_2010          1.00 
+       36 x1.xi29.                        tgfa_2010          1.00 
+       37 x1.xi28.                        tgfa_2010          1.00 
+       38 x1.xi15.xi3.                    inverter           1.00 
+       39 x1.xi15.xi2.                    nand2              1.00 
+       40 x1.xi14.xi3.                    inverter           1.00 
+       41 x1.xi14.xi2.                    nand2              1.00 
+       42 x1.xi13.xi3.                    inverter           1.00 
+       43 x1.xi13.xi2.                    nand2              1.00 
+       44 x1.xi12.xi3.                    inverter           1.00 
+       45 x1.xi12.xi2.                    nand2              1.00 
+       46 x1.xi11.xi3.                    inverter           1.00 
+       47 x1.xi11.xi2.                    nand2              1.00 
+       48 x1.xi10.xi3.                    inverter           1.00 
+       49 x1.xi10.xi2.                    nand2              1.00 
+       50 x1.xi9.xi3.                     inverter           1.00 
+       51 x1.xi9.xi2.                     nand2              1.00 
+       52 x1.xi8.xi3.                     inverter           1.00 
+       53 x1.xi8.xi2.                     nand2              1.00 
+       54 x1.xi7.xi3.                     inverter           1.00 
+       55 x1.xi7.xi2.                     nand2              1.00 
+       56 x1.xi6.xi3.                     inverter           1.00 
+       57 x1.xi6.xi2.                     nand2              1.00 
+       58 x1.xi5.xi3.                     inverter           1.00 
+       59 x1.xi5.xi2.                     nand2              1.00 
+       60 x1.xi4.xi3.                     inverter           1.00 
+       61 x1.xi4.xi2.                     nand2              1.00 
+       62 x1.xi3.xi3.                     inverter           1.00 
+       63 x1.xi3.xi2.                     nand2              1.00 
+       64 x1.xi2.xi3.                     inverter           1.00 
+       65 x1.xi2.xi2.                     nand2              1.00 
+       66 x1.xi1.xi3.                     inverter           1.00 
+       67 x1.xi1.xi2.                     nand2              1.00 
+       68 x1.xi0.xi3.                     inverter           1.00 
+       69 x1.xi0.xi2.                     nand2              1.00 
+       70 x1.xi40.xi2.                    transmission       1.00 
+       71 x1.xi40.xi1.                    transmission       1.00 
+       72 x1.xi40.xi0.                    transmission       1.00 
+       73 x1.xi39.xi2.                    transmission       1.00 
+       74 x1.xi39.xi1.                    transmission       1.00 
+       75 x1.xi39.xi0.                    transmission       1.00 
+       76 x1.xi38.xi2.                    transmission       1.00 
+       77 x1.xi38.xi1.                    transmission       1.00 
+       78 x1.xi38.xi0.                    transmission       1.00 
+       79 x1.xi37.xi2.                    transmission       1.00 
+       80 x1.xi37.xi1.                    transmission       1.00 
+       81 x1.xi37.xi0.                    transmission       1.00 
+       82 x1.xi35.xi2.                    transmission       1.00 
+       83 x1.xi35.xi1.                    transmission       1.00 
+       84 x1.xi35.xi0.                    transmission       1.00 
+       85 x1.xi34.xi2.                    transmission       1.00 
+       86 x1.xi34.xi1.                    transmission       1.00 
+       87 x1.xi34.xi0.                    transmission       1.00 
+       88 x1.xi33.xi2.                    transmission       1.00 
+       89 x1.xi33.xi1.                    transmission       1.00 
+       90 x1.xi33.xi0.                    transmission       1.00 
+       91 x1.xi32.xi2.                    transmission       1.00 
+       92 x1.xi32.xi1.                    transmission       1.00 
+       93 x1.xi32.xi0.                    transmission       1.00 
+       94 x1.xi31.xi2.                    transmission       1.00 
+       95 x1.xi31.xi1.                    transmission       1.00 
+       96 x1.xi31.xi0.                    transmission       1.00 
+       97 x1.xi30.xi2.                    transmission       1.00 
+       98 x1.xi30.xi1.                    transmission       1.00 
+       99 x1.xi30.xi0.                    transmission       1.00 
+      100 x1.xi29.xi2.                    transmission       1.00 
+      101 x1.xi29.xi1.                    transmission       1.00 
+      102 x1.xi29.xi0.                    transmission       1.00 
+      103 x1.xi28.xi2.                    transmission       1.00 
+      104 x1.xi28.xi1.                    transmission       1.00 
+      105 x1.xi28.xi0.                    transmission       1.00 
+1****** HSPICE -- I-2013.12-SP1 64-BIT (Feb 25 2014) RHEL64 ******              
+ ******  
+ case_in_1111_1111
+
+  ******  mos   model parameters tnom=  25.000 temp=  25.000 *****
+ Model Name: nmos_vtl  
+ BSIM4 Model (Level 54)
+    MOBMOD = 0
+    BINUNIT = 1
+    PARAMCHK = 1
+    CAPMOD = 2
+    DIOMOD = 1
+    RDSMOD = 0
+    TRNQSMOD = 0
+    ACNQSMOD = 0
+    RBODYMOD = 1
+    RGATEMOD = 1
+    PERMOD = 1
+    GEOMOD = 1
+    RGEOMOD = 0
+    FNOIMOD = 1
+    TNOIMOD = 0
+    IGCMOD = 1
+    IGBMOD = 1
+    STIMOD = 0
+    VERSION =      4 
+    TOXREF = 1.14e-09 
+    TOXE = 1.14e-09 
+    TOXP =  1e-09 
+    TOXM = 1.14e-09 
+    DTOX = 1.4e-10 
+    EPSROX =    3.9 
+    CDSC =      0 
+    CDSCB =      0 
+    CDSCD =      0 
+    CIT =      0 
+    NFACTOR =    2.1 
+    XJ = 1.98e-08 
+    VSAT = 1.48e+05 
+    A0 =      1 
+    AGS =      0 
+    A1 =      0 
+    A2 =      1 
+    AT = 3.3e+04 
+    KETA =   0.04 
+    NSUB =  6e+16 
+    NDEP = 3.4e+18 
+    NSD =  2e+20 
+    NGATE =  3e+20 
+    GAMMA1 =      0 
+    GAMMA2 =      0 
+    VBX =      0 
+    VBM =     -3 
+    XT = 1.55e-07 
+    K1 =    0.4 
+    KT1 =  -0.11 
+    KT1L =      0 
+    KT2 =  0.022 
+    K2 =      0 
+    K3 =      0 
+    K3B =      0 
+    LPE0 =      0 
+    LPEB =      0 
+    DVTP0 =  1e-10 
+    DVTP1 =    0.1 
+    W0 = 2.5e-06 
+    DVT0 =      1 
+    DVT1 =      2 
+    DVT2 =      0 
+    DVT0W =      0 
+    DVT1W =      0 
+    DVT2W =      0 
+    DROUT =    0.5 
+    DSUB =    0.1 
+    VTH0 =  0.322 
+    EU =   1.67 
+    UA =  6e-10 
+    UA1 = 4.31e-09 
+    UB = 1.2e-18 
+    UB1 = 7.61e-18 
+    UC =      0 
+    UC1 = -5.6e-11 
+    U0 =  0.045 
+    UTE =   -1.5 
+    VOFF =  -0.13 
+    VOFFL =      0 
+    MINV =   0.05 
+    FPROUT =    0.2 
+    PDITS =   0.08 
+    PDITSD =   0.23 
+    PDITSL = 2.3e+06 
+    DELTA =   0.01 
+    RDSW =    155 
+    RDSWMIN =      0 
+    RDWMIN =      0 
+    RSWMIN =      0 
+    RDW =     80 
+    RSW =     80 
+    PRWG =      0 
+    PRWB =      0 
+    PRT =      0 
+    ETA0 =  0.006 
+    ETAB =      0 
+    PCLM =   0.02 
+    PDIBLC1 =  0.001 
+    PDIBLC2 =  0.001 
+    PDIBLCB = -0.005 
+    PSCBE1 = 8.14e+08 
+    PSCBE2 =  1e-07 
+    PVAG =  1e-20 
+    WR =      1 
+    DWG =      0 
+    DWB =      0 
+    XW =      0 
+    XWREF =      0 
+    XL = -2e-08 
+    XLREF = -2e-08 
+    B0 =      0 
+    B1 =      0 
+    ALPHA0 =  0.074 
+    ALPHA1 =  0.005 
+    AGIDL = 0.0002 
+    BGIDL = 2.1e+09 
+    CGIDL = 0.0002 
+    PHIN =      0 
+    EGIDL =    0.8 
+    AIGC =   0.02 
+    BIGC = 0.0027 
+    CIGC =  0.002 
+    AIGSD =   0.02 
+    BIGSD = 0.0027 
+    CIGSD =  0.002 
+    AIGBACC =  0.012 
+    BIGBACC = 0.0028 
+    CIGBACC =  0.002 
+    AIGBINV =  0.014 
+    BIGBINV =  0.004 
+    CIGBINV =  0.004 
+    NIGC =      1 
+    NIGBINV =      3 
+    NIGBACC =      1 
+    NTOX =      1 
+    EIGBINV =    1.1 
+    PIGCD =      1 
+    POXEDGE =      1 
+    XRCRG1 =     12 
+    TNOIA =    1.5 
+    TNOIB =    3.5 
+    NTNOI =      1 
+    XRCRG2 =      5 
+    BETA0 =     30 
+    IJTHDFWD =   0.01 
+    IJTHSFWD =   0.01 
+    IJTHDREV =  0.001 
+    IJTHSREV =  0.001 
+    XJBVD =      1 
+    XJBVS =      1 
+    BVD =     10 
+    BVS =     10 
+    VFB =  -0.55 
+    GBMIN =  1e-10 
+    RBDB =     15 
+    RBPB =      5 
+    RBSB =     15 
+    RBPS =     15 
+    RBPD =     15 
+    CGSL = 2.653e-10 
+    CGDL = 2.653e-10 
+    CKAPPAS =   0.03 
+    CKAPPAD =   0.03 
+    CF = 1.289e-10 
+    CLC =  1e-07 
+    CLE =    0.6 
+    DWC =  5e-09 
+    DLC = 3.75e-09 
+    DLCIG = 3.75e-09 
+    DWJ =      0 
+    VFBCV =     -1 
+    ACDE =      1 
+    MOIN =     15 
+    NOFF =    0.9 
+    VOFFCV =   0.02 
+    DMCG =      0 
+    DMCI =      0 
+    DMDG =      0 
+    DMCGT =      0 
+    XGW =      0 
+    XGL =      0 
+    RSHG =    0.4 
+    NGCON =      1 
+    TCJ =  0.001 
+    TPB =  0.005 
+    TCJSW =  0.001 
+    TPBSW =  0.005 
+    TCJSWG =  0.001 
+    TPBSWG =  0.005 
+    SK0 =      0 
+    SK1 =      0 
+    SK2 =      0 
+    SL =  2e-06 
+    SW =  2e-06 
+    K =      0 
+    TNOM =  300.1 
+    CGSO = 1.1e-10 
+    CGDO = 1.1e-10 
+    CGBO = 2.56e-11 
+    XPART =      0 
+    RSH =      5 
+    JSS = 0.0001 
+    JSWS =  1e-11 
+    JSWGS =  1e-10 
+    PBS =      1 
+    MJS =    0.5 
+    PBSWS =      1 
+    MJSWS =   0.33 
+    CJS = 0.0005 
+    CJSWS =  5e-10 
+    NJS =      1 
+    PBSWGS =      1 
+    MJSWGS =   0.33 
+    CJSWGS =  3e-10 
+    XTIS =      3 
+    JSD = 0.0001 
+    JSWD =  1e-11 
+    JSWGD =  1e-10 
+    PBD =      1 
+    MJD =    0.5 
+    PBSWD =      1 
+    MJSWD =   0.33 
+    CJD = 0.0005 
+    CJSWD =  5e-10 
+    NJD =      1 
+    PBSWGD =      1 
+    MJSWGD =   0.33 
+    CJSWGD =  5e-10 
+    XTID =      3 
+    LMLT =      1 
+    WMLT =      1 
+    LINT = 3.75e-09 
+    LL =      0 
+    LLC =      0 
+    LLN =      1 
+    LW =      0 
+    LWC =      0 
+    LWN =      1 
+    LWL =      0 
+    LWLC =      0 
+    LMIN =      0 
+    LMAX =      1 
+    WINT =  5e-09 
+    WL =      0 
+    WLC =      0 
+    WLN =      1 
+    WW =      0 
+    WWC =      0 
+    WWN =      1 
+    WWL =      0 
+    WWLC =      0 
+    WMIN =      0 
+    WMAX =      1 
+    NOIA = 6.25e+41 
+    NOIB = 3.125e+26 
+    NOIC = 8.75e+09 
+    EM = 4.1e+07 
+    EF =      1 
+    AF =      1 
+    KF =      0 
+    TRS =      0 
+    TRD =      0 
+ Model Name: pmos_vtl  
+ BSIM4 Model (Level 54)
+    MOBMOD = 0
+    BINUNIT = 1
+    PARAMCHK = 1
+    CAPMOD = 2
+    DIOMOD = 1
+    RDSMOD = 0
+    TRNQSMOD = 0
+    ACNQSMOD = 0
+    RBODYMOD = 1
+    RGATEMOD = 1
+    PERMOD = 1
+    GEOMOD = 1
+    RGEOMOD = 0
+    FNOIMOD = 1
+    TNOIMOD = 0
+    IGCMOD = 1
+    IGBMOD = 1
+    STIMOD = 0
+    VERSION =      4 
+    TOXREF = 1.3e-09 
+    TOXE = 1.26e-09 
+    TOXP =  1e-09 
+    TOXM = 1.26e-09 
+    DTOX = 2.6e-10 
+    EPSROX =    3.9 
+    CDSC =      0 
+    CDSCB =      0 
+    CDSCD =      0 
+    CIT =      0 
+    NFACTOR =   2.22 
+    XJ = 1.98e-08 
+    VSAT = 6.9e+04 
+    A0 =      1 
+    AGS =  1e-20 
+    A1 =      0 
+    A2 =      1 
+    AT = 3.3e+04 
+    KETA = -0.047 
+    NSUB =  6e+16 
+    NDEP = 2.44e+18 
+    NSD =  2e+20 
+    NGATE =  2e+20 
+    GAMMA1 =      0 
+    GAMMA2 =      0 
+    VBX =      0 
+    VBM =     -3 
+    XT = 1.55e-07 
+    K1 =    0.4 
+    KT1 =  -0.11 
+    KT1L =      0 
+    KT2 =  0.022 
+    K2 =  -0.01 
+    K3 =      0 
+    K3B =      0 
+    LPE0 =      0 
+    LPEB =      0 
+    DVTP0 =  1e-11 
+    DVTP1 =   0.05 
+    W0 = 2.5e-06 
+    DVT0 =      1 
+    DVT1 =      2 
+    DVT2 = -0.032 
+    DVT0W =      0 
+    DVT1W =      0 
+    DVT2W =      0 
+    DROUT =   0.56 
+    DSUB =    0.1 
+    VTH0 = -0.3021 
+    EU =      1 
+    UA =  2e-09 
+    UA1 = 4.31e-09 
+    UB =  5e-19 
+    UB1 = 7.61e-18 
+    UC =      0 
+    UC1 = -5.6e-11 
+    U0 =   0.02 
+    UTE =   -1.5 
+    VOFF = -0.126 
+    VOFFL =      0 
+    MINV =   0.05 
+    FPROUT =    0.2 
+    PDITS =   0.08 
+    PDITSD =   0.23 
+    PDITSL = 2.3e+06 
+    DELTA =   0.01 
+    RDSW =    155 
+    RDSWMIN =      0 
+    RDWMIN =      0 
+    RSWMIN =      0 
+    RDW =     75 
+    RSW =     75 
+    PRWG =      0 
+    PRWB =      0 
+    PRT =      0 
+    ETA0 = 0.0055 
+    ETAB =      0 
+    PCLM =   0.12 
+    PDIBLC1 =  0.001 
+    PDIBLC2 =  0.001 
+    PDIBLCB = 3.4e-08 
+    PSCBE1 = 8.14e+08 
+    PSCBE2 = 9.58e-07 
+    PVAG =  1e-20 
+    WR =      1 
+    DWG =      0 
+    DWB =      0 
+    XW =      0 
+    XWREF =      0 
+    XL = -2e-08 
+    XLREF = -2e-08 
+    B0 =      0 
+    B1 =      0 
+    ALPHA0 =  0.074 
+    ALPHA1 =  0.005 
+    AGIDL = 0.0002 
+    BGIDL = 2.1e+09 
+    CGIDL = 0.0002 
+    PHIN =      0 
+    EGIDL =    0.8 
+    AIGC = 0.01069 
+    BIGC = 0.001261 
+    CIGC = 0.0008 
+    AIGSD = 0.01069 
+    BIGSD = 0.001261 
+    CIGSD = 0.0008 
+    AIGBACC =  0.012 
+    BIGBACC = 0.0028 
+    CIGBACC =  0.002 
+    AIGBINV =  0.014 
+    BIGBINV =  0.004 
+    CIGBINV =  0.004 
+    NIGC =      1 
+    NIGBINV =      3 
+    NIGBACC =      1 
+    NTOX =      1 
+    EIGBINV =    1.1 
+    PIGCD =      1 
+    POXEDGE =      1 
+    XRCRG1 =     12 
+    TNOIA =    1.5 
+    TNOIB =    3.5 
+    NTNOI =      1 
+    XRCRG2 =      5 
+    BETA0 =     30 
+    IJTHDFWD =   0.01 
+    IJTHSFWD =   0.01 
+    IJTHDREV =  0.001 
+    IJTHSREV =  0.001 
+    XJBVD =      1 
+    XJBVS =      1 
+    BVD =     10 
+    BVS =     10 
+    VFB =   0.55 
+    GBMIN =  1e-10 
+    RBDB =     15 
+    RBPB =      5 
+    RBSB =     15 
+    RBPS =     15 
+    RBPD =     15 
+    CGSL = 2.653e-10 
+    CGDL = 2.653e-10 
+    CKAPPAS =   0.03 
+    CKAPPAD =   0.03 
+    CF = 1.267e-10 
+    CLC =  1e-07 
+    CLE =    0.6 
+    DWC =  5e-09 
+    DLC = 3.75e-09 
+    DLCIG = 3.75e-09 
+    DWJ =      0 
+    VFBCV =     -1 
+    ACDE =      1 
+    MOIN =     15 
+    NOFF =    0.9 
+    VOFFCV =   0.02 
+    DMCG =      0 
+    DMCI =      0 
+    DMDG =      0 
+    DMCGT =      0 
+    XGW =      0 
+    XGL =      0 
+    RSHG =    0.4 
+    NGCON =      1 
+    TCJ =  0.001 
+    TPB =  0.005 
+    TCJSW =  0.001 
+    TPBSW =  0.005 
+    TCJSWG =  0.001 
+    TPBSWG =  0.005 
+    SK0 =      0 
+    SK1 =      0 
+    SK2 =      0 
+    SL =  2e-06 
+    SW =  2e-06 
+    K =      0 
+    TNOM =  300.1 
+    CGSO = 1.1e-10 
+    CGDO = 1.1e-10 
+    CGBO = 2.56e-11 
+    XPART =      0 
+    RSH =      5 
+    JSS = 0.0001 
+    JSWS =  1e-11 
+    JSWGS =  1e-10 
+    PBS =      1 
+    MJS =    0.5 
+    PBSWS =      1 
+    MJSWS =   0.33 
+    CJS = 0.0005 
+    CJSWS =  5e-10 
+    NJS =      1 
+    PBSWGS =      1 
+    MJSWGS =   0.33 
+    CJSWGS =  3e-10 
+    XTIS =      3 
+    JSD = 0.0001 
+    JSWD =  1e-11 
+    JSWGD =  1e-10 
+    PBD =      1 
+    MJD =    0.5 
+    PBSWD =      1 
+    MJSWD =   0.33 
+    CJD = 0.0005 
+    CJSWD =  5e-10 
+    NJD =      1 
+    PBSWGD =      1 
+    MJSWGD =   0.33 
+    CJSWGD =  5e-10 
+    XTID =      3 
+    LMLT =      1 
+    WMLT =      1 
+    LINT = 3.75e-09 
+    LL =      0 
+    LLC =      0 
+    LLN =      1 
+    LW =      0 
+    LWC =      0 
+    LWN =      1 
+    LWL =      0 
+    LWLC =      0 
+    LMIN =      0 
+    LMAX =      1 
+    WINT =  5e-09 
+    WL =      0 
+    WLC =      0 
+    WLN =      1 
+    WW =      0 
+    WWC =      0 
+    WWN =      1 
+    WWL =      0 
+    WWLC =      0 
+    WMIN =      0 
+    WMAX =      1 
+    NOIA = 6.188e+40 
+    NOIB = 1.5e+25 
+    NOIC = 8.75e+09 
+    EM = 4.1e+07 
+    EF =      1 
+    AF =      1 
+    KF =      0 
+    TRS =      0 
+    TRD =      0 
+  **info** (stimulus.sp:33) DC voltage reset to initial transient source value              in source        0:vin_x0              new dc=  0.0000D+00
+ **warning**(nmos_vtl:m0)Warning:  Acde = 0.276941 may be too small in BSIM4 model with w=9e-08 l=5e-08.
+  
+  
+      
+ **info** set option symb=1 internally to help for convergence.
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2         
+  
+  Opening plot unit= 15
+ file=output/stimulus.pa0
+
+ **info** dc convergence successful at Newton-Raphson method 
+1****** HSPICE -- I-2013.12-SP1 64-BIT (Feb 25 2014) RHEL64 ******              
+ ******  
+ case_in_1111_1111
+
+  ******  transient analysis tnom=  25.000 temp=  30.000 *****
+ tr_x0_p4= 7.0915e-11  targ= 1.0071e-08   trig= 1.0001e-08
+  **warning** (stimulus.sp:48) .MEASURE  tf_x0_p4 never reached the trigger value, Measurement failed!
+   tf_x0_p4= failed                          trig= not found
+ tpdf_x0_p4= 1.0080e-10  targ= 1.0101e-08   trig= 1.0001e-08
+   tpdr_x0_p4= failed                          trig= not found
+ tr_x0_p5= 1.1982e-10  targ= 1.0120e-08   trig= 1.0001e-08
+  **warning** (stimulus.sp:57) .MEASURE  tf_x0_p5 never reached the target value, Measurement failed!
+   tf_x0_p5= failed                          trig= not found
+ tpdf_x0_p5= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x0_p5= failed                          trig= not found
+ tr_x0_p6= 7.8945e-11  targ= 1.0079e-08   trig= 1.0001e-08
+   tf_x0_p6= failed                          trig= not found
+ tpdf_x0_p6= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x0_p6= failed                          trig= not found
+ tr_x0_p7= 2.3084e-11  targ= 1.0024e-08   trig= 1.0001e-08
+   tf_x0_p7= failed                          trig= not found
+ tpdf_x0_p7= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x0_p7= failed                          trig= not found
+ tr_x1_p4= 7.0915e-11  targ= 1.0071e-08   trig= 1.0001e-08
+   tf_x1_p4= failed                          trig= not found
+ tpdf_x1_p4= 1.0080e-10  targ= 1.0101e-08   trig= 1.0001e-08
+   tpdr_x1_p4= failed                          trig= not found
+ tr_x1_p5= 1.1982e-10  targ= 1.0120e-08   trig= 1.0001e-08
+   tf_x1_p5= failed                          trig= not found
+ tpdf_x1_p5= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x1_p5= failed                          trig= not found
+ tr_x1_p6= 7.8945e-11  targ= 1.0079e-08   trig= 1.0001e-08
+   tf_x1_p6= failed                          trig= not found
+ tpdf_x1_p6= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x1_p6= failed                          trig= not found
+ tr_x1_p7= 2.3084e-11  targ= 1.0024e-08   trig= 1.0001e-08
+   tf_x1_p7= failed                          trig= not found
+ tpdf_x1_p7= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x1_p7= failed                          trig= not found
+ tr_x2_p4= 7.0915e-11  targ= 1.0071e-08   trig= 1.0001e-08
+   tf_x2_p4= failed                          trig= not found
+ tpdf_x2_p4= 1.0080e-10  targ= 1.0101e-08   trig= 1.0001e-08
+   tpdr_x2_p4= failed                          trig= not found
+ tr_x2_p5= 1.1982e-10  targ= 1.0120e-08   trig= 1.0001e-08
+   tf_x2_p5= failed                          trig= not found
+ tpdf_x2_p5= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x2_p5= failed                          trig= not found
+ tr_x2_p6= 7.8945e-11  targ= 1.0079e-08   trig= 1.0001e-08
+   tf_x2_p6= failed                          trig= not found
+ tpdf_x2_p6= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x2_p6= failed                          trig= not found
+ tr_x2_p7= 2.3084e-11  targ= 1.0024e-08   trig= 1.0001e-08
+   tf_x2_p7= failed                          trig= not found
+ tpdf_x2_p7= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x2_p7= failed                          trig= not found
+ tr_y0_p4= 7.0915e-11  targ= 1.0071e-08   trig= 1.0001e-08
+   tf_y0_p4= failed                          trig= not found
+ tpdf_y0_p4= 1.0080e-10  targ= 1.0101e-08   trig= 1.0001e-08
+   tpdr_y0_p4= failed                          trig= not found
+ tr_y0_p5= 1.1982e-10  targ= 1.0120e-08   trig= 1.0001e-08
+   tf_y0_p5= failed                          trig= not found
+ tpdf_y0_p5= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y0_p5= failed                          trig= not found
+ tr_y0_p6= 7.8945e-11  targ= 1.0079e-08   trig= 1.0001e-08
+   tf_y0_p6= failed                          trig= not found
+ tpdf_y0_p6= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y0_p6= failed                          trig= not found
+ tr_y0_p7= 2.3084e-11  targ= 1.0024e-08   trig= 1.0001e-08
+   tf_y0_p7= failed                          trig= not found
+ tpdf_y0_p7= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y0_p7= failed                          trig= not found
+ tr_y1_p4= 7.0915e-11  targ= 1.0071e-08   trig= 1.0001e-08
+   tf_y1_p4= failed                          trig= not found
+ tpdf_y1_p4= 1.0080e-10  targ= 1.0101e-08   trig= 1.0001e-08
+   tpdr_y1_p4= failed                          trig= not found
+ tr_y1_p5= 1.1982e-10  targ= 1.0120e-08   trig= 1.0001e-08
+   tf_y1_p5= failed                          trig= not found
+ tpdf_y1_p5= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y1_p5= failed                          trig= not found
+ tr_y1_p6= 7.8945e-11  targ= 1.0079e-08   trig= 1.0001e-08
+   tf_y1_p6= failed                          trig= not found
+ tpdf_y1_p6= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y1_p6= failed                          trig= not found
+ tr_y1_p7= 2.3084e-11  targ= 1.0024e-08   trig= 1.0001e-08
+   tf_y1_p7= failed                          trig= not found
+ tpdf_y1_p7= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y1_p7= failed                          trig= not found
+ tr_y2_p4= 7.0915e-11  targ= 1.0071e-08   trig= 1.0001e-08
+   tf_y2_p4= failed                          trig= not found
+ tpdf_y2_p4= 1.0080e-10  targ= 1.0101e-08   trig= 1.0001e-08
+   tpdr_y2_p4= failed                          trig= not found
+ tr_y2_p5= 1.1982e-10  targ= 1.0120e-08   trig= 1.0001e-08
+   tf_y2_p5= failed                          trig= not found
+ tpdf_y2_p5= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y2_p5= failed                          trig= not found
+ tr_y2_p6= 7.8945e-11  targ= 1.0079e-08   trig= 1.0001e-08
+   tf_y2_p6= failed                          trig= not found
+ tpdf_y2_p6= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y2_p6= failed                          trig= not found
+ tr_y2_p7= 2.3084e-11  targ= 1.0024e-08   trig= 1.0001e-08
+   tf_y2_p7= failed                          trig= not found
+ tpdf_y2_p7= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y2_p7= failed                          trig= not found
+
+          ***** job concluded
+1****** HSPICE -- I-2013.12-SP1 64-BIT (Feb 25 2014) RHEL64 ******              
+ ******  
+ case_in_1111_1111
+
+  ******  job statistics summary tnom=  25.000 temp=  30.000 *****
+  
+  
+ ******  Machine Information  ******
+ CPU:
+ model name	: Intel(R) Xeon(R) CPU E5-2690 v2 @ 3.00GHz
+ cpu MHz	: 3011.081
+  
+ OS:
+ Linux version 2.6.32-696.1.1.el6.x86_64 (mockbuild@c1bm.rdu2.centos.org) (gcc version 4.4.7 20120313 (Red Hat 4.4.7-18) (GCC) ) #1 SMP Tue Apr 11 17:13:24 UTC 2017
+
+
+  ******  HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :    40
+  Actual Threads Count       :     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =    1246 # elements   =     289
+  # resistors   =       0 # capacitors =       0 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       9
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =     280 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.01           1           8
+  transient          0.11         201         191          75 rev=         2
+  readin             0.01
+  errchk             0.01
+  setup              0.01
+  output             0.00
+
+
+           peak memory used        176.93 megabytes
+           total cpu time            0.16 seconds
+           total elapsed time        1.13 seconds
+           job started at     12:16:20 06/27/2020
+           job ended   at     12:16:21 06/27/2020
+
+
+  **warning** (W_Mul.sp:10) Global net name, "gnd", in subckt pin list. The pin will be connected to the local net. Recommend to not use global net names in subckt pin lists.
+1****** HSPICE -- I-2013.12-SP1 64-BIT (Feb 25 2014) RHEL64 ******              
+ ******  
+ case_in_1010_0111
+
+  ******  circuit name directory
+ circuit number to circuit name directory
+   number circuitname                     definition         multiplier
+        0 main circuit
+        1 x1.                             w_mul              1.00 
+        2 xl0.                            load_inverter      1.00 
+        3 xl1.                            load_inverter      1.00 
+        4 xl2.                            load_inverter      1.00 
+        5 xl3.                            load_inverter      1.00 
+        6 xl4.                            load_inverter      1.00 
+        7 xl5.                            load_inverter      1.00 
+        8 xl6.                            load_inverter      1.00 
+        9 xl7.                            load_inverter      1.00 
+       10 x1.xi15.                        and2               1.00 
+       11 x1.xi14.                        and2               1.00 
+       12 x1.xi13.                        and2               1.00 
+       13 x1.xi12.                        and2               1.00 
+       14 x1.xi11.                        and2               1.00 
+       15 x1.xi10.                        and2               1.00 
+       16 x1.xi9.                         and2               1.00 
+       17 x1.xi8.                         and2               1.00 
+       18 x1.xi7.                         and2               1.00 
+       19 x1.xi6.                         and2               1.00 
+       20 x1.xi5.                         and2               1.00 
+       21 x1.xi4.                         and2               1.00 
+       22 x1.xi3.                         and2               1.00 
+       23 x1.xi2.                         and2               1.00 
+       24 x1.xi1.                         and2               1.00 
+       25 x1.xi0.                         and2               1.00 
+       26 x1.xi40.                        tgfa_2010          1.00 
+       27 x1.xi39.                        tgfa_2010          1.00 
+       28 x1.xi38.                        tgfa_2010          1.00 
+       29 x1.xi37.                        tgfa_2010          1.00 
+       30 x1.xi35.                        tgfa_2010          1.00 
+       31 x1.xi34.                        tgfa_2010          1.00 
+       32 x1.xi33.                        tgfa_2010          1.00 
+       33 x1.xi32.                        tgfa_2010          1.00 
+       34 x1.xi31.                        tgfa_2010          1.00 
+       35 x1.xi30.                        tgfa_2010          1.00 
+       36 x1.xi29.                        tgfa_2010          1.00 
+       37 x1.xi28.                        tgfa_2010          1.00 
+       38 x1.xi15.xi3.                    inverter           1.00 
+       39 x1.xi15.xi2.                    nand2              1.00 
+       40 x1.xi14.xi3.                    inverter           1.00 
+       41 x1.xi14.xi2.                    nand2              1.00 
+       42 x1.xi13.xi3.                    inverter           1.00 
+       43 x1.xi13.xi2.                    nand2              1.00 
+       44 x1.xi12.xi3.                    inverter           1.00 
+       45 x1.xi12.xi2.                    nand2              1.00 
+       46 x1.xi11.xi3.                    inverter           1.00 
+       47 x1.xi11.xi2.                    nand2              1.00 
+       48 x1.xi10.xi3.                    inverter           1.00 
+       49 x1.xi10.xi2.                    nand2              1.00 
+       50 x1.xi9.xi3.                     inverter           1.00 
+       51 x1.xi9.xi2.                     nand2              1.00 
+       52 x1.xi8.xi3.                     inverter           1.00 
+       53 x1.xi8.xi2.                     nand2              1.00 
+       54 x1.xi7.xi3.                     inverter           1.00 
+       55 x1.xi7.xi2.                     nand2              1.00 
+       56 x1.xi6.xi3.                     inverter           1.00 
+       57 x1.xi6.xi2.                     nand2              1.00 
+       58 x1.xi5.xi3.                     inverter           1.00 
+       59 x1.xi5.xi2.                     nand2              1.00 
+       60 x1.xi4.xi3.                     inverter           1.00 
+       61 x1.xi4.xi2.                     nand2              1.00 
+       62 x1.xi3.xi3.                     inverter           1.00 
+       63 x1.xi3.xi2.                     nand2              1.00 
+       64 x1.xi2.xi3.                     inverter           1.00 
+       65 x1.xi2.xi2.                     nand2              1.00 
+       66 x1.xi1.xi3.                     inverter           1.00 
+       67 x1.xi1.xi2.                     nand2              1.00 
+       68 x1.xi0.xi3.                     inverter           1.00 
+       69 x1.xi0.xi2.                     nand2              1.00 
+       70 x1.xi40.xi2.                    transmission       1.00 
+       71 x1.xi40.xi1.                    transmission       1.00 
+       72 x1.xi40.xi0.                    transmission       1.00 
+       73 x1.xi39.xi2.                    transmission       1.00 
+       74 x1.xi39.xi1.                    transmission       1.00 
+       75 x1.xi39.xi0.                    transmission       1.00 
+       76 x1.xi38.xi2.                    transmission       1.00 
+       77 x1.xi38.xi1.                    transmission       1.00 
+       78 x1.xi38.xi0.                    transmission       1.00 
+       79 x1.xi37.xi2.                    transmission       1.00 
+       80 x1.xi37.xi1.                    transmission       1.00 
+       81 x1.xi37.xi0.                    transmission       1.00 
+       82 x1.xi35.xi2.                    transmission       1.00 
+       83 x1.xi35.xi1.                    transmission       1.00 
+       84 x1.xi35.xi0.                    transmission       1.00 
+       85 x1.xi34.xi2.                    transmission       1.00 
+       86 x1.xi34.xi1.                    transmission       1.00 
+       87 x1.xi34.xi0.                    transmission       1.00 
+       88 x1.xi33.xi2.                    transmission       1.00 
+       89 x1.xi33.xi1.                    transmission       1.00 
+       90 x1.xi33.xi0.                    transmission       1.00 
+       91 x1.xi32.xi2.                    transmission       1.00 
+       92 x1.xi32.xi1.                    transmission       1.00 
+       93 x1.xi32.xi0.                    transmission       1.00 
+       94 x1.xi31.xi2.                    transmission       1.00 
+       95 x1.xi31.xi1.                    transmission       1.00 
+       96 x1.xi31.xi0.                    transmission       1.00 
+       97 x1.xi30.xi2.                    transmission       1.00 
+       98 x1.xi30.xi1.                    transmission       1.00 
+       99 x1.xi30.xi0.                    transmission       1.00 
+      100 x1.xi29.xi2.                    transmission       1.00 
+      101 x1.xi29.xi1.                    transmission       1.00 
+      102 x1.xi29.xi0.                    transmission       1.00 
+      103 x1.xi28.xi2.                    transmission       1.00 
+      104 x1.xi28.xi1.                    transmission       1.00 
+      105 x1.xi28.xi0.                    transmission       1.00 
+1****** HSPICE -- I-2013.12-SP1 64-BIT (Feb 25 2014) RHEL64 ******              
+ ******  
+ case_in_1010_0111
+
+  ******  mos   model parameters tnom=  25.000 temp=  25.000 *****
+ Model Name: nmos_vtl  
+ BSIM4 Model (Level 54)
+    MOBMOD = 0
+    BINUNIT = 1
+    PARAMCHK = 1
+    CAPMOD = 2
+    DIOMOD = 1
+    RDSMOD = 0
+    TRNQSMOD = 0
+    ACNQSMOD = 0
+    RBODYMOD = 1
+    RGATEMOD = 1
+    PERMOD = 1
+    GEOMOD = 1
+    RGEOMOD = 0
+    FNOIMOD = 1
+    TNOIMOD = 0
+    IGCMOD = 1
+    IGBMOD = 1
+    STIMOD = 0
+    VERSION =      4 
+    TOXREF = 1.14e-09 
+    TOXE = 1.14e-09 
+    TOXP =  1e-09 
+    TOXM = 1.14e-09 
+    DTOX = 1.4e-10 
+    EPSROX =    3.9 
+    CDSC =      0 
+    CDSCB =      0 
+    CDSCD =      0 
+    CIT =      0 
+    NFACTOR =    2.1 
+    XJ = 1.98e-08 
+    VSAT = 1.48e+05 
+    A0 =      1 
+    AGS =      0 
+    A1 =      0 
+    A2 =      1 
+    AT = 3.3e+04 
+    KETA =   0.04 
+    NSUB =  6e+16 
+    NDEP = 3.4e+18 
+    NSD =  2e+20 
+    NGATE =  3e+20 
+    GAMMA1 =      0 
+    GAMMA2 =      0 
+    VBX =      0 
+    VBM =     -3 
+    XT = 1.55e-07 
+    K1 =    0.4 
+    KT1 =  -0.11 
+    KT1L =      0 
+    KT2 =  0.022 
+    K2 =      0 
+    K3 =      0 
+    K3B =      0 
+    LPE0 =      0 
+    LPEB =      0 
+    DVTP0 =  1e-10 
+    DVTP1 =    0.1 
+    W0 = 2.5e-06 
+    DVT0 =      1 
+    DVT1 =      2 
+    DVT2 =      0 
+    DVT0W =      0 
+    DVT1W =      0 
+    DVT2W =      0 
+    DROUT =    0.5 
+    DSUB =    0.1 
+    VTH0 =  0.322 
+    EU =   1.67 
+    UA =  6e-10 
+    UA1 = 4.31e-09 
+    UB = 1.2e-18 
+    UB1 = 7.61e-18 
+    UC =      0 
+    UC1 = -5.6e-11 
+    U0 =  0.045 
+    UTE =   -1.5 
+    VOFF =  -0.13 
+    VOFFL =      0 
+    MINV =   0.05 
+    FPROUT =    0.2 
+    PDITS =   0.08 
+    PDITSD =   0.23 
+    PDITSL = 2.3e+06 
+    DELTA =   0.01 
+    RDSW =    155 
+    RDSWMIN =      0 
+    RDWMIN =      0 
+    RSWMIN =      0 
+    RDW =     80 
+    RSW =     80 
+    PRWG =      0 
+    PRWB =      0 
+    PRT =      0 
+    ETA0 =  0.006 
+    ETAB =      0 
+    PCLM =   0.02 
+    PDIBLC1 =  0.001 
+    PDIBLC2 =  0.001 
+    PDIBLCB = -0.005 
+    PSCBE1 = 8.14e+08 
+    PSCBE2 =  1e-07 
+    PVAG =  1e-20 
+    WR =      1 
+    DWG =      0 
+    DWB =      0 
+    XW =      0 
+    XWREF =      0 
+    XL = -2e-08 
+    XLREF = -2e-08 
+    B0 =      0 
+    B1 =      0 
+    ALPHA0 =  0.074 
+    ALPHA1 =  0.005 
+    AGIDL = 0.0002 
+    BGIDL = 2.1e+09 
+    CGIDL = 0.0002 
+    PHIN =      0 
+    EGIDL =    0.8 
+    AIGC =   0.02 
+    BIGC = 0.0027 
+    CIGC =  0.002 
+    AIGSD =   0.02 
+    BIGSD = 0.0027 
+    CIGSD =  0.002 
+    AIGBACC =  0.012 
+    BIGBACC = 0.0028 
+    CIGBACC =  0.002 
+    AIGBINV =  0.014 
+    BIGBINV =  0.004 
+    CIGBINV =  0.004 
+    NIGC =      1 
+    NIGBINV =      3 
+    NIGBACC =      1 
+    NTOX =      1 
+    EIGBINV =    1.1 
+    PIGCD =      1 
+    POXEDGE =      1 
+    XRCRG1 =     12 
+    TNOIA =    1.5 
+    TNOIB =    3.5 
+    NTNOI =      1 
+    XRCRG2 =      5 
+    BETA0 =     30 
+    IJTHDFWD =   0.01 
+    IJTHSFWD =   0.01 
+    IJTHDREV =  0.001 
+    IJTHSREV =  0.001 
+    XJBVD =      1 
+    XJBVS =      1 
+    BVD =     10 
+    BVS =     10 
+    VFB =  -0.55 
+    GBMIN =  1e-10 
+    RBDB =     15 
+    RBPB =      5 
+    RBSB =     15 
+    RBPS =     15 
+    RBPD =     15 
+    CGSL = 2.653e-10 
+    CGDL = 2.653e-10 
+    CKAPPAS =   0.03 
+    CKAPPAD =   0.03 
+    CF = 1.289e-10 
+    CLC =  1e-07 
+    CLE =    0.6 
+    DWC =  5e-09 
+    DLC = 3.75e-09 
+    DLCIG = 3.75e-09 
+    DWJ =      0 
+    VFBCV =     -1 
+    ACDE =      1 
+    MOIN =     15 
+    NOFF =    0.9 
+    VOFFCV =   0.02 
+    DMCG =      0 
+    DMCI =      0 
+    DMDG =      0 
+    DMCGT =      0 
+    XGW =      0 
+    XGL =      0 
+    RSHG =    0.4 
+    NGCON =      1 
+    TCJ =  0.001 
+    TPB =  0.005 
+    TCJSW =  0.001 
+    TPBSW =  0.005 
+    TCJSWG =  0.001 
+    TPBSWG =  0.005 
+    SK0 =      0 
+    SK1 =      0 
+    SK2 =      0 
+    SL =  2e-06 
+    SW =  2e-06 
+    K =      0 
+    TNOM =  300.1 
+    CGSO = 1.1e-10 
+    CGDO = 1.1e-10 
+    CGBO = 2.56e-11 
+    XPART =      0 
+    RSH =      5 
+    JSS = 0.0001 
+    JSWS =  1e-11 
+    JSWGS =  1e-10 
+    PBS =      1 
+    MJS =    0.5 
+    PBSWS =      1 
+    MJSWS =   0.33 
+    CJS = 0.0005 
+    CJSWS =  5e-10 
+    NJS =      1 
+    PBSWGS =      1 
+    MJSWGS =   0.33 
+    CJSWGS =  3e-10 
+    XTIS =      3 
+    JSD = 0.0001 
+    JSWD =  1e-11 
+    JSWGD =  1e-10 
+    PBD =      1 
+    MJD =    0.5 
+    PBSWD =      1 
+    MJSWD =   0.33 
+    CJD = 0.0005 
+    CJSWD =  5e-10 
+    NJD =      1 
+    PBSWGD =      1 
+    MJSWGD =   0.33 
+    CJSWGD =  5e-10 
+    XTID =      3 
+    LMLT =      1 
+    WMLT =      1 
+    LINT = 3.75e-09 
+    LL =      0 
+    LLC =      0 
+    LLN =      1 
+    LW =      0 
+    LWC =      0 
+    LWN =      1 
+    LWL =      0 
+    LWLC =      0 
+    LMIN =      0 
+    LMAX =      1 
+    WINT =  5e-09 
+    WL =      0 
+    WLC =      0 
+    WLN =      1 
+    WW =      0 
+    WWC =      0 
+    WWN =      1 
+    WWL =      0 
+    WWLC =      0 
+    WMIN =      0 
+    WMAX =      1 
+    NOIA = 6.25e+41 
+    NOIB = 3.125e+26 
+    NOIC = 8.75e+09 
+    EM = 4.1e+07 
+    EF =      1 
+    AF =      1 
+    KF =      0 
+    TRS =      0 
+    TRD =      0 
+ Model Name: pmos_vtl  
+ BSIM4 Model (Level 54)
+    MOBMOD = 0
+    BINUNIT = 1
+    PARAMCHK = 1
+    CAPMOD = 2
+    DIOMOD = 1
+    RDSMOD = 0
+    TRNQSMOD = 0
+    ACNQSMOD = 0
+    RBODYMOD = 1
+    RGATEMOD = 1
+    PERMOD = 1
+    GEOMOD = 1
+    RGEOMOD = 0
+    FNOIMOD = 1
+    TNOIMOD = 0
+    IGCMOD = 1
+    IGBMOD = 1
+    STIMOD = 0
+    VERSION =      4 
+    TOXREF = 1.3e-09 
+    TOXE = 1.26e-09 
+    TOXP =  1e-09 
+    TOXM = 1.26e-09 
+    DTOX = 2.6e-10 
+    EPSROX =    3.9 
+    CDSC =      0 
+    CDSCB =      0 
+    CDSCD =      0 
+    CIT =      0 
+    NFACTOR =   2.22 
+    XJ = 1.98e-08 
+    VSAT = 6.9e+04 
+    A0 =      1 
+    AGS =  1e-20 
+    A1 =      0 
+    A2 =      1 
+    AT = 3.3e+04 
+    KETA = -0.047 
+    NSUB =  6e+16 
+    NDEP = 2.44e+18 
+    NSD =  2e+20 
+    NGATE =  2e+20 
+    GAMMA1 =      0 
+    GAMMA2 =      0 
+    VBX =      0 
+    VBM =     -3 
+    XT = 1.55e-07 
+    K1 =    0.4 
+    KT1 =  -0.11 
+    KT1L =      0 
+    KT2 =  0.022 
+    K2 =  -0.01 
+    K3 =      0 
+    K3B =      0 
+    LPE0 =      0 
+    LPEB =      0 
+    DVTP0 =  1e-11 
+    DVTP1 =   0.05 
+    W0 = 2.5e-06 
+    DVT0 =      1 
+    DVT1 =      2 
+    DVT2 = -0.032 
+    DVT0W =      0 
+    DVT1W =      0 
+    DVT2W =      0 
+    DROUT =   0.56 
+    DSUB =    0.1 
+    VTH0 = -0.3021 
+    EU =      1 
+    UA =  2e-09 
+    UA1 = 4.31e-09 
+    UB =  5e-19 
+    UB1 = 7.61e-18 
+    UC =      0 
+    UC1 = -5.6e-11 
+    U0 =   0.02 
+    UTE =   -1.5 
+    VOFF = -0.126 
+    VOFFL =      0 
+    MINV =   0.05 
+    FPROUT =    0.2 
+    PDITS =   0.08 
+    PDITSD =   0.23 
+    PDITSL = 2.3e+06 
+    DELTA =   0.01 
+    RDSW =    155 
+    RDSWMIN =      0 
+    RDWMIN =      0 
+    RSWMIN =      0 
+    RDW =     75 
+    RSW =     75 
+    PRWG =      0 
+    PRWB =      0 
+    PRT =      0 
+    ETA0 = 0.0055 
+    ETAB =      0 
+    PCLM =   0.12 
+    PDIBLC1 =  0.001 
+    PDIBLC2 =  0.001 
+    PDIBLCB = 3.4e-08 
+    PSCBE1 = 8.14e+08 
+    PSCBE2 = 9.58e-07 
+    PVAG =  1e-20 
+    WR =      1 
+    DWG =      0 
+    DWB =      0 
+    XW =      0 
+    XWREF =      0 
+    XL = -2e-08 
+    XLREF = -2e-08 
+    B0 =      0 
+    B1 =      0 
+    ALPHA0 =  0.074 
+    ALPHA1 =  0.005 
+    AGIDL = 0.0002 
+    BGIDL = 2.1e+09 
+    CGIDL = 0.0002 
+    PHIN =      0 
+    EGIDL =    0.8 
+    AIGC = 0.01069 
+    BIGC = 0.001261 
+    CIGC = 0.0008 
+    AIGSD = 0.01069 
+    BIGSD = 0.001261 
+    CIGSD = 0.0008 
+    AIGBACC =  0.012 
+    BIGBACC = 0.0028 
+    CIGBACC =  0.002 
+    AIGBINV =  0.014 
+    BIGBINV =  0.004 
+    CIGBINV =  0.004 
+    NIGC =      1 
+    NIGBINV =      3 
+    NIGBACC =      1 
+    NTOX =      1 
+    EIGBINV =    1.1 
+    PIGCD =      1 
+    POXEDGE =      1 
+    XRCRG1 =     12 
+    TNOIA =    1.5 
+    TNOIB =    3.5 
+    NTNOI =      1 
+    XRCRG2 =      5 
+    BETA0 =     30 
+    IJTHDFWD =   0.01 
+    IJTHSFWD =   0.01 
+    IJTHDREV =  0.001 
+    IJTHSREV =  0.001 
+    XJBVD =      1 
+    XJBVS =      1 
+    BVD =     10 
+    BVS =     10 
+    VFB =   0.55 
+    GBMIN =  1e-10 
+    RBDB =     15 
+    RBPB =      5 
+    RBSB =     15 
+    RBPS =     15 
+    RBPD =     15 
+    CGSL = 2.653e-10 
+    CGDL = 2.653e-10 
+    CKAPPAS =   0.03 
+    CKAPPAD =   0.03 
+    CF = 1.267e-10 
+    CLC =  1e-07 
+    CLE =    0.6 
+    DWC =  5e-09 
+    DLC = 3.75e-09 
+    DLCIG = 3.75e-09 
+    DWJ =      0 
+    VFBCV =     -1 
+    ACDE =      1 
+    MOIN =     15 
+    NOFF =    0.9 
+    VOFFCV =   0.02 
+    DMCG =      0 
+    DMCI =      0 
+    DMDG =      0 
+    DMCGT =      0 
+    XGW =      0 
+    XGL =      0 
+    RSHG =    0.4 
+    NGCON =      1 
+    TCJ =  0.001 
+    TPB =  0.005 
+    TCJSW =  0.001 
+    TPBSW =  0.005 
+    TCJSWG =  0.001 
+    TPBSWG =  0.005 
+    SK0 =      0 
+    SK1 =      0 
+    SK2 =      0 
+    SL =  2e-06 
+    SW =  2e-06 
+    K =      0 
+    TNOM =  300.1 
+    CGSO = 1.1e-10 
+    CGDO = 1.1e-10 
+    CGBO = 2.56e-11 
+    XPART =      0 
+    RSH =      5 
+    JSS = 0.0001 
+    JSWS =  1e-11 
+    JSWGS =  1e-10 
+    PBS =      1 
+    MJS =    0.5 
+    PBSWS =      1 
+    MJSWS =   0.33 
+    CJS = 0.0005 
+    CJSWS =  5e-10 
+    NJS =      1 
+    PBSWGS =      1 
+    MJSWGS =   0.33 
+    CJSWGS =  3e-10 
+    XTIS =      3 
+    JSD = 0.0001 
+    JSWD =  1e-11 
+    JSWGD =  1e-10 
+    PBD =      1 
+    MJD =    0.5 
+    PBSWD =      1 
+    MJSWD =   0.33 
+    CJD = 0.0005 
+    CJSWD =  5e-10 
+    NJD =      1 
+    PBSWGD =      1 
+    MJSWGD =   0.33 
+    CJSWGD =  5e-10 
+    XTID =      3 
+    LMLT =      1 
+    WMLT =      1 
+    LINT = 3.75e-09 
+    LL =      0 
+    LLC =      0 
+    LLN =      1 
+    LW =      0 
+    LWC =      0 
+    LWN =      1 
+    LWL =      0 
+    LWLC =      0 
+    LMIN =      0 
+    LMAX =      1 
+    WINT =  5e-09 
+    WL =      0 
+    WLC =      0 
+    WLN =      1 
+    WW =      0 
+    WWC =      0 
+    WWN =      1 
+    WWL =      0 
+    WWLC =      0 
+    WMIN =      0 
+    WMAX =      1 
+    NOIA = 6.188e+40 
+    NOIB = 1.5e+25 
+    NOIC = 8.75e+09 
+    EM = 4.1e+07 
+    EF =      1 
+    AF =      1 
+    KF =      0 
+    TRS =      0 
+    TRD =      0 
+  **info** (stimulus.sp:264) DC voltage reset to initial transient source value              in source        0:vin_x0              new dc=  0.0000D+00
+  
+  
+      
+ **info** set option symb=1 internally to help for convergence.
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2         
+  
+  Opening plot unit= 15
+ file=output/stimulus.pa1
+
+ **info** dc convergence successful at Newton-Raphson method 
+1****** HSPICE -- I-2013.12-SP1 64-BIT (Feb 25 2014) RHEL64 ******              
+ ******  
+ case_in_1010_0111
+
+  ******  transient analysis tnom=  25.000 temp=  30.000 *****
+  **warning** (stimulus.sp:46) .MEASURE  tr_x0_p4 never reached the trigger value, Measurement failed!
+  **warning** (stimulus.sp:46) .MEASURE  tr_x0_p4 never reached the target value, Measurement failed!
+   tr_x0_p4= failed                          trig= not found
+   tf_x0_p4= failed                          trig= not found
+   tpdf_x0_p4= failed                          trig= not found
+   tpdr_x0_p4= failed                          trig= not found
+   tr_x0_p5= failed                          trig= not found
+   tf_x0_p5= failed                          trig= not found
+   tpdf_x0_p5= failed                          trig= not found
+   tpdr_x0_p5= failed                          trig= not found
+   tr_x0_p6= failed                          trig= not found
+   tf_x0_p6= failed                          trig= not found
+   tpdf_x0_p6= failed                          trig= not found
+   tpdr_x0_p6= failed                          trig= not found
+   tr_x0_p7= failed                          trig= not found
+   tf_x0_p7= failed                          trig= not found
+   tpdf_x0_p7= failed                          trig= not found
+   tpdr_x0_p7= failed                          trig= not found
+ tr_x1_p4= failed       targ= not found    trig= 1.0001e-08
+   tf_x1_p4= failed                          trig= not found
+ tpdf_x1_p4= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x1_p4= failed                          trig= not found
+ tr_x1_p5= failed       targ= not found    trig= 1.0001e-08
+   tf_x1_p5= failed                          trig= not found
+ tpdf_x1_p5= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x1_p5= failed                          trig= not found
+ tr_x1_p6= 8.8303e-11  targ= 1.0089e-08   trig= 1.0001e-08
+   tf_x1_p6= failed                          trig= not found
+ tpdf_x1_p6= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x1_p6= failed                          trig= not found
+ tr_x1_p7= failed       targ= not found    trig= 1.0001e-08
+   tf_x1_p7= failed                          trig= not found
+ tpdf_x1_p7= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x1_p7= failed                          trig= not found
+   tr_x2_p4= failed                          trig= not found
+   tf_x2_p4= failed                          trig= not found
+   tpdf_x2_p4= failed                          trig= not found
+   tpdr_x2_p4= failed                          trig= not found
+   tr_x2_p5= failed                          trig= not found
+   tf_x2_p5= failed                          trig= not found
+   tpdf_x2_p5= failed                          trig= not found
+   tpdr_x2_p5= failed                          trig= not found
+   tr_x2_p6= failed                          trig= not found
+   tf_x2_p6= failed                          trig= not found
+   tpdf_x2_p6= failed                          trig= not found
+   tpdr_x2_p6= failed                          trig= not found
+   tr_x2_p7= failed                          trig= not found
+   tf_x2_p7= failed                          trig= not found
+   tpdf_x2_p7= failed                          trig= not found
+   tpdr_x2_p7= failed                          trig= not found
+ tr_y0_p4= failed       targ= not found    trig= 1.0001e-08
+   tf_y0_p4= failed                          trig= not found
+ tpdf_y0_p4= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y0_p4= failed                          trig= not found
+ tr_y0_p5= failed       targ= not found    trig= 1.0001e-08
+   tf_y0_p5= failed                          trig= not found
+ tpdf_y0_p5= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y0_p5= failed                          trig= not found
+ tr_y0_p6= 8.8303e-11  targ= 1.0089e-08   trig= 1.0001e-08
+   tf_y0_p6= failed                          trig= not found
+ tpdf_y0_p6= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y0_p6= failed                          trig= not found
+ tr_y0_p7= failed       targ= not found    trig= 1.0001e-08
+   tf_y0_p7= failed                          trig= not found
+ tpdf_y0_p7= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y0_p7= failed                          trig= not found
+ tr_y1_p4= failed       targ= not found    trig= 1.0001e-08
+   tf_y1_p4= failed                          trig= not found
+ tpdf_y1_p4= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y1_p4= failed                          trig= not found
+ tr_y1_p5= failed       targ= not found    trig= 1.0001e-08
+   tf_y1_p5= failed                          trig= not found
+ tpdf_y1_p5= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y1_p5= failed                          trig= not found
+ tr_y1_p6= 8.8303e-11  targ= 1.0089e-08   trig= 1.0001e-08
+   tf_y1_p6= failed                          trig= not found
+ tpdf_y1_p6= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y1_p6= failed                          trig= not found
+ tr_y1_p7= failed       targ= not found    trig= 1.0001e-08
+   tf_y1_p7= failed                          trig= not found
+ tpdf_y1_p7= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y1_p7= failed                          trig= not found
+ tr_y2_p4= failed       targ= not found    trig= 1.0001e-08
+   tf_y2_p4= failed                          trig= not found
+ tpdf_y2_p4= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y2_p4= failed                          trig= not found
+ tr_y2_p5= failed       targ= not found    trig= 1.0001e-08
+   tf_y2_p5= failed                          trig= not found
+ tpdf_y2_p5= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y2_p5= failed                          trig= not found
+ tr_y2_p6= 8.8303e-11  targ= 1.0089e-08   trig= 1.0001e-08
+   tf_y2_p6= failed                          trig= not found
+ tpdf_y2_p6= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y2_p6= failed                          trig= not found
+ tr_y2_p7= failed       targ= not found    trig= 1.0001e-08
+   tf_y2_p7= failed                          trig= not found
+ tpdf_y2_p7= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y2_p7= failed                          trig= not found
+
+          ***** job concluded
+1****** HSPICE -- I-2013.12-SP1 64-BIT (Feb 25 2014) RHEL64 ******              
+ ******  
+ case_in_1010_0111
+
+  ******  job statistics summary tnom=  25.000 temp=  30.000 *****
+  
+  
+ ******  Machine Information  ******
+ CPU:
+ model name	: Intel(R) Xeon(R) CPU E5-2690 v2 @ 3.00GHz
+ cpu MHz	: 3011.081
+  
+ OS:
+ Linux version 2.6.32-696.1.1.el6.x86_64 (mockbuild@c1bm.rdu2.centos.org) (gcc version 4.4.7 20120313 (Red Hat 4.4.7-18) (GCC) ) #1 SMP Tue Apr 11 17:13:24 UTC 2017
+
+
+  ******  HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :    40
+  Actual Threads Count       :     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =    1246 # elements   =     289
+  # resistors   =       0 # capacitors =       0 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       9
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =     280 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.01           1           8
+  transient          0.11         201         202          75 rev=         2
+  readin             0.01
+  errchk             0.01
+  setup              0.01
+  output             0.00
+
+
+           peak memory used        177.38 megabytes
+           total cpu time            0.16 seconds
+           total elapsed time        0.16 seconds
+           job started at     12:16:20 06/27/2020
+           job ended   at     12:16:22 06/27/2020
+
+
+  **warning** (W_Mul.sp:10) Global net name, "gnd", in subckt pin list. The pin will be connected to the local net. Recommend to not use global net names in subckt pin lists.
+1****** HSPICE -- I-2013.12-SP1 64-BIT (Feb 25 2014) RHEL64 ******              
+ ******  
+ case_in_worst1
+
+  ******  circuit name directory
+ circuit number to circuit name directory
+   number circuitname                     definition         multiplier
+        0 main circuit
+        1 x1.                             w_mul              1.00 
+        2 xl0.                            load_inverter      1.00 
+        3 xl1.                            load_inverter      1.00 
+        4 xl2.                            load_inverter      1.00 
+        5 xl3.                            load_inverter      1.00 
+        6 xl4.                            load_inverter      1.00 
+        7 xl5.                            load_inverter      1.00 
+        8 xl6.                            load_inverter      1.00 
+        9 xl7.                            load_inverter      1.00 
+       10 x1.xi15.                        and2               1.00 
+       11 x1.xi14.                        and2               1.00 
+       12 x1.xi13.                        and2               1.00 
+       13 x1.xi12.                        and2               1.00 
+       14 x1.xi11.                        and2               1.00 
+       15 x1.xi10.                        and2               1.00 
+       16 x1.xi9.                         and2               1.00 
+       17 x1.xi8.                         and2               1.00 
+       18 x1.xi7.                         and2               1.00 
+       19 x1.xi6.                         and2               1.00 
+       20 x1.xi5.                         and2               1.00 
+       21 x1.xi4.                         and2               1.00 
+       22 x1.xi3.                         and2               1.00 
+       23 x1.xi2.                         and2               1.00 
+       24 x1.xi1.                         and2               1.00 
+       25 x1.xi0.                         and2               1.00 
+       26 x1.xi40.                        tgfa_2010          1.00 
+       27 x1.xi39.                        tgfa_2010          1.00 
+       28 x1.xi38.                        tgfa_2010          1.00 
+       29 x1.xi37.                        tgfa_2010          1.00 
+       30 x1.xi35.                        tgfa_2010          1.00 
+       31 x1.xi34.                        tgfa_2010          1.00 
+       32 x1.xi33.                        tgfa_2010          1.00 
+       33 x1.xi32.                        tgfa_2010          1.00 
+       34 x1.xi31.                        tgfa_2010          1.00 
+       35 x1.xi30.                        tgfa_2010          1.00 
+       36 x1.xi29.                        tgfa_2010          1.00 
+       37 x1.xi28.                        tgfa_2010          1.00 
+       38 x1.xi15.xi3.                    inverter           1.00 
+       39 x1.xi15.xi2.                    nand2              1.00 
+       40 x1.xi14.xi3.                    inverter           1.00 
+       41 x1.xi14.xi2.                    nand2              1.00 
+       42 x1.xi13.xi3.                    inverter           1.00 
+       43 x1.xi13.xi2.                    nand2              1.00 
+       44 x1.xi12.xi3.                    inverter           1.00 
+       45 x1.xi12.xi2.                    nand2              1.00 
+       46 x1.xi11.xi3.                    inverter           1.00 
+       47 x1.xi11.xi2.                    nand2              1.00 
+       48 x1.xi10.xi3.                    inverter           1.00 
+       49 x1.xi10.xi2.                    nand2              1.00 
+       50 x1.xi9.xi3.                     inverter           1.00 
+       51 x1.xi9.xi2.                     nand2              1.00 
+       52 x1.xi8.xi3.                     inverter           1.00 
+       53 x1.xi8.xi2.                     nand2              1.00 
+       54 x1.xi7.xi3.                     inverter           1.00 
+       55 x1.xi7.xi2.                     nand2              1.00 
+       56 x1.xi6.xi3.                     inverter           1.00 
+       57 x1.xi6.xi2.                     nand2              1.00 
+       58 x1.xi5.xi3.                     inverter           1.00 
+       59 x1.xi5.xi2.                     nand2              1.00 
+       60 x1.xi4.xi3.                     inverter           1.00 
+       61 x1.xi4.xi2.                     nand2              1.00 
+       62 x1.xi3.xi3.                     inverter           1.00 
+       63 x1.xi3.xi2.                     nand2              1.00 
+       64 x1.xi2.xi3.                     inverter           1.00 
+       65 x1.xi2.xi2.                     nand2              1.00 
+       66 x1.xi1.xi3.                     inverter           1.00 
+       67 x1.xi1.xi2.                     nand2              1.00 
+       68 x1.xi0.xi3.                     inverter           1.00 
+       69 x1.xi0.xi2.                     nand2              1.00 
+       70 x1.xi40.xi2.                    transmission       1.00 
+       71 x1.xi40.xi1.                    transmission       1.00 
+       72 x1.xi40.xi0.                    transmission       1.00 
+       73 x1.xi39.xi2.                    transmission       1.00 
+       74 x1.xi39.xi1.                    transmission       1.00 
+       75 x1.xi39.xi0.                    transmission       1.00 
+       76 x1.xi38.xi2.                    transmission       1.00 
+       77 x1.xi38.xi1.                    transmission       1.00 
+       78 x1.xi38.xi0.                    transmission       1.00 
+       79 x1.xi37.xi2.                    transmission       1.00 
+       80 x1.xi37.xi1.                    transmission       1.00 
+       81 x1.xi37.xi0.                    transmission       1.00 
+       82 x1.xi35.xi2.                    transmission       1.00 
+       83 x1.xi35.xi1.                    transmission       1.00 
+       84 x1.xi35.xi0.                    transmission       1.00 
+       85 x1.xi34.xi2.                    transmission       1.00 
+       86 x1.xi34.xi1.                    transmission       1.00 
+       87 x1.xi34.xi0.                    transmission       1.00 
+       88 x1.xi33.xi2.                    transmission       1.00 
+       89 x1.xi33.xi1.                    transmission       1.00 
+       90 x1.xi33.xi0.                    transmission       1.00 
+       91 x1.xi32.xi2.                    transmission       1.00 
+       92 x1.xi32.xi1.                    transmission       1.00 
+       93 x1.xi32.xi0.                    transmission       1.00 
+       94 x1.xi31.xi2.                    transmission       1.00 
+       95 x1.xi31.xi1.                    transmission       1.00 
+       96 x1.xi31.xi0.                    transmission       1.00 
+       97 x1.xi30.xi2.                    transmission       1.00 
+       98 x1.xi30.xi1.                    transmission       1.00 
+       99 x1.xi30.xi0.                    transmission       1.00 
+      100 x1.xi29.xi2.                    transmission       1.00 
+      101 x1.xi29.xi1.                    transmission       1.00 
+      102 x1.xi29.xi0.                    transmission       1.00 
+      103 x1.xi28.xi2.                    transmission       1.00 
+      104 x1.xi28.xi1.                    transmission       1.00 
+      105 x1.xi28.xi0.                    transmission       1.00 
+1****** HSPICE -- I-2013.12-SP1 64-BIT (Feb 25 2014) RHEL64 ******              
+ ******  
+ case_in_worst1
+
+  ******  mos   model parameters tnom=  25.000 temp=  25.000 *****
+ Model Name: nmos_vtl  
+ BSIM4 Model (Level 54)
+    MOBMOD = 0
+    BINUNIT = 1
+    PARAMCHK = 1
+    CAPMOD = 2
+    DIOMOD = 1
+    RDSMOD = 0
+    TRNQSMOD = 0
+    ACNQSMOD = 0
+    RBODYMOD = 1
+    RGATEMOD = 1
+    PERMOD = 1
+    GEOMOD = 1
+    RGEOMOD = 0
+    FNOIMOD = 1
+    TNOIMOD = 0
+    IGCMOD = 1
+    IGBMOD = 1
+    STIMOD = 0
+    VERSION =      4 
+    TOXREF = 1.14e-09 
+    TOXE = 1.14e-09 
+    TOXP =  1e-09 
+    TOXM = 1.14e-09 
+    DTOX = 1.4e-10 
+    EPSROX =    3.9 
+    CDSC =      0 
+    CDSCB =      0 
+    CDSCD =      0 
+    CIT =      0 
+    NFACTOR =    2.1 
+    XJ = 1.98e-08 
+    VSAT = 1.48e+05 
+    A0 =      1 
+    AGS =      0 
+    A1 =      0 
+    A2 =      1 
+    AT = 3.3e+04 
+    KETA =   0.04 
+    NSUB =  6e+16 
+    NDEP = 3.4e+18 
+    NSD =  2e+20 
+    NGATE =  3e+20 
+    GAMMA1 =      0 
+    GAMMA2 =      0 
+    VBX =      0 
+    VBM =     -3 
+    XT = 1.55e-07 
+    K1 =    0.4 
+    KT1 =  -0.11 
+    KT1L =      0 
+    KT2 =  0.022 
+    K2 =      0 
+    K3 =      0 
+    K3B =      0 
+    LPE0 =      0 
+    LPEB =      0 
+    DVTP0 =  1e-10 
+    DVTP1 =    0.1 
+    W0 = 2.5e-06 
+    DVT0 =      1 
+    DVT1 =      2 
+    DVT2 =      0 
+    DVT0W =      0 
+    DVT1W =      0 
+    DVT2W =      0 
+    DROUT =    0.5 
+    DSUB =    0.1 
+    VTH0 =  0.322 
+    EU =   1.67 
+    UA =  6e-10 
+    UA1 = 4.31e-09 
+    UB = 1.2e-18 
+    UB1 = 7.61e-18 
+    UC =      0 
+    UC1 = -5.6e-11 
+    U0 =  0.045 
+    UTE =   -1.5 
+    VOFF =  -0.13 
+    VOFFL =      0 
+    MINV =   0.05 
+    FPROUT =    0.2 
+    PDITS =   0.08 
+    PDITSD =   0.23 
+    PDITSL = 2.3e+06 
+    DELTA =   0.01 
+    RDSW =    155 
+    RDSWMIN =      0 
+    RDWMIN =      0 
+    RSWMIN =      0 
+    RDW =     80 
+    RSW =     80 
+    PRWG =      0 
+    PRWB =      0 
+    PRT =      0 
+    ETA0 =  0.006 
+    ETAB =      0 
+    PCLM =   0.02 
+    PDIBLC1 =  0.001 
+    PDIBLC2 =  0.001 
+    PDIBLCB = -0.005 
+    PSCBE1 = 8.14e+08 
+    PSCBE2 =  1e-07 
+    PVAG =  1e-20 
+    WR =      1 
+    DWG =      0 
+    DWB =      0 
+    XW =      0 
+    XWREF =      0 
+    XL = -2e-08 
+    XLREF = -2e-08 
+    B0 =      0 
+    B1 =      0 
+    ALPHA0 =  0.074 
+    ALPHA1 =  0.005 
+    AGIDL = 0.0002 
+    BGIDL = 2.1e+09 
+    CGIDL = 0.0002 
+    PHIN =      0 
+    EGIDL =    0.8 
+    AIGC =   0.02 
+    BIGC = 0.0027 
+    CIGC =  0.002 
+    AIGSD =   0.02 
+    BIGSD = 0.0027 
+    CIGSD =  0.002 
+    AIGBACC =  0.012 
+    BIGBACC = 0.0028 
+    CIGBACC =  0.002 
+    AIGBINV =  0.014 
+    BIGBINV =  0.004 
+    CIGBINV =  0.004 
+    NIGC =      1 
+    NIGBINV =      3 
+    NIGBACC =      1 
+    NTOX =      1 
+    EIGBINV =    1.1 
+    PIGCD =      1 
+    POXEDGE =      1 
+    XRCRG1 =     12 
+    TNOIA =    1.5 
+    TNOIB =    3.5 
+    NTNOI =      1 
+    XRCRG2 =      5 
+    BETA0 =     30 
+    IJTHDFWD =   0.01 
+    IJTHSFWD =   0.01 
+    IJTHDREV =  0.001 
+    IJTHSREV =  0.001 
+    XJBVD =      1 
+    XJBVS =      1 
+    BVD =     10 
+    BVS =     10 
+    VFB =  -0.55 
+    GBMIN =  1e-10 
+    RBDB =     15 
+    RBPB =      5 
+    RBSB =     15 
+    RBPS =     15 
+    RBPD =     15 
+    CGSL = 2.653e-10 
+    CGDL = 2.653e-10 
+    CKAPPAS =   0.03 
+    CKAPPAD =   0.03 
+    CF = 1.289e-10 
+    CLC =  1e-07 
+    CLE =    0.6 
+    DWC =  5e-09 
+    DLC = 3.75e-09 
+    DLCIG = 3.75e-09 
+    DWJ =      0 
+    VFBCV =     -1 
+    ACDE =      1 
+    MOIN =     15 
+    NOFF =    0.9 
+    VOFFCV =   0.02 
+    DMCG =      0 
+    DMCI =      0 
+    DMDG =      0 
+    DMCGT =      0 
+    XGW =      0 
+    XGL =      0 
+    RSHG =    0.4 
+    NGCON =      1 
+    TCJ =  0.001 
+    TPB =  0.005 
+    TCJSW =  0.001 
+    TPBSW =  0.005 
+    TCJSWG =  0.001 
+    TPBSWG =  0.005 
+    SK0 =      0 
+    SK1 =      0 
+    SK2 =      0 
+    SL =  2e-06 
+    SW =  2e-06 
+    K =      0 
+    TNOM =  300.1 
+    CGSO = 1.1e-10 
+    CGDO = 1.1e-10 
+    CGBO = 2.56e-11 
+    XPART =      0 
+    RSH =      5 
+    JSS = 0.0001 
+    JSWS =  1e-11 
+    JSWGS =  1e-10 
+    PBS =      1 
+    MJS =    0.5 
+    PBSWS =      1 
+    MJSWS =   0.33 
+    CJS = 0.0005 
+    CJSWS =  5e-10 
+    NJS =      1 
+    PBSWGS =      1 
+    MJSWGS =   0.33 
+    CJSWGS =  3e-10 
+    XTIS =      3 
+    JSD = 0.0001 
+    JSWD =  1e-11 
+    JSWGD =  1e-10 
+    PBD =      1 
+    MJD =    0.5 
+    PBSWD =      1 
+    MJSWD =   0.33 
+    CJD = 0.0005 
+    CJSWD =  5e-10 
+    NJD =      1 
+    PBSWGD =      1 
+    MJSWGD =   0.33 
+    CJSWGD =  5e-10 
+    XTID =      3 
+    LMLT =      1 
+    WMLT =      1 
+    LINT = 3.75e-09 
+    LL =      0 
+    LLC =      0 
+    LLN =      1 
+    LW =      0 
+    LWC =      0 
+    LWN =      1 
+    LWL =      0 
+    LWLC =      0 
+    LMIN =      0 
+    LMAX =      1 
+    WINT =  5e-09 
+    WL =      0 
+    WLC =      0 
+    WLN =      1 
+    WW =      0 
+    WWC =      0 
+    WWN =      1 
+    WWL =      0 
+    WWLC =      0 
+    WMIN =      0 
+    WMAX =      1 
+    NOIA = 6.25e+41 
+    NOIB = 3.125e+26 
+    NOIC = 8.75e+09 
+    EM = 4.1e+07 
+    EF =      1 
+    AF =      1 
+    KF =      0 
+    TRS =      0 
+    TRD =      0 
+ Model Name: pmos_vtl  
+ BSIM4 Model (Level 54)
+    MOBMOD = 0
+    BINUNIT = 1
+    PARAMCHK = 1
+    CAPMOD = 2
+    DIOMOD = 1
+    RDSMOD = 0
+    TRNQSMOD = 0
+    ACNQSMOD = 0
+    RBODYMOD = 1
+    RGATEMOD = 1
+    PERMOD = 1
+    GEOMOD = 1
+    RGEOMOD = 0
+    FNOIMOD = 1
+    TNOIMOD = 0
+    IGCMOD = 1
+    IGBMOD = 1
+    STIMOD = 0
+    VERSION =      4 
+    TOXREF = 1.3e-09 
+    TOXE = 1.26e-09 
+    TOXP =  1e-09 
+    TOXM = 1.26e-09 
+    DTOX = 2.6e-10 
+    EPSROX =    3.9 
+    CDSC =      0 
+    CDSCB =      0 
+    CDSCD =      0 
+    CIT =      0 
+    NFACTOR =   2.22 
+    XJ = 1.98e-08 
+    VSAT = 6.9e+04 
+    A0 =      1 
+    AGS =  1e-20 
+    A1 =      0 
+    A2 =      1 
+    AT = 3.3e+04 
+    KETA = -0.047 
+    NSUB =  6e+16 
+    NDEP = 2.44e+18 
+    NSD =  2e+20 
+    NGATE =  2e+20 
+    GAMMA1 =      0 
+    GAMMA2 =      0 
+    VBX =      0 
+    VBM =     -3 
+    XT = 1.55e-07 
+    K1 =    0.4 
+    KT1 =  -0.11 
+    KT1L =      0 
+    KT2 =  0.022 
+    K2 =  -0.01 
+    K3 =      0 
+    K3B =      0 
+    LPE0 =      0 
+    LPEB =      0 
+    DVTP0 =  1e-11 
+    DVTP1 =   0.05 
+    W0 = 2.5e-06 
+    DVT0 =      1 
+    DVT1 =      2 
+    DVT2 = -0.032 
+    DVT0W =      0 
+    DVT1W =      0 
+    DVT2W =      0 
+    DROUT =   0.56 
+    DSUB =    0.1 
+    VTH0 = -0.3021 
+    EU =      1 
+    UA =  2e-09 
+    UA1 = 4.31e-09 
+    UB =  5e-19 
+    UB1 = 7.61e-18 
+    UC =      0 
+    UC1 = -5.6e-11 
+    U0 =   0.02 
+    UTE =   -1.5 
+    VOFF = -0.126 
+    VOFFL =      0 
+    MINV =   0.05 
+    FPROUT =    0.2 
+    PDITS =   0.08 
+    PDITSD =   0.23 
+    PDITSL = 2.3e+06 
+    DELTA =   0.01 
+    RDSW =    155 
+    RDSWMIN =      0 
+    RDWMIN =      0 
+    RSWMIN =      0 
+    RDW =     75 
+    RSW =     75 
+    PRWG =      0 
+    PRWB =      0 
+    PRT =      0 
+    ETA0 = 0.0055 
+    ETAB =      0 
+    PCLM =   0.12 
+    PDIBLC1 =  0.001 
+    PDIBLC2 =  0.001 
+    PDIBLCB = 3.4e-08 
+    PSCBE1 = 8.14e+08 
+    PSCBE2 = 9.58e-07 
+    PVAG =  1e-20 
+    WR =      1 
+    DWG =      0 
+    DWB =      0 
+    XW =      0 
+    XWREF =      0 
+    XL = -2e-08 
+    XLREF = -2e-08 
+    B0 =      0 
+    B1 =      0 
+    ALPHA0 =  0.074 
+    ALPHA1 =  0.005 
+    AGIDL = 0.0002 
+    BGIDL = 2.1e+09 
+    CGIDL = 0.0002 
+    PHIN =      0 
+    EGIDL =    0.8 
+    AIGC = 0.01069 
+    BIGC = 0.001261 
+    CIGC = 0.0008 
+    AIGSD = 0.01069 
+    BIGSD = 0.001261 
+    CIGSD = 0.0008 
+    AIGBACC =  0.012 
+    BIGBACC = 0.0028 
+    CIGBACC =  0.002 
+    AIGBINV =  0.014 
+    BIGBINV =  0.004 
+    CIGBINV =  0.004 
+    NIGC =      1 
+    NIGBINV =      3 
+    NIGBACC =      1 
+    NTOX =      1 
+    EIGBINV =    1.1 
+    PIGCD =      1 
+    POXEDGE =      1 
+    XRCRG1 =     12 
+    TNOIA =    1.5 
+    TNOIB =    3.5 
+    NTNOI =      1 
+    XRCRG2 =      5 
+    BETA0 =     30 
+    IJTHDFWD =   0.01 
+    IJTHSFWD =   0.01 
+    IJTHDREV =  0.001 
+    IJTHSREV =  0.001 
+    XJBVD =      1 
+    XJBVS =      1 
+    BVD =     10 
+    BVS =     10 
+    VFB =   0.55 
+    GBMIN =  1e-10 
+    RBDB =     15 
+    RBPB =      5 
+    RBSB =     15 
+    RBPS =     15 
+    RBPD =     15 
+    CGSL = 2.653e-10 
+    CGDL = 2.653e-10 
+    CKAPPAS =   0.03 
+    CKAPPAD =   0.03 
+    CF = 1.267e-10 
+    CLC =  1e-07 
+    CLE =    0.6 
+    DWC =  5e-09 
+    DLC = 3.75e-09 
+    DLCIG = 3.75e-09 
+    DWJ =      0 
+    VFBCV =     -1 
+    ACDE =      1 
+    MOIN =     15 
+    NOFF =    0.9 
+    VOFFCV =   0.02 
+    DMCG =      0 
+    DMCI =      0 
+    DMDG =      0 
+    DMCGT =      0 
+    XGW =      0 
+    XGL =      0 
+    RSHG =    0.4 
+    NGCON =      1 
+    TCJ =  0.001 
+    TPB =  0.005 
+    TCJSW =  0.001 
+    TPBSW =  0.005 
+    TCJSWG =  0.001 
+    TPBSWG =  0.005 
+    SK0 =      0 
+    SK1 =      0 
+    SK2 =      0 
+    SL =  2e-06 
+    SW =  2e-06 
+    K =      0 
+    TNOM =  300.1 
+    CGSO = 1.1e-10 
+    CGDO = 1.1e-10 
+    CGBO = 2.56e-11 
+    XPART =      0 
+    RSH =      5 
+    JSS = 0.0001 
+    JSWS =  1e-11 
+    JSWGS =  1e-10 
+    PBS =      1 
+    MJS =    0.5 
+    PBSWS =      1 
+    MJSWS =   0.33 
+    CJS = 0.0005 
+    CJSWS =  5e-10 
+    NJS =      1 
+    PBSWGS =      1 
+    MJSWGS =   0.33 
+    CJSWGS =  3e-10 
+    XTIS =      3 
+    JSD = 0.0001 
+    JSWD =  1e-11 
+    JSWGD =  1e-10 
+    PBD =      1 
+    MJD =    0.5 
+    PBSWD =      1 
+    MJSWD =   0.33 
+    CJD = 0.0005 
+    CJSWD =  5e-10 
+    NJD =      1 
+    PBSWGD =      1 
+    MJSWGD =   0.33 
+    CJSWGD =  5e-10 
+    XTID =      3 
+    LMLT =      1 
+    WMLT =      1 
+    LINT = 3.75e-09 
+    LL =      0 
+    LLC =      0 
+    LLN =      1 
+    LW =      0 
+    LWC =      0 
+    LWN =      1 
+    LWL =      0 
+    LWLC =      0 
+    LMIN =      0 
+    LMAX =      1 
+    WINT =  5e-09 
+    WL =      0 
+    WLC =      0 
+    WLN =      1 
+    WW =      0 
+    WWC =      0 
+    WWN =      1 
+    WWL =      0 
+    WWLC =      0 
+    WMIN =      0 
+    WMAX =      1 
+    NOIA = 6.188e+40 
+    NOIB = 1.5e+25 
+    NOIC = 8.75e+09 
+    EM = 4.1e+07 
+    EF =      1 
+    AF =      1 
+    KF =      0 
+    TRS =      0 
+    TRD =      0 
+  **info** (stimulus.sp:274) DC voltage reset to initial transient source value              in source        0:vin_x0              new dc=  0.0000D+00
+  
+  
+      
+ **info** set option symb=1 internally to help for convergence.
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2         
+  
+  Opening plot unit= 15
+ file=output/stimulus.pa2
+
+ **info** dc convergence successful at Newton-Raphson method 
+1****** HSPICE -- I-2013.12-SP1 64-BIT (Feb 25 2014) RHEL64 ******              
+ ******  
+ case_in_worst1
+
+  ******  transient analysis tnom=  25.000 temp=  30.000 *****
+ tr_x0_p4= 2.2403e-10  targ= 1.0225e-08   trig= 1.0001e-08
+  **warning** (stimulus.sp:48) .MEASURE  tf_x0_p4 never reached the trigger value, Measurement failed!
+  **warning** (stimulus.sp:48) .MEASURE  tf_x0_p4 never reached the target value, Measurement failed!
+   tf_x0_p4= failed                          trig= not found
+ tpdf_x0_p4= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x0_p4= failed                          trig= not found
+ tr_x0_p5= 2.1512e-10  targ= 1.0216e-08   trig= 1.0001e-08
+   tf_x0_p5= failed                          trig= not found
+ tpdf_x0_p5= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x0_p5= failed                          trig= not found
+ tr_x0_p6= 2.2361e-10  targ= 1.0224e-08   trig= 1.0001e-08
+   tf_x0_p6= failed                          trig= not found
+ tpdf_x0_p6= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x0_p6= failed                          trig= not found
+ tr_x0_p7= failed       targ= not found    trig= 1.0001e-08
+   tf_x0_p7= failed                          trig= not found
+ tpdf_x0_p7= 2.0194e-10  targ= 1.0202e-08   trig= 1.0001e-08
+   tpdr_x0_p7= failed                          trig= not found
+ tr_x1_p4= 2.2403e-10  targ= 1.0225e-08   trig= 1.0001e-08
+   tf_x1_p4= failed                          trig= not found
+ tpdf_x1_p4= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x1_p4= failed                          trig= not found
+ tr_x1_p5= 2.1512e-10  targ= 1.0216e-08   trig= 1.0001e-08
+   tf_x1_p5= failed                          trig= not found
+ tpdf_x1_p5= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x1_p5= failed                          trig= not found
+ tr_x1_p6= 2.2361e-10  targ= 1.0224e-08   trig= 1.0001e-08
+   tf_x1_p6= failed                          trig= not found
+ tpdf_x1_p6= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x1_p6= failed                          trig= not found
+ tr_x1_p7= failed       targ= not found    trig= 1.0001e-08
+   tf_x1_p7= failed                          trig= not found
+ tpdf_x1_p7= 2.0194e-10  targ= 1.0202e-08   trig= 1.0001e-08
+   tpdr_x1_p7= failed                          trig= not found
+   tr_x2_p4= failed                          trig= not found
+   tf_x2_p4= failed                          trig= not found
+   tpdf_x2_p4= failed                          trig= not found
+   tpdr_x2_p4= failed                          trig= not found
+   tr_x2_p5= failed                          trig= not found
+   tf_x2_p5= failed                          trig= not found
+   tpdf_x2_p5= failed                          trig= not found
+   tpdr_x2_p5= failed                          trig= not found
+   tr_x2_p6= failed                          trig= not found
+   tf_x2_p6= failed                          trig= not found
+   tpdf_x2_p6= failed                          trig= not found
+   tpdr_x2_p6= failed                          trig= not found
+   tr_x2_p7= failed                          trig= not found
+   tf_x2_p7= failed                          trig= not found
+   tpdf_x2_p7= failed                          trig= not found
+   tpdr_x2_p7= failed                          trig= not found
+   tr_y0_p4= failed                          trig= not found
+ tf_y0_p4= failed       targ= not found    trig= 1.0001e-08
+   tpdf_y0_p4= failed                          trig= not found
+ tpdr_y0_p4= 2.2403e-10  targ= 1.0225e-08   trig= 1.0001e-08
+   tr_y0_p5= failed                          trig= not found
+ tf_y0_p5= failed       targ= not found    trig= 1.0001e-08
+   tpdf_y0_p5= failed                          trig= not found
+ tpdr_y0_p5= 2.1512e-10  targ= 1.0216e-08   trig= 1.0001e-08
+   tr_y0_p6= failed                          trig= not found
+ tf_y0_p6= failed       targ= not found    trig= 1.0001e-08
+   tpdf_y0_p6= failed                          trig= not found
+ tpdr_y0_p6= 2.2361e-10  targ= 1.0224e-08   trig= 1.0001e-08
+   tr_y0_p7= failed                          trig= not found
+ tf_y0_p7= 2.0194e-10  targ= 1.0202e-08   trig= 1.0001e-08
+   tpdf_y0_p7= failed                          trig= not found
+ tpdr_y0_p7= failed       targ= not found    trig= 1.0001e-08
+   tr_y1_p4= failed                          trig= not found
+ tf_y1_p4= failed       targ= not found    trig= 1.0001e-08
+   tpdf_y1_p4= failed                          trig= not found
+ tpdr_y1_p4= 2.2403e-10  targ= 1.0225e-08   trig= 1.0001e-08
+   tr_y1_p5= failed                          trig= not found
+ tf_y1_p5= failed       targ= not found    trig= 1.0001e-08
+   tpdf_y1_p5= failed                          trig= not found
+ tpdr_y1_p5= 2.1512e-10  targ= 1.0216e-08   trig= 1.0001e-08
+   tr_y1_p6= failed                          trig= not found
+ tf_y1_p6= failed       targ= not found    trig= 1.0001e-08
+   tpdf_y1_p6= failed                          trig= not found
+ tpdr_y1_p6= 2.2361e-10  targ= 1.0224e-08   trig= 1.0001e-08
+   tr_y1_p7= failed                          trig= not found
+ tf_y1_p7= 2.0194e-10  targ= 1.0202e-08   trig= 1.0001e-08
+   tpdf_y1_p7= failed                          trig= not found
+ tpdr_y1_p7= failed       targ= not found    trig= 1.0001e-08
+   tr_y2_p4= failed                          trig= not found
+   tf_y2_p4= failed                          trig= not found
+   tpdf_y2_p4= failed                          trig= not found
+   tpdr_y2_p4= failed                          trig= not found
+   tr_y2_p5= failed                          trig= not found
+   tf_y2_p5= failed                          trig= not found
+   tpdf_y2_p5= failed                          trig= not found
+   tpdr_y2_p5= failed                          trig= not found
+   tr_y2_p6= failed                          trig= not found
+   tf_y2_p6= failed                          trig= not found
+   tpdf_y2_p6= failed                          trig= not found
+   tpdr_y2_p6= failed                          trig= not found
+   tr_y2_p7= failed                          trig= not found
+   tf_y2_p7= failed                          trig= not found
+   tpdf_y2_p7= failed                          trig= not found
+   tpdr_y2_p7= failed                          trig= not found
+
+          ***** job concluded
+1****** HSPICE -- I-2013.12-SP1 64-BIT (Feb 25 2014) RHEL64 ******              
+ ******  
+ case_in_worst1
+
+  ******  job statistics summary tnom=  25.000 temp=  30.000 *****
+  
+  
+ ******  Machine Information  ******
+ CPU:
+ model name	: Intel(R) Xeon(R) CPU E5-2690 v2 @ 3.00GHz
+ cpu MHz	: 3011.081
+  
+ OS:
+ Linux version 2.6.32-696.1.1.el6.x86_64 (mockbuild@c1bm.rdu2.centos.org) (gcc version 4.4.7 20120313 (Red Hat 4.4.7-18) (GCC) ) #1 SMP Tue Apr 11 17:13:24 UTC 2017
+
+
+  ******  HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :    40
+  Actual Threads Count       :     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =    1246 # elements   =     289
+  # resistors   =       0 # capacitors =       0 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       9
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =     280 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.02           1          15
+  transient          0.14         201         242          89 rev=         2
+  readin             0.01
+  errchk             0.01
+  setup              0.01
+  output             0.00
+
+
+           peak memory used        177.38 megabytes
+           total cpu time            0.19 seconds
+           total elapsed time        0.19 seconds
+           job started at     12:16:20 06/27/2020
+           job ended   at     12:16:22 06/27/2020
+
+
+  **warning** (W_Mul.sp:10) Global net name, "gnd", in subckt pin list. The pin will be connected to the local net. Recommend to not use global net names in subckt pin lists.
+1****** HSPICE -- I-2013.12-SP1 64-BIT (Feb 25 2014) RHEL64 ******              
+ ******  
+ case_in_worst2
+
+  ******  circuit name directory
+ circuit number to circuit name directory
+   number circuitname                     definition         multiplier
+        0 main circuit
+        1 x1.                             w_mul              1.00 
+        2 xl0.                            load_inverter      1.00 
+        3 xl1.                            load_inverter      1.00 
+        4 xl2.                            load_inverter      1.00 
+        5 xl3.                            load_inverter      1.00 
+        6 xl4.                            load_inverter      1.00 
+        7 xl5.                            load_inverter      1.00 
+        8 xl6.                            load_inverter      1.00 
+        9 xl7.                            load_inverter      1.00 
+       10 x1.xi15.                        and2               1.00 
+       11 x1.xi14.                        and2               1.00 
+       12 x1.xi13.                        and2               1.00 
+       13 x1.xi12.                        and2               1.00 
+       14 x1.xi11.                        and2               1.00 
+       15 x1.xi10.                        and2               1.00 
+       16 x1.xi9.                         and2               1.00 
+       17 x1.xi8.                         and2               1.00 
+       18 x1.xi7.                         and2               1.00 
+       19 x1.xi6.                         and2               1.00 
+       20 x1.xi5.                         and2               1.00 
+       21 x1.xi4.                         and2               1.00 
+       22 x1.xi3.                         and2               1.00 
+       23 x1.xi2.                         and2               1.00 
+       24 x1.xi1.                         and2               1.00 
+       25 x1.xi0.                         and2               1.00 
+       26 x1.xi40.                        tgfa_2010          1.00 
+       27 x1.xi39.                        tgfa_2010          1.00 
+       28 x1.xi38.                        tgfa_2010          1.00 
+       29 x1.xi37.                        tgfa_2010          1.00 
+       30 x1.xi35.                        tgfa_2010          1.00 
+       31 x1.xi34.                        tgfa_2010          1.00 
+       32 x1.xi33.                        tgfa_2010          1.00 
+       33 x1.xi32.                        tgfa_2010          1.00 
+       34 x1.xi31.                        tgfa_2010          1.00 
+       35 x1.xi30.                        tgfa_2010          1.00 
+       36 x1.xi29.                        tgfa_2010          1.00 
+       37 x1.xi28.                        tgfa_2010          1.00 
+       38 x1.xi15.xi3.                    inverter           1.00 
+       39 x1.xi15.xi2.                    nand2              1.00 
+       40 x1.xi14.xi3.                    inverter           1.00 
+       41 x1.xi14.xi2.                    nand2              1.00 
+       42 x1.xi13.xi3.                    inverter           1.00 
+       43 x1.xi13.xi2.                    nand2              1.00 
+       44 x1.xi12.xi3.                    inverter           1.00 
+       45 x1.xi12.xi2.                    nand2              1.00 
+       46 x1.xi11.xi3.                    inverter           1.00 
+       47 x1.xi11.xi2.                    nand2              1.00 
+       48 x1.xi10.xi3.                    inverter           1.00 
+       49 x1.xi10.xi2.                    nand2              1.00 
+       50 x1.xi9.xi3.                     inverter           1.00 
+       51 x1.xi9.xi2.                     nand2              1.00 
+       52 x1.xi8.xi3.                     inverter           1.00 
+       53 x1.xi8.xi2.                     nand2              1.00 
+       54 x1.xi7.xi3.                     inverter           1.00 
+       55 x1.xi7.xi2.                     nand2              1.00 
+       56 x1.xi6.xi3.                     inverter           1.00 
+       57 x1.xi6.xi2.                     nand2              1.00 
+       58 x1.xi5.xi3.                     inverter           1.00 
+       59 x1.xi5.xi2.                     nand2              1.00 
+       60 x1.xi4.xi3.                     inverter           1.00 
+       61 x1.xi4.xi2.                     nand2              1.00 
+       62 x1.xi3.xi3.                     inverter           1.00 
+       63 x1.xi3.xi2.                     nand2              1.00 
+       64 x1.xi2.xi3.                     inverter           1.00 
+       65 x1.xi2.xi2.                     nand2              1.00 
+       66 x1.xi1.xi3.                     inverter           1.00 
+       67 x1.xi1.xi2.                     nand2              1.00 
+       68 x1.xi0.xi3.                     inverter           1.00 
+       69 x1.xi0.xi2.                     nand2              1.00 
+       70 x1.xi40.xi2.                    transmission       1.00 
+       71 x1.xi40.xi1.                    transmission       1.00 
+       72 x1.xi40.xi0.                    transmission       1.00 
+       73 x1.xi39.xi2.                    transmission       1.00 
+       74 x1.xi39.xi1.                    transmission       1.00 
+       75 x1.xi39.xi0.                    transmission       1.00 
+       76 x1.xi38.xi2.                    transmission       1.00 
+       77 x1.xi38.xi1.                    transmission       1.00 
+       78 x1.xi38.xi0.                    transmission       1.00 
+       79 x1.xi37.xi2.                    transmission       1.00 
+       80 x1.xi37.xi1.                    transmission       1.00 
+       81 x1.xi37.xi0.                    transmission       1.00 
+       82 x1.xi35.xi2.                    transmission       1.00 
+       83 x1.xi35.xi1.                    transmission       1.00 
+       84 x1.xi35.xi0.                    transmission       1.00 
+       85 x1.xi34.xi2.                    transmission       1.00 
+       86 x1.xi34.xi1.                    transmission       1.00 
+       87 x1.xi34.xi0.                    transmission       1.00 
+       88 x1.xi33.xi2.                    transmission       1.00 
+       89 x1.xi33.xi1.                    transmission       1.00 
+       90 x1.xi33.xi0.                    transmission       1.00 
+       91 x1.xi32.xi2.                    transmission       1.00 
+       92 x1.xi32.xi1.                    transmission       1.00 
+       93 x1.xi32.xi0.                    transmission       1.00 
+       94 x1.xi31.xi2.                    transmission       1.00 
+       95 x1.xi31.xi1.                    transmission       1.00 
+       96 x1.xi31.xi0.                    transmission       1.00 
+       97 x1.xi30.xi2.                    transmission       1.00 
+       98 x1.xi30.xi1.                    transmission       1.00 
+       99 x1.xi30.xi0.                    transmission       1.00 
+      100 x1.xi29.xi2.                    transmission       1.00 
+      101 x1.xi29.xi1.                    transmission       1.00 
+      102 x1.xi29.xi0.                    transmission       1.00 
+      103 x1.xi28.xi2.                    transmission       1.00 
+      104 x1.xi28.xi1.                    transmission       1.00 
+      105 x1.xi28.xi0.                    transmission       1.00 
+1****** HSPICE -- I-2013.12-SP1 64-BIT (Feb 25 2014) RHEL64 ******              
+ ******  
+ case_in_worst2
+
+  ******  mos   model parameters tnom=  25.000 temp=  25.000 *****
+ Model Name: nmos_vtl  
+ BSIM4 Model (Level 54)
+    MOBMOD = 0
+    BINUNIT = 1
+    PARAMCHK = 1
+    CAPMOD = 2
+    DIOMOD = 1
+    RDSMOD = 0
+    TRNQSMOD = 0
+    ACNQSMOD = 0
+    RBODYMOD = 1
+    RGATEMOD = 1
+    PERMOD = 1
+    GEOMOD = 1
+    RGEOMOD = 0
+    FNOIMOD = 1
+    TNOIMOD = 0
+    IGCMOD = 1
+    IGBMOD = 1
+    STIMOD = 0
+    VERSION =      4 
+    TOXREF = 1.14e-09 
+    TOXE = 1.14e-09 
+    TOXP =  1e-09 
+    TOXM = 1.14e-09 
+    DTOX = 1.4e-10 
+    EPSROX =    3.9 
+    CDSC =      0 
+    CDSCB =      0 
+    CDSCD =      0 
+    CIT =      0 
+    NFACTOR =    2.1 
+    XJ = 1.98e-08 
+    VSAT = 1.48e+05 
+    A0 =      1 
+    AGS =      0 
+    A1 =      0 
+    A2 =      1 
+    AT = 3.3e+04 
+    KETA =   0.04 
+    NSUB =  6e+16 
+    NDEP = 3.4e+18 
+    NSD =  2e+20 
+    NGATE =  3e+20 
+    GAMMA1 =      0 
+    GAMMA2 =      0 
+    VBX =      0 
+    VBM =     -3 
+    XT = 1.55e-07 
+    K1 =    0.4 
+    KT1 =  -0.11 
+    KT1L =      0 
+    KT2 =  0.022 
+    K2 =      0 
+    K3 =      0 
+    K3B =      0 
+    LPE0 =      0 
+    LPEB =      0 
+    DVTP0 =  1e-10 
+    DVTP1 =    0.1 
+    W0 = 2.5e-06 
+    DVT0 =      1 
+    DVT1 =      2 
+    DVT2 =      0 
+    DVT0W =      0 
+    DVT1W =      0 
+    DVT2W =      0 
+    DROUT =    0.5 
+    DSUB =    0.1 
+    VTH0 =  0.322 
+    EU =   1.67 
+    UA =  6e-10 
+    UA1 = 4.31e-09 
+    UB = 1.2e-18 
+    UB1 = 7.61e-18 
+    UC =      0 
+    UC1 = -5.6e-11 
+    U0 =  0.045 
+    UTE =   -1.5 
+    VOFF =  -0.13 
+    VOFFL =      0 
+    MINV =   0.05 
+    FPROUT =    0.2 
+    PDITS =   0.08 
+    PDITSD =   0.23 
+    PDITSL = 2.3e+06 
+    DELTA =   0.01 
+    RDSW =    155 
+    RDSWMIN =      0 
+    RDWMIN =      0 
+    RSWMIN =      0 
+    RDW =     80 
+    RSW =     80 
+    PRWG =      0 
+    PRWB =      0 
+    PRT =      0 
+    ETA0 =  0.006 
+    ETAB =      0 
+    PCLM =   0.02 
+    PDIBLC1 =  0.001 
+    PDIBLC2 =  0.001 
+    PDIBLCB = -0.005 
+    PSCBE1 = 8.14e+08 
+    PSCBE2 =  1e-07 
+    PVAG =  1e-20 
+    WR =      1 
+    DWG =      0 
+    DWB =      0 
+    XW =      0 
+    XWREF =      0 
+    XL = -2e-08 
+    XLREF = -2e-08 
+    B0 =      0 
+    B1 =      0 
+    ALPHA0 =  0.074 
+    ALPHA1 =  0.005 
+    AGIDL = 0.0002 
+    BGIDL = 2.1e+09 
+    CGIDL = 0.0002 
+    PHIN =      0 
+    EGIDL =    0.8 
+    AIGC =   0.02 
+    BIGC = 0.0027 
+    CIGC =  0.002 
+    AIGSD =   0.02 
+    BIGSD = 0.0027 
+    CIGSD =  0.002 
+    AIGBACC =  0.012 
+    BIGBACC = 0.0028 
+    CIGBACC =  0.002 
+    AIGBINV =  0.014 
+    BIGBINV =  0.004 
+    CIGBINV =  0.004 
+    NIGC =      1 
+    NIGBINV =      3 
+    NIGBACC =      1 
+    NTOX =      1 
+    EIGBINV =    1.1 
+    PIGCD =      1 
+    POXEDGE =      1 
+    XRCRG1 =     12 
+    TNOIA =    1.5 
+    TNOIB =    3.5 
+    NTNOI =      1 
+    XRCRG2 =      5 
+    BETA0 =     30 
+    IJTHDFWD =   0.01 
+    IJTHSFWD =   0.01 
+    IJTHDREV =  0.001 
+    IJTHSREV =  0.001 
+    XJBVD =      1 
+    XJBVS =      1 
+    BVD =     10 
+    BVS =     10 
+    VFB =  -0.55 
+    GBMIN =  1e-10 
+    RBDB =     15 
+    RBPB =      5 
+    RBSB =     15 
+    RBPS =     15 
+    RBPD =     15 
+    CGSL = 2.653e-10 
+    CGDL = 2.653e-10 
+    CKAPPAS =   0.03 
+    CKAPPAD =   0.03 
+    CF = 1.289e-10 
+    CLC =  1e-07 
+    CLE =    0.6 
+    DWC =  5e-09 
+    DLC = 3.75e-09 
+    DLCIG = 3.75e-09 
+    DWJ =      0 
+    VFBCV =     -1 
+    ACDE =      1 
+    MOIN =     15 
+    NOFF =    0.9 
+    VOFFCV =   0.02 
+    DMCG =      0 
+    DMCI =      0 
+    DMDG =      0 
+    DMCGT =      0 
+    XGW =      0 
+    XGL =      0 
+    RSHG =    0.4 
+    NGCON =      1 
+    TCJ =  0.001 
+    TPB =  0.005 
+    TCJSW =  0.001 
+    TPBSW =  0.005 
+    TCJSWG =  0.001 
+    TPBSWG =  0.005 
+    SK0 =      0 
+    SK1 =      0 
+    SK2 =      0 
+    SL =  2e-06 
+    SW =  2e-06 
+    K =      0 
+    TNOM =  300.1 
+    CGSO = 1.1e-10 
+    CGDO = 1.1e-10 
+    CGBO = 2.56e-11 
+    XPART =      0 
+    RSH =      5 
+    JSS = 0.0001 
+    JSWS =  1e-11 
+    JSWGS =  1e-10 
+    PBS =      1 
+    MJS =    0.5 
+    PBSWS =      1 
+    MJSWS =   0.33 
+    CJS = 0.0005 
+    CJSWS =  5e-10 
+    NJS =      1 
+    PBSWGS =      1 
+    MJSWGS =   0.33 
+    CJSWGS =  3e-10 
+    XTIS =      3 
+    JSD = 0.0001 
+    JSWD =  1e-11 
+    JSWGD =  1e-10 
+    PBD =      1 
+    MJD =    0.5 
+    PBSWD =      1 
+    MJSWD =   0.33 
+    CJD = 0.0005 
+    CJSWD =  5e-10 
+    NJD =      1 
+    PBSWGD =      1 
+    MJSWGD =   0.33 
+    CJSWGD =  5e-10 
+    XTID =      3 
+    LMLT =      1 
+    WMLT =      1 
+    LINT = 3.75e-09 
+    LL =      0 
+    LLC =      0 
+    LLN =      1 
+    LW =      0 
+    LWC =      0 
+    LWN =      1 
+    LWL =      0 
+    LWLC =      0 
+    LMIN =      0 
+    LMAX =      1 
+    WINT =  5e-09 
+    WL =      0 
+    WLC =      0 
+    WLN =      1 
+    WW =      0 
+    WWC =      0 
+    WWN =      1 
+    WWL =      0 
+    WWLC =      0 
+    WMIN =      0 
+    WMAX =      1 
+    NOIA = 6.25e+41 
+    NOIB = 3.125e+26 
+    NOIC = 8.75e+09 
+    EM = 4.1e+07 
+    EF =      1 
+    AF =      1 
+    KF =      0 
+    TRS =      0 
+    TRD =      0 
+ Model Name: pmos_vtl  
+ BSIM4 Model (Level 54)
+    MOBMOD = 0
+    BINUNIT = 1
+    PARAMCHK = 1
+    CAPMOD = 2
+    DIOMOD = 1
+    RDSMOD = 0
+    TRNQSMOD = 0
+    ACNQSMOD = 0
+    RBODYMOD = 1
+    RGATEMOD = 1
+    PERMOD = 1
+    GEOMOD = 1
+    RGEOMOD = 0
+    FNOIMOD = 1
+    TNOIMOD = 0
+    IGCMOD = 1
+    IGBMOD = 1
+    STIMOD = 0
+    VERSION =      4 
+    TOXREF = 1.3e-09 
+    TOXE = 1.26e-09 
+    TOXP =  1e-09 
+    TOXM = 1.26e-09 
+    DTOX = 2.6e-10 
+    EPSROX =    3.9 
+    CDSC =      0 
+    CDSCB =      0 
+    CDSCD =      0 
+    CIT =      0 
+    NFACTOR =   2.22 
+    XJ = 1.98e-08 
+    VSAT = 6.9e+04 
+    A0 =      1 
+    AGS =  1e-20 
+    A1 =      0 
+    A2 =      1 
+    AT = 3.3e+04 
+    KETA = -0.047 
+    NSUB =  6e+16 
+    NDEP = 2.44e+18 
+    NSD =  2e+20 
+    NGATE =  2e+20 
+    GAMMA1 =      0 
+    GAMMA2 =      0 
+    VBX =      0 
+    VBM =     -3 
+    XT = 1.55e-07 
+    K1 =    0.4 
+    KT1 =  -0.11 
+    KT1L =      0 
+    KT2 =  0.022 
+    K2 =  -0.01 
+    K3 =      0 
+    K3B =      0 
+    LPE0 =      0 
+    LPEB =      0 
+    DVTP0 =  1e-11 
+    DVTP1 =   0.05 
+    W0 = 2.5e-06 
+    DVT0 =      1 
+    DVT1 =      2 
+    DVT2 = -0.032 
+    DVT0W =      0 
+    DVT1W =      0 
+    DVT2W =      0 
+    DROUT =   0.56 
+    DSUB =    0.1 
+    VTH0 = -0.3021 
+    EU =      1 
+    UA =  2e-09 
+    UA1 = 4.31e-09 
+    UB =  5e-19 
+    UB1 = 7.61e-18 
+    UC =      0 
+    UC1 = -5.6e-11 
+    U0 =   0.02 
+    UTE =   -1.5 
+    VOFF = -0.126 
+    VOFFL =      0 
+    MINV =   0.05 
+    FPROUT =    0.2 
+    PDITS =   0.08 
+    PDITSD =   0.23 
+    PDITSL = 2.3e+06 
+    DELTA =   0.01 
+    RDSW =    155 
+    RDSWMIN =      0 
+    RDWMIN =      0 
+    RSWMIN =      0 
+    RDW =     75 
+    RSW =     75 
+    PRWG =      0 
+    PRWB =      0 
+    PRT =      0 
+    ETA0 = 0.0055 
+    ETAB =      0 
+    PCLM =   0.12 
+    PDIBLC1 =  0.001 
+    PDIBLC2 =  0.001 
+    PDIBLCB = 3.4e-08 
+    PSCBE1 = 8.14e+08 
+    PSCBE2 = 9.58e-07 
+    PVAG =  1e-20 
+    WR =      1 
+    DWG =      0 
+    DWB =      0 
+    XW =      0 
+    XWREF =      0 
+    XL = -2e-08 
+    XLREF = -2e-08 
+    B0 =      0 
+    B1 =      0 
+    ALPHA0 =  0.074 
+    ALPHA1 =  0.005 
+    AGIDL = 0.0002 
+    BGIDL = 2.1e+09 
+    CGIDL = 0.0002 
+    PHIN =      0 
+    EGIDL =    0.8 
+    AIGC = 0.01069 
+    BIGC = 0.001261 
+    CIGC = 0.0008 
+    AIGSD = 0.01069 
+    BIGSD = 0.001261 
+    CIGSD = 0.0008 
+    AIGBACC =  0.012 
+    BIGBACC = 0.0028 
+    CIGBACC =  0.002 
+    AIGBINV =  0.014 
+    BIGBINV =  0.004 
+    CIGBINV =  0.004 
+    NIGC =      1 
+    NIGBINV =      3 
+    NIGBACC =      1 
+    NTOX =      1 
+    EIGBINV =    1.1 
+    PIGCD =      1 
+    POXEDGE =      1 
+    XRCRG1 =     12 
+    TNOIA =    1.5 
+    TNOIB =    3.5 
+    NTNOI =      1 
+    XRCRG2 =      5 
+    BETA0 =     30 
+    IJTHDFWD =   0.01 
+    IJTHSFWD =   0.01 
+    IJTHDREV =  0.001 
+    IJTHSREV =  0.001 
+    XJBVD =      1 
+    XJBVS =      1 
+    BVD =     10 
+    BVS =     10 
+    VFB =   0.55 
+    GBMIN =  1e-10 
+    RBDB =     15 
+    RBPB =      5 
+    RBSB =     15 
+    RBPS =     15 
+    RBPD =     15 
+    CGSL = 2.653e-10 
+    CGDL = 2.653e-10 
+    CKAPPAS =   0.03 
+    CKAPPAD =   0.03 
+    CF = 1.267e-10 
+    CLC =  1e-07 
+    CLE =    0.6 
+    DWC =  5e-09 
+    DLC = 3.75e-09 
+    DLCIG = 3.75e-09 
+    DWJ =      0 
+    VFBCV =     -1 
+    ACDE =      1 
+    MOIN =     15 
+    NOFF =    0.9 
+    VOFFCV =   0.02 
+    DMCG =      0 
+    DMCI =      0 
+    DMDG =      0 
+    DMCGT =      0 
+    XGW =      0 
+    XGL =      0 
+    RSHG =    0.4 
+    NGCON =      1 
+    TCJ =  0.001 
+    TPB =  0.005 
+    TCJSW =  0.001 
+    TPBSW =  0.005 
+    TCJSWG =  0.001 
+    TPBSWG =  0.005 
+    SK0 =      0 
+    SK1 =      0 
+    SK2 =      0 
+    SL =  2e-06 
+    SW =  2e-06 
+    K =      0 
+    TNOM =  300.1 
+    CGSO = 1.1e-10 
+    CGDO = 1.1e-10 
+    CGBO = 2.56e-11 
+    XPART =      0 
+    RSH =      5 
+    JSS = 0.0001 
+    JSWS =  1e-11 
+    JSWGS =  1e-10 
+    PBS =      1 
+    MJS =    0.5 
+    PBSWS =      1 
+    MJSWS =   0.33 
+    CJS = 0.0005 
+    CJSWS =  5e-10 
+    NJS =      1 
+    PBSWGS =      1 
+    MJSWGS =   0.33 
+    CJSWGS =  3e-10 
+    XTIS =      3 
+    JSD = 0.0001 
+    JSWD =  1e-11 
+    JSWGD =  1e-10 
+    PBD =      1 
+    MJD =    0.5 
+    PBSWD =      1 
+    MJSWD =   0.33 
+    CJD = 0.0005 
+    CJSWD =  5e-10 
+    NJD =      1 
+    PBSWGD =      1 
+    MJSWGD =   0.33 
+    CJSWGD =  5e-10 
+    XTID =      3 
+    LMLT =      1 
+    WMLT =      1 
+    LINT = 3.75e-09 
+    LL =      0 
+    LLC =      0 
+    LLN =      1 
+    LW =      0 
+    LWC =      0 
+    LWN =      1 
+    LWL =      0 
+    LWLC =      0 
+    LMIN =      0 
+    LMAX =      1 
+    WINT =  5e-09 
+    WL =      0 
+    WLC =      0 
+    WLN =      1 
+    WW =      0 
+    WWC =      0 
+    WWN =      1 
+    WWL =      0 
+    WWLC =      0 
+    WMIN =      0 
+    WMAX =      1 
+    NOIA = 6.188e+40 
+    NOIB = 1.5e+25 
+    NOIC = 8.75e+09 
+    EM = 4.1e+07 
+    EF =      1 
+    AF =      1 
+    KF =      0 
+    TRS =      0 
+    TRD =      0 
+  **info** (stimulus.sp:284) DC voltage reset to initial transient source value              in source        0:vin_x0              new dc=  0.0000D+00
+  
+  
+      
+ **info** set option symb=1 internally to help for convergence.
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2         
+  
+  Opening plot unit= 15
+ file=output/stimulus.pa3
+
+ **info** dc convergence successful at Newton-Raphson method 
+1****** HSPICE -- I-2013.12-SP1 64-BIT (Feb 25 2014) RHEL64 ******              
+ ******  
+ case_in_worst2
+
+  ******  transient analysis tnom=  25.000 temp=  30.000 *****
+ tr_x0_p4= 2.0294e-10  targ= 1.0203e-08   trig= 1.0001e-08
+  **warning** (stimulus.sp:48) .MEASURE  tf_x0_p4 never reached the trigger value, Measurement failed!
+  **warning** (stimulus.sp:48) .MEASURE  tf_x0_p4 never reached the target value, Measurement failed!
+   tf_x0_p4= failed                          trig= not found
+ tpdf_x0_p4= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x0_p4= failed                          trig= not found
+ tr_x0_p5= 2.4001e-10  targ= 1.0241e-08   trig= 1.0001e-08
+   tf_x0_p5= failed                          trig= not found
+ tpdf_x0_p5= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x0_p5= failed                          trig= not found
+ tr_x0_p6= 5.1574e-11  targ= 1.0052e-08   trig= 1.0001e-08
+   tf_x0_p6= failed                          trig= not found
+ tpdf_x0_p6= 2.1020e-10  targ= 1.0211e-08   trig= 1.0001e-08
+   tpdr_x0_p6= failed                          trig= not found
+ tr_x0_p7= failed       targ= not found    trig= 1.0001e-08
+   tf_x0_p7= failed                          trig= not found
+ tpdf_x0_p7= 5.9285e-11  targ= 1.0060e-08   trig= 1.0001e-08
+   tpdr_x0_p7= failed                          trig= not found
+ tr_x1_p4= 2.0294e-10  targ= 1.0203e-08   trig= 1.0001e-08
+   tf_x1_p4= failed                          trig= not found
+ tpdf_x1_p4= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x1_p4= failed                          trig= not found
+ tr_x1_p5= 2.4001e-10  targ= 1.0241e-08   trig= 1.0001e-08
+   tf_x1_p5= failed                          trig= not found
+ tpdf_x1_p5= failed       targ= not found    trig= 1.0001e-08
+   tpdr_x1_p5= failed                          trig= not found
+ tr_x1_p6= 5.1574e-11  targ= 1.0052e-08   trig= 1.0001e-08
+   tf_x1_p6= failed                          trig= not found
+ tpdf_x1_p6= 2.1020e-10  targ= 1.0211e-08   trig= 1.0001e-08
+   tpdr_x1_p6= failed                          trig= not found
+ tr_x1_p7= failed       targ= not found    trig= 1.0001e-08
+   tf_x1_p7= failed                          trig= not found
+ tpdf_x1_p7= 5.9285e-11  targ= 1.0060e-08   trig= 1.0001e-08
+   tpdr_x1_p7= failed                          trig= not found
+   tr_x2_p4= failed                          trig= not found
+   tf_x2_p4= failed                          trig= not found
+   tpdf_x2_p4= failed                          trig= not found
+   tpdr_x2_p4= failed                          trig= not found
+   tr_x2_p5= failed                          trig= not found
+   tf_x2_p5= failed                          trig= not found
+   tpdf_x2_p5= failed                          trig= not found
+   tpdr_x2_p5= failed                          trig= not found
+   tr_x2_p6= failed                          trig= not found
+   tf_x2_p6= failed                          trig= not found
+   tpdf_x2_p6= failed                          trig= not found
+   tpdr_x2_p6= failed                          trig= not found
+   tr_x2_p7= failed                          trig= not found
+   tf_x2_p7= failed                          trig= not found
+   tpdf_x2_p7= failed                          trig= not found
+   tpdr_x2_p7= failed                          trig= not found
+   tr_y0_p4= failed                          trig= not found
+ tf_y0_p4= failed       targ= not found    trig= 1.0001e-08
+   tpdf_y0_p4= failed                          trig= not found
+ tpdr_y0_p4= 2.0294e-10  targ= 1.0203e-08   trig= 1.0001e-08
+   tr_y0_p5= failed                          trig= not found
+ tf_y0_p5= failed       targ= not found    trig= 1.0001e-08
+   tpdf_y0_p5= failed                          trig= not found
+ tpdr_y0_p5= 2.4001e-10  targ= 1.0241e-08   trig= 1.0001e-08
+   tr_y0_p6= failed                          trig= not found
+ tf_y0_p6= 2.1020e-10  targ= 1.0211e-08   trig= 1.0001e-08
+   tpdf_y0_p6= failed                          trig= not found
+ tpdr_y0_p6= 5.1574e-11  targ= 1.0052e-08   trig= 1.0001e-08
+   tr_y0_p7= failed                          trig= not found
+ tf_y0_p7= 5.9285e-11  targ= 1.0060e-08   trig= 1.0001e-08
+   tpdf_y0_p7= failed                          trig= not found
+ tpdr_y0_p7= failed       targ= not found    trig= 1.0001e-08
+   tr_y1_p4= failed                          trig= not found
+ tf_y1_p4= failed       targ= not found    trig= 1.0001e-08
+   tpdf_y1_p4= failed                          trig= not found
+ tpdr_y1_p4= 2.0294e-10  targ= 1.0203e-08   trig= 1.0001e-08
+   tr_y1_p5= failed                          trig= not found
+ tf_y1_p5= failed       targ= not found    trig= 1.0001e-08
+   tpdf_y1_p5= failed                          trig= not found
+ tpdr_y1_p5= 2.4001e-10  targ= 1.0241e-08   trig= 1.0001e-08
+   tr_y1_p6= failed                          trig= not found
+ tf_y1_p6= 2.1020e-10  targ= 1.0211e-08   trig= 1.0001e-08
+   tpdf_y1_p6= failed                          trig= not found
+ tpdr_y1_p6= 5.1574e-11  targ= 1.0052e-08   trig= 1.0001e-08
+   tr_y1_p7= failed                          trig= not found
+ tf_y1_p7= 5.9285e-11  targ= 1.0060e-08   trig= 1.0001e-08
+   tpdf_y1_p7= failed                          trig= not found
+ tpdr_y1_p7= failed       targ= not found    trig= 1.0001e-08
+ tr_y2_p4= 2.0294e-10  targ= 1.0203e-08   trig= 1.0001e-08
+   tf_y2_p4= failed                          trig= not found
+ tpdf_y2_p4= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y2_p4= failed                          trig= not found
+ tr_y2_p5= 2.4001e-10  targ= 1.0241e-08   trig= 1.0001e-08
+   tf_y2_p5= failed                          trig= not found
+ tpdf_y2_p5= failed       targ= not found    trig= 1.0001e-08
+   tpdr_y2_p5= failed                          trig= not found
+ tr_y2_p6= 5.1574e-11  targ= 1.0052e-08   trig= 1.0001e-08
+   tf_y2_p6= failed                          trig= not found
+ tpdf_y2_p6= 2.1020e-10  targ= 1.0211e-08   trig= 1.0001e-08
+   tpdr_y2_p6= failed                          trig= not found
+ tr_y2_p7= failed       targ= not found    trig= 1.0001e-08
+   tf_y2_p7= failed                          trig= not found
+ tpdf_y2_p7= 5.9285e-11  targ= 1.0060e-08   trig= 1.0001e-08
+   tpdr_y2_p7= failed                          trig= not found
+
+          ***** job concluded
+1****** HSPICE -- I-2013.12-SP1 64-BIT (Feb 25 2014) RHEL64 ******              
+ ******  
+ case_in_worst2
+
+  ******  job statistics summary tnom=  25.000 temp=  30.000 *****
+  
+  
+ ******  Machine Information  ******
+ CPU:
+ model name	: Intel(R) Xeon(R) CPU E5-2690 v2 @ 3.00GHz
+ cpu MHz	: 3011.081
+  
+ OS:
+ Linux version 2.6.32-696.1.1.el6.x86_64 (mockbuild@c1bm.rdu2.centos.org) (gcc version 4.4.7 20120313 (Red Hat 4.4.7-18) (GCC) ) #1 SMP Tue Apr 11 17:13:24 UTC 2017
+
+
+  ******  HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :    40
+  Actual Threads Count       :     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =    1246 # elements   =     289
+  # resistors   =       0 # capacitors =       0 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       9
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =     280 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.02           1          15
+  transient          0.16         201         281          97 rev=         2
+  readin             0.01
+  errchk             0.01
+  setup              0.01
+  output             0.00
+
+
+           peak memory used        177.38 megabytes
+           total cpu time            0.21 seconds
+           total elapsed time        0.21 seconds
+           job started at     12:16:20 06/27/2020
+           job ended   at     12:16:22 06/27/2020
+
+
+ lic: Release hspice token(s) 
+ lic: total license checkout elapse time:        0.96(s)
