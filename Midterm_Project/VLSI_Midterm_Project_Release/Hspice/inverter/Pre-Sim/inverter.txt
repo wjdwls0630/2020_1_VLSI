@@ -1,1 +1,0 @@
-Using: /Tools/Synopsys/Hspice/hspice/linux/hspice  -i stimulus.sp -o output/ -d

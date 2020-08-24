@@ -1,6 +1,0 @@
-
-** Library name: Library_Jin
-** Cell name: and2
-** View name: schematic
-xi0 a b gnd vdd net10 nand2
-xi1 gnd net10 y vdd inverter

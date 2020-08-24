@@ -1,7 +1,0 @@
-
-** Library name: Library_Jin
-** Cell name: ring_oscillator
-** View name: schematic
-xi2 gnd out2 output vdd inverter
-xi1 gnd out1 out2 vdd inverter
-xi0 gnd output out1 vdd inverter

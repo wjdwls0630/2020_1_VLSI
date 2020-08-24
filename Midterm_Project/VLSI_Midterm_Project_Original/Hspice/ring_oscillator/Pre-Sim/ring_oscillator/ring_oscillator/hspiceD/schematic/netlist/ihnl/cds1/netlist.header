@@ -1,5 +1,0 @@
-
-** Library name: Library_Jin
-** Cell name: nand2
-** View name: schematic
-.subckt nand2 a b gnd vdd y

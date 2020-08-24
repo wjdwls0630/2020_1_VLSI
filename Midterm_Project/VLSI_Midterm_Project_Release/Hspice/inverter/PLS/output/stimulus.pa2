@@ -1,5 +1,0 @@
-       1 x1.
-       2 x1.x_pm_inverter%input.
-       3 x1.x_pm_inverter%gnd.
-       4 x1.x_pm_inverter%vdd.
-       5 x1.x_pm_inverter%output.

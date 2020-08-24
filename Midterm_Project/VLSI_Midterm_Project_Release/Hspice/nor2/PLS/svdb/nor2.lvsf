@@ -1,9 +1,0 @@
-# Automagically generated file: Please do not edit!
-lvs_LvsOutFile RUNDIR /home/VLSI_undergraduated_2020/2015104027/Hspice/nor2/PLS
-lvs_LvsfVersion 2
-lvs_LvsInputSummary {0 0 0}
-lvs_LvsComparisonSummary {3 0 0 0}
-lvs_LvsOutFile LVS_REPORT nor2.lvs.report
-lvs_LvsOutFile SOURCE_NETLIST /home/VLSI_undergraduated_2020/2015104027/LVS_Run/nor2/nor2.src.net
-lvs_LvsOutFile RULES_FILE /home/VLSI_undergraduated_2020/2015104027/Hspice/nor2/PLS/_calibrexRC.rul_
-lvs_LvsRunTimes 1587059428 1587059428

@@ -1,6 +1,0 @@
-$DATA1 SOURCE='HSPICE' VERSION='I-2013.12-SP1 64-BIT'
-.TITLE 'sttf'
- id_nmos          id_pmos          ion_nmos         ion_pmos          
- temper           alter#            
-  7.906e-05       -1.086e-04        8.783e+02        6.033e+02        
-  1.250e+02       15                
