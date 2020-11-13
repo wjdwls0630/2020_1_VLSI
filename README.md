@@ -5,9 +5,10 @@
 ### 2020Spring_Final_Project [pdf](https://github.com/wjdwls0630/2020_1_VLSI/blob/master/Final_Project/VLSI_Final_Project_8%EC%A1%B0.pdf) [code](https://github.com/wjdwls0630/2020_1_VLSI/tree/master/Final_Project/VLSI_Final_Project_Original)
 
 #### Title: Wallace Tree Multiplier for efficient MAC
+|  Schematic    |   Layout  |
+|-----------|---|
+| <img src="./Final_Project/Data/W_Mul_Load/W_Mul_Schematic.PNG" alt="Schematic" width="500" height="400"/> | <img src="./Final_Project/Data/W_Mul_Load/W_Mul_Layout.PNG" alt="Schematic" width="500" height="400"/> |
 
-<img src="./Final_Project/Data/W_Mul_Load/W_Mul_Schematic.PNG" alt="Schematic" width="500" height="400"/>
-<img src="./Final_Project/Data/W_Mul_Load/W_Mul_Layout.PNG" alt="Schematic" width="500" height="400"/>
 
 ##### Design Specification
 
