@@ -1,1 +1,6 @@
+*.xml
+*.db
+.DS_Store
 Test/
+CMOS-VLSI-design.pdf
+Lecture/
