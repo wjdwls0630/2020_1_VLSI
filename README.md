@@ -6,8 +6,8 @@
 
 #### Title: Wallace Tree Multiplier for efficient MAC
 
-<img src="./Final_Project/Data/W_Mul_Load/W_Mul_Schematic.PNG" alt="Schematic" width="350" height="400"/>
-<img src="./Final_Project/Data/W_Mul_Load/W_Mul_Layout.PNG" alt="Schematic" width="350" height="400"/>
+<img src="./Final_Project/Data/W_Mul_Load/W_Mul_Schematic.PNG" alt="Schematic" width="500" height="400"/>
+<img src="./Final_Project/Data/W_Mul_Load/W_Mul_Layout.PNG" alt="Schematic" width="500" height="400"/>
 
 ##### Design Specification
 
