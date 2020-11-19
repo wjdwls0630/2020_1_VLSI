@@ -15,7 +15,7 @@
 |-----------|---|
 | Worst Delay | 0.954 ns  |
 | Chip size |  124.041 µm^2  |
-|  Techonlogy | FreePDK 45nm<br>(North Carolina State University)|
+|  Technology | FreePDK 45nm<br>(North Carolina State University)|
 | VDD | 1.0V |
 | Temp | 30°C |
 | Rise/Fall Time | 1 ps|
